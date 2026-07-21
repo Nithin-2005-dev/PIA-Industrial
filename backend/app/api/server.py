@@ -10,10 +10,22 @@ app = FastAPI(
     description="PIA Platform Observability System — All data served through stable projections and versioned contracts.",
 )
 
-# Allow localhost Developer Console
+import os
+
+# Allow localhost Developer Console and configured production origins
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173"
+]
+
+allowed_origins_env = os.getenv("ALLOWED_ORIGINS", "")
+if allowed_origins_env:
+    extra_origins = [origin.strip() for origin in allowed_origins_env.split(",") if origin.strip()]
+    origins.extend(extra_origins)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
