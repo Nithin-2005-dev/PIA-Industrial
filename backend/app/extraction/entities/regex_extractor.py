@@ -101,7 +101,7 @@ class RegexExtractor:
         entities = []
         for match in self.EQUIPMENT_TAG_PATTERN.finditer(text):
             prefix = match.group(1).split("-", 1)[0].upper()
-            if prefix in {"WO", "IR", "IN", "DOC"}:
+            if prefix in {"WO", "IR", "IN", "DOC", "EV", "LOG"}:
                 continue
             entities.append(ExtractedEntity(
                 entity_type="equipment_tag",

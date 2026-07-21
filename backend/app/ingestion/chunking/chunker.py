@@ -117,49 +117,18 @@ class ChunkingEngine:
         return all_chunks
 
     def _split_text(self, text: str) -> list[str]:
-        """Split text into chunks using section-aware splitting.
-
-        1. Try to split on section boundaries
-        2. If sections are too large, split on paragraph boundaries
-        3. If paragraphs are too large, split on sentence boundaries
-        4. Fall back to fixed-size splitting
-        """
+        """Split text into chunks using section-aware splitting."""
         max_size = self._config.max_chunk_size
-        overlap = self._config.chunk_overlap
+        overlap_size = self._config.chunk_overlap
 
-        # First try section-based splitting
         sections = self._split_on_sections(text)
-
         chunks: list[str] = []
+        
         for section in sections:
             if len(section) <= max_size:
                 chunks.append(section)
             else:
-                # Section too large — split on paragraphs
-                paragraphs = section.split("\n\n")
-                current = ""
-                for para in paragraphs:
-                    if len(current) + len(para) + 2 <= max_size:
-                        current = current + "\n\n" + para if current else para
-                    else:
-                        if current:
-                            chunks.append(current)
-                        if len(para) <= max_size:
-                            current = para
-                        else:
-                            # Paragraph too large — fixed-size split
-                            chunks.extend(self._fixed_split(para, max_size, overlap))
-                            current = ""
-                if current:
-                    chunks.append(current)
-
-        # Apply overlap between adjacent chunks
-        if overlap > 0 and len(chunks) > 1:
-            overlapped = [chunks[0]]
-            for i in range(1, len(chunks)):
-                prev_tail = chunks[i - 1][-overlap:]
-                overlapped.append(prev_tail + "\n" + chunks[i])
-            return overlapped
+                chunks.extend(self._semantic_split(section, max_size, overlap_size))
 
         return chunks
 
@@ -169,20 +138,58 @@ class ChunkingEngine:
         parts = re.split(combined_pattern, text)
         return [p.strip() for p in parts if p.strip()]
 
-    def _fixed_split(
-        self,
-        text: str,
-        max_size: int,
-        overlap: int,
-    ) -> list[str]:
-        """Fixed-size splitting with overlap."""
+    def _semantic_split(self, text: str, max_size: int, overlap_size: int) -> list[str]:
+        """Semantic splitting using paragraphs, sentences, and words to avoid mid-word truncation."""
+        paragraphs = [p.strip() for p in re.split(r'\n\s*\n', text) if p.strip()]
+        
+        fragments = []
+        for p in paragraphs:
+            if len(p) <= max_size:
+                fragments.append(p)
+            else:
+                # Split by sentences
+                sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+', p) if s.strip()]
+                for s in sentences:
+                    if len(s) <= max_size:
+                        fragments.append(s)
+                    else:
+                        # Split by words
+                        words = s.split()
+                        curr = ""
+                        for w in words:
+                            if len(curr) + len(w) + 1 <= max_size:
+                                curr = curr + " " + w if curr else w
+                            else:
+                                if curr:
+                                    fragments.append(curr)
+                                curr = w
+                        if curr:
+                            fragments.append(curr)
+                            
         chunks = []
-        start = 0
-        while start < len(text):
-            end = start + max_size
-            chunk = text[start:end]
-            chunks.append(chunk)
-            start = end - overlap
+        i = 0
+        while i < len(fragments):
+            curr_chunk = fragments[i]
+            j = i + 1
+            while j < len(fragments) and len(curr_chunk) + len(fragments[j]) + 2 <= max_size:
+                curr_chunk += "\n\n" + fragments[j]
+                j += 1
+            chunks.append(curr_chunk)
+            
+            if j == len(fragments):
+                break
+                
+            overlap_accum = 0
+            backtrack_j = j - 1
+            while backtrack_j > i and overlap_accum + len(fragments[backtrack_j]) <= overlap_size:
+                overlap_accum += len(fragments[backtrack_j])
+                backtrack_j -= 1
+                
+            if backtrack_j < j - 1:
+                i = backtrack_j + 1
+            else:
+                i = j
+                
         return chunks
 
     def _detect_section(self, text: str) -> str | None:

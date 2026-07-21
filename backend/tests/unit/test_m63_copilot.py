@@ -59,10 +59,34 @@ Content: Asset P-101 is linked to 2 documents, 1 work orders, and 0 incidents.
         
         response = generator.generate(system_prompt, user_prompt)
         
-        # The mock generator should extract the first sentence of each content
-        # and append the citation tag.
-        assert "P-101 has high vibration [1]" in response
-        assert "Asset P-101 is linked to 2 documents, 1 work orders, and 0 incidents. [2]" in response
+        # The mock generator should extract the sentences and append the citation tag.
+        assert "• P-101 has high vibration. [1]" in response
+        assert "• Asset P-101 is linked to 2 documents, 1 work orders, and 0 incidents. [2]" in response
+
+    def test_generator_deduplicates(self):
+        generator = MockLLMGenerator()
+        system_prompt = """
+--- EVIDENCE CONTEXT ---
+Citation: [1]
+Source: doc1.txt
+Content: The pump P-101 has high vibration issues! This needs fixing.
+----------------------------------------
+Citation: [2]
+Source: doc2.txt
+Content: The pump P-101 has high vibration issues! Also investigate the high temperature on the seal.
+----------------------------------------
+--- END EVIDENCE CONTEXT ---
+        """
+        user_prompt = "What is wrong with P-101?"
+        
+        response = generator.generate(system_prompt, user_prompt)
+        
+        # The duplicated sentence should only appear once (from citation [1])
+        assert "• The pump P-101 has high vibration issues! [1]" in response
+        assert "[2]" in response
+        assert "• Also investigate the high temperature on the seal. [2]" in response
+        # Should not duplicate the finding from [2]
+        assert "• The pump P-101 has high vibration issues! [2]" not in response
 
 
 class TestIndustrialCopilot:

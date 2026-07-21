@@ -115,6 +115,18 @@ async def get_overview(workspace_id: str | None = Query(default=None)) -> dict[s
                     "severity": "HIGH" if asset["risk"] == "HIGH" else "MEDIUM",
                 }
             )
+            
+    if not feed and documents:
+        feed.append(
+            {
+                "type": "EVIDENCE",
+                "title": f"Workspace active with {len(documents)} document(s)",
+                "asset_id": "Workspace",
+                "description": f"{len(documents)} document(s) ingested. Ready for analysis.",
+                "action": "View Documents",
+                "severity": "NORMAL",
+            }
+        )
     return {
         "workspace": runtime.workspace_summary(workspace_id),
         "metrics": {

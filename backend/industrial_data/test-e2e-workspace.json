@@ -1,0 +1,167 @@
+{
+  "documents": [
+    {
+      "document_id": "DOC-C731E90A",
+      "name": "361e3c92e37e430caff0374edf146fb9_P-101_shift_log.txt",
+      "type": "GENERAL",
+      "format": "TXT",
+      "file_hash": "4e0248a47976c1a2cf2035465725d98e8919721134adbd6406d70b5f64208fad",
+      "file_path": "C:\\Users\\NITHIN\\Downloads\\PIA-GH-main (2)\\pia-industrial\\backend\\industrial_data\\uploads\\test-e2e-workspace\\361e3c92e37e430caff0374edf146fb9_P-101_shift_log.txt",
+      "size": 582,
+      "status": "COMPLETED",
+      "timestamp": "2026-07-21T17:18:31.505060",
+      "page_count": 1,
+      "word_count": 90,
+      "chunks": [
+        {
+          "chunk_id": "DOC-C731E90A:p1:c0",
+          "document_id": "DOC-C731E90A",
+          "content": "# Shift Log: June 15, 2026\nOperator: Bob\nUnit: 4\n\n08:00 - Started shift. All units running normally.\n09:15 - Noticed unusual noise coming from P-101. \n09:30 - Checked P-101. Casing temperature is elevated. Vibration reading is 4.2 mm/s, which is high but below the shutdown threshold.\n10:00 - Logged observation in Maximo (Ticket #8821). Monitoring closely.\n14:00 - P-101 vibration spiked to 5.8 mm/s. Immediate shutdown initiated.\n14:15 - Maintenance team called. Preliminary inspection shows main bearing failure.\n15:00 - Shift ended. Handed over to Alice. P-101 remains offline.",
+          "page_number": 1,
+          "chunk_index": 0
+        }
+      ],
+      "entities": [
+        {
+          "type": "equipment_tag",
+          "value": "P-101",
+          "raw_values": [
+            "P-101"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 4,
+          "metadata": {
+            "pattern": "equipment_tag"
+          }
+        },
+        {
+          "type": "parameter_reading",
+          "value": "4.2 mm/s",
+          "raw_values": [
+            "4.2 mm/s"
+          ],
+          "confidence": 0.93,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "numeric_value": 4.2,
+            "unit": "mm/s"
+          }
+        },
+        {
+          "type": "parameter_reading",
+          "value": "5.8 mm/s",
+          "raw_values": [
+            "5.8 mm/s"
+          ],
+          "confidence": 0.93,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "numeric_value": 5.8,
+            "unit": "mm/s"
+          }
+        },
+        {
+          "type": "severity",
+          "value": "ELEVATED",
+          "raw_values": [
+            "elevated"
+          ],
+          "confidence": 0.88,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 1,
+          "metadata": {}
+        },
+        {
+          "type": "failure_mode",
+          "value": "bearing_seizure",
+          "raw_values": [
+            "bearing failure"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "bearing failure"
+          }
+        },
+        {
+          "type": "component_type",
+          "value": "bearing",
+          "raw_values": [
+            "bearing"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "bearing"
+          }
+        },
+        {
+          "type": "maintenance_action",
+          "value": "inspect",
+          "raw_values": [
+            "inspection"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "inspection"
+          }
+        },
+        {
+          "type": "maintenance_action",
+          "value": "monitor",
+          "raw_values": [
+            "Monitoring"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "monitoring"
+          }
+        }
+      ],
+      "entity_summary": {
+        "equipment_tag": 1,
+        "parameter_reading": 2,
+        "severity": 1,
+        "failure_mode": 1,
+        "component_type": 1,
+        "maintenance_action": 2
+      },
+      "stages": [
+        "UPLOADED",
+        "PROCESSING",
+        "PARSED",
+        "CHUNKED",
+        "EXTRACTING_ENTITIES",
+        "RESOLVING",
+        "GRAPH_LINKING",
+        "INDEXING",
+        "COMPLETED"
+      ]
+    }
+  ]
+}

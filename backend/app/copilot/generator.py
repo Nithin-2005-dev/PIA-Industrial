@@ -37,32 +37,129 @@ class MockLLMGenerator(LLMGenerator):
         if context_start == -1 or context_end == -1:
             return "Error: Could not find evidence context."
 
-        context = system_prompt[context_start:context_end]
-        
-        # Parse citations and content
-        lines = context.split("\n")
-        citations: dict[str, str] = {}
-        current_citation = ""
-        
+        import re
+        findings: list[tuple[str, str]] = []
+        seen_normalized: set[str] = set()
+
+        raw_evidence = []
+        lines = system_prompt.split("\n")
+        current_citation = None
+        current_content = []
+        in_content = False
+
         for line in lines:
             if line.startswith("Citation: "):
+                if current_citation and current_content:
+                    raw_evidence.append((current_citation, " ".join(current_content).strip()))
                 current_citation = line.replace("Citation: ", "").strip()
+                current_content = []
+                in_content = False
             elif line.startswith("Content: ") and current_citation:
-                content = line.replace("Content: ", "").strip()
-                # For the mock, just take the first sentence of the content
-                first_sentence = content.split(". ")[0]
-                citations[current_citation] = first_sentence
-                current_citation = ""
+                in_content = True
+                current_content.append(line.replace("Content: ", "").strip())
+            elif line.startswith("----"):
+                if current_citation and current_content:
+                    raw_evidence.append((current_citation, " ".join(current_content).strip()))
+                current_citation = None
+                current_content = []
+                in_content = False
+            elif in_content:
+                current_content.append(line.strip())
 
-        if not citations:
+        findings_pool = []
+        
+        stop_words = {"the", "a", "an", "and", "or", "but", "in", "on", "at", "to", "from", "of", "is", "are", "was", "were", "this", "that", "it", "its", "with", "for", "by", "as", "be"}
+        
+        def get_sig_words(text: str) -> set[str]:
+            return set(re.findall(r'\b[a-z0-9]+\b', text.lower())) - stop_words
+
+        def sig_overlap(w1: set[str], w2: set[str]) -> float:
+            if not w1 or not w2: return 0.0
+            return len(w1 & w2) / min(len(w1), len(w2))
+
+        meta_terms = {"monitored indicator", "is a centrifugal", "is a heat exchanger", "is maintained as", "is the upstream", "provides process fluid", "designated as", "asset register", "function:", "appendix", "executive summary", "this report", "disclaimer", "this document", "synthetic report", "demonstration disclaimer", "intended solely as", "conclusion", "maintenance pattern review", "maintenance work order summary"}
+        context_terms = {"preventive and does not indicate", "systems processing this report", "where evidence is insufficient", "this designation is provided", "suitable for evidence-based", "automated system analyzing"}
+        rec_terms = {"recommend", "ensure", "repair", "establish", "verify", "must", "should", "prevent", "follow-up", "action:", "continue", "review", "perform", "inspect"}
+
+        for tag, content in raw_evidence:
+            sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+', content) if len(s.strip()) > 15]
+            
+            for s in sentences:
+                if not re.match(r'^[A-Z0-9#\-\*\"\'\[].*[.!?]$', s):
+                    continue
+
+                if s.endswith("?"):
+                    continue
+
+                norm = s.lower()
+                
+                if any(term in norm for term in meta_terms):
+                    continue
+                if any(term in norm for term in context_terms):
+                    continue
+                    
+                is_rec = any(re.search(r'\b' + term + r'\b', norm) for term in rec_terms) or re.search(r'\br\d+\s*[-—]', norm)
+                
+                score = 0
+                if re.search(r'\b\d+(\.\d+)?\s*(mm/s|c|f|psi|bar|hz)\b', norm):
+                    score += 5  # Specific measurements are golden
+                elif re.search(r'\d+', norm):
+                    score += 2
+                
+                if any(term in norm for term in {"failure", "degrad", "deteriorat", "defect", "root cause"}):
+                    score += 4
+                if any(term in norm for term in {"vibration", "temperature", "noise", "leak", "abnormal", "elevated", "high"}):
+                    score += 3
+                if any(term in norm for term in {"replace", "maintenance", "repair", "restor", "intervention"}):
+                    score += 3
+                if any(term in norm for term in {"trend", "pattern", "progressiv", "increas", "decreas"}):
+                    score += 2
+                    
+                # Penalize short, uninformative sentences
+                if len(s.split()) < 6:
+                    score -= 3
+
+                findings_pool.append({
+                    "text": s,
+                    "tag": tag,
+                    "score": score,
+                    "is_rec": is_rec,
+                    "sig_words": get_sig_words(s)
+                })
+
+        # Deduplicate
+        findings_pool.sort(key=lambda x: x["score"], reverse=True)
+        deduped = []
+        for f in findings_pool:
+            if f["score"] < 0 and not f["is_rec"]:
+                continue
+                
+            is_dup = False
+            for d in deduped:
+                # Only deduplicate within the same category
+                if f["is_rec"] == d["is_rec"]:
+                    if sig_overlap(f["sig_words"], d["sig_words"]) > 0.55:
+                        is_dup = True
+                        break
+            if not is_dup:
+                deduped.append(f)
+
+        key_findings = [f for f in deduped if not f["is_rec"]]
+        recommendations = [f for f in deduped if f["is_rec"]]
+
+        top_findings = key_findings[:6]
+        top_recs = recommendations[:4]
+
+        if not top_findings and not top_recs:
             return "I cannot find evidence to answer this question."
 
-        # Build a simulated response
-        response = [
-            "Based on the provided evidence, here is the analysis:\n"
-        ]
-        
-        for tag, fact in citations.items():
-            response.append(f"- {fact} {tag}")
+        response = ["Based on the available evidence, the key findings are:\n"]
+        for f in top_findings:
+            response.append(f"• {f['text']} {f['tag']}")
             
+        if top_recs:
+            response.append("\nRecommended actions:")
+            for r in top_recs:
+                response.append(f"• {r['text']} {r['tag']}")
+                
         return "\n".join(response)

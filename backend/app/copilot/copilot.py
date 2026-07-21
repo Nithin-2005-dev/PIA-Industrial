@@ -42,7 +42,7 @@ class IndustrialCopilot:
     ) -> None:
         self._router = QueryRouter()
         self._retriever = retriever
-        self._ranker = EvidenceRanker()
+        self._ranker = EvidenceRanker(max_evidence_items=25)
         self._generator = generator or MockLLMGenerator()
 
     def ask(self, query: str) -> CopilotResponse:

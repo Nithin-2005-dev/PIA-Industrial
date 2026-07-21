@@ -42,6 +42,11 @@ from app.intelligence.legacy.expertise_intelligence_service import ExpertiseInte
 from app.intelligence.legacy.industrial_causal_rca import IndustrialCausalRCA
 from app.intelligence.legacy.maintenance_intelligence_service import MaintenanceIntelligenceService
 from app.knowledge.graph.industrial_graph_manager import IndustrialGraphManager
+from app.knowledge.retrieval.vector_store import InMemoryVectorStore, VectorStore
+from app.knowledge.retrieval.embeddings import get_default_embedding_model, EmbeddingModel
+from app.knowledge.retrieval.hybrid_retriever import HybridRetriever
+from app.copilot.copilot import IndustrialCopilot
+from app.domain.industrial.document import DocumentChunk
 
 logger = logging.getLogger(__name__)
 
@@ -86,6 +91,9 @@ class WorkspaceServices:
     expertise_service: ExpertiseIntelligenceService
     rca_service: IndustrialCausalRCA
     decision_service: DecisionIntelligenceService
+    embedding_model: EmbeddingModel
+    vector_store: VectorStore
+    copilot: IndustrialCopilot
 
 
 class IndustrialWorkspaceRuntime:
@@ -270,11 +278,66 @@ class IndustrialWorkspaceRuntime:
             return job
         except Exception as exc:
             job.status = "FAILED"
-            job.error = str(exc)
+            job.status = "FAILED"
             job.stages.append("FAILED")
             job.completed_at = datetime.now(UTC).isoformat()
-            logger.exception("industrial_document_ingestion_failed", extra={"workspace_id": workspace.id, "document_name": original_name})
+            job.errors = (str(exc),)
+            logger.error("industrial_document_ingestion_failed", exc_info=exc, extra={"workspace_id": workspace.id})
             return job
+
+    def reprocess_workspace(self, workspace_id: str) -> None:
+        """Re-ingest all documents in a workspace from disk to apply new logic."""
+        workspace = self.require_workspace(workspace_id)
+        old_docs = list(self._documents.get(workspace.id, []))
+        if not old_docs:
+            return
+
+        self._documents[workspace.id] = []
+        self._services.pop(workspace.id, None)
+
+        from app.ingestion.ingestion_pipeline import IngestionPipeline
+        from app.extraction.entities.extraction_pipeline import ExtractionPipeline
+
+        for doc_record in old_docs:
+            file_path = doc_record.get("file_path")
+            if not file_path or not Path(file_path).exists():
+                logger.warning(f"Skipping reprocessing for {doc_record.get('name')}: file not found.")
+                continue
+
+            try:
+                pipeline = IngestionPipeline()
+                result = pipeline.ingest(Path(file_path))
+                if result.status != "PROCESSED":
+                    logger.warning(f"Failed to reprocess {file_path}: {result.errors}")
+                    continue
+                
+                document = pipeline.registry.get(result.document_id)
+                if not document:
+                    continue
+
+                chunks = pipeline.registry.get_chunks(document.document_id)
+                extractor = ExtractionPipeline()
+                extraction = extractor.extract_from_chunks(chunks, document.document_id)
+
+                new_record = self._document_record(document, chunks, extraction)
+                self._documents[workspace.id].append(new_record)
+                
+                services = self.services(workspace.id)
+                
+                # We must manually add the new chunks to the vector store because _build_services
+                # might have already been called or we want to append them incrementally.
+                embeddings = [services.embedding_model.embed_text(c.content) for c in chunks]
+                services.vector_store.add_chunks(chunks, embeddings)
+                
+                services.graph_manager.builder.add_document(document)
+                services.graph_manager.populate_from_entities(extraction.all_resolved_entities, document.document_id)
+                self._link_document_entities(services.graph_manager, extraction.all_resolved_entities, document.document_id)
+                self._append_observations(services.observation_store, workspace.id, document, extraction.all_resolved_entities)
+
+                self._save_workspace_documents(workspace.id)
+                self._touch_workspace(workspace.id)
+            except Exception as e:
+                logger.error(f"Error reprocessing {file_path}: {e}")
 
     def load_demo_dataset(self, workspace_id: str | None = "demo-p101") -> dict[str, Any]:
         workspace = self.require_workspace(workspace_id)
@@ -308,21 +371,23 @@ class IndustrialWorkspaceRuntime:
 
     def answer_query(self, workspace_id: str | None, query: str) -> dict[str, Any]:
         workspace = self.require_workspace(workspace_id)
-        hits = self.search(workspace.id, query)
-        if not hits:
-            assets = self.list_assets(workspace.id)
-            if not assets:
-                answer = "No industrial knowledge has been ingested in this workspace yet."
-            else:
-                answer = "I could not find workspace evidence for that question. Available assets: " + ", ".join(a["asset_id"] for a in assets)
-            return {"answer": answer, "citations": [], "reasoning_trace": [{"step": "Searched active workspace"}, {"step": "Insufficient evidence"}]}
-        citation_hits = hits[:3]
-        citations = [f"[{hit['id']} - {hit['title']}]" for hit in citation_hits]
-        evidence_lines = [f"{hit['title']}: {hit['snippet']}" for hit in citation_hits]
+        services = self.services(workspace.id)
+        
+        response = services.copilot.ask(query)
+        
+        citations = []
+        for evidence in response.evidence:
+            citations.append(f"{evidence.citation_tag} - {evidence.source_name}")
+            
+        reasoning = [
+            {"step": f"Classified intent as {response.intent}"},
+            {"step": f"Retrieved {len(response.evidence)} evidence candidates"},
+        ]
+        
         return {
-            "answer": "Retrieved workspace evidence:\n" + "\n".join(evidence_lines),
+            "answer": response.answer,
             "citations": citations,
-            "reasoning_trace": [{"step": "Scoped query to active workspace"}, {"step": f"Retrieved {len(hits)} evidence candidates"}],
+            "reasoning_trace": reasoning,
         }
 
     def list_assets(self, workspace_id: str | None) -> list[dict[str, Any]]:
@@ -353,22 +418,42 @@ class IndustrialWorkspaceRuntime:
         return sorted(assets, key=lambda item: item["asset_id"])
 
     def _build_services(self, workspace_id: str) -> WorkspaceServices:
+        embedding_model = get_default_embedding_model()
+        vector_store = InMemoryVectorStore()
         graph_manager = IndustrialGraphManager()
         observation_store = ObservationStore()
         for document in self._documents.get(workspace_id, []):
-            self._replay_document(graph_manager, observation_store, workspace_id, document)
+            self._replay_document(graph_manager, observation_store, vector_store, embedding_model, workspace_id, document)
         asset_service = AssetIntelligenceService(graph_manager, observation_store)
         maintenance_service = MaintenanceIntelligenceService(asset_service)
         compliance_service = ComplianceIntelligenceService(asset_service)
         expertise_service = ExpertiseIntelligenceService(asset_service)
         rca_service = IndustrialCausalRCA(asset_service, maintenance_service)
         decision_service = DecisionIntelligenceService(asset_service, maintenance_service, rca_service, compliance_service, expertise_service)
-        return WorkspaceServices(graph_manager, observation_store, asset_service, maintenance_service, compliance_service, expertise_service, rca_service, decision_service)
+        
+        retriever = HybridRetriever(embedding_model, vector_store, graph_manager)
+        copilot = IndustrialCopilot(retriever)
+        
+        return WorkspaceServices(
+            graph_manager=graph_manager,
+            observation_store=observation_store,
+            asset_service=asset_service,
+            maintenance_service=maintenance_service,
+            compliance_service=compliance_service,
+            expertise_service=expertise_service,
+            rca_service=rca_service,
+            decision_service=decision_service,
+            embedding_model=embedding_model,
+            vector_store=vector_store,
+            copilot=copilot,
+        )
 
     def _replay_document(
         self,
         graph_manager: IndustrialGraphManager,
         observation_store: ObservationStore,
+        vector_store: VectorStore,
+        embedding_model: EmbeddingModel,
         workspace_id: str,
         record: dict[str, Any],
     ) -> None:
@@ -388,6 +473,24 @@ class IndustrialWorkspaceRuntime:
             self._resolved_entity_from_record(entity)
             for entity in record.get("entities", [])
         ]
+        
+        chunks = []
+        for c in record.get("chunks", []):
+            from app.domain.industrial.document import DocumentProvenance
+            provenance = DocumentProvenance(
+                document_id=document.document_id,
+                document_name=document.name,
+                document_type=document.document_type.value,
+                page_number=c.get("page_number", 1)
+            )
+            chunk_kwargs = c.copy()
+            chunk_kwargs["provenance"] = provenance
+            chunks.append(DocumentChunk(**chunk_kwargs))
+            
+        if chunks:
+            embeddings = embedding_model.embed_batch([c.content for c in chunks])
+            vector_store.add_chunks(chunks, embeddings)
+            
         graph_manager.builder.add_document(document)
         graph_manager.populate_from_entities(tuple(entities), document.document_id)
         self._link_document_entities(graph_manager, tuple(entities), document.document_id)

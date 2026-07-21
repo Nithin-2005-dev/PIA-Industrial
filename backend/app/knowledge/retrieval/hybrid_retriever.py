@@ -47,7 +47,7 @@ class HybridRetriever:
     def retrieve(
         self,
         query: str,
-        top_k_semantic: int = 5,
+        top_k_semantic: int = 15,
         filters: dict[str, Any] | None = None,
     ) -> RetrievedContext:
         """Perform a hybrid search for the query."""

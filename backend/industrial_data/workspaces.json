@@ -7,16 +7,52 @@
       "status": "ACTIVE",
       "source_kind": "DEMO",
       "created_at": "2026-07-20T20:33:55.154550+00:00",
-      "updated_at": "2026-07-21T07:52:26.711735+00:00"
+      "updated_at": "2026-07-21T11:46:14.663364+00:00"
     },
     {
       "id": "industrial-workspace-2",
       "name": "Industrial Workspace 2",
       "description": "",
-      "status": "EMPTY",
+      "status": "ACTIVE",
       "source_kind": "USER",
       "created_at": "2026-07-21T04:01:36.529482+00:00",
-      "updated_at": "2026-07-21T04:01:36.529527+00:00"
+      "updated_at": "2026-07-21T12:30:04.290472+00:00"
+    },
+    {
+      "id": "test-e2e-workspace",
+      "name": "test-e2e-workspace",
+      "description": "Test E2E Workspace",
+      "status": "ACTIVE",
+      "source_kind": "USER",
+      "created_at": "2026-07-21T11:48:31.495342+00:00",
+      "updated_at": "2026-07-21T11:48:31.509583+00:00"
+    },
+    {
+      "id": "test-clean",
+      "name": "test-clean",
+      "description": "Clean Workspace",
+      "status": "ACTIVE",
+      "source_kind": "USER",
+      "created_at": "2026-07-21T12:07:43.005053+00:00",
+      "updated_at": "2026-07-21T12:08:56.995517+00:00"
+    },
+    {
+      "id": "test-clean-2",
+      "name": "test-clean",
+      "description": "Clean Workspace",
+      "status": "EMPTY",
+      "source_kind": "USER",
+      "created_at": "2026-07-21T12:08:14.045617+00:00",
+      "updated_at": "2026-07-21T12:08:14.045641+00:00"
+    },
+    {
+      "id": "test-clean-3",
+      "name": "test-clean",
+      "description": "Clean Workspace",
+      "status": "EMPTY",
+      "source_kind": "USER",
+      "created_at": "2026-07-21T12:08:56.951096+00:00",
+      "updated_at": "2026-07-21T12:08:56.951123+00:00"
     }
   ]
 }
