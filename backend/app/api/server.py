@@ -11,28 +11,30 @@ app = FastAPI(
 )
 
 import os
+import logging
 
-# Allow localhost Developer Console and configured production origins
-origins = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173"
+raw_origins = os.getenv(
+    "ALLOWED_ORIGINS",
+    "http://localhost:5173,http://127.0.0.1:5173"
+)
+
+allowed_origins = [
+    origin.strip().rstrip("/")
+    for origin in raw_origins.split(",")
+    if origin.strip()
 ]
 
-allowed_origins_env = os.getenv("ALLOWED_ORIGINS", "")
-if allowed_origins_env:
-    extra_origins = [
-        origin.strip().strip("'").strip('"').rstrip("/") 
-        for origin in allowed_origins_env.split(",") 
-        if origin.strip()
-    ]
-    origins.extend(extra_origins)
+# Ensure development origins are always permitted
+if "http://localhost:5173" not in allowed_origins:
+    allowed_origins.append("http://localhost:5173")
+if "http://127.0.0.1:5173" not in allowed_origins:
+    allowed_origins.append("http://127.0.0.1:5173")
 
-# Temporary startup log for CORS debugging
-print(f"CORS ALLOWED ORIGINS CONFIGURED AS: {origins}")
+logging.getLogger("uvicorn").info(f"CORS allowed origins: {allowed_origins}")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

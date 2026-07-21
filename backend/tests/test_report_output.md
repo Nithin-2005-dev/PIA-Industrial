@@ -35,12 +35,12 @@ graph TD
     evidence_56941743d109["Evidence\nConf: 1.0"]:::evidence
     observation_8d6b96996867["Observation"]:::observation
     inference_565ccdda2d3f["Single Point of Failure Detected"]:::inference
-    imp_2fdcb225["Operational Risk\nKnowledge Concentration"]:::impact
+    imp_75242068["Operational Risk\nKnowledge Concentration"]:::impact
     root_cause_ec03f1206e74["Root Cause"]:::rootCause
     recommendation_2079dbe72e27["Action: Review system architecture."]:::recommendation
     observation_8d6b96996867 -- "derived_from" --> evidence_56941743d109
     inference_565ccdda2d3f -- "supports" --> observation_8d6b96996867
-    imp_2fdcb225 -- "causes" --> inference_565ccdda2d3f
-    root_cause_ec03f1206e74 -- "causes" --> imp_2fdcb225
+    imp_75242068 -- "causes" --> inference_565ccdda2d3f
+    root_cause_ec03f1206e74 -- "causes" --> imp_75242068
     recommendation_2079dbe72e27 -- "mitigates" --> root_cause_ec03f1206e74
 ```
