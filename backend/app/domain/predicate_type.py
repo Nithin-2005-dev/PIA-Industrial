@@ -1,0 +1,31 @@
+from enum import Enum
+
+
+class PredicateType(Enum):
+    # --- Software Engineering (original) ---
+    MODIFIED = "MODIFIED"
+    REVIEWED = "REVIEWED"
+    FIXED = "FIXED"
+    CREATED = "CREATED"
+    MERGED = "MERGED"
+    COMMENTED = "COMMENTED"
+    TOUCHED = "TOUCHED"
+
+    # --- Industrial ---
+    INSPECTED = "INSPECTED"
+    MAINTAINED = "MAINTAINED"
+    REPAIRED = "REPAIRED"
+    REPLACED = "REPLACED"
+    FAILED = "FAILED"
+    CAUSED = "CAUSED"
+    RECOMMENDED = "RECOMMENDED"
+    DEFERRED = "DEFERRED"
+    RESOLVED = "RESOLVED"
+    DOCUMENTED = "DOCUMENTED"
+    MEASURED = "MEASURED"
+    OPERATED = "OPERATED"
+    SUPERVISED = "SUPERVISED"
+    REPORTED = "REPORTED"
+    FOUND = "FOUND"
+    VIOLATED = "VIOLATED"
+    SATISFIED = "SATISFIED"

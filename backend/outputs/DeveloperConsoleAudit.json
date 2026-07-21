@@ -1,0 +1,17 @@
+{
+  "explorers_exist": true,
+  "routes_wired": true,
+  "api_endpoints_wired": true,
+  "consumes_dtos": true,
+  "no_internal_leakage": true,
+  "no_mock_data": true,
+  "api_calls_resolve": true,
+  "capabilities": {
+    "search": true,
+    "filters": false,
+    "deep_links": false,
+    "replay": false,
+    "lineage": true,
+    "navigation": true
+  }
+}

@@ -1,0 +1,64 @@
+================================================================================
+[1m                               PIA LATENT ENGINE                                [0m
+[96m                           COMPLETE PLATFORM SHOWCASE                           [0m
+================================================================================
+
+Canonical Architecture
+
+ GitHub
+    |
+    v
+ Observation Layer
+    |
+    v
+ Measurement Layer
+    |
+    v
+ Evidence Layer
+    |
+    v
+ Expertise Layer
+    |
+    v
+ Knowledge Layer
+    |
+    v
+[95m Organization Intelligence[0m
+[2m    |  (Ownership . Coverage . Concentration . Bus Factor[0m
+[2m    |   Successor . Knowledge Risk . Health . Recommendations)[0m
+    v
+ Reasoning Layer
+    |
+    v
+ Decision Layer
+    |
+    v
+ Executive Intelligence Report
+
+================================================================================
+
+--------------------------------------------------------------------------------
+[96m[1/14] Platform Initialization[0m
+--------------------------------------------------------------------------------
+
+[1mPlatform[0m
+Platform                               PIA Latent Engine
+Architecture                           Observation -> Measurement -> Evidence -> Expertise -> Knowledge -> Reasoning -> Decision
+Repository                             facebook/react
+Branch                                 main
+Commit Limit                           50
+Tenant                                 default
+Python                                 3.14.5
+OS                                     Windows
+Working Directory                      C:\Users\NITHIN\Agentic_AI\latent-engine\backend
+[92m[OK] Platform initialized[0m
+
+[1mEnvironment[0m
+[92m[OK] Python executable: C:\Users\NITHIN\AppData\Local\Python\pythoncore-3.14-64\python.exe[0m
+[92m[OK] Environment validation passed[0m
+
+[1mOutput[0m
+[92m[OK] Output directory ready[0m
+Directory                              outputs\showcase
+
+[1mGitHub[0m

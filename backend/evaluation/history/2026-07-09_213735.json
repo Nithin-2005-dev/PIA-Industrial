@@ -1,0 +1,187 @@
+{
+    "metadata": {
+        "dataset_version": "1.0",
+        "benchmark_version": "1.0",
+        "provider": "MockLLMProvider",
+        "scores": {
+            "overall_score": 100.0,
+            "runtime_score": 100,
+            "graph_score": 100,
+            "presentation_score": 96
+        }
+    },
+    "results": {
+        "informational": [
+            {
+                "id": "info_top_contributor",
+                "question": "Who is the top contributor?",
+                "mock": {
+                    "assertions": {
+                        "Returned contributor exists": true,
+                        "Commit count > 0": true,
+                        "Confidence exists": true,
+                        "Evidence exists": true,
+                        "No reasoning graph generated": true
+                    },
+                    "metrics": {
+                        "planner_time_ms": 0,
+                        "graph_time_ms": 0,
+                        "reasoning_time_ms": 0,
+                        "presentation_time_ms": 0
+                    },
+                    "coverage": {
+                        "covered_capabilities": [
+                            "TopContributors"
+                        ],
+                        "missing_capabilities": [
+                            "Ownership",
+                            "BusFactor",
+                            "Forecast",
+                            "Transfer",
+                            "Health"
+                        ]
+                    }
+                },
+                "real": {
+                    "assertions": {
+                        "Returned contributor exists": true,
+                        "Commit count > 0": true,
+                        "Confidence exists": true,
+                        "Evidence exists": true,
+                        "No reasoning graph generated": true
+                    },
+                    "metrics": {
+                        "planner_time_ms": 0,
+                        "graph_time_ms": 0,
+                        "reasoning_time_ms": 0,
+                        "presentation_time_ms": 0
+                    },
+                    "coverage": {
+                        "covered_capabilities": [
+                            "TopContributors"
+                        ],
+                        "missing_capabilities": [
+                            "Ownership",
+                            "BusFactor",
+                            "Forecast",
+                            "Transfer",
+                            "Health"
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "info_module_ownership",
+                "question": "Who owns src/compiler?",
+                "mock": {
+                    "assertions": {
+                        "Owner name exists": true,
+                        "Target is src/compiler": true,
+                        "No reasoning graph generated": true
+                    },
+                    "metrics": {
+                        "planner_time_ms": 0,
+                        "graph_time_ms": 0,
+                        "reasoning_time_ms": 0,
+                        "presentation_time_ms": 0
+                    },
+                    "coverage": {
+                        "covered_capabilities": [
+                            "TopContributors",
+                            "Ownership"
+                        ],
+                        "missing_capabilities": [
+                            "BusFactor",
+                            "Forecast",
+                            "Transfer",
+                            "Health"
+                        ]
+                    }
+                },
+                "real": {
+                    "assertions": {
+                        "Owner name exists": true,
+                        "Target is src/compiler": true,
+                        "No reasoning graph generated": true
+                    },
+                    "metrics": {
+                        "planner_time_ms": 0,
+                        "graph_time_ms": 0,
+                        "reasoning_time_ms": 0,
+                        "presentation_time_ms": 0
+                    },
+                    "coverage": {
+                        "covered_capabilities": [
+                            "TopContributors",
+                            "Ownership"
+                        ],
+                        "missing_capabilities": [
+                            "BusFactor",
+                            "Forecast",
+                            "Transfer",
+                            "Health"
+                        ]
+                    }
+                }
+            }
+        ],
+        "diagnostic": [
+            {
+                "id": "diag_compiler_risk",
+                "question": "Why is the compiler risky?",
+                "mock": {
+                    "assertions": {
+                        "Reasoning graph is generated": true,
+                        "Root cause identified": true,
+                        "Evidence chain exists": true
+                    },
+                    "metrics": {
+                        "planner_time_ms": 0,
+                        "graph_time_ms": 0,
+                        "reasoning_time_ms": 0,
+                        "presentation_time_ms": 0
+                    },
+                    "coverage": {
+                        "covered_capabilities": [
+                            "TopContributors",
+                            "Ownership",
+                            "BusFactor",
+                            "CausalAnalysis"
+                        ],
+                        "missing_capabilities": [
+                            "Forecast",
+                            "Transfer",
+                            "Health"
+                        ]
+                    }
+                },
+                "real": {
+                    "assertions": {
+                        "Reasoning graph is generated": true,
+                        "Root cause identified": true,
+                        "Evidence chain exists": true
+                    },
+                    "metrics": {
+                        "planner_time_ms": 0,
+                        "graph_time_ms": 0,
+                        "reasoning_time_ms": 0,
+                        "presentation_time_ms": 0
+                    },
+                    "coverage": {
+                        "covered_capabilities": [
+                            "TopContributors",
+                            "Ownership",
+                            "BusFactor",
+                            "CausalAnalysis"
+                        ],
+                        "missing_capabilities": [
+                            "Forecast",
+                            "Transfer",
+                            "Health"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,678 @@
+==========================================================================
+[1m                            PIA LATENT ENGINE                             [0m
+[96m                        COMPLETE PLATFORM SHOWCASE                        [0m
+==========================================================================
+
+Canonical Architecture
+
+ GitHub
+    |
+    v
+ Observation Layer
+    |
+    v
+ Measurement Layer
+    |
+    v
+ Evidence Layer
+    |
+    v
+ Expertise Layer
+    |
+    v
+ Knowledge Layer
+    |
+    v
+[95m Organization Intelligence[0m
+[2m    |  (Ownership . Coverage . Concentration . Bus Factor[0m
+[2m    |   Successor . Knowledge Risk . Health . Recommendations)[0m
+    v
+ Reasoning Layer
+    |
+    v
+ Decision Layer
+    |
+    v
+ Executive Intelligence Report
+
+==========================================================================
+
+--------------------------------------------------------------------------
+[96m[1/14] Platform Initialization[0m
+--------------------------------------------------------------------------
+
+[1mPlatform[0m
+Platform                               PIA Latent Engine
+Architecture                           Observation -> Measurement -> Evidence -> Expertise -> Knowledge -> Reasoning -> Decision
+Repository                             facebook/react
+Branch                                 main
+Commit Limit                           50
+Tenant                                 default
+Python                                 3.14.5
+OS                                     Windows
+Working Directory                      C:\Users\NITHIN\Agentic_AI\latent-engine\backend
+[92m[OK] Platform initialized[0m
+
+[1mEnvironment[0m
+[92m[OK] Python executable: C:\Users\NITHIN\AppData\Local\Python\pythoncore-3.14-64\python.exe[0m
+[92m[OK] Environment validation passed[0m
+
+[1mOutput[0m
+[92m[OK] Output directory ready[0m
+Directory                              outputs\showcase
+
+[1mGitHub[0m
+[92m[OK] GitHub token detected[0m
+Authentication                         Authenticated
+
+[1mPlatform Capabilities[0m
+[92m[OK] Vendor Collection[0m
+[92m[OK] Canonical Observation Layer[0m
+[92m[OK] Scientific Measurement Engine[0m
+[92m[OK] Canonical Evidence Synthesis[0m
+[92m[OK] Evidence-to-Expertise Handoff[0m
+[92m[OK] Knowledge Modeling[0m
+[92m[OK] Reasoning Results[0m
+[92m[OK] Decision Intelligence[0m
+[92m[OK] Confidence Propagation[0m
+[92m[OK] Uncertainty Propagation[0m
+[92m[OK] Lineage Tracking[0m
+[92m[OK] Traceability[0m
+[92m[OK] Explainability[0m
+[92m[OK] Scientific Validation[0m
+[92m[OK] Plugin Architecture[0m
+[92m[OK] Multi-Tenant Ready[0m
+[92m[OK] SaaS Ready[0m
+
+--------------------------------------------------------------------------
+[96m[2/14] GitHub to Observation[0m
+--------------------------------------------------------------------------
+
+[1mGitHub to Observation[0m
+
+[1mCollection Result[0m
+Repository                             facebook/react
+Branch                                 main
+Observations                           50
+Collection Time                        61.721s
+[92m[OK] GitHub commits translated into canonical observations[0m
+
+[1mRepository Overview[0m
+Commits                                50
+Unique Files                           815
+Lines Added                            143194
+Lines Deleted                          25091
+Total Line Changes                     168285
+
+[1mTop Contributors[0m
+  1. hoxyq                       11 commits
+  2. eps1lon                      6 commits
+  3. poteto                       6 commits
+  4. fallintoplace                5 commits
+  5. javache                      3 commits
+  6. gnoff                        3 commits
+  7. SamChou19815                 3 commits
+  8. UditDewan                    2 commits
+  9. Boshen                       2 commits
+ 10. acdlite                      1 commits
+
+[1mMost Changed Files[0m
+  1. packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js (8)
+  2. compiler/Cargo.lock (7)
+  3. compiler/crates/react_compiler/src/entrypoint/program.rs (7)
+  4. packages/react-devtools-facade/src/DevToolsFacadeTools.js (6)
+  5. packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js (5)
+  6. compiler/crates/react_compiler_ast/Cargo.toml (5)
+  7. compiler/crates/react_compiler_reactive_scopes/src/codegen_reactive_function.rs (5)
+  8. packages/react-server/src/ReactFizzServer.js (5)
+  9. packages/react-dom/src/__tests__/ReactDOMFizzServer-test.js (4)
+ 10. packages/react-server/src/ReactFlightServer.js (4)
+
+[1mMost Active Directories[0m
+  1. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler (82)
+  2. packages/react-reconciler/src (71)
+  3. compiler/crates/react_compiler_reactive_scopes/src (55)
+  4. packages/react-server/src (45)
+  5. compiler/crates/react_compiler_validation/src (42)
+  6. compiler/crates/react_compiler_inference/src (41)
+  7. compiler/crates/react_compiler_optimization/src (36)
+  8. compiler/crates/react_compiler_hir/src (32)
+  9. packages/react-server/src/forks (26)
+ 10. compiler/crates/react_compiler/src/entrypoint (24)
+
+[1mTop File Extensions[0m
+  1. .js (646)
+  2. .rs (344)
+  3. .md (94)
+  4. .json (51)
+  5. .toml (40)
+  6. .ts (23)
+  7. .yml (11)
+  8. .lock (10)
+  9. .gitignore (4)
+ 10. .sh (2)
+
+[1mFile Status Distribution[0m
+  1. modified     916
+  2. added        297
+  3. removed      20
+
+[1mMonthly Activity[0m
+  1. 2026-06 (50)
+
+[1mWeekday Activity[0m
+  1. Tuesday    14
+  2. Monday     10
+  3. Friday     5
+  4. Thursday   13
+  5. Wednesday  8
+
+[1mMost Active Hours[0m
+  1. 03:00 (2)
+  2. 06:00 (3)
+  3. 07:00 (2)
+  4. 08:00 (3)
+  5. 09:00 (2)
+  6. 10:00 (2)
+  7. 11:00 (1)
+  8. 12:00 (1)
+  9. 13:00 (1)
+ 10. 14:00 (4)
+ 11. 15:00 (4)
+ 12. 16:00 (3)
+ 13. 17:00 (4)
+ 14. 18:00 (1)
+ 15. 19:00 (8)
+ 16. 20:00 (1)
+ 17. 21:00 (2)
+ 18. 22:00 (4)
+ 19. 23:00 (2)
+[92m[OK] GitHub to Observation completed in 61.755s[0m
+
+--------------------------------------------------------------------------
+[96m[3/14] Observation Intelligence[0m
+--------------------------------------------------------------------------
+
+[1mObservation Intelligence[0m
+
+[1mObservation Contract[0m
+Observations                           50
+Immutable Dataclasses                  PASS
+Canonical Facts                        PASS
+Context                                PASS
+Provenance                             PASS
+Actors                                 50
+Targets                                1233
+
+[1mObservation Types[0m
+  1. commit                   50
+
+[1mObservation Categories[0m
+  1. source_control           50
+
+[1mLifecycle[0m
+  1. production               50
+
+[1mObservation Provenance[0m
+Source Platforms                       1
+Source Adapters                        1
+Adapter Versions                       1.0
+
+[1mSample Observation[0m
+Observation ID                         7d77e450-bd0e-58fd-8f6d-97b5dcf666e2
+Trace ID                               39a3800e-fee6-5ee3-8154-e78eecac9b9e
+Correlation ID                         c3555f0ca2648380ccd3d6af23479610e72f6bf1
+Type                                   commit
+Category                               source_control
+Repository                             facebook/react
+Fact Type                              CommitFacts
+[92m[OK] Observation layer verified[0m
+[92m[OK] Observation Intelligence completed in 0.006s[0m
+
+--------------------------------------------------------------------------
+[96m[4/14] Observation to Measurement[0m
+--------------------------------------------------------------------------
+
+[1mObservation to Measurement[0m
+
+[1mMeasurement Registry[0m
+Definitions Observed                   27
+Measurements                           9790
+Measurement Time                       1.060s
+
+[1mDefinitions[0m
+  1. code_churn                       loc          1.0
+  2. files_changed                    count        1.0
+  3. patch_complexity_delta           complexity   1.0
+  4. change_distribution_entropy      entropy      1.0
+  5. change_surface_area              score        1.0
+  6. review_attention_need            score        1.0
+  7. author_contribution_count        count        1.0
+  8. author_file_touch_count          count        1.0
+  9. author_code_churn                loc          1.0
+ 10. developer_knowledge_spread       count        1.0
+ 11. developer_subsystem_focus        score        1.0
+ 12. developer_recency_score          score        1.0
+ 13. developer_commit_frequency       count        1.0
+ 14. developer_files_owned            count        1.0
+ 15. file_churn                       loc          1.0
+ 16. file_touch_count                 count        1.0
+ 17. file_addition_ratio              percent      1.0
+ 18. file_is_test                     score        1.0
+ 19. file_is_documentation            score        1.0
+ 20. directory_churn                  loc          1.0
+ 21. directory_file_count             count        1.0
+ 22. subsystem_churn_rate             loc          1.0
+ 23. subsystem_contributor_count      count        1.0
+ 24. subsystem_file_concentration     score        1.0
+ 25. subsystem_coupling_score         score        1.0
+ 26. subsystem_volatility             score        1.0
+ 27. file_ownership_score             score        1.0
+
+[1mEvaluators[0m
+  1. change_complexity_evaluator        200
+  2. change_impact_evaluator            100
+  3. developer_activity_evaluator       400
+  4. file_activity_evaluator            6163
+  5. subsystem_activity_evaluator       1694
+  6. file_ownership_evaluator           1233
+
+[1mValidation[0m
+Passed                                 9790
+Warnings                               0
+Failed                                 0
+
+[1mValidation Checks[0m
+  1. finite_value                       9790
+  2. unit_matches_definition            9790
+  3. range                              9790
+
+[1mConfidence[0m
+Average                                0.850
+Minimum                                0.181
+Maximum                                0.850
+Average Coverage                       1.000
+Average Source Reliability             0.850
+
+[1mQuality[0m
+Average                                0.887
+Minimum                                0.386
+Maximum                                0.887
+
+[1mUncertainty[0m
+Average Variance                       71440.367
+Minimum Variance                       0.023
+Maximum Variance                       343703790.563
+
+[1mNormalization Methods[0m
+  1. identity                           5407
+  2. bounded_score_clamp                4383
+
+[1mNormalization and Derivation Steps[0m
+  1. observation.facts                  9790
+  2. change_complexity_evaluator        200
+  3. cleaning                           9790
+  4. calibration                        9790
+  5. scaling                            9790
+  6. bias_correction                    9790
+  7. change_impact_evaluator            100
+  8. developer_activity_evaluator       400
+  9. file_activity_evaluator            6163
+ 10. subsystem_activity_evaluator       1694
+ 11. file_ownership_evaluator           1233
+
+[1mCalibration[0m
+Average Factor                         1.000
+Minimum Factor                         1.000
+Maximum Factor                         1.000
+
+[1mBenchmarks and Standards[0m
+  1. 25010                              9790
+  2. GUM                                9790
+
+[1mScientific Statistics[0m
+Mean Value                             95.420
+Median Value                           1.000
+Standard Deviation                     1777.758
+
+[1mSample Measurements[0m
+  1. code_churn                       value=242.000 confidence=0.850 quality=0.887
+  2. files_changed                    value=3.000 confidence=0.850 quality=0.887
+  3. patch_complexity_delta           value=8.000 confidence=0.850 quality=0.887
+  4. change_distribution_entropy      value=0.951 confidence=0.850 quality=0.887
+  5. change_surface_area              value=65.917 confidence=0.850 quality=0.887
+  6. review_attention_need            value=42.929 confidence=0.850 quality=0.887
+  7. author_contribution_count        value=1.000 confidence=0.850 quality=0.887
+  8. author_file_touch_count          value=3.000 confidence=0.850 quality=0.887
+[92m[OK] Measurement layer produced canonical measurements[0m
+[92m[OK] Observation to Measurement completed in 1.111s[0m
+
+--------------------------------------------------------------------------
+[96m[5/14] Measurement to Evidence[0m
+--------------------------------------------------------------------------
+
+[1mMeasurement to Evidence[0m
+
+[1mEvidence Package[0m
+Pipeline Version                       evidence.v1
+Generated Evidence                     1042
+Usable for Expertise                   1042
+Rejected Items                         867
+Input Measurements                     9790
+Validated Measurements                 9790
+Synthesis Time                         0.139s
+
+[1mEvidence Health[0m
+Evidence Present                       PASS
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+Explainability Preserved               PASS
+Lineage Preserved                      PASS
+
+[1mEvidence Categories[0m
+  1. maintainability          765
+  2. testing                  161
+  3. architecture             23
+  4. documentation            93
+
+[1mSeverity[0m
+  1. high                     765
+  2. low                      254
+  3. medium                   23
+
+[1mPriority[0m
+  1. medium                   570
+  2. high                     463
+  3. low                      9
+
+[1mEvidence Lineage[0m
+Supporting Measurements                2084
+Synthesis Rules                        1042
+
+[1mSample Evidence[0m
+  1. File Maintenance Risk              confidence=0.423 uncertainty=0.112 quality=0.887
+  2. Test Coverage Signal               confidence=0.501 uncertainty=0.075 quality=0.887
+  3. File Maintenance Risk              confidence=0.503 uncertainty=0.103 quality=0.887
+  4. File Maintenance Risk              confidence=0.424 uncertainty=0.111 quality=0.887
+  5. Test Coverage Signal               confidence=0.501 uncertainty=0.075 quality=0.887
+  6. Subsystem Instability              confidence=0.415 uncertainty=0.149 quality=0.887
+  7. File Maintenance Risk              confidence=0.498 uncertainty=0.112 quality=0.887
+  8. Documentation Coverage Signal      confidence=0.590 uncertainty=0.075 quality=0.887
+[92m[OK] Evidence layer synthesized canonical evidence package[0m
+[92m[OK] Measurement to Evidence completed in 0.146s[0m
+
+--------------------------------------------------------------------------
+[96m[6/14] Evidence to Expertise[0m
+--------------------------------------------------------------------------
+
+[1mEvidence to Expertise[0m
+
+[1mExpertise Models[0m
+Evidence Inputs                        1042
+Models Built                           794
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+Explainability Preserved               PASS
+
+[1mTop Expertise Models[0m
+  1. .eslintignore                      score=0.165 confidence=0.512
+  2. packages/shared/ReactFeatureFlags.js score=0.165 confidence=0.512
+  3. packages/shared/forks/ReactFeatureFlags.www.js score=0.165 confidence=0.512
+  4. .github/workflows/compiler_discord_notify.yml score=0.165 confidence=0.512
+  5. .github/workflows/compiler_prereleases_manual.yml score=0.165 confidence=0.512
+  6. .github/workflows/compiler_prereleases_nightly.yml score=0.165 confidence=0.512
+  7. .github/workflows/devtools_discord_notify.yml score=0.165 confidence=0.512
+  8. .github/workflows/runtime_discord_notify.yml score=0.165 confidence=0.512
+  9. .github/workflows/shared_label_core_team_prs.yml score=0.165 confidence=0.512
+ 10. compiler/package.json              score=0.165 confidence=0.512
+[92m[OK] Expertise layer built from canonical evidence package[0m
+[92m[OK] Evidence to Expertise completed in 0.014s[0m
+
+--------------------------------------------------------------------------
+[96m[7/14] Expertise to Knowledge[0m
+--------------------------------------------------------------------------
+
+[1mExpertise to Knowledge[0m
+
+[1mKnowledge Topics[0m
+Expertise Models Consumed              794
+Knowledge Topics Built                 70
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+
+[1mKnowledge Topics[0m
+  1. make-read-only-util          expertise=  1 score=0.165 conf=0.512
+  2. react-compiler-healthcheck   expertise=  1 score=0.165 conf=0.512
+  3. react-compiler-runtime       expertise=  1 score=0.165 conf=0.512
+  4. react-forgive                expertise=  3 score=0.165 conf=0.512
+  5. react-mcp-server             expertise=  1 score=0.165 conf=0.512
+  6. snap                         expertise=  1 score=0.165 conf=0.512
+  7. react-devtools               expertise=  1 score=0.165 conf=0.512
+  8. react-server-dom-fb          expertise=  2 score=0.165 conf=0.512
+  9. use-subscription             expertise=  1 score=0.165 conf=0.512
+ 10. use-sync-external-store      expertise=  1 score=0.165 conf=0.512
+ 11. flow-typed                   expertise=  2 score=0.164 conf=0.510
+ 12. react-devtools-inline        expertise=  3 score=0.164 conf=0.510
+ 13. react-devtools-timeline      expertise= 15 score=0.163 conf=0.509
+ 14. react-cache                  expertise=  2 score=0.162 conf=0.507
+ 15. react-server                 expertise= 53 score=0.162 conf=0.507
+ 16. react-flight-server-fb       expertise=  6 score=0.162 conf=0.507
+ 17. react-devtools-core          expertise=  3 score=0.162 conf=0.507
+ 18. react-dom-bindings           expertise= 34 score=0.162 conf=0.506
+ 19. jest-react                   expertise=  1 score=0.162 conf=0.506
+ 20. react-art                    expertise=  1 score=0.162 conf=0.506
+ 21. react-is                     expertise=  1 score=0.162 conf=0.506
+ 22. react-markup                 expertise=  3 score=0.162 conf=0.506
+ 23. react-refresh                expertise=  2 score=0.162 conf=0.506
+ 24. react                        expertise=  9 score=0.162 conf=0.506
+ 25. react-devtools-shell         expertise= 11 score=0.161 conf=0.515
+ 26. react-server-dom-parcel      expertise=  8 score=0.161 conf=0.506
+ 27. react-native-renderer        expertise= 14 score=0.161 conf=0.512
+ 28. react-server-dom-esm         expertise=  6 score=0.161 conf=0.506
+ 29. playground                   expertise=  2 score=0.161 conf=0.505
+ 30. react-server-dom-turbopack   expertise=  9 score=0.160 conf=0.504
+ 31. react-noop-renderer          expertise=  5 score=0.160 conf=0.503
+ 32. react-server-dom-unbundled   expertise=  6 score=0.159 conf=0.503
+ 33. workflows                    expertise= 10 score=0.157 conf=0.518
+ 34. react-reconciler             expertise= 44 score=0.155 conf=0.504
+ 35. scheduler                    expertise=  5 score=0.154 conf=0.514
+ 36. react-devtools-shared        expertise= 92 score=0.154 conf=0.509
+ 37. react_compiler_reactive_scopes expertise= 22 score=0.154 conf=0.497
+ 38. react_compiler_validation    expertise= 17 score=0.153 conf=0.496
+ 39. react_compiler_inference     expertise= 17 score=0.153 conf=0.496
+ 40. react_compiler_optimization  expertise= 15 score=0.153 conf=0.496
+ 41. babel-plugin-react-compiler-rust expertise= 12 score=0.152 conf=0.496
+ 42. react_compiler_hir           expertise= 12 score=0.152 conf=0.495
+ 43. react_compiler               expertise= 15 score=0.151 conf=0.499
+ 44. react-client                 expertise=  8 score=0.151 conf=0.496
+ 45. react_compiler_oxc           expertise=  9 score=0.150 conf=0.494
+ 46. react-debug-tools            expertise=  3 score=0.150 conf=0.487
+ 47. react-devtools-extensions    expertise=  2 score=0.149 conf=0.533
+ 48. react_compiler_swc           expertise= 11 score=0.149 conf=0.499
+ 49. react_compiler_ssa           expertise=  6 score=0.148 conf=0.493
+ 50. react_compiler_ast           expertise= 16 score=0.148 conf=0.505
+ 51. root                         expertise=  8 score=0.146 conf=0.499
+ 52. react_compiler_lowering      expertise=  8 score=0.146 conf=0.500
+ 53. react_compiler_diagnostics   expertise=  5 score=0.146 conf=0.492
+ 54. react_compiler_utils         expertise=  4 score=0.145 conf=0.493
+ 55. react_compiler_typeinference expertise=  4 score=0.145 conf=0.492
+ 56. react-dom                    expertise= 24 score=0.144 conf=0.499
+ 57. react-server-dom-webpack     expertise= 16 score=0.141 conf=0.488
+ 58. eslint-plugin-react-compiler expertise=  2 score=0.139 conf=0.468
+ 59. react_compiler_e2e_cli       expertise=  3 score=0.138 conf=0.486
+ 60. eslint-plugin-react-hooks    expertise=  2 score=0.137 conf=0.465
+ 61. shared                       expertise=  6 score=0.136 conf=0.549
+ 62. react-devtools-cdt-mcp       expertise= 15 score=0.136 conf=0.528
+ 63. react-devtools-facade        expertise=  9 score=0.135 conf=0.489
+ 64. react-suspense-test-utils    expertise=  2 score=0.133 conf=0.554
+ 65. compiler                     expertise= 40 score=0.132 conf=0.537
+ 66. internal-test-utils          expertise=  1 score=0.131 conf=0.551
+ 67. react-test-renderer          expertise=  2 score=0.131 conf=0.551
+ 68. babel-plugin-react-compiler  expertise=110 score=0.128 conf=0.551
+ 69. scripts                      expertise=  6 score=0.115 conf=0.436
+ 70. TODO.md                      expertise=  2 score=0.115 conf=0.504
+[92m[OK] Knowledge layer built from canonical expertise models[0m
+[92m[OK] Expertise to Knowledge completed in 0.010s[0m
+
+--------------------------------------------------------------------------
+[96m[8/14] Knowledge Graph Construction[0m
+--------------------------------------------------------------------------
+
+[1mKnowledge Graph Construction[0m
+
+[1mKnowledge Graph[0m
+Nodes                                  3755
+Edges                                  4688
+[92m[OK] Knowledge Graph constructed[0m
+[92m[OK] Knowledge Graph Construction completed in 0.059s[0m
+
+--------------------------------------------------------------------------
+[96m[9/14] Organization Intelligence[0m
+--------------------------------------------------------------------------
+
+[1mOrganization Intelligence[0m
+
+[1mOwnership[0m
+Total Ownership Entries                794
+Primary Owners                         0
+Secondary Owners                       0
+Contributors                           794
+
+[1mTop Ownership Entries[0m
+  1. react_compiler_utils         [CONTRIBUTOR ] 4.4%  category=subsystem
+  2. react-devtools-shared        [CONTRIBUTOR ] 4.4%  category=subsystem
+  3. TODO.md                      [CONTRIBUTOR ] 4.4%  category=subsystem
+  4. react_compiler_e2e_cli       [CONTRIBUTOR ] 4.4%  category=subsystem
+  5. react-devtools-facade        [CONTRIBUTOR ] 4.4%  category=subsystem
+  6. react_compiler_diagnostics   [CONTRIBUTOR ] 4.4%  category=subsystem
+  7. react_compiler_ssa           [CONTRIBUTOR ] 4.4%  category=subsystem
+  8. babel-plugin-react-compiler-rust [CONTRIBUTOR ] 4.4%  category=subsystem
+  9. react_compiler_typeinference [CONTRIBUTOR ] 4.4%  category=subsystem
+ 10. react-devtools-cdt-mcp       [CONTRIBUTOR ] 4.4%  category=subsystem
+ 11. react_compiler_optimization  [CONTRIBUTOR ] 4.4%  category=subsystem
+ 12. react_compiler_ast           [CONTRIBUTOR ] 4.4%  category=subsystem
+
+[1mCoverage[0m
+Topics Assessed                        2
+Strong Coverage                        0
+Moderate Coverage                      0
+Weak Coverage                          2
+
+[1mCoverage Gaps (Weak)[0m
+  1. module                       score=0.150 experts=771
+  2. subsystem                    score=0.100 experts=23
+
+[1mKnowledge Concentration[0m
+High Concentration Risk                0
+Medium Concentration Risk              0
+Low Concentration Risk                 2
+
+[1mBus Factor[0m
+Subjects Analyzed                      2
+
+[1mHigh Bus-Factor Risk (factor = 1)[0m
+  1. subsystem                    bus_factor=1 coverage=0.0%
+  2. module                       bus_factor=1 coverage=0.0%
+
+[1mBus Factor by Subject[0m
+  1. subsystem                    factor=1 [HIGH] coverage=0.0%
+  2. module                       factor=1 [HIGH] coverage=0.0%
+
+[1mSuccessor Analysis[0m
+Successor Pairs Identified             0
+Successors                             None identified (single expert per category)
+
+[1mKnowledge Risk[0m
+High Risk Topics                       2
+Medium Risk Topics                     0
+Low Risk Topics                        0
+
+[1mHigh Knowledge Risks[0m
+  1. subsystem                    bf=1 owners=23  Critical: only 23 owner(s) and bus factor = 1. Knowledge los
+  2. module                       bf=1 owners=771  Critical: only 771 owner(s) and bus factor = 1. Knowledge lo
+
+[1mOrganization Health[0m
+Average Health                         0.062
+Best Health                            0.075
+Worst Health                           0.049
+Healthy Topics                         0
+Warning Topics                         0
+Critical Topics                        2
+Total Topics                           2
+
+[1mForecast[0m
+Forecast                               UNAVAILABLE
+Reason                                 Forecast unavailable: the canonical pipeline produces a single-point expertise snapshot per run. Tre
+Action                                 Accumulate ≥2 pipeline runs to enable trend analysis.
+
+[1mRecommendations[0m
+Executive Recommendations              3
+Organizational Recommendations         2
+Engineering Recommendations            0
+
+[1mExecutive Actions[0m
+  1. [HIGH  ] Escalate knowledge concentration in 'subsystem': bus factor 1, 23 owner(s). Init
+  2. [HIGH  ] Escalate knowledge concentration in 'module': bus factor 1, 771 owner(s). Initia
+  3. [HIGH  ] Address 2 critically unhealthy knowledge area(s). Overall health: 6.2%.
+
+[1mOrganizational Actions[0m
+  1. [HIGH  ] Assign a backup owner for 'subsystem' within 30 days.
+  2. [HIGH  ] Assign a backup owner for 'module' within 30 days.
+
+[1mLineage — Canonical Traceability[0m
+
+  Tracing: Knowledge Risk = HIGH for 'subsystem'
+
+  Bus Factor = 1
+      |
+      ↓
+  Ownership Analysis  (23 owner(s))
+      |
+      ↓
+  Expertise Models  (23 model(s) in category 'subsystem')
+      · react_compiler_utils           score=0.100 conf=0.461
+      · react-devtools-shared          score=0.100 conf=0.461
+      · TODO.md                        score=0.100 conf=0.461
+      |
+      ↓
+  Evidence  (3 sample evidence item(s))
+      · 70f54bbb-b62f-575a-9594-43b349881192
+      · 6b24f189-2706-5939-9deb-91eacf070546
+      · d956a623-cfa1-5f15-b38b-231d22a9420e
+      |
+      ↓
+  Measurements  →  Observations  →  GitHub Commits
+
+[1mLegacy vs Canonical Validation Matrix[0m
+Domain                       Legacy   Canonical  Match          Notes 
+----------------------------------------------------------------------------------------------------
+  Ownership                  ✔        ✔          EXACT          ExpertiseOwnershipPolicy algorithm reused. Inputs adapt
+  Coverage                   ✔        ✔          EXACT          ExpertiseCoveragePolicy algorithm reused. Coverage scor
+  Concentration              ✔        ✔          CLOSE          Concentration derived from ownership percentages (same 
+  Bus Factor                 ✔        ✔          EXACT          OwnershipBusFactorPolicy thresholds reused (1=HIGH, 2=M
+  Successor                  ✔        ✔          CLOSE          ExpertiseSuccessorPolicy logic reused. Readiness score 
+  Knowledge Risk             ✔        ✔          EXACT          KnowledgeRiskPolicy thresholds reused: bus_factor <= 1 
+  Health                     ✔        ✔          CLOSE          Legacy OrganizationalHealthPolicy used coverage + conce
+  Forecast                   ✔        ✗          UNAVAILABLE    Legacy forecasting required HealthProjection time-serie
+  Organization Dashboard     ✔        ✔          CLOSE          OrganizationDashboardService composed from health + ris
+  Recommendations            ✔        ✔          CLOSE          Legacy ExecutiveRecommendationService produced recommen
+
+[1mService Classification — Adapter vs Native Rewrite[0m
+  Ownership                    Adapter   — ExpertiseOwnershipPolicy reused via _ExpertiseProxy
+  Coverage                     Adapter   — ExpertiseCoveragePolicy algorithm inlined natively
+  Concentration                Native    — derived directly from canonical ownership entries
+  Bus Factor                   Adapter   — OwnershipBusFactorPolicy thresholds reused natively
+  Successor                    Adapter   — ExpertiseSuccessorPolicy logic reused natively
+  Knowledge Risk               Native    — composed from canonical bus_factor + ownership
+  Health                       Native    — composed from canonical coverage + concentration + bus_factor
+  Forecast                     Rewrite Required — requires time-series health history (not yet available)
+  Organization Dashboard       Native    — aggregated from all canonical org analytics above
+  Recommendations              Native    — derived from knowledge risk + successors + health
+[92m[OK] Organization Intelligence produced from canonical pipeline outputs[0m
+[92m[OK] Organization Intelligence completed in 0.018s[0m
+
+--------------------------------------------------------------------------
+[96m[10/14] Knowledge and Org Intel to Reasoning[0m
+--------------------------------------------------------------------------
+
+[1mKnowledge and Org Intel to Reasoning[0m

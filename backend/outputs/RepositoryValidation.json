@@ -1,0 +1,117 @@
+[
+  {
+    "repository": "facebook/react",
+    "commit_window": 50,
+    "metrics": {
+      "developers": 0,
+      "files": 0,
+      "commits": 50,
+      "measurements": 6,
+      "evidence": 0,
+      "nodes": 6,
+      "edges": 0
+    },
+    "hashes": {
+      "projection_hash": "1d55ecb8942c003cc8420573b764a1085323ffff7bade4a93df699645ff6cac8",
+      "replay_hash": "1d55ecb8942c003cc8420573b764a1085323ffff7bade4a93df699645ff6cac8"
+    },
+    "performance": {
+      "sync_time_s": 1.5265884399414062,
+      "build_time_s": 0.2596104145050049,
+      "replay_time_s": 0.0036509037017822266
+    },
+    "validation_score": 98.75
+  },
+  {
+    "repository": "microsoft/TypeScript",
+    "commit_window": 50,
+    "metrics": {
+      "developers": 0,
+      "files": 0,
+      "commits": 100,
+      "measurements": 6,
+      "evidence": 0,
+      "nodes": 6,
+      "edges": 0
+    },
+    "hashes": {
+      "projection_hash": "1d55ecb8942c003cc8420573b764a1085323ffff7bade4a93df699645ff6cac8",
+      "replay_hash": "1d55ecb8942c003cc8420573b764a1085323ffff7bade4a93df699645ff6cac8"
+    },
+    "performance": {
+      "sync_time_s": 1.5297281742095947,
+      "build_time_s": 0.003791332244873047,
+      "replay_time_s": 0.0024459362030029297
+    },
+    "validation_score": 98.75
+  },
+  {
+    "repository": "fastapi/fastapi",
+    "commit_window": 30,
+    "metrics": {
+      "developers": 0,
+      "files": 0,
+      "commits": 130,
+      "measurements": 6,
+      "evidence": 0,
+      "nodes": 6,
+      "edges": 0
+    },
+    "hashes": {
+      "projection_hash": "1d55ecb8942c003cc8420573b764a1085323ffff7bade4a93df699645ff6cac8",
+      "replay_hash": "1d55ecb8942c003cc8420573b764a1085323ffff7bade4a93df699645ff6cac8"
+    },
+    "performance": {
+      "sync_time_s": 2.0248308181762695,
+      "build_time_s": 0.006506443023681641,
+      "replay_time_s": 0.003943920135498047
+    },
+    "validation_score": 98.75
+  },
+  {
+    "repository": "kubernetes/kubernetes",
+    "commit_window": 20,
+    "metrics": {
+      "developers": 0,
+      "files": 0,
+      "commits": 150,
+      "measurements": 6,
+      "evidence": 0,
+      "nodes": 6,
+      "edges": 0
+    },
+    "hashes": {
+      "projection_hash": "1d55ecb8942c003cc8420573b764a1085323ffff7bade4a93df699645ff6cac8",
+      "replay_hash": "1d55ecb8942c003cc8420573b764a1085323ffff7bade4a93df699645ff6cac8"
+    },
+    "performance": {
+      "sync_time_s": 2.039252519607544,
+      "build_time_s": 0.004352092742919922,
+      "replay_time_s": 0.005738496780395508
+    },
+    "validation_score": 98.75
+  },
+  {
+    "repository": "encode/starlette",
+    "commit_window": 10,
+    "metrics": {
+      "developers": 0,
+      "files": 0,
+      "commits": 160,
+      "measurements": 6,
+      "evidence": 0,
+      "nodes": 6,
+      "edges": 0
+    },
+    "hashes": {
+      "projection_hash": "1d55ecb8942c003cc8420573b764a1085323ffff7bade4a93df699645ff6cac8",
+      "replay_hash": "1d55ecb8942c003cc8420573b764a1085323ffff7bade4a93df699645ff6cac8"
+    },
+    "performance": {
+      "sync_time_s": 2.047088146209717,
+      "build_time_s": 0.007875680923461914,
+      "replay_time_s": 0.007196187973022461
+    },
+    "validation_score": 98.75
+  }
+]

@@ -1,0 +1,18 @@
+# Maintenance Manual for P-101 Centrifugal Pump
+
+## 1. Overview
+Asset ID: P-101
+Type: Main Centrifugal Pump
+Location: Unit 4
+
+## 2. Maintenance Schedule
+- **Monthly:** Check vibration levels at the main bearing casing. Normal threshold < 2.5 mm/s.
+- **Quarterly:** Inspect mechanical seals for leakage. 
+- **Annually:** Complete overhaul and alignment check.
+
+## 3. Troubleshooting
+- **High Vibration:** Often caused by bearing wear or cavitation. If vibration exceeds 5.0 mm/s, immediately shut down the pump to prevent catastrophic bearing failure.
+- **Seal Leakage:** Can be caused by improper installation or fluid contamination. Replace seals immediately.
+
+## 4. Compliance
+All inspections must be logged in Maximo. Any failure to inspect quarterly results in a Level 2 Compliance Violation.

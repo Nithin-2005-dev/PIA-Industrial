@@ -1,0 +1,2209 @@
+{
+  "metrics": {
+    "intent_accuracy": 0.6206896551724138,
+    "repo_resolution_accuracy": 0.9655172413793104,
+    "total_latency_ms": 10.007858276367188,
+    "total_tokens": 2238,
+    "average_confidence": 0.13793103448275862,
+    "questions_run": 29,
+    "average_latency_ms": 0.3450985612540409
+  },
+  "results": [
+    {
+      "question": "hello",
+      "expected_intent": "general_chat",
+      "actual_intent": "general_chat",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.3170967102050781,
+      "tokens": 17,
+      "confidence": 1.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.026299618184566498,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "general_chat",
+          "output_summary": "Intent=general_chat conf=1.00",
+          "input_hash": "5aa762ae383fbb72",
+          "output_hash": "13bc8b7328a7a684",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_chat",
+          "execution_time_ms": 0.04079984501004219,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "direct_chat",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "5aa762ae383fbb72",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "who are you",
+      "expected_intent": "general_chat",
+      "actual_intent": "general_chat",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.19073486328125,
+      "tokens": 17,
+      "confidence": 1.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.0300002284348011,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "general_chat",
+          "output_summary": "Intent=general_chat conf=1.00",
+          "input_hash": "4b31053c26b0c898",
+          "output_hash": "13bc8b7328a7a684",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_chat",
+          "execution_time_ms": 0.029199756681919098,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "direct_chat",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "4b31053c26b0c898",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "thanks for the help",
+      "expected_intent": "general_chat",
+      "actual_intent": "system_platform",
+      "intent_match": false,
+      "repo_match": true,
+      "latency_ms": 0.1480579376220703,
+      "tokens": 0,
+      "confidence": 1.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.02130027860403061,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "system_platform",
+          "output_summary": "Intent=system_platform conf=0.95",
+          "input_hash": "73034e6204c8e099",
+          "output_hash": "6da3394e0c1758cd",
+          "cache_hit": false
+        },
+        {
+          "stage": "system_platform",
+          "execution_time_ms": 0.0,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "deterministic",
+          "output_summary": "Platform: PIA Latent Engine\nAvailable Tools: forecast, simulation, organization,",
+          "input_hash": "73034e6204c8e099",
+          "output_hash": "cddf02ed643196bb",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "how are you today",
+      "expected_intent": "general_chat",
+      "actual_intent": "repository_query",
+      "intent_match": false,
+      "repo_match": true,
+      "latency_ms": 0.7901191711425781,
+      "tokens": 67,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.08610030636191368,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "6de82116845f7efe",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.09430013597011566,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: how are you today']",
+          "input_hash": "6de82116845f7efe",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.05429983139038086,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.05100015550851822,
+          "token_usage": 50,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=201",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.03910018131136894,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.08430005982518196,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.027599744498729706,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "good morning",
+      "expected_intent": "general_chat",
+      "actual_intent": "repository_query",
+      "intent_match": false,
+      "repo_match": true,
+      "latency_ms": 0.7276535034179688,
+      "tokens": 66,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.07330020889639854,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "8f9e471f1a1b5323",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.061699654906988144,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: good morning']",
+          "input_hash": "8f9e471f1a1b5323",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.05010003224015236,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.04159985110163689,
+          "token_usage": 49,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=196",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.03519980236887932,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.09139999747276306,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.033600255846977234,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "goodbye",
+      "expected_intent": "general_chat",
+      "actual_intent": "repository_query",
+      "intent_match": false,
+      "repo_match": true,
+      "latency_ms": 0.7448196411132812,
+      "tokens": 64,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.062400009483098984,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "97accde0bb024b62",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.047800131142139435,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: goodbye']",
+          "input_hash": "97accde0bb024b62",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.04009995609521866,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.0342000275850296,
+          "token_usage": 47,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=191",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.06189988926053047,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.14960020780563354,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.022899825125932693,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "are you an AI",
+      "expected_intent": "general_chat",
+      "actual_intent": "repository_query",
+      "intent_match": false,
+      "repo_match": true,
+      "latency_ms": 0.4947185516357422,
+      "tokens": 66,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.05570007488131523,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "27331112a290b5de",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.0412999652326107,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: are you an AI']",
+          "input_hash": "27331112a290b5de",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.0342000275850296,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.031000003218650818,
+          "token_usage": 49,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=197",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.03169989213347435,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.05079992115497589,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.019799917936325073,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "hi there",
+      "expected_intent": "general_chat",
+      "actual_intent": "general_chat",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.1285076141357422,
+      "tokens": 17,
+      "confidence": 1.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.017000362277030945,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "general_chat",
+          "output_summary": "Intent=general_chat conf=1.00",
+          "input_hash": "4537373a2d516c25",
+          "output_hash": "13bc8b7328a7a684",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_chat",
+          "execution_time_ms": 0.01769978553056717,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "direct_chat",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "4537373a2d516c25",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "I appreciate it",
+      "expected_intent": "general_chat",
+      "actual_intent": "repository_query",
+      "intent_match": false,
+      "repo_match": true,
+      "latency_ms": 0.4534721374511719,
+      "tokens": 66,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.05010003224015236,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "1a605fee7159573a",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.0442001037299633,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: I appreciate it']",
+          "input_hash": "1a605fee7159573a",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.029799994081258774,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.029399991035461426,
+          "token_usage": 49,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=199",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.02730032429099083,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.047099776566028595,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.020099803805351257,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "what is your name",
+      "expected_intent": "general_chat",
+      "actual_intent": "hybrid_query",
+      "intent_match": false,
+      "repo_match": true,
+      "latency_ms": 0.44417381286621094,
+      "tokens": 176,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.025200191885232925,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "hybrid_query",
+          "output_summary": "Intent=hybrid_query conf=0.85",
+          "input_hash": "674b5106b24b0dbe",
+          "output_hash": "07d980b52a4768ab",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.03769993782043457,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Apply general knowledge to answer the query', 'Synthesize findings to answer: what is your name']",
+          "input_hash": "674b5106b24b0dbe",
+          "output_hash": "8920f5be66093336",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.026099849492311478,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=[]",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "8920f5be66093336",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.029999762773513794,
+          "token_usage": 159,
+          "prompt_version": "v1",
+          "decision": "intent=hybrid_query",
+          "output_summary": "prompt_chars=639",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "4d570fb2fccb3d36",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.03279978409409523,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "4d570fb2fccb3d36",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.050199683755636215,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.020500272512435913,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "what tools do you have",
+      "expected_intent": "system_platform",
+      "actual_intent": "system_platform",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.12874603271484375,
+      "tokens": 0,
+      "confidence": 1.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.01969980075955391,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "system_platform",
+          "output_summary": "Intent=system_platform conf=0.95",
+          "input_hash": "e347cfc23806d0c2",
+          "output_hash": "6da3394e0c1758cd",
+          "cache_hit": false
+        },
+        {
+          "stage": "system_platform",
+          "execution_time_ms": 0.0,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "deterministic",
+          "output_summary": "Platform: PIA Latent Engine\nAvailable Tools: forecast, simulation, organization,",
+          "input_hash": "e347cfc23806d0c2",
+          "output_hash": "cddf02ed643196bb",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "show me the planner state",
+      "expected_intent": "system_runtime",
+      "actual_intent": "repository_query",
+      "intent_match": false,
+      "repo_match": true,
+      "latency_ms": 0.46133995056152344,
+      "tokens": 69,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.04930002614855766,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "37b206ea466ecddc",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.03829970955848694,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: show me the planner state']",
+          "input_hash": "37b206ea466ecddc",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.030399765819311142,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.029799994081258774,
+          "token_usage": 52,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=209",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.03150012344121933,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.05590030923485756,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.018999911844730377,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "what repository is active",
+      "expected_intent": "system_runtime",
+      "actual_intent": "system_runtime",
+      "intent_match": true,
+      "repo_match": false,
+      "latency_ms": 0.10323524475097656,
+      "tokens": 0,
+      "confidence": 1.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.01800013706088066,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "system_runtime",
+          "output_summary": "Intent=system_runtime conf=0.95",
+          "input_hash": "1a9007f264b11098",
+          "output_hash": "5a55f48154938038",
+          "cache_hit": false
+        },
+        {
+          "stage": "system_runtime",
+          "execution_time_ms": 0.0,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "deterministic",
+          "output_summary": "Active Repository: 'facebook/react'\nAnalysis: Ready",
+          "input_hash": "1a9007f264b11098",
+          "output_hash": "9e6bc18eeedf9470",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "help menu",
+      "expected_intent": "system_platform",
+      "actual_intent": "system_platform",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.09250640869140625,
+      "tokens": 0,
+      "confidence": 1.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.015799887478351593,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "system_platform",
+          "output_summary": "Intent=system_platform conf=0.95",
+          "input_hash": "3c211e3ba6e106d0",
+          "output_hash": "6da3394e0c1758cd",
+          "cache_hit": false
+        },
+        {
+          "stage": "system_platform",
+          "execution_time_ms": 0.0,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "deterministic",
+          "output_summary": "Platform: PIA Latent Engine\nAvailable Tools: forecast, simulation, organization,",
+          "input_hash": "3c211e3ba6e106d0",
+          "output_hash": "cddf02ed643196bb",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "which models are loaded",
+      "expected_intent": "system_platform",
+      "actual_intent": "repository_query",
+      "intent_match": false,
+      "repo_match": true,
+      "latency_ms": 0.5586147308349609,
+      "tokens": 68,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.045999884605407715,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "d6ea79f7e09cb5e0",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.03809994086623192,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: which models are loaded']",
+          "input_hash": "d6ea79f7e09cb5e0",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.02910010516643524,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.029200222343206406,
+          "token_usage": 51,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=207",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.02750009298324585,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.058399979025125504,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.016700010746717453,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "show loaded artifacts",
+      "expected_intent": "system_runtime",
+      "actual_intent": "repository_query",
+      "intent_match": false,
+      "repo_match": true,
+      "latency_ms": 0.4496574401855469,
+      "tokens": 68,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.049999915063381195,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "ece3fe56d7a46e60",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.04040030762553215,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: show loaded artifacts']",
+          "input_hash": "ece3fe56d7a46e60",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.03169989213347435,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.028999987989664078,
+          "token_usage": 51,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=205",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.02840021625161171,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.04409998655319214,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.018499791622161865,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "Who is the top contributor?",
+      "expected_intent": "repository_query",
+      "actual_intent": "repository_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.4150867462158203,
+      "tokens": 69,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.04229974001646042,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "5925f68c3e545620",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.03569992259144783,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: Who is the top contributor?']",
+          "input_hash": "5925f68c3e545620",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.028499867767095566,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.029799994081258774,
+          "token_usage": 52,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=211",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.028499867767095566,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.04459964111447334,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.015500001609325409,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "What is the bus factor?",
+      "expected_intent": "repository_query",
+      "actual_intent": "hybrid_query",
+      "intent_match": false,
+      "repo_match": true,
+      "latency_ms": 0.40435791015625,
+      "tokens": 178,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.0241999514400959,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "hybrid_query",
+          "output_summary": "Intent=hybrid_query conf=0.85",
+          "input_hash": "0eed27bfc9be47ad",
+          "output_hash": "07d980b52a4768ab",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.036199577152729034,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Apply general knowledge to answer the query', 'Synthesize findings to answer: What is the bus factor?']",
+          "input_hash": "0eed27bfc9be47ad",
+          "output_hash": "8920f5be66093336",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.024899840354919434,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=[]",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "8920f5be66093336",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.029199756681919098,
+          "token_usage": 161,
+          "prompt_version": "v1",
+          "decision": "intent=hybrid_query",
+          "output_summary": "prompt_chars=645",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "4d570fb2fccb3d36",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.032700132578611374,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "4d570fb2fccb3d36",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.04700012505054474,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.018300022929906845,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "Forecast next month's activity.",
+      "expected_intent": "repository_query",
+      "actual_intent": "repository_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.4024505615234375,
+      "tokens": 70,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.02440018579363823,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.90",
+          "input_hash": "8177d82d8e8e4f90",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.0412999652326107,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Generate temporal forecast for repository health trends', \"Synthesize findings to answer: Forecast next month's activity.\"]",
+          "input_hash": "8177d82d8e8e4f90",
+          "output_hash": "ebcc18f18dd3be6c",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.04699965938925743,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['forecast']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "ebcc18f18dd3be6c",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.02819998189806938,
+          "token_usage": 53,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=215",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.02279970794916153,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.04319986328482628,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.012999866157770157,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "Simulate what happens if Linus leaves.",
+      "expected_intent": "repository_query",
+      "actual_intent": "repository_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.2779960632324219,
+      "tokens": 72,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.03240024670958519,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "c2588990add3d4e4",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.02440018579363823,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: Simulate what happens if Linus leaves.']",
+          "input_hash": "c2588990add3d4e4",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.020300038158893585,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.01769978553056717,
+          "token_usage": 55,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=222",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.01690024510025978,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.02879975363612175,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.011400319635868073,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "Why did the build fail?",
+      "expected_intent": "repository_query",
+      "actual_intent": "repository_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.25391578674316406,
+      "tokens": 68,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.026999972760677338,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "92ab88e0d3c9b92b",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.021600164473056793,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: Why did the build fail?']",
+          "input_hash": "92ab88e0d3c9b92b",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.01750001683831215,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.016800127923488617,
+          "token_usage": 51,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=207",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.016600359231233597,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.02569984644651413,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.0112997367978096,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "Give me an executive summary of health.",
+      "expected_intent": "repository_query",
+      "actual_intent": "repository_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.24628639221191406,
+      "tokens": 72,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.018300022929906845,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.90",
+          "input_hash": "970d463d7ea1607f",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.020999927073717117,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Assess repository organization and contributor structure', 'Synthesize findings to answer: Give me an executive summary of health.']",
+          "input_hash": "970d463d7ea1607f",
+          "output_hash": "2ed1b18f704e804a",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.01750001683831215,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "2ed1b18f704e804a",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.016899779438972473,
+          "token_usage": 55,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=223",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.01569977030158043,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.026300083845853806,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.011899974197149277,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=executive",
+          "output_summary": "### Executive Summary\nThis is a deterministic mock response from the AI Engineer",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "a8dbbe0083fd46d6",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "How can we optimize our PR review time?",
+      "expected_intent": "repository_query",
+      "actual_intent": "repository_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.24628639221191406,
+      "tokens": 72,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.02859998494386673,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "5fd6d252f4a8ce78",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.020099803805351257,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: How can we optimize our PR review time?']",
+          "input_hash": "5fd6d252f4a8ce78",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.01639965921640396,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.015599653124809265,
+          "token_usage": 55,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=223",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.015299767255783081,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.0241999514400959,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.010599847882986069,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "Show me the contributor graph.",
+      "expected_intent": "repository_query",
+      "actual_intent": "repository_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.2899169921875,
+      "tokens": 70,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.025499612092971802,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.10",
+          "input_hash": "3843327c9f734d8d",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.026099849492311478,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: Show me the contributor graph.']",
+          "input_hash": "3843327c9f734d8d",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.022699590772390366,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.023799948394298553,
+          "token_usage": 53,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=214",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.023000407963991165,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.025900080800056458,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.010899733752012253,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "Analyze the codebase.",
+      "expected_intent": "repository_query",
+      "actual_intent": "repository_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.2732276916503906,
+      "tokens": 68,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.015500001609325409,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "repository_query",
+          "output_summary": "Intent=repository_query conf=0.90",
+          "input_hash": "3cbb738969280505",
+          "output_hash": "650ae8fe5ecaada9",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.03600027412176132,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Retrieve core repository measurements', 'Synthesize findings to answer: Analyze the codebase.']",
+          "input_hash": "3cbb738969280505",
+          "output_hash": "52f87e17c2d5b3b4",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.016100239008665085,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=['organization']",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "52f87e17c2d5b3b4",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.018899794667959213,
+          "token_usage": 51,
+          "prompt_version": "v1",
+          "decision": "intent=repository_query",
+          "output_summary": "prompt_chars=205",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "a8819e044f0c508d",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.015400350093841553,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "a8819e044f0c508d",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.025499612092971802,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.010499730706214905,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "Explain graph theory and how it relates to our contributor network.",
+      "expected_intent": "hybrid_query",
+      "actual_intent": "hybrid_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.2636909484863281,
+      "tokens": 189,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.018499791622161865,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "hybrid_query",
+          "output_summary": "Intent=hybrid_query conf=0.85",
+          "input_hash": "42b70ca87446a87e",
+          "output_hash": "07d980b52a4768ab",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.020899809896945953,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Apply general knowledge to answer the query', 'Synthesize findings to answer: Explain graph theory and how it relates to our contributor network.']",
+          "input_hash": "42b70ca87446a87e",
+          "output_hash": "8920f5be66093336",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.01729978248476982,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=[]",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "8920f5be66093336",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.020099803805351257,
+          "token_usage": 172,
+          "prompt_version": "v1",
+          "decision": "intent=hybrid_query",
+          "output_summary": "prompt_chars=689",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "4d570fb2fccb3d36",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.019900035113096237,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "4d570fb2fccb3d36",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.03490038216114044,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.01109996810555458,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "What is entropy in software and what is ours?",
+      "expected_intent": "hybrid_query",
+      "actual_intent": "hybrid_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.2429485321044922,
+      "tokens": 183,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.014899764209985733,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "hybrid_query",
+          "output_summary": "Intent=hybrid_query conf=0.85",
+          "input_hash": "23508b30d9da773b",
+          "output_hash": "07d980b52a4768ab",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.02040015533566475,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Apply general knowledge to answer the query', 'Synthesize findings to answer: What is entropy in software and what is ours?']",
+          "input_hash": "23508b30d9da773b",
+          "output_hash": "8920f5be66093336",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.015600118786096573,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=[]",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "8920f5be66093336",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.016800127923488617,
+          "token_usage": 166,
+          "prompt_version": "v1",
+          "decision": "intent=hybrid_query",
+          "output_summary": "prompt_chars=667",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "4d570fb2fccb3d36",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.018499791622161865,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "4d570fb2fccb3d36",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.026500318199396133,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.0129002146422863,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "Teach me about bus factor and show me our risk.",
+      "expected_intent": "hybrid_query",
+      "actual_intent": "hybrid_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.2334117889404297,
+      "tokens": 184,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.015300232917070389,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "hybrid_query",
+          "output_summary": "Intent=hybrid_query conf=0.85",
+          "input_hash": "a3623616a2281c9b",
+          "output_hash": "07d980b52a4768ab",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.02040015533566475,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Apply general knowledge to answer the query', 'Synthesize findings to answer: Teach me about bus factor and show me our risk.']",
+          "input_hash": "a3623616a2281c9b",
+          "output_hash": "8920f5be66093336",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.013899989426136017,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=[]",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "8920f5be66093336",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.015300232917070389,
+          "token_usage": 167,
+          "prompt_version": "v1",
+          "decision": "intent=hybrid_query",
+          "output_summary": "prompt_chars=669",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "4d570fb2fccb3d36",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.019799917936325073,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "4d570fb2fccb3d36",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.0271000899374485,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.01019984483718872,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    },
+    {
+      "question": "How does PageRank work on our codebase?",
+      "expected_intent": "hybrid_query",
+      "actual_intent": "hybrid_query",
+      "intent_match": true,
+      "repo_match": true,
+      "latency_ms": 0.22482872009277344,
+      "tokens": 182,
+      "confidence": 0.0,
+      "trace": [
+        {
+          "stage": "intent_router",
+          "execution_time_ms": 0.01400010660290718,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "hybrid_query",
+          "output_summary": "Intent=hybrid_query conf=0.85",
+          "input_hash": "f951cbbedf3c50d9",
+          "output_hash": "07d980b52a4768ab",
+          "cache_hit": false
+        },
+        {
+          "stage": "planner_iter_1",
+          "execution_time_ms": 0.01910002902150154,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "2 nodes",
+          "output_summary": "['Apply general knowledge to answer the query', 'Synthesize findings to answer: How does PageRank work on our codebase?']",
+          "input_hash": "f951cbbedf3c50d9",
+          "output_hash": "8920f5be66093336",
+          "cache_hit": false
+        },
+        {
+          "stage": "executor_iter_1",
+          "execution_time_ms": 0.014099758118391037,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "tools=[]",
+          "output_summary": "0 artifacts retrieved",
+          "input_hash": "8920f5be66093336",
+          "output_hash": "5feceb66ffc86f38",
+          "cache_hit": false
+        },
+        {
+          "stage": "context_builder_iter_1",
+          "execution_time_ms": 0.015599653124809265,
+          "token_usage": 165,
+          "prompt_version": "v1",
+          "decision": "intent=hybrid_query",
+          "output_summary": "prompt_chars=661",
+          "input_hash": "5feceb66ffc86f38",
+          "output_hash": "4d570fb2fccb3d36",
+          "cache_hit": false
+        },
+        {
+          "stage": "orchestrator_iter_1",
+          "execution_time_ms": 0.016600359231233597,
+          "token_usage": 17,
+          "prompt_version": "v1",
+          "decision": "dropped=0",
+          "output_summary": "This is a deterministic mock response from the AI Engineering Advisor.",
+          "input_hash": "4d570fb2fccb3d36",
+          "output_hash": "18950d006620aff7",
+          "cache_hit": false
+        },
+        {
+          "stage": "reflection_iter_1",
+          "execution_time_ms": 0.023900065571069717,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "replan=False",
+          "output_summary": "missing=0 delta=0.0",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "8aed642bf5118b9d",
+          "cache_hit": false
+        },
+        {
+          "stage": "synthesizer",
+          "execution_time_ms": 0.01019984483718872,
+          "token_usage": 0,
+          "prompt_version": "v1",
+          "decision": "mode=engineer",
+          "output_summary": "### Engineering Analysis\nThis is a deterministic mock response from the AI Engin",
+          "input_hash": "18950d006620aff7",
+          "output_hash": "15c69f6033dbdcb8",
+          "cache_hit": false
+        }
+      ]
+    }
+  ]
+}

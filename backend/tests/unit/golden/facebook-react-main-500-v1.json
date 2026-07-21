@@ -1,0 +1,11 @@
+{
+  "repository": "facebook/react",
+  "branch": "main",
+  "commit_window": 500,
+  "runtime_version": "M57.13",
+  "adapter_version": "v1",
+  "snapshot_id": "facebook-react-main-500-v1",
+  "data": {
+    "contributors": []
+  }
+}

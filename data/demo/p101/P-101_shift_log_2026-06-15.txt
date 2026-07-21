@@ -1,0 +1,11 @@
+# Shift Log: June 15, 2026
+Operator: Bob
+Unit: 4
+
+08:00 - Started shift. All units running normally.
+09:15 - Noticed unusual noise coming from P-101. 
+09:30 - Checked P-101. Casing temperature is elevated. Vibration reading is 4.2 mm/s, which is high but below the shutdown threshold.
+10:00 - Logged observation in Maximo (Ticket #8821). Monitoring closely.
+14:00 - P-101 vibration spiked to 5.8 mm/s. Immediate shutdown initiated.
+14:15 - Maintenance team called. Preliminary inspection shows main bearing failure.
+15:00 - Shift ended. Handed over to Alice. P-101 remains offline.

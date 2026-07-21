@@ -1,0 +1,15 @@
+{
+  "timestamp": "20260702_205550",
+  "metrics": {
+    "repository": "facebook/react",
+    "measurements": 4620,
+    "evidence": 369,
+    "expertise_models": 308,
+    "knowledge_models": 63,
+    "decisions": 65
+  },
+  "org_intelligence": {
+    "health": 0.0255,
+    "critical_topics": 308
+  }
+}

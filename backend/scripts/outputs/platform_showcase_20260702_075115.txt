@@ -1,0 +1,26 @@
+usage: platform_showcase [-h] [--repo REPO] [--branch BRANCH]
+                         [--commits COMMITS] [--tenant TENANT]
+                         [--output OUTPUT] [--json] [--markdown] [--save]
+                         [--verbose] [--lineage] [--graph] [--histograms]
+                         [--profile] [--timing] [--benchmark] [--no-color]
+
+PIA Complete Platform Showcase
+
+options:
+  -h, --help         show this help message and exit
+  --repo REPO
+  --branch BRANCH
+  --commits COMMITS
+  --tenant TENANT
+  --output OUTPUT
+  --json
+  --markdown
+  --save
+  --verbose
+  --lineage
+  --graph
+  --histograms
+  --profile
+  --timing
+  --benchmark
+  --no-color

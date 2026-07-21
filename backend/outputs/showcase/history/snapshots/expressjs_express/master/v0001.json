@@ -1,0 +1,36 @@
+{
+  "branch": "master",
+  "evidence_count": 9,
+  "expertise_count": 6,
+  "expertise_subjects": [
+    ".github/workflows/ci.yml",
+    "lib/response.js",
+    "test",
+    "test/res.attachment.js",
+    "test/res.download.js",
+    "test/res.send.js"
+  ],
+  "graph_edge_count": 28,
+  "graph_node_count": 33,
+  "knowledge_count": 3,
+  "knowledge_topics": [
+    "root",
+    "test",
+    "workflows"
+  ],
+  "measurement_count": 672,
+  "metadata": {},
+  "observation_count": 20,
+  "org_health": 0.0237,
+  "repository": "expressjs/express",
+  "snapshot_id": "044dde53-cbcf-4bcc-a9e2-d2eccf9061ac",
+  "timestamp": "2026-07-08T22:11:12.763568",
+  "version": 1,
+  "version_info": {
+    "evidence_algorithm_version": "1.0",
+    "graph_version": "1.0",
+    "measurement_algorithm_version": "1.0",
+    "pipeline_schema_version": "1.0",
+    "runtime_version": "1.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "workspaces": [
+    {
+      "id": "demo-p101",
+      "name": "P-101 Demo Plant",
+      "description": "Synthetic P-101 demo dataset",
+      "status": "ACTIVE",
+      "source_kind": "DEMO",
+      "created_at": "2026-07-20T20:33:55.154550+00:00",
+      "updated_at": "2026-07-21T07:52:26.711735+00:00"
+    },
+    {
+      "id": "industrial-workspace-2",
+      "name": "Industrial Workspace 2",
+      "description": "",
+      "status": "EMPTY",
+      "source_kind": "USER",
+      "created_at": "2026-07-21T04:01:36.529482+00:00",
+      "updated_at": "2026-07-21T04:01:36.529527+00:00"
+    }
+  ]
+}

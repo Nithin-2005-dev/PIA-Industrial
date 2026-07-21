@@ -1,0 +1,162 @@
+[
+  {
+    "name": "0.3-stable",
+    "commit": {
+      "sha": "f7c56d77dfbb1f7b8217f04e00ff71a26537c9a8",
+      "url": "https://api.github.com/repos/react/react/commits/f7c56d77dfbb1f7b8217f04e00ff71a26537c9a8"
+    },
+    "protected": false
+  },
+  {
+    "name": "0.4-stable",
+    "commit": {
+      "sha": "283f4a8b04db6bbd177e94404476cabaf569d3a7",
+      "url": "https://api.github.com/repos/react/react/commits/283f4a8b04db6bbd177e94404476cabaf569d3a7"
+    },
+    "protected": false
+  },
+  {
+    "name": "0.5-stable",
+    "commit": {
+      "sha": "7b809ffbc4cdbb9858ba36ec341b4767c7a8543e",
+      "url": "https://api.github.com/repos/react/react/commits/7b809ffbc4cdbb9858ba36ec341b4767c7a8543e"
+    },
+    "protected": false
+  },
+  {
+    "name": "0.8-stable",
+    "commit": {
+      "sha": "56517a54234379239113a663d2805f75a38b11ab",
+      "url": "https://api.github.com/repos/react/react/commits/56517a54234379239113a663d2805f75a38b11ab"
+    },
+    "protected": false
+  },
+  {
+    "name": "0.9-stable",
+    "commit": {
+      "sha": "b1f66edf4e90527468987eafbaf50a410febdcc9",
+      "url": "https://api.github.com/repos/react/react/commits/b1f66edf4e90527468987eafbaf50a410febdcc9"
+    },
+    "protected": false
+  },
+  {
+    "name": "0.10-stable",
+    "commit": {
+      "sha": "d5b409002b425d2242da0d9bacfad68278856400",
+      "url": "https://api.github.com/repos/react/react/commits/d5b409002b425d2242da0d9bacfad68278856400"
+    },
+    "protected": false
+  },
+  {
+    "name": "0.11-stable",
+    "commit": {
+      "sha": "f6fcf385c9fd0df2ad666bc7765c127bd5e1528d",
+      "url": "https://api.github.com/repos/react/react/commits/f6fcf385c9fd0df2ad666bc7765c127bd5e1528d"
+    },
+    "protected": false
+  },
+  {
+    "name": "0.12-stable",
+    "commit": {
+      "sha": "0fc0871c89963ecaeb1476b82156c2399e765e8e",
+      "url": "https://api.github.com/repos/react/react/commits/0fc0871c89963ecaeb1476b82156c2399e765e8e"
+    },
+    "protected": false
+  },
+  {
+    "name": "0.13-stable",
+    "commit": {
+      "sha": "76c87da026bdab63b5b109e3c073a1db74896ed6",
+      "url": "https://api.github.com/repos/react/react/commits/76c87da026bdab63b5b109e3c073a1db74896ed6"
+    },
+    "protected": false
+  },
+  {
+    "name": "0.14-stable",
+    "commit": {
+      "sha": "894d20744cba99383ffd847dbd5b6e0800355a5c",
+      "url": "https://api.github.com/repos/react/react/commits/894d20744cba99383ffd847dbd5b6e0800355a5c"
+    },
+    "protected": false
+  },
+  {
+    "name": "15-stable",
+    "commit": {
+      "sha": "571a9208d5133e8737f565fe60b762d201f0d37c",
+      "url": "https://api.github.com/repos/react/react/commits/571a9208d5133e8737f565fe60b762d201f0d37c"
+    },
+    "protected": false
+  },
+  {
+    "name": "15.6-dev",
+    "commit": {
+      "sha": "5530c7565b729894276b959a0aa44e1487080a65",
+      "url": "https://api.github.com/repos/react/react/commits/5530c7565b729894276b959a0aa44e1487080a65"
+    },
+    "protected": false
+  },
+  {
+    "name": "16.3-dev",
+    "commit": {
+      "sha": "0c756fb33f091cb87afa38fade048ad15a4a2466",
+      "url": "https://api.github.com/repos/react/react/commits/0c756fb33f091cb87afa38fade048ad15a4a2466"
+    },
+    "protected": false
+  },
+  {
+    "name": "16.4.2-dev",
+    "commit": {
+      "sha": "54adb2674afe16ec603e0c54bf46ccf1afa42308",
+      "url": "https://api.github.com/repos/react/react/commits/54adb2674afe16ec603e0c54bf46ccf1afa42308"
+    },
+    "protected": false
+  },
+  {
+    "name": "16.8.3",
+    "commit": {
+      "sha": "29b7b775f2ecf878eaf605be959d959030598b07",
+      "url": "https://api.github.com/repos/react/react/commits/29b7b775f2ecf878eaf605be959d959030598b07"
+    },
+    "protected": false
+  },
+  {
+    "name": "16.8.4",
+    "commit": {
+      "sha": "d8a73b5eb6c7217850103193635ff1b556925ed5",
+      "url": "https://api.github.com/repos/react/react/commits/d8a73b5eb6c7217850103193635ff1b556925ed5"
+    },
+    "protected": false
+  },
+  {
+    "name": "16.8.5",
+    "commit": {
+      "sha": "84cc8a31faf4ab589f8ef1454d3717d60f116de7",
+      "url": "https://api.github.com/repos/react/react/commits/84cc8a31faf4ab589f8ef1454d3717d60f116de7"
+    },
+    "protected": false
+  },
+  {
+    "name": "16.8.6",
+    "commit": {
+      "sha": "487f4bf2ee7c86176637544c5473328f96ca0ba2",
+      "url": "https://api.github.com/repos/react/react/commits/487f4bf2ee7c86176637544c5473328f96ca0ba2"
+    },
+    "protected": false
+  },
+  {
+    "name": "17.0.0-dev",
+    "commit": {
+      "sha": "89b610969d70d788f8c9769e3fa5b0044f5737ab",
+      "url": "https://api.github.com/repos/react/react/commits/89b610969d70d788f8c9769e3fa5b0044f5737ab"
+    },
+    "protected": false
+  },
+  {
+    "name": "17.0.1",
+    "commit": {
+      "sha": "8e5adfbd7e605bda9c5e96c10e015b3dc0df688e",
+      "url": "https://api.github.com/repos/react/react/commits/8e5adfbd7e605bda9c5e96c10e015b3dc0df688e"
+    },
+    "protected": false
+  }
+]

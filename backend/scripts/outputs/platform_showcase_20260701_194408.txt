@@ -1,0 +1,1156 @@
+==========================================================
+[1m                    PIA LATENT ENGINE                     [0m
+[96m                COMPLETE PLATFORM SHOWCASE                [0m
+==========================================================
+
+Canonical Architecture
+
+ GitHub
+    |
+    v
+ Observation Layer
+    |
+    v
+ Measurement Layer
+    |
+    v
+ Evidence Layer
+    |
+    v
+ Expertise Layer
+    |
+    v
+ Knowledge Layer
+    |
+    v
+[96m Knowledge Graph Layer[0m
+    |
+    v
+[93m Temporal Intelligence[0m
+    |
+    v
+[95m Organization Intelligence[0m
+[2m    |  (Ownership . Coverage . Concentration . Bus Factor[0m
+[2m    |   Successor . Knowledge Risk . Health . Recommendations)[0m
+    v
+ Reasoning Layer
+    |
+    v
+ Decision Layer
+    |
+    v
+ Executive Intelligence Report
+
+==========================================================
+
+----------------------------------------------------------
+[96m[1/14] Platform Initialization[0m
+----------------------------------------------------------
+
+[1mPlatform[0m
+Platform                               PIA Latent Engine
+Architecture                           Observation -> Measurement -> Evidence -> Expertise -> Knowledge -> Knowledge Graph -> Organization Intelligence -> Reasoning -> Decision
+Repository                             facebook/react
+Branch                                 main
+Commit Limit                           50
+Tenant                                 default
+Python                                 3.14.5
+OS                                     Windows
+Working Directory                      C:\Users\NITHIN\Agentic_AI\latent-engine\backend
+[92m[OK] Platform initialized[0m
+
+[1mEnvironment[0m
+[92m[OK] Python executable: C:\Users\NITHIN\AppData\Local\Python\pythoncore-3.14-64\python.exe[0m
+[92m[OK] Environment validation passed[0m
+
+[1mOutput[0m
+[92m[OK] Output directory ready[0m
+Directory                              outputs\showcase
+
+[1mGitHub[0m
+[92m[OK] GitHub token detected[0m
+Authentication                         Authenticated
+
+[1mPlatform Capabilities[0m
+[92m[OK] Vendor Collection[0m
+[92m[OK] Canonical Observation Layer[0m
+[92m[OK] Scientific Measurement Engine[0m
+[92m[OK] Canonical Evidence Synthesis[0m
+[92m[OK] Evidence-to-Expertise Handoff[0m
+[92m[OK] Knowledge Modeling[0m
+[92m[OK] Knowledge Graph Construction[0m
+[92m[OK] Organization Intelligence[0m
+[92m[OK] Reasoning Results[0m
+[92m[OK] Decision Intelligence[0m
+[92m[OK] Confidence Propagation[0m
+[92m[OK] Uncertainty Propagation[0m
+[92m[OK] Lineage Tracking[0m
+[92m[OK] Traceability[0m
+[92m[OK] Explainability[0m
+[92m[OK] Scientific Validation[0m
+[92m[OK] Plugin Architecture[0m
+[92m[OK] Multi-Tenant Ready[0m
+[92m[OK] SaaS Ready[0m
+
+----------------------------------------------------------
+[96m[2/14] GitHub to Observation[0m
+----------------------------------------------------------
+
+[1mGitHub to Observation[0m
+
+[1mCollection Result[0m
+Repository                             facebook/react
+Branch                                 main
+Observations                           50
+Collection Time                        75.087s
+[92m[OK] GitHub commits translated into canonical observations[0m
+
+[1mRepository Overview[0m
+Commits                                50
+Unique Files                           816
+Lines Added                            142971
+Lines Deleted                          25069
+Total Line Changes                     168040
+
+[1mTop Contributors[0m
+  1. hoxyq                       11 commits
+  2. eps1lon                      7 commits
+  3. poteto                       6 commits
+  4. fallintoplace                5 commits
+  5. javache                      3 commits
+  6. SamChou19815                 3 commits
+  7. UditDewan                    2 commits
+  8. Boshen                       2 commits
+  9. gnoff                        2 commits
+ 10. acdlite                      1 commits
+
+[1mMost Changed Files[0m
+  1. packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js (8)
+  2. compiler/Cargo.lock (7)
+  3. compiler/crates/react_compiler/src/entrypoint/program.rs (7)
+  4. packages/react-devtools-facade/src/DevToolsFacadeTools.js (6)
+  5. packages/react-server/src/ReactFizzServer.js (5)
+  6. packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js (5)
+  7. compiler/crates/react_compiler_ast/Cargo.toml (5)
+  8. compiler/crates/react_compiler_reactive_scopes/src/codegen_reactive_function.rs (5)
+  9. packages/react-server/src/ReactFlightServer.js (4)
+ 10. compiler/crates/react_compiler/src/entrypoint/imports.rs (4)
+
+[1mMost Active Directories[0m
+  1. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler (82)
+  2. packages/react-reconciler/src (71)
+  3. compiler/crates/react_compiler_reactive_scopes/src (55)
+  4. packages/react-server/src (45)
+  5. compiler/crates/react_compiler_validation/src (42)
+  6. compiler/crates/react_compiler_inference/src (41)
+  7. compiler/crates/react_compiler_optimization/src (36)
+  8. compiler/crates/react_compiler_hir/src (32)
+  9. packages/react-server/src/forks (26)
+ 10. compiler/crates/react_compiler/src/entrypoint (24)
+
+[1mTop File Extensions[0m
+  1. .js (644)
+  2. .rs (344)
+  3. .md (94)
+  4. .json (51)
+  5. .toml (40)
+  6. .ts (23)
+  7. .yml (11)
+  8. .lock (10)
+  9. .gitignore (4)
+ 10. .sh (2)
+
+[1mFile Status Distribution[0m
+  1. modified     914
+  2. added        297
+  3. removed      20
+
+[1mMonthly Activity[0m
+  1. 2026-06 (49)
+  2. 2026-07 (1)
+
+[1mWeekday Activity[0m
+  1. Wednesday  9
+  2. Tuesday    14
+  3. Monday     9
+  4. Friday     5
+  5. Thursday   13
+
+[1mMost Active Hours[0m
+  1. 03:00 (2)
+  2. 06:00 (3)
+  3. 07:00 (2)
+  4. 08:00 (3)
+  5. 09:00 (2)
+  6. 10:00 (3)
+  7. 11:00 (1)
+  8. 12:00 (1)
+  9. 13:00 (1)
+ 10. 14:00 (4)
+ 11. 15:00 (3)
+ 12. 16:00 (3)
+ 13. 17:00 (4)
+ 14. 18:00 (1)
+ 15. 19:00 (8)
+ 16. 20:00 (1)
+ 17. 21:00 (2)
+ 18. 22:00 (4)
+ 19. 23:00 (2)
+[92m[OK] GitHub to Observation completed in 75.181s[0m
+
+----------------------------------------------------------
+[96m[3/14] Observation Intelligence[0m
+----------------------------------------------------------
+
+[1mObservation Intelligence[0m
+
+[1mObservation Contract[0m
+Observations                           50
+Immutable Dataclasses                  PASS
+Canonical Facts                        PASS
+Context                                PASS
+Provenance                             PASS
+Actors                                 50
+Targets                                1231
+
+[1mObservation Types[0m
+  1. commit                   50
+
+[1mObservation Categories[0m
+  1. source_control           50
+
+[1mLifecycle[0m
+  1. production               50
+
+[1mObservation Provenance[0m
+Source Platforms                       1
+Source Adapters                        1
+Adapter Versions                       1.0
+
+[1mSample Observation[0m
+Observation ID                         117f5a51-a227-5a24-818b-e17d5f266bc6
+Trace ID                               e9dbac0e-8623-561e-94ea-e48bc38f091d
+Correlation ID                         a1a6bc89742fbe8e1f9680a3051fdedc111fb378
+Type                                   commit
+Category                               source_control
+Repository                             facebook/react
+Fact Type                              CommitFacts
+[92m[OK] Observation layer verified[0m
+[92m[OK] Observation Intelligence completed in 0.012s[0m
+
+----------------------------------------------------------
+[96m[4/14] Observation to Measurement[0m
+----------------------------------------------------------
+
+[1mObservation to Measurement[0m
+
+[1mMeasurement Registry[0m
+Definitions Observed                   27
+Measurements                           9778
+Measurement Time                       2.276s
+
+[1mDefinitions[0m
+  1. code_churn                       loc          1.0
+  2. files_changed                    count        1.0
+  3. patch_complexity_delta           complexity   1.0
+  4. change_distribution_entropy      entropy      1.0
+  5. change_surface_area              score        1.0
+  6. review_attention_need            score        1.0
+  7. author_contribution_count        count        1.0
+  8. author_file_touch_count          count        1.0
+  9. author_code_churn                loc          1.0
+ 10. developer_knowledge_spread       count        1.0
+ 11. developer_subsystem_focus        score        1.0
+ 12. developer_recency_score          score        1.0
+ 13. developer_commit_frequency       count        1.0
+ 14. developer_files_owned            count        1.0
+ 15. file_churn                       loc          1.0
+ 16. file_touch_count                 count        1.0
+ 17. file_addition_ratio              percent      1.0
+ 18. file_is_test                     score        1.0
+ 19. file_is_documentation            score        1.0
+ 20. directory_churn                  loc          1.0
+ 21. directory_file_count             count        1.0
+ 22. subsystem_churn_rate             loc          1.0
+ 23. subsystem_contributor_count      count        1.0
+ 24. subsystem_file_concentration     score        1.0
+ 25. subsystem_coupling_score         score        1.0
+ 26. subsystem_volatility             score        1.0
+ 27. file_ownership_score             score        1.0
+
+[1mEvaluators[0m
+  1. change_complexity_evaluator        200
+  2. change_impact_evaluator            100
+  3. developer_activity_evaluator       400
+  4. file_activity_evaluator            6153
+  5. subsystem_activity_evaluator       1694
+  6. file_ownership_evaluator           1231
+
+[1mValidation[0m
+Passed                                 9778
+Warnings                               0
+Failed                                 0
+
+[1mValidation Checks[0m
+  1. finite_value                       9778
+  2. unit_matches_definition            9778
+  3. range                              9778
+
+[1mConfidence[0m
+Average                                0.850
+Minimum                                0.181
+Maximum                                0.850
+Average Coverage                       1.000
+Average Source Reliability             0.850
+
+[1mQuality[0m
+Average                                0.887
+Minimum                                0.386
+Maximum                                0.887
+
+[1mUncertainty[0m
+Average Variance                       71527.338
+Minimum Variance                       0.023
+Maximum Variance                       343703790.563
+
+[1mNormalization Methods[0m
+  1. identity                           5401
+  2. bounded_score_clamp                4377
+
+[1mNormalization and Derivation Steps[0m
+  1. observation.facts                  9778
+  2. change_complexity_evaluator        200
+  3. cleaning                           9778
+  4. calibration                        9778
+  5. scaling                            9778
+  6. bias_correction                    9778
+  7. change_impact_evaluator            100
+  8. developer_activity_evaluator       400
+  9. file_activity_evaluator            6153
+ 10. subsystem_activity_evaluator       1694
+ 11. file_ownership_evaluator           1231
+
+[1mCalibration[0m
+Average Factor                         1.000
+Minimum Factor                         1.000
+Maximum Factor                         1.000
+
+[1mBenchmarks and Standards[0m
+  1. 25010                              9778
+  2. GUM                                9778
+
+[1mScientific Statistics[0m
+Mean Value                             95.372
+Median Value                           1.000
+Standard Deviation                     1778.845
+
+[1mSample Measurements[0m
+  1. code_churn                       value=21.000 confidence=0.850 quality=0.887
+  2. files_changed                    value=2.000 confidence=0.850 quality=0.887
+  3. patch_complexity_delta           value=0.000 confidence=0.850 quality=0.887
+  4. change_distribution_entropy      value=0.702 confidence=0.850 quality=0.887
+  5. change_surface_area              value=24.728 confidence=0.850 quality=0.887
+  6. review_attention_need            value=16.073 confidence=0.850 quality=0.887
+  7. author_contribution_count        value=1.000 confidence=0.850 quality=0.887
+  8. author_file_touch_count          value=2.000 confidence=0.850 quality=0.887
+[92m[OK] Measurement layer produced canonical measurements[0m
+[92m[OK] Observation to Measurement completed in 2.376s[0m
+
+----------------------------------------------------------
+[96m[5/14] Measurement to Evidence[0m
+----------------------------------------------------------
+
+[1mMeasurement to Evidence[0m
+
+[1mEvidence Package[0m
+Pipeline Version                       evidence.v1
+Generated Evidence                     1043
+Usable for Expertise                   1043
+Rejected Items                         868
+Input Measurements                     9778
+Validated Measurements                 9778
+Synthesis Time                         0.225s
+
+[1mEvidence Health[0m
+Evidence Present                       PASS
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+Explainability Preserved               PASS
+Lineage Preserved                      PASS
+
+[1mEvidence Categories[0m
+  1. maintainability          766
+  2. testing                  162
+  3. documentation            93
+  4. architecture             22
+
+[1mSeverity[0m
+  1. high                     766
+  2. low                      255
+  3. medium                   22
+
+[1mPriority[0m
+  1. medium                   571
+  2. high                     463
+  3. low                      9
+
+[1mEvidence Lineage[0m
+Supporting Measurements                2086
+Synthesis Rules                        1043
+
+[1mSample Evidence[0m
+  1. File Maintenance Risk              confidence=0.400 uncertainty=0.108 quality=0.887
+  2. Test Coverage Signal               confidence=0.472 uncertainty=0.075 quality=0.887
+  3. File Maintenance Risk              confidence=0.449 uncertainty=0.111 quality=0.887
+  4. File Maintenance Risk              confidence=0.423 uncertainty=0.112 quality=0.887
+  5. Test Coverage Signal               confidence=0.501 uncertainty=0.075 quality=0.887
+  6. File Maintenance Risk              confidence=0.503 uncertainty=0.103 quality=0.887
+  7. File Maintenance Risk              confidence=0.424 uncertainty=0.111 quality=0.887
+  8. Test Coverage Signal               confidence=0.501 uncertainty=0.075 quality=0.887
+[92m[OK] Evidence layer synthesized canonical evidence package[0m
+[92m[OK] Measurement to Evidence completed in 0.233s[0m
+
+----------------------------------------------------------
+[96m[6/14] Evidence to Expertise[0m
+----------------------------------------------------------
+
+[1mEvidence to Expertise[0m
+
+[1mExpertise Models[0m
+Evidence Inputs                        1043
+Models Built                           794
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+Explainability Preserved               PASS
+
+[1mTop Expertise Models[0m
+  1. .eslintignore                      score=0.165 confidence=0.512
+  2. packages/shared/ReactFeatureFlags.js score=0.165 confidence=0.512
+  3. packages/shared/forks/ReactFeatureFlags.www.js score=0.165 confidence=0.512
+  4. .github/workflows/compiler_discord_notify.yml score=0.165 confidence=0.512
+  5. .github/workflows/compiler_prereleases_manual.yml score=0.165 confidence=0.512
+  6. .github/workflows/compiler_prereleases_nightly.yml score=0.165 confidence=0.512
+  7. .github/workflows/devtools_discord_notify.yml score=0.165 confidence=0.512
+  8. .github/workflows/runtime_discord_notify.yml score=0.165 confidence=0.512
+  9. .github/workflows/shared_label_core_team_prs.yml score=0.165 confidence=0.512
+ 10. compiler/package.json              score=0.165 confidence=0.512
+[92m[OK] Expertise layer built from canonical evidence package[0m
+[92m[OK] Evidence to Expertise completed in 0.022s[0m
+
+----------------------------------------------------------
+[96m[7/14] Expertise to Knowledge[0m
+----------------------------------------------------------
+
+[1mExpertise to Knowledge[0m
+
+[1mKnowledge Topics[0m
+Expertise Models Consumed              794
+Knowledge Topics Built                 70
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+
+[1mKnowledge Topics[0m
+  1. make-read-only-util          expertise=  1 score=0.165 conf=0.512
+  2. react-compiler-healthcheck   expertise=  1 score=0.165 conf=0.512
+  3. react-compiler-runtime       expertise=  1 score=0.165 conf=0.512
+  4. react-forgive                expertise=  3 score=0.165 conf=0.512
+  5. react-mcp-server             expertise=  1 score=0.165 conf=0.512
+  6. snap                         expertise=  1 score=0.165 conf=0.512
+  7. react-devtools               expertise=  1 score=0.165 conf=0.512
+  8. react-server-dom-fb          expertise=  2 score=0.165 conf=0.512
+  9. use-subscription             expertise=  1 score=0.165 conf=0.512
+ 10. use-sync-external-store      expertise=  1 score=0.165 conf=0.512
+ 11. flow-typed                   expertise=  2 score=0.164 conf=0.510
+ 12. react-devtools-inline        expertise=  3 score=0.164 conf=0.510
+ 13. react-devtools-timeline      expertise= 15 score=0.163 conf=0.509
+ 14. react-cache                  expertise=  2 score=0.162 conf=0.507
+ 15. react-server                 expertise= 53 score=0.162 conf=0.507
+ 16. react-flight-server-fb       expertise=  6 score=0.162 conf=0.507
+ 17. react-devtools-core          expertise=  3 score=0.162 conf=0.507
+ 18. react-dom-bindings           expertise= 34 score=0.162 conf=0.506
+ 19. jest-react                   expertise=  1 score=0.162 conf=0.506
+ 20. react-art                    expertise=  1 score=0.162 conf=0.506
+ 21. react-is                     expertise=  1 score=0.162 conf=0.506
+ 22. react-markup                 expertise=  3 score=0.162 conf=0.506
+ 23. react-refresh                expertise=  2 score=0.162 conf=0.506
+ 24. react                        expertise=  9 score=0.162 conf=0.506
+ 25. react-devtools-shell         expertise= 11 score=0.161 conf=0.515
+ 26. react-server-dom-parcel      expertise=  8 score=0.161 conf=0.506
+ 27. react-native-renderer        expertise= 14 score=0.161 conf=0.512
+ 28. react-server-dom-esm         expertise=  6 score=0.161 conf=0.506
+ 29. playground                   expertise=  2 score=0.161 conf=0.505
+ 30. react-server-dom-turbopack   expertise=  9 score=0.160 conf=0.504
+ 31. react-noop-renderer          expertise=  5 score=0.160 conf=0.503
+ 32. react-server-dom-unbundled   expertise=  6 score=0.159 conf=0.503
+ 33. workflows                    expertise= 10 score=0.157 conf=0.518
+ 34. react-reconciler             expertise= 44 score=0.155 conf=0.504
+ 35. scheduler                    expertise=  5 score=0.154 conf=0.514
+ 36. react-devtools-shared        expertise= 92 score=0.154 conf=0.509
+ 37. react_compiler_reactive_scopes expertise= 22 score=0.154 conf=0.497
+ 38. react_compiler_validation    expertise= 17 score=0.153 conf=0.496
+ 39. react_compiler_inference     expertise= 17 score=0.153 conf=0.496
+ 40. react_compiler_optimization  expertise= 15 score=0.153 conf=0.496
+ 41. babel-plugin-react-compiler-rust expertise= 12 score=0.152 conf=0.496
+ 42. react_compiler_hir           expertise= 12 score=0.152 conf=0.495
+ 43. react_compiler               expertise= 15 score=0.151 conf=0.499
+ 44. react-client                 expertise=  8 score=0.151 conf=0.496
+ 45. react_compiler_oxc           expertise=  9 score=0.150 conf=0.494
+ 46. react-debug-tools            expertise=  3 score=0.150 conf=0.487
+ 47. react-devtools-extensions    expertise=  2 score=0.149 conf=0.533
+ 48. react_compiler_swc           expertise= 11 score=0.149 conf=0.499
+ 49. react_compiler_ssa           expertise=  6 score=0.148 conf=0.493
+ 50. react_compiler_ast           expertise= 16 score=0.148 conf=0.505
+ 51. root                         expertise=  8 score=0.146 conf=0.499
+ 52. react_compiler_lowering      expertise=  8 score=0.146 conf=0.500
+ 53. react_compiler_diagnostics   expertise=  5 score=0.146 conf=0.492
+ 54. react_compiler_utils         expertise=  4 score=0.145 conf=0.493
+ 55. react_compiler_typeinference expertise=  4 score=0.145 conf=0.492
+ 56. react-dom                    expertise= 24 score=0.144 conf=0.500
+ 57. react-server-dom-webpack     expertise= 16 score=0.141 conf=0.488
+ 58. eslint-plugin-react-compiler expertise=  2 score=0.139 conf=0.468
+ 59. react_compiler_e2e_cli       expertise=  3 score=0.138 conf=0.486
+ 60. eslint-plugin-react-hooks    expertise=  2 score=0.137 conf=0.465
+ 61. shared                       expertise=  6 score=0.136 conf=0.549
+ 62. react-devtools-cdt-mcp       expertise= 15 score=0.136 conf=0.528
+ 63. react-devtools-facade        expertise=  9 score=0.135 conf=0.489
+ 64. react-suspense-test-utils    expertise=  2 score=0.133 conf=0.554
+ 65. compiler                     expertise= 40 score=0.132 conf=0.537
+ 66. internal-test-utils          expertise=  1 score=0.131 conf=0.551
+ 67. react-test-renderer          expertise=  2 score=0.131 conf=0.551
+ 68. babel-plugin-react-compiler  expertise=110 score=0.128 conf=0.551
+ 69. scripts                      expertise=  6 score=0.115 conf=0.436
+ 70. TODO.md                      expertise=  2 score=0.115 conf=0.504
+[92m[OK] Knowledge layer built from canonical expertise models[0m
+[92m[OK] Expertise to Knowledge completed in 0.013s[0m
+
+----------------------------------------------------------
+[96m[8/14] Knowledge Graph Construction[0m
+----------------------------------------------------------
+
+[1mKnowledge Graph Construction[0m
+
+[1mKnowledge Graph[0m
+Nodes                                  3744
+Edges                                  3151
+[92m[OK] Knowledge Graph constructed by canonical Graph Service[0m
+[92m[OK] Knowledge Graph Construction completed in 0.019s[0m
+
+----------------------------------------------------------
+[96m[9/14] Temporal Intelligence[0m
+----------------------------------------------------------
+
+[1mTemporal Intelligence[0m
+
+[1mHistorical Snapshots[0m
+Total snapshots                        0
+Current version                        1
+History                                First execution (no prior snapshots)
+[92m[OK] Temporal intelligence initialized[0m
+[92m[OK] Temporal Intelligence completed in 0.001s[0m
+
+----------------------------------------------------------
+[96m[10/14] Organization Intelligence[0m
+----------------------------------------------------------
+
+[1mOrganization Intelligence[0m
+
+[1mOwnership[0m
+Total Ownership Entries                794
+Primary Owners                         0
+Secondary Owners                       0
+Contributors                           794
+
+[1mTop Ownership Entries[0m
+  1. react_compiler_utils         [CONTRIBUTOR ] 4.6%  category=subsystem
+  2. react-devtools-shared        [CONTRIBUTOR ] 4.6%  category=subsystem
+  3. TODO.md                      [CONTRIBUTOR ] 4.5%  category=subsystem
+  4. react_compiler_e2e_cli       [CONTRIBUTOR ] 4.5%  category=subsystem
+  5. react-devtools-facade        [CONTRIBUTOR ] 4.5%  category=subsystem
+  6. react_compiler_diagnostics   [CONTRIBUTOR ] 4.5%  category=subsystem
+  7. react_compiler_ssa           [CONTRIBUTOR ] 4.5%  category=subsystem
+  8. babel-plugin-react-compiler-rust [CONTRIBUTOR ] 4.5%  category=subsystem
+  9. react_compiler_typeinference [CONTRIBUTOR ] 4.5%  category=subsystem
+ 10. react-devtools-cdt-mcp       [CONTRIBUTOR ] 4.5%  category=subsystem
+ 11. react_compiler_optimization  [CONTRIBUTOR ] 4.5%  category=subsystem
+ 12. react_compiler_ast           [CONTRIBUTOR ] 4.5%  category=subsystem
+
+[1mCoverage[0m
+Topics Assessed                        2
+Strong Coverage                        0
+Moderate Coverage                      0
+Weak Coverage                          2
+
+[1mCoverage Gaps (Weak)[0m
+  1. module                       score=0.150 experts=772
+  2. subsystem                    score=0.100 experts=22
+
+[1mKnowledge Concentration[0m
+High Concentration Risk                0
+Medium Concentration Risk              0
+Low Concentration Risk                 2
+
+[1mBus Factor[0m
+Subjects Analyzed                      2
+
+[1mHigh Bus-Factor Risk (factor = 1)[0m
+  1. subsystem                    bus_factor=1 coverage=0.0%
+  2. module                       bus_factor=1 coverage=0.0%
+
+[1mBus Factor by Subject[0m
+  1. subsystem                    factor=1 [HIGH] coverage=0.0%
+  2. module                       factor=1 [HIGH] coverage=0.0%
+
+[1mSuccessor Analysis[0m
+Successor Pairs Identified             0
+Successors                             None identified (single expert per category)
+
+[1mKnowledge Risk[0m
+High Risk Topics                       2
+Medium Risk Topics                     0
+Low Risk Topics                        0
+
+[1mHigh Knowledge Risks[0m
+  1. subsystem                    bf=1 owners=22  Critical: only 22 owner(s) and bus factor = 1. Knowledge los
+  2. module                       bf=1 owners=772  Critical: only 772 owner(s) and bus factor = 1. Knowledge lo
+
+[1mOrganization Health[0m
+Average Health                         0.062
+Best Health                            0.075
+Worst Health                           0.050
+Healthy Topics                         0
+Warning Topics                         0
+Critical Topics                        2
+Total Topics                           2
+
+[1mForecast[0m
+Forecast                               UNAVAILABLE
+Reason                                 Forecast unavailable: the canonical pipeline produces a single-point expertise snapshot per run. Tre
+Action                                 Accumulate ≥2 pipeline runs to enable trend analysis.
+
+[1mRecommendations[0m
+Executive Recommendations              3
+Organizational Recommendations         2
+Engineering Recommendations            0
+
+[1mExecutive Actions[0m
+  1. [HIGH  ] Escalate knowledge concentration in 'subsystem': bus factor 1, 22 owner(s). Init
+  2. [HIGH  ] Escalate knowledge concentration in 'module': bus factor 1, 772 owner(s). Initia
+  3. [HIGH  ] Address 2 critically unhealthy knowledge area(s). Overall health: 6.2%.
+
+[1mOrganizational Actions[0m
+  1. [HIGH  ] Assign a backup owner for 'subsystem' within 30 days.
+  2. [HIGH  ] Assign a backup owner for 'module' within 30 days.
+
+[1mLineage — Canonical Traceability[0m
+
+  Tracing: Knowledge Risk = HIGH for 'subsystem'
+
+  Bus Factor = 1
+      |
+      ↓
+  Ownership Analysis  (22 owner(s))
+      |
+      ↓
+  Expertise Models  (22 model(s) in category 'subsystem')
+      · react_compiler_utils           score=0.100 conf=0.461
+      · react-devtools-shared          score=0.100 conf=0.461
+      · TODO.md                        score=0.100 conf=0.461
+      |
+      ↓
+  Evidence  (3 sample evidence item(s))
+      · 70f54bbb-b62f-575a-9594-43b349881192
+      · 6b24f189-2706-5939-9deb-91eacf070546
+      · d956a623-cfa1-5f15-b38b-231d22a9420e
+      |
+      ↓
+  Measurements  →  Observations  →  GitHub Commits
+
+[1mLegacy vs Canonical Validation Matrix[0m
+Domain                       Legacy   Canonical  Match          Notes 
+----------------------------------------------------------------------------------------------------
+  Ownership                  ✔        ✔          EXACT          ExpertiseOwnershipPolicy algorithm reused. Inputs adapt
+  Coverage                   ✔        ✔          EXACT          ExpertiseCoveragePolicy algorithm reused. Coverage scor
+  Concentration              ✔        ✔          CLOSE          Concentration derived from ownership percentages (same 
+  Bus Factor                 ✔        ✔          EXACT          OwnershipBusFactorPolicy thresholds reused (1=HIGH, 2=M
+  Successor                  ✔        ✔          CLOSE          ExpertiseSuccessorPolicy logic reused. Readiness score 
+  Knowledge Risk             ✔        ✔          EXACT          KnowledgeRiskPolicy thresholds reused: bus_factor <= 1 
+  Health                     ✔        ✔          CLOSE          Legacy OrganizationalHealthPolicy used coverage + conce
+  Forecast                   ✔        ✗          UNAVAILABLE    Legacy forecasting required HealthProjection time-serie
+  Organization Dashboard     ✔        ✔          CLOSE          OrganizationDashboardService composed from health + ris
+  Recommendations            ✔        ✔          CLOSE          Legacy ExecutiveRecommendationService produced recommen
+
+[1mService Classification — Adapter vs Native Rewrite[0m
+  Ownership                    Adapter   — ExpertiseOwnershipPolicy reused via _ExpertiseProxy
+  Coverage                     Adapter   — ExpertiseCoveragePolicy algorithm inlined natively
+  Concentration                Native    — derived directly from canonical ownership entries
+  Bus Factor                   Adapter   — OwnershipBusFactorPolicy thresholds reused natively
+  Successor                    Adapter   — ExpertiseSuccessorPolicy logic reused natively
+  Knowledge Risk               Native    — composed from canonical bus_factor + ownership
+  Health                       Native    — composed from canonical coverage + concentration + bus_factor
+  Forecast                     Rewrite Required — requires time-series health history (not yet available)
+  Organization Dashboard       Native    — aggregated from all canonical org analytics above
+  Recommendations              Native    — derived from knowledge risk + successors + health
+[92m[OK] Organization Intelligence produced from canonical pipeline outputs[0m
+[92m[OK] Organization Intelligence completed in 0.016s[0m
+
+----------------------------------------------------------
+[96m[11/14] Knowledge and Org Intel to Reasoning[0m
+----------------------------------------------------------
+
+[1mKnowledge and Org Intel to Reasoning[0m
+
+[1mReasoning Results[0m
+Knowledge Topics Consumed              70
+Org Intelligence Available             YES
+Reasoning Results Produced             70
+Explainability Preserved               PASS
+Confidence Propagated                  PASS
+
+[1mReasoning Conclusions[0m
+  1. react-suspense-test-utils    Subsystem react-suspense-test-utils is stable and adequately covered. (conf=0.553)
+  2. internal-test-utils          Subsystem internal-test-utils is stable and adequately covered. (conf=0.551)
+  3. react-test-renderer          Subsystem react-test-renderer is stable and adequately covered. (conf=0.551)
+  4. babel-plugin-react-compiler  Subsystem babel-plugin-react-compiler is stable and adequately covered. (conf=0.551)
+  5. shared                       Subsystem shared is stable and adequately covered. (conf=0.549)
+  6. compiler                     Subsystem compiler is stable and adequately covered. (conf=0.537)
+  7. react-devtools-extensions    Subsystem react-devtools-extensions is stable and adequately covered. (conf=0.533)
+  8. react-devtools-cdt-mcp       Subsystem react-devtools-cdt-mcp is stable and adequately covered. (conf=0.527)
+  9. workflows                    Subsystem workflows is stable and adequately covered. (conf=0.518)
+ 10. react-devtools-shell         Subsystem react-devtools-shell is stable and adequately covered. (conf=0.515)
+ 11. scheduler                    Subsystem scheduler is stable and adequately covered. (conf=0.514)
+ 12. react-native-renderer        Subsystem react-native-renderer is stable and adequately covered. (conf=0.512)
+ 13. make-read-only-util          Subsystem make-read-only-util is stable and adequately covered. (conf=0.512)
+ 14. react-compiler-healthcheck   Subsystem react-compiler-healthcheck is stable and adequately covered. (conf=0.512)
+ 15. react-compiler-runtime       Subsystem react-compiler-runtime is stable and adequately covered. (conf=0.512)
+ 16. react-forgive                Subsystem react-forgive is stable and adequately covered. (conf=0.512)
+ 17. react-mcp-server             Subsystem react-mcp-server is stable and adequately covered. (conf=0.512)
+ 18. snap                         Subsystem snap is stable and adequately covered. (conf=0.512)
+ 19. react-devtools               Subsystem react-devtools is stable and adequately covered. (conf=0.512)
+ 20. react-server-dom-fb          Subsystem react-server-dom-fb is stable and adequately covered. (conf=0.512)
+ 21. use-subscription             Subsystem use-subscription is stable and adequately covered. (conf=0.512)
+ 22. use-sync-external-store      Subsystem use-sync-external-store is stable and adequately covered. (conf=0.512)
+ 23. flow-typed                   Subsystem flow-typed is stable and adequately covered. (conf=0.510)
+ 24. react-devtools-inline        Subsystem react-devtools-inline is stable and adequately covered. (conf=0.510)
+ 25. react-devtools-timeline      Subsystem react-devtools-timeline is stable and adequately covered. (conf=0.509)
+ 26. react-devtools-shared        Subsystem react-devtools-shared is stable and adequately covered. (conf=0.509)
+ 27. react-cache                  Subsystem react-cache is stable and adequately covered. (conf=0.507)
+ 28. react-server                 Subsystem react-server is stable and adequately covered. (conf=0.507)
+ 29. react-flight-server-fb       Subsystem react-flight-server-fb is stable and adequately covered. (conf=0.507)
+ 30. react-devtools-core          Subsystem react-devtools-core is stable and adequately covered. (conf=0.506)
+ 31. react-dom-bindings           Subsystem react-dom-bindings is stable and adequately covered. (conf=0.506)
+ 32. jest-react                   Subsystem jest-react is stable and adequately covered. (conf=0.506)
+ 33. react-art                    Subsystem react-art is stable and adequately covered. (conf=0.506)
+ 34. react-is                     Subsystem react-is is stable and adequately covered. (conf=0.506)
+ 35. react-markup                 Subsystem react-markup is stable and adequately covered. (conf=0.506)
+ 36. react-refresh                Subsystem react-refresh is stable and adequately covered. (conf=0.506)
+ 37. react                        Subsystem react is stable and adequately covered. (conf=0.506)
+ 38. react-server-dom-parcel      Subsystem react-server-dom-parcel is stable and adequately covered. (conf=0.506)
+ 39. react-server-dom-esm         Subsystem react-server-dom-esm is stable and adequately covered. (conf=0.506)
+ 40. playground                   Subsystem playground is stable and adequately covered. (conf=0.505)
+ 41. react_compiler_ast           Subsystem react_compiler_ast is stable and adequately covered. (conf=0.505)
+ 42. TODO.md                      Subsystem TODO.md is stable and adequately covered. (conf=0.504)
+ 43. react-reconciler             Subsystem react-reconciler is stable and adequately covered. (conf=0.504)
+ 44. react-server-dom-turbopack   Subsystem react-server-dom-turbopack is stable and adequately covered. (conf=0.504)
+ 45. react-noop-renderer          Subsystem react-noop-renderer is stable and adequately covered. (conf=0.503)
+ 46. react-server-dom-unbundled   Subsystem react-server-dom-unbundled is stable and adequately covered. (conf=0.503)
+ 47. react_compiler_lowering      Subsystem react_compiler_lowering is stable and adequately covered. (conf=0.500)
+ 48. react-dom                    Subsystem react-dom is stable and adequately covered. (conf=0.500)
+ 49. root                         Subsystem root is stable and adequately covered. (conf=0.499)
+ 50. react_compiler               Subsystem react_compiler is stable and adequately covered. (conf=0.499)
+ 51. react_compiler_swc           Subsystem react_compiler_swc is stable and adequately covered. (conf=0.499)
+ 52. react_compiler_reactive_scopes Subsystem react_compiler_reactive_scopes is stable and adequately covered. (conf=0.496)
+ 53. react-client                 Subsystem react-client is stable and adequately covered. (conf=0.496)
+ 54. react_compiler_validation    Subsystem react_compiler_validation is stable and adequately covered. (conf=0.496)
+ 55. babel-plugin-react-compiler-rust Subsystem babel-plugin-react-compiler-rust is stable and adequately covered. (conf=0.496)
+ 56. react_compiler_inference     Subsystem react_compiler_inference is stable and adequately covered. (conf=0.496)
+ 57. react_compiler_optimization  Subsystem react_compiler_optimization is stable and adequately covered. (conf=0.496)
+ 58. react_compiler_hir           Subsystem react_compiler_hir is stable and adequately covered. (conf=0.495)
+ 59. react_compiler_oxc           Subsystem react_compiler_oxc is stable and adequately covered. (conf=0.494)
+ 60. react_compiler_ssa           Subsystem react_compiler_ssa is stable and adequately covered. (conf=0.493)
+ 61. react_compiler_utils         Subsystem react_compiler_utils is stable and adequately covered. (conf=0.493)
+ 62. react_compiler_typeinference Subsystem react_compiler_typeinference is stable and adequately covered. (conf=0.492)
+ 63. react_compiler_diagnostics   Subsystem react_compiler_diagnostics is stable and adequately covered. (conf=0.492)
+ 64. react-devtools-facade        Subsystem react-devtools-facade is stable and adequately covered. (conf=0.489)
+ 65. react-server-dom-webpack     Subsystem react-server-dom-webpack is stable and adequately covered. (conf=0.488)
+ 66. react-debug-tools            Subsystem react-debug-tools is stable and adequately covered. (conf=0.487)
+ 67. react_compiler_e2e_cli       Subsystem react_compiler_e2e_cli is stable and adequately covered. (conf=0.486)
+ 68. eslint-plugin-react-compiler Subsystem eslint-plugin-react-compiler is stable and adequately covered. (conf=0.468)
+ 69. eslint-plugin-react-hooks    Subsystem eslint-plugin-react-hooks is stable and adequately covered. (conf=0.465)
+ 70. scripts                      Subsystem scripts is stable and adequately covered. (conf=0.436)
+[92m[OK] Reasoning layer built from knowledge + organizational intelligence[0m
+[92m[OK] Knowledge and Org Intel to Reasoning completed in 0.008s[0m
+
+----------------------------------------------------------
+[96m[12/14] Reasoning to Decision[0m
+----------------------------------------------------------
+
+[1mReasoning to Decision[0m
+
+[1mDecisions[0m
+Decisions Produced                     70
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+
+[1mDecision Queue[0m
+  1. low      React-Suspense-Test-Utils - Monitoring confidence=0.553
+  2. low      Internal-Test-Utils - Monitoring confidence=0.551
+  3. low      React-Test-Renderer - Monitoring confidence=0.551
+  4. low      Babel-Plugin-React-Compiler - Monitoring confidence=0.551
+  5. low      Shared - Monitoring          confidence=0.549
+  6. low      Compiler - Monitoring        confidence=0.537
+  7. low      React-Devtools-Extensions - Monitoring confidence=0.533
+  8. low      React-Devtools-Cdt-Mcp - Monitoring confidence=0.527
+  9. low      Workflows - Monitoring       confidence=0.518
+ 10. low      React-Devtools-Shell - Monitoring confidence=0.515
+ 11. low      Scheduler - Monitoring       confidence=0.514
+ 12. low      React-Native-Renderer - Monitoring confidence=0.512
+ 13. low      Make-Read-Only-Util - Monitoring confidence=0.512
+ 14. low      React-Compiler-Healthcheck - Monitoring confidence=0.512
+ 15. low      React-Compiler-Runtime - Monitoring confidence=0.512
+ 16. low      React-Forgive - Monitoring   confidence=0.512
+ 17. low      React-Mcp-Server - Monitoring confidence=0.512
+ 18. low      Snap - Monitoring            confidence=0.512
+ 19. low      React-Devtools - Monitoring  confidence=0.512
+ 20. low      React-Server-Dom-Fb - Monitoring confidence=0.512
+ 21. low      Use-Subscription - Monitoring confidence=0.512
+ 22. low      Use-Sync-External-Store - Monitoring confidence=0.512
+ 23. low      Flow-Typed - Monitoring      confidence=0.510
+ 24. low      React-Devtools-Inline - Monitoring confidence=0.510
+ 25. low      React-Devtools-Timeline - Monitoring confidence=0.509
+ 26. low      React-Devtools-Shared - Monitoring confidence=0.509
+ 27. low      React-Cache - Monitoring     confidence=0.507
+ 28. low      React-Server - Monitoring    confidence=0.507
+ 29. low      React-Flight-Server-Fb - Monitoring confidence=0.507
+ 30. low      React-Devtools-Core - Monitoring confidence=0.506
+ 31. low      React-Dom-Bindings - Monitoring confidence=0.506
+ 32. low      Jest-React - Monitoring      confidence=0.506
+ 33. low      React-Art - Monitoring       confidence=0.506
+ 34. low      React-Is - Monitoring        confidence=0.506
+ 35. low      React-Markup - Monitoring    confidence=0.506
+ 36. low      React-Refresh - Monitoring   confidence=0.506
+ 37. low      React - Monitoring           confidence=0.506
+ 38. low      React-Server-Dom-Parcel - Monitoring confidence=0.506
+ 39. low      React-Server-Dom-Esm - Monitoring confidence=0.506
+ 40. low      Playground - Monitoring      confidence=0.505
+ 41. low      React_Compiler_Ast - Monitoring confidence=0.505
+ 42. low      Todo.Md - Monitoring         confidence=0.504
+ 43. low      React-Reconciler - Monitoring confidence=0.504
+ 44. low      React-Server-Dom-Turbopack - Monitoring confidence=0.504
+ 45. low      React-Noop-Renderer - Monitoring confidence=0.503
+ 46. low      React-Server-Dom-Unbundled - Monitoring confidence=0.503
+ 47. low      React_Compiler_Lowering - Monitoring confidence=0.500
+ 48. low      React-Dom - Monitoring       confidence=0.500
+ 49. low      Root - Monitoring            confidence=0.499
+ 50. low      React_Compiler - Monitoring  confidence=0.499
+ 51. low      React_Compiler_Swc - Monitoring confidence=0.499
+ 52. low      React_Compiler_Reactive_Scopes - Monitoring confidence=0.496
+ 53. low      React-Client - Monitoring    confidence=0.496
+ 54. low      React_Compiler_Validation - Monitoring confidence=0.496
+ 55. low      Babel-Plugin-React-Compiler-Rust - Monitoring confidence=0.496
+ 56. low      React_Compiler_Inference - Monitoring confidence=0.496
+ 57. low      React_Compiler_Optimization - Monitoring confidence=0.496
+ 58. low      React_Compiler_Hir - Monitoring confidence=0.495
+ 59. low      React_Compiler_Oxc - Monitoring confidence=0.494
+ 60. low      React_Compiler_Ssa - Monitoring confidence=0.493
+ 61. low      React_Compiler_Utils - Monitoring confidence=0.493
+ 62. low      React_Compiler_Typeinference - Monitoring confidence=0.492
+ 63. low      React_Compiler_Diagnostics - Monitoring confidence=0.492
+ 64. low      React-Devtools-Facade - Monitoring confidence=0.489
+ 65. low      React-Server-Dom-Webpack - Monitoring confidence=0.488
+ 66. low      React-Debug-Tools - Monitoring confidence=0.487
+ 67. low      React_Compiler_E2E_Cli - Monitoring confidence=0.486
+ 68. low      Eslint-Plugin-React-Compiler - Monitoring confidence=0.468
+ 69. low      Eslint-Plugin-React-Hooks - Monitoring confidence=0.465
+ 70. low      Scripts - Monitoring         confidence=0.436
+[92m[OK] Decision layer produced canonical decisions[0m
+[92m[OK] Reasoning to Decision completed in 0.009s[0m
+
+----------------------------------------------------------
+[96m[13/14] Executive Dashboard[0m
+----------------------------------------------------------
+
+[1mExecutive Dashboard[0m
+
+[1mExecutive Dashboard[0m
+Observations                           50
+Measurements                           9778
+Evidence                               1043
+Expertise Models                       794
+Knowledge Models                       70
+Reasoning Results                      70
+Decisions                              70
+High Priority Decisions                0
+Medium Priority Decisions              0
+Low Priority Decisions                 70
+Decision Confidence                    0.506
+Decision Uncertainty                   0.099
+
+[1mOrganization Intelligence Summary[0m
+Org Health (average)                   0.062
+Healthy Topics                         0
+Warning Topics                         0
+Critical Topics                        2
+High Knowledge Risks                   2
+Bus Factor = 1 Topics                  2
+Forecast                               UNAVAILABLE (single snapshot)
+
+[1mExecutive Recommendations[0m
+  1. [HIGH  ] Escalate knowledge concentration in 'subsystem': bus factor 1, 22 owner(s). Initiate immed
+  2. [HIGH  ] Escalate knowledge concentration in 'module': bus factor 1, 772 owner(s). Initiate immedia
+  3. [HIGH  ] Address 2 critically unhealthy knowledge area(s). Overall health: 6.2%.
+
+[1mExecutive Actions (from Decisions)[0m
+  1. low      Monitor react-suspense-test-utils as more evidence arrives.
+  2. low      Monitor internal-test-utils as more evidence arrives.
+  3. low      Monitor react-test-renderer as more evidence arrives.
+  4. low      Monitor babel-plugin-react-compiler as more evidence arrives.
+  5. low      Monitor shared as more evidence arrives.
+  6. low      Monitor compiler as more evidence arrives.
+  7. low      Monitor react-devtools-extensions as more evidence arrives.
+  8. low      Monitor react-devtools-cdt-mcp as more evidence arrives.
+  9. low      Monitor workflows as more evidence arrives.
+ 10. low      Monitor react-devtools-shell as more evidence arrives.
+
+
+[1mCanonical Lineage[0m
+
+ GitHub Commit
+      |
+      v
+ Observation
+      |
+      v
+ Measurement
+      |
+      v
+ Evidence
+      |
+      v
+ Expertise
+      |
+      v
+ Knowledge
+      |
+      v
+[96m Knowledge Graph[0m
+      |
+      v
+[93m Temporal Intelligence[0m
+      |
+      v
+[95m Organization Intelligence[0m
+      |
+      v
+ Reasoning
+      |
+      v
+ Decision
+[92m[OK] Executive dashboard rendered from canonical outputs[0m
+[92m[OK] Executive Dashboard completed in 0.005s[0m
+
+----------------------------------------------------------
+[96m[14/14] Pipeline Validation[0m
+----------------------------------------------------------
+
+[1mPipeline Validation[0m
+
+[1mActual Execution Path[0m
+Step 1                                 GitHub Commit
+Step 2                                 Platform Initialization
+Step 3                                 GitHub to Observation
+Step 4                                 Observation Intelligence
+Step 5                                 Observation to Measurement
+Step 6                                 Measurement to Evidence
+Step 7                                 Evidence to Expertise
+Step 8                                 Expertise to Knowledge
+Step 9                                 Knowledge Graph Construction
+Step 10                                Temporal Intelligence
+Step 11                                Organization Intelligence
+Step 12                                Knowledge and Org Intel to Reasoning
+Step 13                                Reasoning to Decision
+Step 14                                Executive Dashboard
+Step 15                                Pipeline Validation
+Step 16                                Executive Intelligence Report
+
+[1mLayer Health[0m
+Observation                            PASS
+Measurement                            PASS
+Evidence                               PASS
+Expertise                              PASS
+Knowledge                              PASS
+Knowledge Graph                        PASS
+Temporal Intelligence                  PASS
+Organization Intelligence              PASS
+Reasoning                              PASS
+Decision                               PASS
+Executive                              PASS
+Lineage                                PASS
+Confidence                             PASS
+Uncertainty                            PASS
+Explainability                         PASS
+Immutability                           PASS
+Org No Legacy Deps                     PASS
+
+[1mOrg Intelligence Health[0m
+Ownership computed                     PASS
+Coverage computed                      PASS
+Bus factor computed                    PASS
+Knowledge risk computed                PASS
+Health summary computed                PASS
+Forecast honestly deferred             PASS
+Recommendations generated              PASS
+Validation matrix present              PASS
+[92m[OK] Canonical validation checks completed[0m
+[92m[OK] Pipeline Validation completed in 0.008s[0m
+
+----------------------------------------------------------
+[96m[15/14] Executive Intelligence Report[0m
+----------------------------------------------------------
+
+[1mExecutive Intelligence Report[0m
+
+[1mExecutive Intelligence Report[0m
+Repository                             facebook/react
+Branch                                 main
+Observations                           50
+Measurements                           9778
+Evidence                               1043
+Evidence for Expertise                 1043
+Expertise Models                       794
+Knowledge Models                       70
+Reasoning Results                      70
+Decisions                              70
+Canonical Health                       PASS
+
+[1mOrganization Intelligence Totals[0m
+Ownership Entries                      794
+Coverage Entries                       2
+Concentration Entries                  2
+Bus Factor Entries                     2
+Successor Pairs                        0
+Knowledge Risks                        2
+Health (average)                       0.062
+Healthy Topics                         0
+Warning Topics                         0
+Critical Topics                        2
+Forecast                               UNAVAILABLE (single snapshot)
+Recommendations                        5
+Validation Matrix — EXACT match        4
+Validation Matrix — CLOSE match        5
+Validation Matrix — UNAVAILABLE        1
+
+[1mRecommended Decisions[0m
+  1. low      Monitor react-suspense-test-utils as more evidence arrives.  (confidence=0.553)
+  2. low      Monitor internal-test-utils as more evidence arrives.        (confidence=0.551)
+  3. low      Monitor react-test-renderer as more evidence arrives.        (confidence=0.551)
+  4. low      Monitor babel-plugin-react-compiler as more evidence arrives. (confidence=0.551)
+  5. low      Monitor shared as more evidence arrives.                     (confidence=0.549)
+  6. low      Monitor compiler as more evidence arrives.                   (confidence=0.537)
+  7. low      Monitor react-devtools-extensions as more evidence arrives.  (confidence=0.533)
+  8. low      Monitor react-devtools-cdt-mcp as more evidence arrives.     (confidence=0.527)
+  9. low      Monitor workflows as more evidence arrives.                  (confidence=0.518)
+ 10. low      Monitor react-devtools-shell as more evidence arrives.       (confidence=0.515)
+ 11. low      Monitor scheduler as more evidence arrives.                  (confidence=0.514)
+ 12. low      Monitor react-native-renderer as more evidence arrives.      (confidence=0.512)
+ 13. low      Monitor make-read-only-util as more evidence arrives.        (confidence=0.512)
+ 14. low      Monitor react-compiler-healthcheck as more evidence arrives. (confidence=0.512)
+ 15. low      Monitor react-compiler-runtime as more evidence arrives.     (confidence=0.512)
+ 16. low      Monitor react-forgive as more evidence arrives.              (confidence=0.512)
+ 17. low      Monitor react-mcp-server as more evidence arrives.           (confidence=0.512)
+ 18. low      Monitor snap as more evidence arrives.                       (confidence=0.512)
+ 19. low      Monitor react-devtools as more evidence arrives.             (confidence=0.512)
+ 20. low      Monitor react-server-dom-fb as more evidence arrives.        (confidence=0.512)
+ 21. low      Monitor use-subscription as more evidence arrives.           (confidence=0.512)
+ 22. low      Monitor use-sync-external-store as more evidence arrives.    (confidence=0.512)
+ 23. low      Monitor flow-typed as more evidence arrives.                 (confidence=0.510)
+ 24. low      Monitor react-devtools-inline as more evidence arrives.      (confidence=0.510)
+ 25. low      Monitor react-devtools-timeline as more evidence arrives.    (confidence=0.509)
+ 26. low      Monitor react-devtools-shared as more evidence arrives.      (confidence=0.509)
+ 27. low      Monitor react-cache as more evidence arrives.                (confidence=0.507)
+ 28. low      Monitor react-server as more evidence arrives.               (confidence=0.507)
+ 29. low      Monitor react-flight-server-fb as more evidence arrives.     (confidence=0.507)
+ 30. low      Monitor react-devtools-core as more evidence arrives.        (confidence=0.506)
+ 31. low      Monitor react-dom-bindings as more evidence arrives.         (confidence=0.506)
+ 32. low      Monitor jest-react as more evidence arrives.                 (confidence=0.506)
+ 33. low      Monitor react-art as more evidence arrives.                  (confidence=0.506)
+ 34. low      Monitor react-is as more evidence arrives.                   (confidence=0.506)
+ 35. low      Monitor react-markup as more evidence arrives.               (confidence=0.506)
+ 36. low      Monitor react-refresh as more evidence arrives.              (confidence=0.506)
+ 37. low      Monitor react as more evidence arrives.                      (confidence=0.506)
+ 38. low      Monitor react-server-dom-parcel as more evidence arrives.    (confidence=0.506)
+ 39. low      Monitor react-server-dom-esm as more evidence arrives.       (confidence=0.506)
+ 40. low      Monitor playground as more evidence arrives.                 (confidence=0.505)
+ 41. low      Monitor react_compiler_ast as more evidence arrives.         (confidence=0.505)
+ 42. low      Monitor TODO.md as more evidence arrives.                    (confidence=0.504)
+ 43. low      Monitor react-reconciler as more evidence arrives.           (confidence=0.504)
+ 44. low      Monitor react-server-dom-turbopack as more evidence arrives. (confidence=0.504)
+ 45. low      Monitor react-noop-renderer as more evidence arrives.        (confidence=0.503)
+ 46. low      Monitor react-server-dom-unbundled as more evidence arrives. (confidence=0.503)
+ 47. low      Monitor react_compiler_lowering as more evidence arrives.    (confidence=0.500)
+ 48. low      Monitor react-dom as more evidence arrives.                  (confidence=0.500)
+ 49. low      Monitor root as more evidence arrives.                       (confidence=0.499)
+ 50. low      Monitor react_compiler as more evidence arrives.             (confidence=0.499)
+ 51. low      Monitor react_compiler_swc as more evidence arrives.         (confidence=0.499)
+ 52. low      Monitor react_compiler_reactive_scopes as more evidence arrives. (confidence=0.496)
+ 53. low      Monitor react-client as more evidence arrives.               (confidence=0.496)
+ 54. low      Monitor react_compiler_validation as more evidence arrives.  (confidence=0.496)
+ 55. low      Monitor babel-plugin-react-compiler-rust as more evidence arrives. (confidence=0.496)
+ 56. low      Monitor react_compiler_inference as more evidence arrives.   (confidence=0.496)
+ 57. low      Monitor react_compiler_optimization as more evidence arrives. (confidence=0.496)
+ 58. low      Monitor react_compiler_hir as more evidence arrives.         (confidence=0.495)
+ 59. low      Monitor react_compiler_oxc as more evidence arrives.         (confidence=0.494)
+ 60. low      Monitor react_compiler_ssa as more evidence arrives.         (confidence=0.493)
+ 61. low      Monitor react_compiler_utils as more evidence arrives.       (confidence=0.493)
+ 62. low      Monitor react_compiler_typeinference as more evidence arrives. (confidence=0.492)
+ 63. low      Monitor react_compiler_diagnostics as more evidence arrives. (confidence=0.492)
+ 64. low      Monitor react-devtools-facade as more evidence arrives.      (confidence=0.489)
+ 65. low      Monitor react-server-dom-webpack as more evidence arrives.   (confidence=0.488)
+ 66. low      Monitor react-debug-tools as more evidence arrives.          (confidence=0.487)
+ 67. low      Monitor react_compiler_e2e_cli as more evidence arrives.     (confidence=0.486)
+ 68. low      Monitor eslint-plugin-react-compiler as more evidence arrives. (confidence=0.468)
+ 69. low      Monitor eslint-plugin-react-hooks as more evidence arrives.  (confidence=0.465)
+ 70. low      Monitor scripts as more evidence arrives.                    (confidence=0.436)
+
+[1mTop Organizational Recommendations[0m
+  1. [EXECUTIVE     ] [HIGH  ] Escalate knowledge concentration in 'subsystem': bus factor 1, 22 owne
+  2. [EXECUTIVE     ] [HIGH  ] Escalate knowledge concentration in 'module': bus factor 1, 772 owner(
+  3. [EXECUTIVE     ] [HIGH  ] Address 2 critically unhealthy knowledge area(s). Overall health: 6.2%
+  4. [ORGANIZATIONAL] [HIGH  ] Assign a backup owner for 'subsystem' within 30 days.
+  5. [ORGANIZATIONAL] [HIGH  ] Assign a backup owner for 'module' within 30 days.
+
+[1mExecution Timings[0m
+GitHub to Observation                  75.181s
+Observation Intelligence               0.012s
+Observation to Measurement             2.376s
+Measurement to Evidence                0.233s
+Evidence to Expertise                  0.022s
+Expertise to Knowledge                 0.013s
+Knowledge Graph Construction           0.019s
+Temporal Intelligence                  0.001s
+Organization Intelligence              0.016s
+Knowledge and Org Intel to Reasoning   0.008s
+Reasoning to Decision                  0.009s
+Executive Dashboard                    0.005s
+Pipeline Validation                    0.008s
+[92m[OK] Snapshot persisted to snapshot_20260701_194528.json[0m
+[92m[OK] Canonical showcase completed[0m
+[92m[OK] Executive Intelligence Report completed in 0.020s[0m
+
+==========================================================
+[1m                CANONICAL RUNTIME COMPLETE                [0m
+==========================================================
+Repository                             facebook/react
+Branch                                 main
+Observations                           50
+Measurements                           9778
+Evidence                               1043
+Expertise Models                       794
+Knowledge Models                       70
+Graph Nodes                            3744
+Org Intel - Ownership                  794
+Org Intel - Health                     0.062
+Reasoning Results                      70
+Decisions                              70
+Runtime Stages                         15
+Runtime Errors                         0
+==========================================================

@@ -1,0 +1,636 @@
+{
+  "metrics": {
+    "intent_accuracy": 1.0,
+    "goal_accuracy": 1.0,
+    "capability_accuracy": 1.0,
+    "execution_success": 1.0,
+    "evidence_coverage": 1.0,
+    "verification_coverage": 1.0,
+    "avg_latency_ms": 149.29636363636362,
+    "overall": 1.0
+  },
+  "rows": [
+    {
+      "query": "Who is the top contributor?",
+      "latency_ms": 64.06,
+      "expected_intent": "REPOSITORY_QUERY",
+      "actual_intent": "REPOSITORY_QUERY",
+      "intent_ok": true,
+      "expected_goals": [
+        "FIND_CONTRIBUTOR"
+      ],
+      "actual_goals": [
+        "FIND_CONTRIBUTOR"
+      ],
+      "goals_ok": true,
+      "expected_capabilities": [
+        "TopContributors"
+      ],
+      "actual_capabilities": [
+        "TopContributors"
+      ],
+      "capabilities_ok": true,
+      "execution_status": "SUCCESS",
+      "execution_ok": true,
+      "evidence_ok": true,
+      "verification_ok": true,
+      "confidence": 1.0,
+      "stage_results": [
+        {
+          "stage": "Semantic Parser",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Goal Graph",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Capability Retrieval",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Planner",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Executor",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Verifier",
+          "status": "PASS",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "query": "Who owns ReactDOM?",
+      "latency_ms": 102.99,
+      "expected_intent": "REPOSITORY_QUERY",
+      "actual_intent": "REPOSITORY_QUERY",
+      "intent_ok": true,
+      "expected_goals": [
+        "FIND_OWNER"
+      ],
+      "actual_goals": [
+        "FIND_OWNER"
+      ],
+      "goals_ok": true,
+      "expected_capabilities": [
+        "Ownership",
+        "TopContributors"
+      ],
+      "actual_capabilities": [
+        "TopContributors",
+        "Ownership"
+      ],
+      "capabilities_ok": true,
+      "execution_status": "SUCCESS",
+      "execution_ok": true,
+      "evidence_ok": true,
+      "verification_ok": true,
+      "confidence": 1.0,
+      "stage_results": [
+        {
+          "stage": "Semantic Parser",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Goal Graph",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Capability Retrieval",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Planner",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Executor",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Verifier",
+          "status": "PASS",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "query": "Which subsystem has the highest bus factor risk?",
+      "latency_ms": 52.34,
+      "expected_intent": "REPOSITORY_QUERY",
+      "actual_intent": "REPOSITORY_QUERY",
+      "intent_ok": true,
+      "expected_goals": [
+        "IDENTIFY_RISK"
+      ],
+      "actual_goals": [
+        "IDENTIFY_RISK"
+      ],
+      "goals_ok": true,
+      "expected_capabilities": [
+        "BusFactor",
+        "Ownership",
+        "TopContributors"
+      ],
+      "actual_capabilities": [
+        "TopContributors",
+        "Ownership",
+        "BusFactor"
+      ],
+      "capabilities_ok": true,
+      "execution_status": "SUCCESS",
+      "execution_ok": true,
+      "evidence_ok": true,
+      "verification_ok": true,
+      "confidence": 1.0,
+      "stage_results": [
+        {
+          "stage": "Semantic Parser",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Goal Graph",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Capability Retrieval",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Planner",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Executor",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Verifier",
+          "status": "PASS",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "query": "What happens if hoxyq leaves?",
+      "latency_ms": 503.32,
+      "expected_intent": "REPOSITORY_QUERY",
+      "actual_intent": "REPOSITORY_QUERY",
+      "intent_ok": true,
+      "expected_goals": [
+        "SIMULATE_DEPARTURE"
+      ],
+      "actual_goals": [
+        "SIMULATE_DEPARTURE"
+      ],
+      "goals_ok": true,
+      "expected_capabilities": [
+        "DeveloperDepartureSimulation"
+      ],
+      "actual_capabilities": [
+        "DeveloperDepartureSimulation"
+      ],
+      "capabilities_ok": true,
+      "execution_status": "SUCCESS",
+      "execution_ok": true,
+      "evidence_ok": true,
+      "verification_ok": true,
+      "confidence": 1.0,
+      "stage_results": [
+        {
+          "stage": "Semantic Parser",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Goal Graph",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Capability Retrieval",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Planner",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Executor",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Verifier",
+          "status": "PASS",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "query": "Forecast next month.",
+      "latency_ms": 354.0,
+      "expected_intent": "REPOSITORY_QUERY",
+      "actual_intent": "REPOSITORY_QUERY",
+      "intent_ok": true,
+      "expected_goals": [
+        "FORECAST"
+      ],
+      "actual_goals": [
+        "FORECAST"
+      ],
+      "goals_ok": true,
+      "expected_capabilities": [
+        "Forecast"
+      ],
+      "actual_capabilities": [
+        "TopContributors",
+        "Ownership",
+        "BusFactor",
+        "Health",
+        "Forecast"
+      ],
+      "capabilities_ok": true,
+      "execution_status": "SUCCESS",
+      "execution_ok": true,
+      "evidence_ok": true,
+      "verification_ok": true,
+      "confidence": 1.0,
+      "stage_results": [
+        {
+          "stage": "Semantic Parser",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Goal Graph",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Capability Retrieval",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Planner",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Executor",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Verifier",
+          "status": "PASS",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "query": "Why is ownership concentration getting worse?",
+      "latency_ms": 303.71,
+      "expected_intent": "REPOSITORY_QUERY",
+      "actual_intent": "REPOSITORY_QUERY",
+      "intent_ok": true,
+      "expected_goals": [
+        "DIAGNOSE_CAUSALITY",
+        "FIND_OWNER",
+        "IDENTIFY_RISK"
+      ],
+      "actual_goals": [
+        "FIND_OWNER",
+        "IDENTIFY_RISK",
+        "DIAGNOSE_CAUSALITY"
+      ],
+      "goals_ok": true,
+      "expected_capabilities": [
+        "CausalAnalysis"
+      ],
+      "actual_capabilities": [
+        "TopContributors",
+        "Ownership",
+        "BusFactor",
+        "CausalAnalysis"
+      ],
+      "capabilities_ok": true,
+      "execution_status": "SUCCESS",
+      "execution_ok": true,
+      "evidence_ok": true,
+      "verification_ok": true,
+      "confidence": 1.0,
+      "stage_results": [
+        {
+          "stage": "Semantic Parser",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Goal Graph",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Capability Retrieval",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Planner",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Executor",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Verifier",
+          "status": "PASS",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "query": "Draw dependency graph.",
+      "latency_ms": 252.61,
+      "expected_intent": "REPOSITORY_QUERY",
+      "actual_intent": "REPOSITORY_QUERY",
+      "intent_ok": true,
+      "expected_goals": [
+        "VISUALIZE_GRAPH"
+      ],
+      "actual_goals": [
+        "VISUALIZE_GRAPH"
+      ],
+      "goals_ok": true,
+      "expected_capabilities": [
+        "KnowledgeGraph"
+      ],
+      "actual_capabilities": [
+        "KnowledgeGraph"
+      ],
+      "capabilities_ok": true,
+      "execution_status": "SUCCESS",
+      "execution_ok": true,
+      "evidence_ok": true,
+      "verification_ok": true,
+      "confidence": 1.0,
+      "stage_results": [
+        {
+          "stage": "Semantic Parser",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Goal Graph",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Capability Retrieval",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Planner",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Executor",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Verifier",
+          "status": "PASS",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "query": "Summarize repository health.",
+      "latency_ms": 4.12,
+      "expected_intent": "REPOSITORY_QUERY",
+      "actual_intent": "REPOSITORY_QUERY",
+      "intent_ok": true,
+      "expected_goals": [
+        "SUMMARIZE"
+      ],
+      "actual_goals": [
+        "SUMMARIZE"
+      ],
+      "goals_ok": true,
+      "expected_capabilities": [
+        "BusFactor",
+        "Health",
+        "Ownership",
+        "TopContributors"
+      ],
+      "actual_capabilities": [
+        "TopContributors",
+        "Ownership",
+        "BusFactor",
+        "Health"
+      ],
+      "capabilities_ok": true,
+      "execution_status": "SUCCESS",
+      "execution_ok": true,
+      "evidence_ok": true,
+      "verification_ok": true,
+      "confidence": 1.0,
+      "stage_results": [
+        {
+          "stage": "Semantic Parser",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Goal Graph",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Capability Retrieval",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Planner",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Executor",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Verifier",
+          "status": "PASS",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "query": "Which files changed most recently?",
+      "latency_ms": 3.41,
+      "expected_intent": "REPOSITORY_QUERY",
+      "actual_intent": "REPOSITORY_QUERY",
+      "intent_ok": true,
+      "expected_goals": [
+        "ANALYZE"
+      ],
+      "actual_goals": [
+        "ANALYZE"
+      ],
+      "goals_ok": true,
+      "expected_capabilities": [
+        "TopContributors"
+      ],
+      "actual_capabilities": [
+        "TopContributors",
+        "Ownership",
+        "BusFactor"
+      ],
+      "capabilities_ok": true,
+      "execution_status": "SUCCESS",
+      "execution_ok": true,
+      "evidence_ok": true,
+      "verification_ok": true,
+      "confidence": 1.0,
+      "stage_results": [
+        {
+          "stage": "Semantic Parser",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Goal Graph",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Capability Retrieval",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Planner",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Executor",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Verifier",
+          "status": "PASS",
+          "reason": null
+        }
+      ]
+    },
+    {
+      "query": "hello",
+      "latency_ms": 0.21,
+      "expected_intent": "GENERAL_CHAT",
+      "actual_intent": "GENERAL_CHAT",
+      "intent_ok": true,
+      "expected_goals": [],
+      "actual_goals": [],
+      "goals_ok": true,
+      "expected_capabilities": [],
+      "actual_capabilities": [],
+      "capabilities_ok": true,
+      "execution_status": "SUCCESS",
+      "execution_ok": true,
+      "evidence_ok": true,
+      "verification_ok": true,
+      "confidence": null,
+      "stage_results": []
+    },
+    {
+      "query": "what tools do you have?",
+      "latency_ms": 1.49,
+      "expected_intent": "SYSTEM_PLATFORM",
+      "actual_intent": "SYSTEM_PLATFORM",
+      "intent_ok": true,
+      "expected_goals": [],
+      "actual_goals": [
+        "ANALYZE"
+      ],
+      "goals_ok": true,
+      "expected_capabilities": [],
+      "actual_capabilities": [
+        "TopContributors",
+        "Ownership",
+        "BusFactor"
+      ],
+      "capabilities_ok": true,
+      "execution_status": "SUCCESS",
+      "execution_ok": true,
+      "evidence_ok": true,
+      "verification_ok": true,
+      "confidence": 1.0,
+      "stage_results": [
+        {
+          "stage": "Semantic Parser",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Goal Graph",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Capability Retrieval",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Planner",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Executor",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "stage": "Verifier",
+          "status": "PASS",
+          "reason": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+==================================================================
+[1m                        PIA LATENT ENGINE                         [0m
+[96m                    COMPLETE PLATFORM SHOWCASE                    [0m
+==================================================================
+
+Canonical Architecture
+
+ GitHub
+    |
+    v
+ Observation Layer
+    |
+    v
+ Domain Event Bridge
+    |
+    v
+ Evidence Extraction
+    |
+    v
+ Expertise Projection
+    |
+    v
+ Intelligence Context
+    |
+    v
+ Organization Health Dashboard
+
+==================================================================
+
+------------------------------------------------------------------
+[96m[1/9] Platform Initialization[0m
+------------------------------------------------------------------
+
+[1mPlatform[0m
+Platform                               PIA Latent Engine
+Architecture                           Observation -> Event -> Evidence -> Expertise -> Intelligence
+Repository                             facebook/react
+Branch                                 main
+Commit Limit                           50
+Tenant                                 default
+Python                                 3.14.5
+OS                                     Windows
+Working Directory                      C:\Users\NITHIN\Agentic_AI\latent-engine\backend
+[92m[OK] Platform initialized[0m
+
+[1mEnvironment[0m
+[92m[OK] Python executable: C:\Users\NITHIN\AppData\Local\Python\pythoncore-3.14-64\python.exe[0m
+[92m[OK] Environment validation passed[0m
+
+[1mOutput[0m
+[92m[OK] Output directory ready[0m
+Directory                              outputs\showcase
+
+[1mGitHub[0m
+[92m[OK] GitHub token detected[0m
+Authentication                         Authenticated
+
+[1mPlatform Capabilities[0m
+[92m[OK] Vendor Collection[0m
+[92m[OK] Canonical Observation Layer[0m
+[92m[OK] Scientific Measurement Engine[0m
+[92m[OK] Evidence Intelligence Platform[0m
+[92m[OK] Confidence Propagation[0m
+[92m[OK] Uncertainty Propagation[0m
+[92m[OK] Lineage Tracking[0m
+[92m[OK] Traceability[0m
+[92m[OK] Explainability[0m
+[92m[OK] Scientific Validation[0m
+[92m[OK] Plugin Architecture[0m
+[92m[OK] Multi-Tenant Ready[0m
+[92m[OK] SaaS Ready[0m
+
+------------------------------------------------------------------
+[96m[2/9] GitHub Collection[0m
+------------------------------------------------------------------
+
+[1mConnecting to GitHub[0m
+[92m[OK] Repository collected[0m
+Repository                             facebook/react
+Branch                                 main
+Observations                           50
+Domain Events                          50
+Collection Time                        71.240s
+
+[1mRepository Overview[0m
+Commits                                50
+Unique Files                           815
+Lines Added                            143025
+Lines Deleted                          25173
+Total Line Changes                     168198
+
+[1mTop Contributors[0m
+
+[1mDevelopers[0m
+  1. hoxyq                        9 commits
+  2. eps1lon                      6 commits
+  3. poteto                       6 commits
+  4. gnoff                        6 commits
+  5. fallintoplace                5 commits
+  6. javache                      3 commits
+  7. SamChou19815                 3 commits
+  8. UditDewan                    2 commits
+  9. Boshen                       2 commits
+ 10. devjiwonchoi                 1 commits
+
+[1mRepository Activity[0m
+
+[1mMost Changed Files[0m
+  1. packages/react-server/src/ReactFizzServer.js (8)
+  2. packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js (7)
+  3. compiler/Cargo.lock (7)
+  4. compiler/crates/react_compiler/src/entrypoint/program.rs (7)
+  5. packages/react-dom/src/__tests__/ReactDOMFizzServer-test.js (6)
+  6. packages/react-devtools-facade/src/DevToolsFacadeTools.js (5)
+  7. compiler/crates/react_compiler_ast/Cargo.toml (5)
+  8. compiler/crates/react_compiler_reactive_scopes/src/codegen_reactive_function.rs (5)
+  9. packages/react-dom/src/__tests__/ReactDOMFizzStaticBrowser-test.js (5)
+ 10. packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js (4)
+
+[1mMost Active Directories[0m
+  1. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler (82)
+  2. packages/react-reconciler/src (70)
+  3. compiler/crates/react_compiler_reactive_scopes/src (55)
+  4. packages/react-server/src (48)
+  5. compiler/crates/react_compiler_validation/src (42)
+  6. compiler/crates/react_compiler_inference/src (41)
+  7. compiler/crates/react_compiler_optimization/src (36)
+  8. compiler/crates/react_compiler_hir/src (32)
+  9. packages/react-server/src/forks (26)
+ 10. compiler/crates/react_compiler/src/entrypoint (24)
+
+[1mTop File Extensions[0m
+  1. .js (649)
+  2. .rs (344)
+  3. .md (93)
+  4. .json (51)
+  5. .toml (40)
+  6. .ts (23)
+  7. .yml (11)
+  8. .lock (10)
+  9. .gitignore (4)
+ 10. .sh (2)
+
+[1mFile Status Distribution[0m
+  1. modified     918
+  2. added        297
+  3. removed      20
+
+[1mCommit Timeline[0m
+
+[1mMonthly Activity[0m
+  1. 2026-05 (2)
+  2. 2026-06 (48)
+
+[1mWeekday Activity[0m
+  1. Tuesday    11
+  2. Monday     11
+  3. Friday     5
+  4. Thursday   13
+  5. Wednesday  8
+  6. Sunday     2
+
+[1mMost Active Hours[0m
+  1. 03:00  (2)
+  2. 06:00  (4)
+  3. 07:00  (2)
+  4. 08:00  (3)
+  5. 09:00  (2)
+  6. 10:00  (2)
+  7. 11:00  (1)
+  8. 12:00  (1)
+  9. 13:00  (1)
+ 10. 14:00  (4)
+ 11. 15:00  (4)
+ 12. 16:00  (2)
+ 13. 17:00  (4)
+ 14. 19:00  (7)
+ 15. 20:00  (2)
+ 16. 21:00  (3)
+ 17. 22:00  (4)
+ 18. 23:00  (2)
+[92m[OK] GitHub collection completed successfully.[0m
+
+------------------------------------------------------------------
+[96m[3/9] Evidence Extraction and Expertise Projection[0m
+------------------------------------------------------------------
+
+[1mEvidence Extraction and Expertise Projection[0m
+Processing events   [........................................] 1/50
+Processing events   [########................................] 10/50
+Processing events   [################........................] 20/50
+Processing events   [########################................] 30/50
+Processing events   [################################........] 40/50
+Processing events   [########################################] 50/50
+
+[1mProjection Summary[0m
+Events                                 50
+Evidence Generated                     1235
+Developers Learned                     17
+Modules Learned                        815
+Expertise Estimates                    1066
+Processing Time                        0.023s
+
+[1mTop Expertise Estimates[0m
+  1. hoxyq                     packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js 19.60
+  2. hoxyq                     packages/react-devtools-facade/src/DevToolsFacadeTools.js 14.50
+  3. hoxyq                     packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js 7.60
+  4. SamChou19815              package.json                                  6.90
+  5. SamChou19815              packages/react-reconciler/src/ReactFiberHooks.js 6.90
+  6. gnoff                     packages/react-server/src/ReactFizzServer.js  6.50
+  7. hoxyq                     packages/react-devtools-facade/src/DevToolsFacade.js 4.80
+  8. poteto                    compiler/crates/react_compiler/src/entrypoint/program.rs 4.80
+  9. gnoff                     packages/react-dom/src/__tests__/ReactDOMFizzStaticBrowser-test.js 4.80
+ 10. SamChou19815              packages/react-cache/src/LRU.js               4.00
+[92m[OK] IntelligenceContext initialized from live projection[0m
+[92m[OK] Evidence Extraction and Expertise Projection completed in 0.026s[0m
+
+------------------------------------------------------------------
+[96m[4/9] Repository Analytics[0m
+------------------------------------------------------------------
+
+[1mRepository Analytics[0m
+
+[1mEvent Summary[0m
+Repository                             facebook/react
+Events                                 50
+Developers                             17
+Touched Modules                        815
+
+[1mTop Authors[0m
+  1. hoxyq                     9
+  2. eps1lon                   6
+  3. poteto                    6
+  4. gnoff                     6
+  5. fallintoplace             5
+  6. javache                   3
+  7. SamChou19815              3
+  8. UditDewan                 2
+  9. Boshen                    2
+ 10. devjiwonchoi              1
+
+[1mTop Modified Modules[0m
+  1. packages/react-server/src/ReactFizzServer.js                 8
+  2. packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js 7
+  3. compiler/Cargo.lock                                          7
+  4. compiler/crates/react_compiler/src/entrypoint/program.rs     7
+  5. packages/react-dom/src/__tests__/ReactDOMFizzServer-test.js  6
+  6. packages/react-devtools-facade/src/DevToolsFacadeTools.js    5
+  7. compiler/crates/react_compiler_ast/Cargo.toml                5
+  8. compiler/crates/react_compiler_reactive_scopes/src/codegen_reactive_function.rs 5
+  9. packages/react-dom/src/__tests__/ReactDOMFizzStaticBrowser-test.js 5
+ 10. packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js 4
+[92m[OK] Repository Analytics completed in 0.005s[0m
+
+------------------------------------------------------------------
+[96m[5/9] Developer Intelligence[0m
+------------------------------------------------------------------
+
+[1mDeveloper Intelligence[0m
+
+[1mDeveloper Expertise[0m
+Developers                             17
+
+[1mTop Developers by Expertise[0m
+  1. SamChou19815              746.20 across 383 modules
+  2. josephsavona              300.00 across 300 modules
+  3. mvitousek                 105.00 across 105 modules
+  4. Boshen                    97.30 across 90 modules
+  5. hoxyq                     80.40 across 36 modules
+  6. poteto                    28.20 across 42 modules
+  7. gnoff                     20.10 across 8 modules
+  8. eps1lon                   15.94 across 59 modules
+  9. devjiwonchoi              2.50 across 5 modules
+ 10. javache                   1.30 across 13 modules
+[92m[OK] Developer Intelligence completed in 0.003s[0m
+
+------------------------------------------------------------------
+[96m[6/9] Module Intelligence[0m
+------------------------------------------------------------------
+
+[1mModule Intelligence[0m
+
+[1mModule Expertise[0m
+Modules                                815
+
+[1mTop Modules by Expertise[0m
+  1. packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js 19.60 (1 experts)
+  2. packages/react-devtools-facade/src/DevToolsFacadeTools.js    14.50 (1 experts)
+  3. packages/react-server/src/ReactFizzServer.js                 10.80 (3 experts)
+  4. compiler/Cargo.lock                                          7.90 (4 experts)
+  5. compiler/crates/react_compiler/src/entrypoint/program.rs     7.80 (4 experts)
+  6. packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js 7.60 (1 experts)
+  7. package.json                                                 6.90 (1 experts)
+  8. packages/react-reconciler/src/ReactFiberHooks.js             6.90 (1 experts)
+  9. compiler/crates/react_compiler_ast/Cargo.toml                5.60 (3 experts)
+ 10. compiler/crates/react_compiler_reactive_scopes/src/codegen_reactive_function.rs 5.60 (3 experts)
+[92m[OK] Module Intelligence completed in 0.004s[0m
+
+------------------------------------------------------------------
+[96m[7/9] Pipeline Lineage[0m
+------------------------------------------------------------------
+
+[1mPipeline Lineage[0m
+
+[1mReal Data Flow[0m
+GitHub Observations                    50
+Domain Events                          50
+Evidence Claims                        1235
+Expertise Estimates                    1066
+
+[1mSample Trace[0m
+Event ID                               e2dbeb21-f29c-5d81-80ed-e501e1fbb2a7
+Actor                                  hoxyq
+Targets                                24
+Evidence ID                            a27a4a11-96ed-5720-8832-0c674668b82e
+Evidence Subject                       hoxyq
+Evidence Object                        .eslintignore
+Source Event                           e2dbeb21-f29c-5d81-80ed-e501e1fbb2a7
+[92m[OK] Pipeline Lineage completed in 0.002s[0m
+
+------------------------------------------------------------------
+[96m[8/9] Platform Health[0m
+------------------------------------------------------------------
+
+[1mPlatform Health[0m
+
+[1mAnalysis Counts[0m
+Coverage Reports                       815
+Concentration Reports                  815
+Bus Factor Reports                     815
+Health Reports                         815
+
+[1mTop Covered Modules[0m
+  1. packages/react-devtools-facade/src/DevToolsFacadeTools.js    coverage=14.50 experts=1
+  2. packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js coverage=14.00 experts=1
+  3. package.json                                                 coverage=11.50 experts=1
+  4. packages/react-reconciler/src/ReactFiberHooks.js             coverage=11.50 experts=1
+  5. compiler/Cargo.lock                                          coverage=11.00 experts=4
+  6. packages/react-server/src/ReactFizzServer.js                 coverage=10.80 experts=3
+  7. compiler/crates/react_compiler/src/entrypoint/program.rs     coverage=10.50 experts=4
+  8. packages/react-cache/src/LRU.js                              coverage=10.00 experts=1
+  9. packages/react-client/src/ReactFlightReplyClient.js          coverage=10.00 experts=1
+ 10. packages/react-devtools-core/src/backend.js                  coverage=10.00 experts=1
+
+[1mHighest Concentration Modules[0m
+  1. .eslintignore                                                concentration=1.00 level=HIGH
+  2. .github/workflows/devtools_regression_tests.yml              concentration=1.00 level=HIGH
+  3. packages/react-devtools-cdt-mcp/README.md                    concentration=1.00 level=HIGH
+  4. packages/react-devtools-cdt-mcp/fixtures/app/App.js          concentration=1.00 level=HIGH
+  5. packages/react-devtools-cdt-mcp/fixtures/app/README.md       concentration=1.00 level=HIGH
+  6. packages/react-devtools-cdt-mcp/fixtures/app/index.html      concentration=1.00 level=HIGH
+  7. packages/react-devtools-cdt-mcp/fixtures/app/index.js        concentration=1.00 level=HIGH
+  8. packages/react-devtools-cdt-mcp/fixtures/app/package.json    concentration=1.00 level=HIGH
+  9. packages/react-devtools-cdt-mcp/fixtures/app/webpack.config.js concentration=1.00 level=HIGH
+ 10. packages/react-devtools-cdt-mcp/fixtures/app/yarn.lock       concentration=1.00 level=HIGH
+
+[1mModule Health[0m
+  1. compiler/crates/react_compiler/src/entrypoint/program.rs     health=47.77 level=CRITICAL
+  2. compiler/Cargo.lock                                          health=47.58 level=CRITICAL
+  3. compiler/crates/react_compiler/src/entrypoint/imports.rs     health=47.07 level=CRITICAL
+  4. compiler/crates/react_compiler_hir/src/lib.rs                health=47.07 level=CRITICAL
+  5. compiler/crates/react_compiler_hir/src/print.rs              health=47.07 level=CRITICAL
+  6. compiler/crates/react_compiler_inference/src/memoize_fbt_and_macro_operands_in_same_scope.rs health=47.07 level=CRITICAL
+  7. compiler/crates/react_compiler_optimization/src/constant_propagation.rs health=47.07 level=CRITICAL
+  8. compiler/crates/react_compiler_inference/src/infer_reactive_scope_variables.rs health=46.18 level=CRITICAL
+  9. compiler/crates/react_compiler/src/entrypoint/validate_source_locations.rs health=45.27 level=CRITICAL
+ 10. compiler/crates/react_compiler_diagnostics/src/code_frame.rs health=45.27 level=CRITICAL
+[92m[OK] Platform Health completed in 0.389s[0m
+
+------------------------------------------------------------------
+[96m[9/9] Final Pipeline Summary[0m
+------------------------------------------------------------------
+
+[1mFinal Pipeline Summary[0m
+
+[1mEnd-to-End Results[0m
+Repository                             facebook/react
+Events Collected                       50
+Evidence Generated                     1235
+Developers Learned                     17
+Modules Learned                        815
+Expertise Estimates                    1066
+Coverage Reports                       815
+Concentration Reports                  815
+Bus Factors                            815
+Health Reports                         815
+
+[1mOrganization Dashboard[0m
+Average Health                         12.68
+Best Health                            47.77
+Worst Health                           5.02
+Healthy Modules                        0
+Warning Modules                        0
+Critical Modules                       815
+Total Modules                          815
+
+[1mTop Organizational Risks[0m
+  (empty)
+[92m[OK] PIA end-to-end pipeline passed[0m
+[92m[OK] Final Pipeline Summary completed in 0.004s[0m
+
+==================================================================
+[1m                        PIPELINE COMPLETE                         [0m
+==================================================================
+Repository                             facebook/react
+Branch                                 main
+Commits                                50
+Observations                           50
+Measurements                           1066
+Evidence                               1235
+Pipeline Time                          71.793s
+==================================================================

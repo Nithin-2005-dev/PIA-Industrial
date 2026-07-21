@@ -1,0 +1,30 @@
+version: "1.0"
+dataset:
+  repository: "facebook/react"
+  commit_sha: "HEAD"
+  snapshots_dir: "evaluation/datasets/v1"
+  size: "100_commits"
+
+performance_policy:
+  planner_ms: 100
+  graph_ms: 500
+  reasoning_ms: 300
+  presentation_ms: 1000
+
+ci_thresholds:
+  hard:
+    overall_score_min: 90
+    graph_validation_required: true
+    deterministic_assertions_required: true
+  soft:
+    presentation_score_min: 89
+    performance_regression_max_percent: 10
+
+enabled_suites:
+  - informational
+  - diagnostic
+  - graph_quality
+  - stress_tests
+
+providers:
+  - mock

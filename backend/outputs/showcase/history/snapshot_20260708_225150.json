@@ -1,0 +1,15 @@
+{
+  "timestamp": "20260708_225150",
+  "metrics": {
+    "repository": "expressjs/express",
+    "measurements": 672,
+    "evidence": 9,
+    "expertise_models": 6,
+    "knowledge_models": 3,
+    "decisions": 1
+  },
+  "org_intelligence": {
+    "health": 0.0237,
+    "critical_topics": 6
+  }
+}

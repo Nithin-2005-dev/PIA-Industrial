@@ -1,0 +1,17 @@
+{
+  "ExecutionID": "exec_starlette_1783680107",
+  "DatasetID": "encode/starlette",
+  "Repository": "encode/starlette",
+  "SyncMode": "FULL",
+  "TotalCommits": 160,
+  "EngineVersion": "1.0",
+  "MeasurementCount": 6,
+  "MeasurementHash": "041ff117fc0404f291e5017f462e46f68b4b8a498666f8a761f7ba3d72ed2512",
+  "EvidenceCount": 0,
+  "EvidenceHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "FactCount": 0,
+  "FactHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "RuleEvaluationsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "RuleExecutionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "PipelineTime": 0.5189414024353027
+}

@@ -1,0 +1,44 @@
+========================================================================================================================
+[1m                                                   PIA LATENT ENGINE                                                    [0m
+[96m                                               COMPLETE PLATFORM SHOWCASE                                               [0m
+========================================================================================================================
+
+Canonical Architecture
+
+ GitHub
+    |
+    v
+ Observation Layer
+    |
+    v
+ Measurement Layer
+    |
+    v
+ Evidence Layer
+    |
+    v
+ Expertise Layer
+    |
+    v
+ Knowledge Layer
+    |
+    v
+[96m Knowledge Graph Layer[0m
+    |
+    v
+[93m Temporal Intelligence[0m
+    |
+    v
+[95m Organization Intelligence[0m
+[2m    |  (Ownership . Coverage . Concentration . Bus Factor[0m
+[2m    |   Successor . Knowledge Risk . Health . Recommendations)[0m
+    v
+ Reasoning Layer
+    |
+    v
+ Decision Layer
+    |
+    v
+ Executive Intelligence Report
+
+========================================================================================================================

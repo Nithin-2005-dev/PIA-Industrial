@@ -1,0 +1,944 @@
+
+================================================================================
+PIA COMPLETE PIPELINE
+================================================================================
+
+Repository   : facebook/react
+Commit Limit : 10
+--------------------------------------------------------------------------------
+[1/6] Initializing services...
+✓ Services initialized
+--------------------------------------------------------------------------------
+[2/6] Collecting GitHub commits...
+✓ 10 commits collected (18.12s)
+--------------------------------------------------------------------------------
+[3/6] Extracting evidence...
+Processing event 1/10Processing event 2/10Processing event 3/10Processing event 4/10Processing event 5/10Processing event 6/10Processing event 7/10Processing event 8/10Processing event 9/10Processing event 10/10
+✓ Evidence extraction completed (0.01s)
+--------------------------------------------------------------------------------
+[4/6] Building expertise projection...
+Developers discovered : 6
+Modules discovered    : 27
+Evidence generated    : 28
+--------------------------------------------------------------------------------
+[5/6] Creating Intelligence Context...
+✓ Intelligence initialized
+--------------------------------------------------------------------------------
+[6/6] Pipeline Summary
+Repository : facebook/react
+Events     : 10
+Evidence   : 28
+Developers : 6
+Modules    : 27
+
+================================================================================
+PIPELINE PASSED
+================================================================================
+Total Expertise Estimates : 28
+--------------------------------------------------------------------------------
+Top Expertise Estimates
+
+Developer : devjiwonchoi
+Module    : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSharedStyles.css
+Raw Score : 5.00
+Confidence: 0.10
+Effective : 0.50
+--------------------------------------------------------------------------------
+Developer : devjiwonchoi
+Module    : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js
+Raw Score : 5.00
+Confidence: 0.10
+Effective : 0.50
+--------------------------------------------------------------------------------
+Developer : devjiwonchoi
+Module    : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js
+Raw Score : 5.00
+Confidence: 0.10
+Effective : 0.50
+--------------------------------------------------------------------------------
+Developer : devjiwonchoi
+Module    : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.css
+Raw Score : 5.00
+Confidence: 0.10
+Effective : 0.50
+--------------------------------------------------------------------------------
+Developer : devjiwonchoi
+Module    : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js
+Raw Score : 5.00
+Confidence: 0.10
+Effective : 0.50
+--------------------------------------------------------------------------------
+Developer : TheAlexLichter
+Module    : packages/react-dom/src/__tests__/ReactDOMFloat-test.js
+Raw Score : 3.00
+Confidence: 0.10
+Effective : 0.30
+--------------------------------------------------------------------------------
+Developer : TheAlexLichter
+Module    : packages/react-dom/src/shared/ReactDOMFloat.js
+Raw Score : 3.00
+Confidence: 0.10
+Effective : 0.30
+--------------------------------------------------------------------------------
+Developer : TheAlexLichter
+Module    : packages/react-dom/src/shared/ReactDOMTypes.js
+Raw Score : 3.00
+Confidence: 0.10
+Effective : 0.30
+--------------------------------------------------------------------------------
+Developer : TheAlexLichter
+Module    : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js
+Raw Score : 3.00
+Confidence: 0.10
+Effective : 0.30
+--------------------------------------------------------------------------------
+Developer : javache
+Module    : scripts/rollup/build-all-release-channels.js
+Raw Score : 1.00
+Confidence: 0.10
+Effective : 0.10
+--------------------------------------------------------------------------------
+Developer : hoxyq
+Module    : packages/react-devtools-facade/src/DevToolsFacadeTools.js
+Raw Score : 1.00
+Confidence: 0.10
+Effective : 0.10
+--------------------------------------------------------------------------------
+Developer : hoxyq
+Module    : packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js
+Raw Score : 1.00
+Confidence: 0.10
+Effective : 0.10
+--------------------------------------------------------------------------------
+Developer : hoxyq
+Module    : packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js
+Raw Score : 1.00
+Confidence: 0.10
+Effective : 0.10
+--------------------------------------------------------------------------------
+Developer : fallintoplace
+Module    : scripts/rollup/build-all-release-channels.js
+Raw Score : 1.00
+Confidence: 0.10
+Effective : 0.10
+--------------------------------------------------------------------------------
+Developer : unstubbable
+Module    : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js
+Raw Score : 1.00
+Confidence: 0.10
+Effective : 0.10
+--------------------------------------------------------------------------------
+Developer : unstubbable
+Module    : packages/react-server/src/ReactFlightServer.js
+Raw Score : 1.00
+Confidence: 0.10
+Effective : 0.10
+--------------------------------------------------------------------------------
+Developer : fallintoplace
+Module    : packages/react-devtools-core/src/standalone.js
+Raw Score : 1.00
+Confidence: 0.10
+Effective : 0.10
+--------------------------------------------------------------------------------
+Developer : javache
+Module    : packages/react-reconciler/src/ReactFiberCommitWork.js
+Raw Score : 1.00
+Confidence: 0.10
+Effective : 0.10
+--------------------------------------------------------------------------------
+Developer : javache
+Module    : packages/shared/ReactFeatureFlags.js
+Raw Score : 1.00
+Confidence: 0.10
+Effective : 0.10
+--------------------------------------------------------------------------------
+Developer : javache
+Module    : packages/shared/forks/ReactFeatureFlags.native-fb-dynamic.js
+Raw Score : 1.00
+Confidence: 0.10
+Effective : 0.10
+--------------------------------------------------------------------------------
+
+================================================================================
+EVENT SUMMARY
+================================================================================
+Top Authors
+
+fallintoplace            4
+javache                  2
+devjiwonchoi             1
+hoxyq                    1
+unstubbable              1
+TheAlexLichter           1
+--------------------------------------------------------------------------------
+Top Modified Modules
+
+scripts/rollup/build-all-release-channels.js                2
+packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSharedStyles.css1
+packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js1
+packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js1
+packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.css1
+packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js1
+packages/react-devtools-facade/src/DevToolsFacadeTools.js   1
+packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js1
+packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js1
+scripts/bench/benchmark.js                                  1
+packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMReply-test.js1
+packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js1
+packages/react-server/src/ReactFlightServer.js              1
+packages/react-dom/src/__tests__/ReactDOMFloat-test.js      1
+packages/react-dom/src/shared/ReactDOMFloat.js              1
+packages/react-dom/src/shared/ReactDOMTypes.js              1
+packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js1
+packages/react-devtools-core/src/standalone.js              1
+packages/react-reconciler/src/ReactFiberCommitWork.js       1
+packages/shared/ReactFeatureFlags.js                        1
+
+================================================================================
+PROJECTION STATISTICS
+================================================================================
+Developers Learned : 6
+Modules Learned    : 27
+Expertise Estimates: 28
+Evidence Generated : 28
+--------------------------------------------------------------------------------
+Top Developers by Expertise
+
+devjiwonchoi             2.50
+TheAlexLichter           1.20
+javache                  1.00
+hoxyq                    0.30
+fallintoplace            0.22
+unstubbable              0.20
+--------------------------------------------------------------------------------
+Top Modules by Expertise
+
+packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSharedStyles.css0.50
+packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js0.50
+packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js0.50
+packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.css0.50
+packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js0.50
+packages/react-dom/src/__tests__/ReactDOMFloat-test.js      0.30
+packages/react-dom/src/shared/ReactDOMFloat.js              0.30
+packages/react-dom/src/shared/ReactDOMTypes.js              0.30
+packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js0.30
+scripts/rollup/build-all-release-channels.js                0.20
+packages/react-devtools-facade/src/DevToolsFacadeTools.js   0.10
+packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js0.10
+packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js0.10
+packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js0.10
+packages/react-server/src/ReactFlightServer.js              0.10
+packages/react-devtools-core/src/standalone.js              0.10
+packages/react-reconciler/src/ReactFiberCommitWork.js       0.10
+packages/shared/ReactFeatureFlags.js                        0.10
+packages/shared/forks/ReactFeatureFlags.native-fb-dynamic.js0.10
+packages/shared/forks/ReactFeatureFlags.native-fb.js        0.10
+
+================================================================================
+INTELLIGENCE CONTEXT
+================================================================================
+Initialized Services
+
+✓ Ownership Service
+✓ Successor Service
+✓ Coverage Service
+✓ Concentration Service
+✓ Bus Factor Service
+✓ Health Service
+✓ History Service
+✓ Forecast Pipeline
+✓ Future Risk Pipeline
+✓ Organization Dashboard
+✓ Simulation Services
+✓ Scenario Services
+
+================================================================================
+OWNERSHIP ANALYSIS
+================================================================================
+Top Module Owners
+
+
+Module : packages/react-devtools-core/src/standalone.js
+--------------------------------------------------------------------------------
+fallintoplace                1.00%
+
+Module : packages/react-devtools-facade/src/DevToolsFacadeTools.js
+--------------------------------------------------------------------------------
+hoxyq                        1.00%
+
+Module : packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js
+--------------------------------------------------------------------------------
+hoxyq                        1.00%
+
+Module : packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js
+--------------------------------------------------------------------------------
+hoxyq                        1.00%
+
+Module : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSharedStyles.css
+--------------------------------------------------------------------------------
+devjiwonchoi                 1.00%
+
+Module : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js
+--------------------------------------------------------------------------------
+devjiwonchoi                 1.00%
+
+Module : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js
+--------------------------------------------------------------------------------
+devjiwonchoi                 1.00%
+
+Module : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.css
+--------------------------------------------------------------------------------
+devjiwonchoi                 1.00%
+
+Module : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js
+--------------------------------------------------------------------------------
+devjiwonchoi                 1.00%
+
+Module : packages/react-dom/src/__tests__/ReactDOMFloat-test.js
+--------------------------------------------------------------------------------
+TheAlexLichter               1.00%
+
+================================================================================
+SUCCESSOR ANALYSIS
+================================================================================
+
+Module : scripts/rollup/build-all-release-channels.js
+--------------------------------------------------------------------------------
+Rank 1 fallintoplace            Score 0.10
+
+================================================================================
+COVERAGE ANALYSIS
+================================================================================
+Top Covered Modules
+
+Module     : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSharedStyles.css
+Experts    : 1
+Coverage   : 2.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js
+Experts    : 1
+Coverage   : 2.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js
+Experts    : 1
+Coverage   : 2.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.css
+Experts    : 1
+Coverage   : 2.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js
+Experts    : 1
+Coverage   : 2.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-dom/src/__tests__/ReactDOMFloat-test.js
+Experts    : 1
+Coverage   : 1.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-dom/src/shared/ReactDOMFloat.js
+Experts    : 1
+Coverage   : 1.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-dom/src/shared/ReactDOMTypes.js
+Experts    : 1
+Coverage   : 1.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js
+Experts    : 1
+Coverage   : 1.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : scripts/rollup/build-all-release-channels.js
+Experts    : 2
+Coverage   : 0.75
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-facade/src/DevToolsFacadeTools.js
+Experts    : 1
+Coverage   : 0.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js
+Experts    : 1
+Coverage   : 0.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js
+Experts    : 1
+Coverage   : 0.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js
+Experts    : 1
+Coverage   : 0.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-server/src/ReactFlightServer.js
+Experts    : 1
+Coverage   : 0.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-core/src/standalone.js
+Experts    : 1
+Coverage   : 0.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/react-reconciler/src/ReactFiberCommitWork.js
+Experts    : 1
+Coverage   : 0.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/shared/ReactFeatureFlags.js
+Experts    : 1
+Coverage   : 0.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/shared/forks/ReactFeatureFlags.native-fb-dynamic.js
+Experts    : 1
+Coverage   : 0.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+Module     : packages/shared/forks/ReactFeatureFlags.native-fb.js
+Experts    : 1
+Coverage   : 0.50
+Level      : WEAK
+--------------------------------------------------------------------------------
+
+================================================================================
+CONCENTRATION ANALYSIS
+================================================================================
+Highest Concentration Modules
+
+Module        : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSharedStyles.css
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.css
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-devtools-facade/src/DevToolsFacadeTools.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : scripts/bench/benchmark.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMReply-test.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-server/src/ReactFlightServer.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-dom/src/__tests__/ReactDOMFloat-test.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-dom/src/shared/ReactDOMFloat.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-dom/src/shared/ReactDOMTypes.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-devtools-core/src/standalone.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/react-reconciler/src/ReactFiberCommitWork.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/shared/ReactFeatureFlags.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+Module        : packages/shared/forks/ReactFeatureFlags.native-fb-dynamic.js
+Experts       : 1
+Concentration : 1.00
+Level         : HIGH
+--------------------------------------------------------------------------------
+
+================================================================================
+BUS FACTOR ANALYSIS
+================================================================================
+Bus Factor by Module
+
+Module     : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSharedStyles.css
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.css
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-dom/src/__tests__/ReactDOMFloat-test.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-dom/src/shared/ReactDOMFloat.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-dom/src/shared/ReactDOMTypes.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : scripts/rollup/build-all-release-channels.js
+Bus Factor : 2
+Coverage   : 1.00
+Risk Level : RiskLevel.MEDIUM
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-facade/src/DevToolsFacadeTools.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-server/src/ReactFlightServer.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-devtools-core/src/standalone.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-reconciler/src/ReactFiberCommitWork.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/shared/ReactFeatureFlags.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/shared/forks/ReactFeatureFlags.native-fb-dynamic.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/shared/forks/ReactFeatureFlags.native-fb.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/shared/forks/ReactFeatureFlags.native-oss.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/shared/forks/ReactFeatureFlags.test-renderer.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/shared/forks/ReactFeatureFlags.test-renderer.native-fb.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/shared/forks/ReactFeatureFlags.test-renderer.www.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/shared/forks/ReactFeatureFlags.www.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : scripts/bench/benchmark.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+Module     : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMReply-test.js
+Bus Factor : 1
+Coverage   : 1.00
+Risk Level : RiskLevel.HIGH
+--------------------------------------------------------------------------------
+
+================================================================================
+HEALTH ANALYSIS
+================================================================================
+Module Health
+
+Module          : scripts/rollup/build-all-release-channels.js
+Health Score    : 30.30
+Health Level    : CRITICAL
+Coverage Score  : 0.75
+Concentration   : 0.50
+Bus Factor      : 2
+--------------------------------------------------------------------------------
+Module          : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSharedStyles.css
+Health Score    : 6.00
+Health Level    : CRITICAL
+Coverage Score  : 2.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js
+Health Score    : 6.00
+Health Level    : CRITICAL
+Coverage Score  : 2.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js
+Health Score    : 6.00
+Health Level    : CRITICAL
+Coverage Score  : 2.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.css
+Health Score    : 6.00
+Health Level    : CRITICAL
+Coverage Score  : 2.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js
+Health Score    : 6.00
+Health Level    : CRITICAL
+Coverage Score  : 2.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-dom/src/__tests__/ReactDOMFloat-test.js
+Health Score    : 5.60
+Health Level    : CRITICAL
+Coverage Score  : 1.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-dom/src/shared/ReactDOMFloat.js
+Health Score    : 5.60
+Health Level    : CRITICAL
+Coverage Score  : 1.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-dom/src/shared/ReactDOMTypes.js
+Health Score    : 5.60
+Health Level    : CRITICAL
+Coverage Score  : 1.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js
+Health Score    : 5.60
+Health Level    : CRITICAL
+Coverage Score  : 1.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-devtools-facade/src/DevToolsFacadeTools.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-server/src/ReactFlightServer.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-devtools-core/src/standalone.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-reconciler/src/ReactFiberCommitWork.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/shared/ReactFeatureFlags.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/shared/forks/ReactFeatureFlags.native-fb-dynamic.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/shared/forks/ReactFeatureFlags.native-fb.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/shared/forks/ReactFeatureFlags.native-oss.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/shared/forks/ReactFeatureFlags.test-renderer.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/shared/forks/ReactFeatureFlags.test-renderer.native-fb.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/shared/forks/ReactFeatureFlags.test-renderer.www.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/shared/forks/ReactFeatureFlags.www.js
+Health Score    : 5.20
+Health Level    : CRITICAL
+Coverage Score  : 0.50
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : scripts/bench/benchmark.js
+Health Score    : 5.02
+Health Level    : CRITICAL
+Coverage Score  : 0.05
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+Module          : packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMReply-test.js
+Health Score    : 5.02
+Health Level    : CRITICAL
+Coverage Score  : 0.05
+Concentration   : 1.00
+Bus Factor      : 1
+--------------------------------------------------------------------------------
+
+================================================================================
+ORGANIZATION DASHBOARD
+================================================================================
+Organization Health
+
+Average Health   : 6.32
+Best Health      : 30.30
+Worst Health     : 5.02
+Healthy Modules  : 0
+Warning Modules  : 0
+Critical Modules : 27
+Total Modules    : 27
+--------------------------------------------------------------------------------
+Top Organizational Risks
+
+Weakest Readiness
+
+Rank      : 1
+Module    : packages/react-devtools-core/src/standalone.js
+Readiness : 0.00
+--------------------------------------------------------------------------------
+Rank      : 2
+Module    : packages/react-devtools-facade/src/DevToolsFacadeTools.js
+Readiness : 0.00
+--------------------------------------------------------------------------------
+Rank      : 3
+Module    : packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js
+Readiness : 0.00
+--------------------------------------------------------------------------------
+Rank      : 4
+Module    : packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js
+Readiness : 0.00
+--------------------------------------------------------------------------------
+Rank      : 5
+Module    : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSharedStyles.css
+Readiness : 0.00
+--------------------------------------------------------------------------------
+Rank      : 6
+Module    : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js
+Readiness : 0.00
+--------------------------------------------------------------------------------
+Rank      : 7
+Module    : packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js
+Readiness : 0.00
+--------------------------------------------------------------------------------
+Rank      : 8
+Module    : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.css
+Readiness : 0.00
+--------------------------------------------------------------------------------
+Rank      : 9
+Module    : packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js
+Readiness : 0.00
+--------------------------------------------------------------------------------
+Rank      : 10
+Module    : packages/react-dom/src/__tests__/ReactDOMFloat-test.js
+Readiness : 0.00
+--------------------------------------------------------------------------------
+Knowledge Transfer Opportunities
+
+
+================================================================================
+FINAL PIPELINE SUMMARY
+================================================================================
+Repository           : facebook/react
+Events Collected     : 10
+Evidence Generated   : 28
+Developers Learned   : 6
+Modules Learned      : 27
+Expertise Estimates  : 28
+Coverage Reports     : 27
+Concentration Reports: 27
+Bus Factors          : 27
+Health Reports       : 27
+
+✓ GitHub Adapter
+✓ Evidence Extraction
+✓ Expertise Projection
+✓ Ownership Analysis
+✓ Successor Analysis
+✓ Coverage Analysis
+✓ Concentration Analysis
+✓ Bus Factor Analysis
+✓ Health Analysis
+✓ Organization Dashboard
+
+================================================================================
+PIA END-TO-END PIPELINE PASSED
+================================================================================

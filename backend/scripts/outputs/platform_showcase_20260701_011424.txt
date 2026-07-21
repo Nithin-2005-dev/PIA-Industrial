@@ -1,0 +1,1932 @@
+============================================
+[1m             PIA LATENT ENGINE              [0m
+[96m         COMPLETE PLATFORM SHOWCASE         [0m
+============================================
+
+Canonical Architecture
+
+ GitHub
+    |
+    v
+ Observation Layer
+    |
+    v
+ Measurement Layer
+    |
+    v
+ Evidence Layer
+    |
+    v
+ Expertise Layer
+    |
+    v
+ Knowledge Layer
+    |
+    v
+[95m Organization Intelligence[0m
+[2m    |  (Ownership . Coverage . Concentration . Bus Factor[0m
+[2m    |   Successor . Knowledge Risk . Health . Recommendations)[0m
+    v
+ Reasoning Layer
+    |
+    v
+ Decision Layer
+    |
+    v
+ Executive Intelligence Report
+
+============================================
+
+--------------------------------------------
+[96m[1/14] Platform Initialization[0m
+--------------------------------------------
+
+[1mPlatform[0m
+Platform                               PIA Latent Engine
+Architecture                           Observation -> Measurement -> Evidence -> Expertise -> Knowledge -> Reasoning -> Decision
+Repository                             facebook/react
+Branch                                 main
+Commit Limit                           50
+Tenant                                 default
+Python                                 3.14.5
+OS                                     Windows
+Working Directory                      C:\Users\NITHIN\Agentic_AI\latent-engine\backend
+[92m[OK] Platform initialized[0m
+
+[1mEnvironment[0m
+[92m[OK] Python executable: C:\Users\NITHIN\AppData\Local\Python\pythoncore-3.14-64\python.exe[0m
+[92m[OK] Environment validation passed[0m
+
+[1mOutput[0m
+[92m[OK] Output directory ready[0m
+Directory                              outputs\showcase
+
+[1mGitHub[0m
+[92m[OK] GitHub token detected[0m
+Authentication                         Authenticated
+
+[1mPlatform Capabilities[0m
+[92m[OK] Vendor Collection[0m
+[92m[OK] Canonical Observation Layer[0m
+[92m[OK] Scientific Measurement Engine[0m
+[92m[OK] Canonical Evidence Synthesis[0m
+[92m[OK] Evidence-to-Expertise Handoff[0m
+[92m[OK] Knowledge Modeling[0m
+[92m[OK] Reasoning Results[0m
+[92m[OK] Decision Intelligence[0m
+[92m[OK] Confidence Propagation[0m
+[92m[OK] Uncertainty Propagation[0m
+[92m[OK] Lineage Tracking[0m
+[92m[OK] Traceability[0m
+[92m[OK] Explainability[0m
+[92m[OK] Scientific Validation[0m
+[92m[OK] Plugin Architecture[0m
+[92m[OK] Multi-Tenant Ready[0m
+[92m[OK] SaaS Ready[0m
+
+--------------------------------------------
+[96m[2/14] GitHub to Observation[0m
+--------------------------------------------
+
+[1mGitHub to Observation[0m
+
+[1mCollection Result[0m
+Repository                             facebook/react
+Branch                                 main
+Observations                           50
+Collection Time                        63.807s
+[92m[OK] GitHub commits translated into canonical observations[0m
+
+[1mRepository Overview[0m
+Commits                                50
+Unique Files                           815
+Lines Added                            143194
+Lines Deleted                          25091
+Total Line Changes                     168285
+
+[1mTop Contributors[0m
+  1. hoxyq                       11 commits
+  2. eps1lon                      6 commits
+  3. poteto                       6 commits
+  4. fallintoplace                5 commits
+  5. javache                      3 commits
+  6. gnoff                        3 commits
+  7. SamChou19815                 3 commits
+  8. UditDewan                    2 commits
+  9. Boshen                       2 commits
+ 10. acdlite                      1 commits
+
+[1mMost Changed Files[0m
+  1. packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js (8)
+  2. compiler/Cargo.lock (7)
+  3. compiler/crates/react_compiler/src/entrypoint/program.rs (7)
+  4. packages/react-devtools-facade/src/DevToolsFacadeTools.js (6)
+  5. packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js (5)
+  6. compiler/crates/react_compiler_ast/Cargo.toml (5)
+  7. compiler/crates/react_compiler_reactive_scopes/src/codegen_reactive_function.rs (5)
+  8. packages/react-server/src/ReactFizzServer.js (5)
+  9. packages/react-dom/src/__tests__/ReactDOMFizzServer-test.js (4)
+ 10. packages/react-server/src/ReactFlightServer.js (4)
+
+[1mMost Active Directories[0m
+  1. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler (82)
+  2. packages/react-reconciler/src (71)
+  3. compiler/crates/react_compiler_reactive_scopes/src (55)
+  4. packages/react-server/src (45)
+  5. compiler/crates/react_compiler_validation/src (42)
+  6. compiler/crates/react_compiler_inference/src (41)
+  7. compiler/crates/react_compiler_optimization/src (36)
+  8. compiler/crates/react_compiler_hir/src (32)
+  9. packages/react-server/src/forks (26)
+ 10. compiler/crates/react_compiler/src/entrypoint (24)
+
+[1mTop File Extensions[0m
+  1. .js (646)
+  2. .rs (344)
+  3. .md (94)
+  4. .json (51)
+  5. .toml (40)
+  6. .ts (23)
+  7. .yml (11)
+  8. .lock (10)
+  9. .gitignore (4)
+ 10. .sh (2)
+
+[1mFile Status Distribution[0m
+  1. modified     916
+  2. added        297
+  3. removed      20
+
+[1mMonthly Activity[0m
+  1. 2026-06 (50)
+
+[1mWeekday Activity[0m
+  1. Tuesday    14
+  2. Monday     10
+  3. Friday     5
+  4. Thursday   13
+  5. Wednesday  8
+
+[1mMost Active Hours[0m
+  1. 03:00 (2)
+  2. 06:00 (3)
+  3. 07:00 (2)
+  4. 08:00 (3)
+  5. 09:00 (2)
+  6. 10:00 (2)
+  7. 11:00 (1)
+  8. 12:00 (1)
+  9. 13:00 (1)
+ 10. 14:00 (4)
+ 11. 15:00 (4)
+ 12. 16:00 (3)
+ 13. 17:00 (4)
+ 14. 18:00 (1)
+ 15. 19:00 (8)
+ 16. 20:00 (1)
+ 17. 21:00 (2)
+ 18. 22:00 (4)
+ 19. 23:00 (2)
+[92m[OK] GitHub to Observation completed in 63.835s[0m
+
+--------------------------------------------
+[96m[3/14] Observation Intelligence[0m
+--------------------------------------------
+
+[1mObservation Intelligence[0m
+
+[1mObservation Contract[0m
+Observations                           50
+Immutable Dataclasses                  PASS
+Canonical Facts                        PASS
+Context                                PASS
+Provenance                             PASS
+Actors                                 50
+Targets                                1233
+
+[1mObservation Types[0m
+  1. commit                   50
+
+[1mObservation Categories[0m
+  1. source_control           50
+
+[1mLifecycle[0m
+  1. production               50
+
+[1mObservation Provenance[0m
+Source Platforms                       1
+Source Adapters                        1
+Adapter Versions                       1.0
+
+[1mSample Observation[0m
+Observation ID                         7d77e450-bd0e-58fd-8f6d-97b5dcf666e2
+Trace ID                               39a3800e-fee6-5ee3-8154-e78eecac9b9e
+Correlation ID                         c3555f0ca2648380ccd3d6af23479610e72f6bf1
+Type                                   commit
+Category                               source_control
+Repository                             facebook/react
+Fact Type                              CommitFacts
+[92m[OK] Observation layer verified[0m
+[92m[OK] Observation Intelligence completed in 0.003s[0m
+
+--------------------------------------------
+[96m[4/14] Observation to Measurement[0m
+--------------------------------------------
+
+[1mObservation to Measurement[0m
+
+[1mMeasurement Registry[0m
+Definitions Observed                   16
+Measurements                           7475
+Measurement Time                       0.945s
+
+[1mDefinitions[0m
+  1. code_churn                       loc          1.0
+  2. files_changed                    count        1.0
+  3. patch_complexity_delta           complexity   1.0
+  4. change_distribution_entropy      entropy      1.0
+  5. change_surface_area              score        1.0
+  6. review_attention_need            score        1.0
+  7. author_contribution_count        count        1.0
+  8. author_file_touch_count          count        1.0
+  9. author_code_churn                loc          1.0
+ 10. file_churn                       loc          1.0
+ 11. file_touch_count                 count        1.0
+ 12. file_addition_ratio              percent      1.0
+ 13. file_is_test                     score        1.0
+ 14. file_is_documentation            score        1.0
+ 15. directory_churn                  loc          1.0
+ 16. directory_file_count             count        1.0
+
+[1mEvaluators[0m
+  1. change_complexity_evaluator        200
+  2. change_impact_evaluator            100
+  3. developer_activity_evaluator       150
+  4. file_activity_evaluator            6163
+  5. subsystem_activity_evaluator       862
+
+[1mValidation[0m
+Passed                                 7475
+Warnings                               0
+Failed                                 0
+
+[1mValidation Checks[0m
+  1. finite_value                       7475
+  2. unit_matches_definition            7475
+  3. range                              7475
+
+[1mConfidence[0m
+Average                                0.850
+Minimum                                0.181
+Maximum                                0.850
+Average Coverage                       1.000
+Average Source Reliability             0.850
+
+[1mQuality[0m
+Average                                0.887
+Minimum                                0.386
+Maximum                                0.887
+
+[1mUncertainty[0m
+Average Variance                       86755.991
+Minimum Variance                       0.023
+Maximum Variance                       343703790.563
+
+[1mNormalization Methods[0m
+  1. identity                           4909
+  2. bounded_score_clamp                2566
+
+[1mNormalization and Derivation Steps[0m
+  1. observation.facts                  7475
+  2. change_complexity_evaluator        200
+  3. cleaning                           7475
+  4. calibration                        7475
+  5. scaling                            7475
+  6. bias_correction                    7475
+  7. change_impact_evaluator            100
+  8. developer_activity_evaluator       150
+  9. file_activity_evaluator            6163
+ 10. subsystem_activity_evaluator       862
+
+[1mCalibration[0m
+Average Factor                         1.000
+Minimum Factor                         1.000
+Maximum Factor                         1.000
+
+[1mBenchmarks and Standards[0m
+  1. 25010                              7475
+  2. GUM                                7475
+
+[1mScientific Statistics[0m
+Mean Value                             84.416
+Median Value                           1.000
+Standard Deviation                     1959.963
+
+[1mSample Measurements[0m
+  1. code_churn                       value=242.000 confidence=0.850 quality=0.887
+  2. files_changed                    value=3.000 confidence=0.850 quality=0.887
+  3. patch_complexity_delta           value=8.000 confidence=0.850 quality=0.887
+  4. change_distribution_entropy      value=0.951 confidence=0.850 quality=0.887
+  5. change_surface_area              value=65.917 confidence=0.850 quality=0.887
+  6. review_attention_need            value=42.929 confidence=0.850 quality=0.887
+  7. author_contribution_count        value=1.000 confidence=0.850 quality=0.887
+  8. author_file_touch_count          value=3.000 confidence=0.850 quality=0.887
+[92m[OK] Measurement layer produced canonical measurements[0m
+[92m[OK] Observation to Measurement completed in 1.046s[0m
+
+--------------------------------------------
+[96m[5/14] Measurement to Evidence[0m
+--------------------------------------------
+
+[1mMeasurement to Evidence[0m
+
+[1mEvidence Package[0m
+Pipeline Version                       evidence.v1
+Generated Evidence                     280
+Usable for Expertise                   280
+Rejected Items                         49
+Input Measurements                     7475
+Validated Measurements                 7475
+Synthesis Time                         0.054s
+
+[1mEvidence Health[0m
+Evidence Present                       PASS
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+Explainability Preserved               PASS
+Lineage Preserved                      PASS
+
+[1mEvidence Categories[0m
+  1. maintainability          280
+
+[1mSeverity[0m
+  1. high                     280
+
+[1mPriority[0m
+  1. medium                   275
+  2. low                      5
+
+[1mEvidence Lineage[0m
+Supporting Measurements                560
+Synthesis Rules                        280
+
+[1mSample Evidence[0m
+  1. File Maintenance Risk              confidence=0.423 uncertainty=0.112 quality=0.887
+  2. File Maintenance Risk              confidence=0.424 uncertainty=0.111 quality=0.887
+  3. File Maintenance Risk              confidence=0.498 uncertainty=0.112 quality=0.887
+  4. File Maintenance Risk              confidence=0.498 uncertainty=0.112 quality=0.887
+  5. File Maintenance Risk              confidence=0.498 uncertainty=0.112 quality=0.887
+  6. File Maintenance Risk              confidence=0.449 uncertainty=0.112 quality=0.887
+  7. File Maintenance Risk              confidence=0.448 uncertainty=0.112 quality=0.887
+  8. File Maintenance Risk              confidence=0.498 uncertainty=0.112 quality=0.887
+[92m[OK] Evidence layer synthesized canonical evidence package[0m
+[92m[OK] Measurement to Evidence completed in 0.057s[0m
+
+--------------------------------------------
+[96m[6/14] Evidence to Expertise[0m
+--------------------------------------------
+
+[1mEvidence to Expertise[0m
+
+[1mExpertise Models[0m
+Evidence Inputs                        280
+Models Built                           280
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+Explainability Preserved               PASS
+
+[1mTop Expertise Models[0m
+  1. compiler/crates/react_compiler/Cargo.toml score=0.157 confidence=0.500
+  2. compiler/fixtures/fbt-scope-range-sync-with-jsx.js score=0.157 confidence=0.500
+  3. compiler/packages/babel-plugin-react-compiler-rust/tsconfig.json score=0.157 confidence=0.500
+  4. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/codegen-nan-infinity-as-identifiers.js score=0.157 confidence=0.500
+  5. packages/react-devtools-shared/src/devtools/views/Settings/SettingsContext.js score=0.157 confidence=0.500
+  6. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_structural_diff.js score=0.157 confidence=0.500
+  7. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_identifier_diff.js score=0.157 confidence=0.500
+  8. packages/react-dom-bindings/src/events/plugins/FormActionEventPlugin.js score=0.157 confidence=0.500
+  9. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-break.expect.md score=0.157 confidence=0.500
+ 10. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-continue.expect.md score=0.157 confidence=0.500
+[92m[OK] Expertise layer built from canonical evidence package[0m
+[92m[OK] Evidence to Expertise completed in 0.008s[0m
+
+--------------------------------------------
+[96m[7/14] Expertise to Knowledge[0m
+--------------------------------------------
+
+[1mExpertise to Knowledge[0m
+
+[1mKnowledge Topics[0m
+Expertise Models Consumed              280
+Knowledge Topics Built                 280
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+
+[1mKnowledge Topics[0m
+  1. compiler/crates/react_compiler/Cargo.toml expertise=  1 score=0.157 conf=0.500
+  2. compiler/fixtures/fbt-scope-range-sync-with-jsx.js expertise=  1 score=0.157 conf=0.500
+  3. compiler/packages/babel-plugin-react-compiler-rust/tsconfig.json expertise=  1 score=0.157 conf=0.500
+  4. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/codegen-nan-infinity-as-identifiers.js expertise=  1 score=0.157 conf=0.500
+  5. packages/react-devtools-shared/src/devtools/views/Settings/SettingsContext.js expertise=  1 score=0.157 conf=0.500
+  6. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_structural_diff.js expertise=  1 score=0.157 conf=0.500
+  7. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_identifier_diff.js expertise=  1 score=0.157 conf=0.500
+  8. packages/react-dom-bindings/src/events/plugins/FormActionEventPlugin.js expertise=  1 score=0.157 conf=0.500
+  9. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-break.expect.md expertise=  1 score=0.157 conf=0.500
+ 10. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-continue.expect.md expertise=  1 score=0.157 conf=0.500
+ 11. compiler/crates/react_compiler_oxc/Cargo.toml expertise=  1 score=0.157 conf=0.500
+ 12. compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts expertise=  1 score=0.157 conf=0.500
+ 13. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-pattern2_type_to_object.js expertise=  1 score=0.157 conf=0.500
+ 14. packages/react-devtools-cdt-mcp/fixtures/app/package.json expertise=  1 score=0.157 conf=0.500
+ 15. compiler/.claude/rules/rust-port.md expertise=  1 score=0.157 conf=0.500
+ 16. compiler/fixtures/align-method-call-scope-range-sync.js expertise=  1 score=0.157 conf=0.500
+ 17. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_fn_type_component_to_other.expect.md expertise=  1 score=0.157 conf=0.500
+ 18. packages/scheduler/src/forks/Scheduler.js expertise=  1 score=0.157 conf=0.500
+ 19. compiler/crates/react_compiler_optimization/src/lib.rs expertise=  1 score=0.157 conf=0.500
+ 20. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/component-in-object-method-body.flow.js expertise=  1 score=0.157 conf=0.500
+ 21. packages/react-devtools-cdt-mcp/package.json expertise=  1 score=0.157 conf=0.500
+ 22. packages/react-client/src/ReactFlightClient.js expertise=  1 score=0.157 conf=0.500
+ 23. compiler/crates/react_compiler_e2e_cli/Cargo.toml expertise=  1 score=0.157 conf=0.500
+ 24. compiler/.claude/rules/commit-convention.md expertise=  1 score=0.157 conf=0.500
+ 25. packages/react-reconciler/src/ReactFiber.js expertise=  1 score=0.157 conf=0.499
+ 26. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_float_precision.expect.md expertise=  1 score=0.157 conf=0.499
+ 27. compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/InferReactiveScopeVariables.ts expertise=  1 score=0.157 conf=0.499
+ 28. compiler/crates/react_compiler_inference/src/lib.rs expertise=  1 score=0.157 conf=0.499
+ 29. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch.expect.md expertise=  1 score=0.157 conf=0.499
+ 30. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_id_numbering.expect.md expertise=  1 score=0.157 conf=0.499
+ 31. compiler/crates/react_compiler_validation/src/lib.rs expertise=  1 score=0.157 conf=0.499
+ 32. compiler/.claude/skills/compiler-review/SKILL.md expertise=  1 score=0.157 conf=0.499
+ 33. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-pattern3_type_to_poly.expect.md expertise=  1 score=0.157 conf=0.499
+ 34. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_severity_diff.expect.md expertise=  1 score=0.157 conf=0.499
+ 35. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.typescript-this-param-in-compiled-function.expect.md expertise=  1 score=0.157 conf=0.499
+ 36. compiler/packages/babel-plugin-react-compiler-rust/package.json expertise=  1 score=0.157 conf=0.499
+ 37. packages/react-reconciler/src/ReactFiberHydrationContext.js expertise=  1 score=0.157 conf=0.499
+ 38. packages/react-devtools-shared/src/backend/fiber/renderer.js expertise=  1 score=0.157 conf=0.499
+ 39. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-infer-mutation-aliasing-function-shadows-own-name.expect.md expertise=  1 score=0.157 conf=0.499
+ 40. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_jsxtext_nbsp.expect.md expertise=  1 score=0.157 conf=0.499
+ 41. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-rust-as-expression-assignment-target.expect.md expertise=  1 score=0.157 conf=0.499
+ 42. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-context-variable-catch-in-lambda.expect.md expertise=  1 score=0.157 conf=0.499
+ 43. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_identifier_diff.expect.md expertise=  1 score=0.157 conf=0.499
+ 44. packages/react-reconciler/src/ReactFiberCallUserSpace.js expertise=  1 score=0.157 conf=0.499
+ 45. packages/react-devtools-facade/README.md expertise=  1 score=0.157 conf=0.499
+ 46. compiler/crates/react_compiler_ast/tests/deep_nesting.rs expertise=  1 score=0.157 conf=0.499
+ 47. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-pattern2_type_to_object.expect.md expertise=  1 score=0.157 conf=0.499
+ 48. packages/react-reconciler/src/ReactFiberCommitWork.js expertise=  1 score=0.157 conf=0.499
+ 49. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/aliased_usememo.expect.md expertise=  1 score=0.157 conf=0.499
+ 50. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/constant-propagation-scientific-notation.expect.md expertise=  1 score=0.157 conf=0.499
+ 51. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.invalid-reassign-local-variable-in-multiple-async-callbacks.expect.md expertise=  1 score=0.157 conf=0.499
+ 52. packages/react-devtools-shared/src/__tests__/console-test.js expertise=  1 score=0.157 conf=0.499
+ 53. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-update-expression-context-variable-via-type-annotation.expect.md expertise=  1 score=0.157 conf=0.499
+ 54. packages/react-devtools-cdt-mcp/fixtures/app/index.html expertise=  1 score=0.157 conf=0.499
+ 55. yarn.lock                    expertise=  1 score=0.157 conf=0.499
+ 56. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fn-name-no-leak-to-nested-arrow.expect.md expertise=  1 score=0.157 conf=0.499
+ 57. packages/react-devtools-cdt-mcp/rollup.config.cjs expertise=  1 score=0.157 conf=0.499
+ 58. compiler/.claude/skills/compiler-verify/SKILL.md expertise=  1 score=0.157 conf=0.499
+ 59. compiler/apps/playground/lib/compilation.ts expertise=  1 score=0.157 conf=0.499
+ 60. compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Program.ts expertise=  1 score=0.157 conf=0.499
+ 61. packages/react-noop-renderer/src/createReactNoop.js expertise=  1 score=0.157 conf=0.499
+ 62. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-transitive-freeze-nested-function-captures.expect.md expertise=  1 score=0.157 conf=0.499
+ 63. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_loc_diff_1.js expertise=  1 score=0.157 conf=0.499
+ 64. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_unsupported_node_format.expect.md expertise=  1 score=0.157 conf=0.499
+ 65. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_structural_diff.expect.md expertise=  1 score=0.157 conf=0.499
+ 66. compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Pipeline.ts expertise=  1 score=0.157 conf=0.499
+ 67. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.invalid-numeric-literal-computed-property-assignment.expect.md expertise=  1 score=0.157 conf=0.499
+ 68. compiler/crates/react_compiler_reactive_scopes/src/lib.rs expertise=  1 score=0.157 conf=0.499
+ 69. compiler/crates/react_compiler_lowering/src/lib.rs expertise=  1 score=0.157 conf=0.499
+ 70. compiler/.claude/agents/analyze-pass-impact.md expertise=  1 score=0.157 conf=0.499
+ 71. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/drop-manual-memoization-react-module.expect.md expertise=  1 score=0.157 conf=0.499
+ 72. packages/react-dom-bindings/src/client/ReactFiberConfigDOM.js expertise=  1 score=0.157 conf=0.499
+ 73. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fbt/error.todo-fbt-plural-in-expression-container.expect.md expertise=  1 score=0.157 conf=0.499
+ 74. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/flow-reserved-word-as-identifier.flow.expect.md expertise=  1 score=0.157 conf=0.499
+ 75. packages/react-devtools-cdt-mcp/fixtures/app/README.md expertise=  1 score=0.157 conf=0.499
+ 76. compiler/crates/react_compiler_optimization/src/optimize_props_method_calls.rs expertise=  1 score=0.157 conf=0.499
+ 77. compiler/crates/react_compiler_reactive_scopes/src/assert_well_formed_break_targets.rs expertise=  1 score=0.157 conf=0.499
+ 78. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/compiled-function-nested-in-jsx.expect.md expertise=  1 score=0.157 conf=0.499
+ 79. packages/react-server/src/ReactFlightServer.js expertise=  1 score=0.157 conf=0.499
+ 80. compiler/.claude/skills/compiler-commit/SKILL.md expertise=  1 score=0.157 conf=0.499
+ 81. compiler/crates/react_compiler_ast/src/lib.rs expertise=  1 score=0.157 conf=0.499
+ 82. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_loc_diff_2.js expertise=  1 score=0.157 conf=0.499
+ 83. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_loc_diff_1.expect.md expertise=  1 score=0.157 conf=0.499
+ 84. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/function-decl-shadowed-by-inner-const.expect.md expertise=  1 score=0.157 conf=0.499
+ 85. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-loop-counter-memoization-assignment.expect.md expertise=  1 score=0.157 conf=0.499
+ 86. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-loop-counter-memoization.expect.md expertise=  1 score=0.157 conf=0.499
+ 87. compiler/crates/react_compiler_inference/src/flatten_reactive_loops_hir.rs expertise=  1 score=0.157 conf=0.499
+ 88. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/codegen-nan-infinity-as-identifiers.expect.md expertise=  1 score=0.157 conf=0.499
+ 89. compiler/crates/react_compiler_validation/src/validate_no_jsx_in_try_statement.rs expertise=  1 score=0.157 conf=0.499
+ 90. .github/workflows/compiler_rust.yml expertise=  1 score=0.157 conf=0.498
+ 91. packages/react-native-renderer/src/ReactNativeTypes.js expertise=  1 score=0.157 conf=0.498
+ 92. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fbt-scope-range-identifier-sync.js expertise=  1 score=0.157 conf=0.498
+ 93. packages/react-devtools-shared/src/backend/NativeStyleEditor/setupNativeStyleEditor.js expertise=  1 score=0.157 conf=0.498
+ 94. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_1.js expertise=  1 score=0.157 conf=0.498
+ 95. compiler/crates/react_compiler/src/timing.rs expertise=  1 score=0.157 conf=0.498
+ 96. compiler/.claude/agents/compiler-review.md expertise=  1 score=0.157 conf=0.498
+ 97. compiler/crates/react_compiler_validation/src/validate_no_capitalized_calls.rs expertise=  1 score=0.157 conf=0.498
+ 98. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/component-in-object-method-body.flow.expect.md expertise=  1 score=0.157 conf=0.498
+ 99. compiler/crates/react_compiler_ast/src/literals.rs expertise=  1 score=0.157 conf=0.498
+ 100. compiler/.claude/skills/plan-update/SKILL.md expertise=  1 score=0.157 conf=0.498
+ 101. compiler/crates/react_compiler_reactive_scopes/src/prune_unused_labels.rs expertise=  1 score=0.157 conf=0.498
+ 102. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_loc_diff_2.expect.md expertise=  1 score=0.156 conf=0.498
+ 103. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_1.expect.md expertise=  1 score=0.156 conf=0.498
+ 104. packages/react-devtools-cdt-mcp/fixtures/app/webpack.config.js expertise=  1 score=0.156 conf=0.498
+ 105. compiler/crates/react_compiler_lowering/tests/unknown_statement_lowering.rs expertise=  1 score=0.156 conf=0.498
+ 106. packages/react-dom-bindings/src/client/ReactDOMComponentTree.js expertise=  1 score=0.156 conf=0.498
+ 107. compiler/crates/react_compiler_oxc/src/diagnostics.rs expertise=  1 score=0.156 conf=0.498
+ 108. compiler/.claude/agents/port-pass.md expertise=  1 score=0.156 conf=0.498
+ 109. compiler/crates/react_compiler_reactive_scopes/src/prune_unused_scopes.rs expertise=  1 score=0.156 conf=0.498
+ 110. compiler/crates/react_compiler_hir/src/default_module_type_provider.rs expertise=  1 score=0.156 conf=0.498
+ 111. compiler/crates/react_compiler_optimization/src/prune_unused_labels_hir.rs expertise=  1 score=0.156 conf=0.498
+ 112. compiler/crates/react_compiler_validation/src/validate_static_components.rs expertise=  1 score=0.156 conf=0.498
+ 113. compiler/.claude/skills/compiler-port/SKILL.md expertise=  1 score=0.156 conf=0.498
+ 114. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_2.js expertise=  1 score=0.156 conf=0.498
+ 115. compiler/docs/rust-port/rust-port-notes.md expertise=  1 score=0.156 conf=0.498
+ 116. compiler/crates/react_compiler_ast/src/patterns.rs expertise=  1 score=0.156 conf=0.498
+ 117. compiler/crates/react_compiler_swc/src/diagnostics.rs expertise=  1 score=0.156 conf=0.498
+ 118. compiler/crates/react_compiler_ast/src/common.rs expertise=  1 score=0.156 conf=0.498
+ 119. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/deeply-nested-jsx-recursion-limit.js expertise=  1 score=0.156 conf=0.498
+ 120. compiler/crates/react_compiler_reactive_scopes/src/assert_scope_instructions_within_scopes.rs expertise=  1 score=0.156 conf=0.498
+ 121. packages/react-devtools-cdt-mcp/fixtures/app/App.js expertise=  1 score=0.156 conf=0.498
+ 122. compiler/crates/react_compiler/src/entrypoint/plugin_options.rs expertise=  1 score=0.156 conf=0.498
+ 123. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_2.expect.md expertise=  1 score=0.156 conf=0.498
+ 124. compiler/docs/rust-port/rust-port-gap-analysis.md expertise=  1 score=0.156 conf=0.498
+ 125. packages/react-devtools-cdt-mcp/README.md expertise=  1 score=0.156 conf=0.498
+ 126. packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js expertise=  1 score=0.156 conf=0.498
+ 127. compiler/crates/react_compiler_ast/src/operators.rs expertise=  1 score=0.156 conf=0.498
+ 128. compiler/crates/react_compiler_optimization/src/outline_functions.rs expertise=  1 score=0.156 conf=0.498
+ 129. compiler/crates/react_compiler_swc/src/apply_renames.rs expertise=  1 score=0.156 conf=0.498
+ 130. compiler/crates/react_compiler_optimization/src/prune_maybe_throws.rs expertise=  1 score=0.156 conf=0.498
+ 131. compiler/crates/react_compiler_reactive_scopes/src/stabilize_block_ids.rs expertise=  1 score=0.156 conf=0.498
+ 132. compiler/packages/babel-plugin-react-compiler-rust/native/src/lib.rs expertise=  1 score=0.156 conf=0.498
+ 133. compiler/crates/react_compiler_inference/src/align_method_call_scopes.rs expertise=  1 score=0.156 conf=0.498
+ 134. compiler/crates/react_compiler_reactive_scopes/src/prune_always_invalidating_scopes.rs expertise=  1 score=0.156 conf=0.498
+ 135. compiler/crates/react_compiler_inference/src/flatten_scopes_with_hooks_or_use_hir.rs expertise=  1 score=0.156 conf=0.498
+ 136. compiler/crates/react_compiler_utils/src/disjoint_set.rs expertise=  1 score=0.156 conf=0.498
+ 137. compiler/crates/react_compiler_oxc/src/prefilter.rs expertise=  1 score=0.156 conf=0.498
+ 138. compiler/crates/react_compiler_ast/tests/round_trip.rs expertise=  1 score=0.156 conf=0.498
+ 139. compiler/docs/rust-port/rust-port-architecture.md expertise=  1 score=0.156 conf=0.498
+ 140. compiler/packages/babel-plugin-react-compiler-rust/src/prefilter.ts expertise=  1 score=0.156 conf=0.498
+ 141. compiler/crates/react_compiler_ssa/src/eliminate_redundant_phi.rs expertise=  1 score=0.156 conf=0.498
+ 142. compiler/crates/react_compiler_inference/src/align_object_method_scopes.rs expertise=  1 score=0.156 conf=0.498
+ 143. compiler/packages/babel-plugin-react-compiler-rust/src/options.ts expertise=  1 score=0.156 conf=0.498
+ 144. compiler/crates/react_compiler_ast/src/jsx.rs expertise=  1 score=0.156 conf=0.498
+ 145. packages/react-devtools-facade/src/DevToolsFacade.js expertise=  1 score=0.156 conf=0.498
+ 146. compiler/crates/react_compiler_validation/src/validate_context_variable_lvalues.rs expertise=  1 score=0.156 conf=0.498
+ 147. compiler/crates/react_compiler_validation/src/validate_no_set_state_in_render.rs expertise=  1 score=0.156 conf=0.498
+ 148. compiler/crates/react_compiler_oxc/src/apply_renames.rs expertise=  1 score=0.156 conf=0.498
+ 149. compiler/scripts/test-e2e.ts expertise=  1 score=0.156 conf=0.498
+ 150. compiler/packages/babel-plugin-react-compiler-rust/src/bridge.ts expertise=  1 score=0.156 conf=0.498
+ 151. compiler/crates/TODO.md      expertise=  1 score=0.156 conf=0.498
+ 152. compiler/crates/react_compiler_reactive_scopes/src/prune_hoisted_contexts.rs expertise=  1 score=0.156 conf=0.498
+ 153. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fbt-scope-range-identifier-sync.expect.md expertise=  1 score=0.156 conf=0.498
+ 154. compiler/crates/react_compiler_swc/src/prefilter.rs expertise=  1 score=0.156 conf=0.498
+ 155. compiler/crates/react_compiler_hir/src/type_config.rs expertise=  1 score=0.156 conf=0.498
+ 156. compiler/crates/react_compiler_oxc/src/lib.rs expertise=  1 score=0.156 conf=0.498
+ 157. compiler/crates/react_compiler_inference/src/analyse_functions.rs expertise=  1 score=0.156 conf=0.498
+ 158. compiler/crates/react_compiler_reactive_scopes/src/extract_scope_declarations_from_destructuring.rs expertise=  1 score=0.156 conf=0.498
+ 159. compiler/crates/react_compiler_optimization/src/merge_consecutive_blocks.rs expertise=  1 score=0.156 conf=0.498
+ 160. compiler/crates/react_compiler_validation/src/validate_no_freezing_known_mutable_functions.rs expertise=  1 score=0.156 conf=0.498
+ 161. compiler/crates/react_compiler_hir/src/environment_config.rs expertise=  1 score=0.156 conf=0.498
+ 162. compiler/crates/react_compiler/src/fixture_utils.rs expertise=  1 score=0.156 conf=0.498
+ 163. compiler/crates/react_compiler_reactive_scopes/src/prune_unused_lvalues.rs expertise=  1 score=0.156 conf=0.498
+ 164. compiler/docs/rust-port/rust-port-0002-scope-types.md expertise=  1 score=0.156 conf=0.498
+ 165. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/deeply-nested-jsx-recursion-limit.expect.md expertise=  1 score=0.156 conf=0.498
+ 166. compiler/crates/react_compiler_hir/src/reactive.rs expertise=  1 score=0.156 conf=0.498
+ 167. compiler/crates/react_compiler_reactive_scopes/src/prune_non_reactive_dependencies.rs expertise=  1 score=0.156 conf=0.498
+ 168. compiler/docs/rust-port/rust-port-oxc.md expertise=  1 score=0.156 conf=0.498
+ 169. compiler/.claude/skills/compiler-orchestrator/SKILL.md expertise=  1 score=0.156 conf=0.498
+ 170. compiler/packages/babel-plugin-react-compiler-rust/src/BabelPlugin.ts expertise=  1 score=0.156 conf=0.498
+ 171. compiler/crates/react_compiler/src/entrypoint/compile_result.rs expertise=  1 score=0.156 conf=0.498
+ 172. compiler/crates/react_compiler_validation/src/validate_locals_not_reassigned_after_render.rs expertise=  1 score=0.156 conf=0.498
+ 173. compiler/crates/react_compiler/src/entrypoint/suppression.rs expertise=  1 score=0.156 conf=0.498
+ 174. compiler/crates/react_compiler_optimization/src/name_anonymous_functions.rs expertise=  1 score=0.156 conf=0.498
+ 175. compiler/crates/react_compiler_e2e_cli/src/main.rs expertise=  1 score=0.156 conf=0.498
+ 176. packages/react-devtools-cdt-mcp/src/DevToolsCdtMcp.js expertise=  1 score=0.156 conf=0.498
+ 177. compiler/crates/react_compiler_validation/src/validate_use_memo.rs expertise=  1 score=0.156 conf=0.498
+ 178. compiler/crates/react_compiler_lowering/src/identifier_loc_index.rs expertise=  1 score=0.156 conf=0.498
+ 179. compiler/crates/react_compiler_inference/src/align_reactive_scopes_to_block_scopes_hir.rs expertise=  1 score=0.156 conf=0.498
+ 180. compiler/crates/react_compiler_diagnostics/src/js_string.rs expertise=  1 score=0.156 conf=0.498
+ 181. compiler/crates/react_compiler_ast/src/scope.rs expertise=  1 score=0.156 conf=0.498
+ 182. compiler/crates/react_compiler_hir/src/dominator.rs expertise=  1 score=0.156 conf=0.498
+ 183. compiler/crates/react_compiler_optimization/src/optimize_for_ssr.rs expertise=  1 score=0.156 conf=0.498
+ 184. compiler/crates/react_compiler_reactive_scopes/src/propagate_early_returns.rs expertise=  1 score=0.156 conf=0.498
+ 185. compiler/docs/rust-port/rust-compiler-workflow-guide.md expertise=  1 score=0.156 conf=0.498
+ 186. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_silent_rust_fail.js expertise=  1 score=0.156 conf=0.498
+ 187. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_silent_rust_fail.expect.md expertise=  1 score=0.156 conf=0.498
+ 188. compiler/crates/react_compiler_inference/src/memoize_fbt_and_macro_operands_in_same_scope.rs expertise=  1 score=0.156 conf=0.498
+ 189. compiler/crates/react_compiler_swc/src/ts_namespace_export_fixup.rs expertise=  1 score=0.156 conf=0.498
+ 190. compiler/crates/react_compiler_ssa/src/rewrite_instruction_kinds_based_on_reassignment.rs expertise=  1 score=0.156 conf=0.498
+ 191. compiler/crates/react_compiler_inference/src/infer_reactive_scope_variables.rs expertise=  1 score=0.156 conf=0.498
+ 192. compiler/crates/react_compiler_inference/src/merge_overlapping_reactive_scopes_hir.rs expertise=  1 score=0.156 conf=0.498
+ 193. compiler/crates/react_compiler_optimization/src/inline_iifes.rs expertise=  1 score=0.156 conf=0.498
+ 194. compiler/docs/rust-port/rust-port-0001-babel-ast.md expertise=  1 score=0.156 conf=0.498
+ 195. compiler/crates/react_compiler_inference/src/build_reactive_scope_terminals_hir.rs expertise=  1 score=0.156 conf=0.498
+ 196. compiler/crates/react_compiler_optimization/src/dead_code_elimination.rs expertise=  1 score=0.156 conf=0.498
+ 197. compiler/crates/react_compiler_hir/src/object_shape.rs expertise=  1 score=0.156 conf=0.498
+ 198. compiler/crates/react_compiler_lowering/src/find_context_identifiers.rs expertise=  1 score=0.156 conf=0.498
+ 199. compiler/crates/react_compiler_reactive_scopes/src/rename_variables.rs expertise=  1 score=0.156 conf=0.498
+ 200. compiler/crates/react_compiler_diagnostics/src/code_frame.rs expertise=  1 score=0.156 conf=0.498
+ 201. compiler/crates/react_compiler_diagnostics/src/lib.rs expertise=  1 score=0.156 conf=0.498
+ 202. packages/react-devtools-cdt-mcp/src/__tests__/DevToolsCdtMcp-test.js expertise=  1 score=0.156 conf=0.498
+ 203. compiler/packages/babel-plugin-react-compiler-rust/src/scope.ts expertise=  1 score=0.156 conf=0.498
+ 204. compiler/crates/react_compiler_ast/src/declarations.rs expertise=  1 score=0.156 conf=0.498
+ 205. compiler/crates/react_compiler/src/entrypoint/imports.rs expertise=  1 score=0.156 conf=0.498
+ 206. compiler/packages/babel-plugin-react-compiler/src/HIR/DebugPrintReactiveFunction.ts expertise=  1 score=0.156 conf=0.498
+ 207. compiler/crates/react_compiler_validation/src/validate_hooks_usage.rs expertise=  1 score=0.156 conf=0.498
+ 208. compiler/crates/react_compiler_oxc/src/convert_scope.rs expertise=  1 score=0.156 conf=0.498
+ 209. compiler/crates/react_compiler_ssa/src/enter_ssa.rs expertise=  1 score=0.156 conf=0.498
+ 210. compiler/crates/react_compiler_ast/src/expressions.rs expertise=  1 score=0.156 conf=0.498
+ 211. compiler/crates/react_compiler_reactive_scopes/src/merge_reactive_scopes_that_invalidate_together.rs expertise=  1 score=0.156 conf=0.498
+ 212. compiler/docs/rust-port/rust-port-reactive-function.md expertise=  1 score=0.156 conf=0.498
+ 213. compiler/crates/react_compiler/src/entrypoint/gating.rs expertise=  1 score=0.156 conf=0.498
+ 214. compiler/crates/react_compiler_validation/src/validate_no_set_state_in_effects.rs expertise=  1 score=0.156 conf=0.498
+ 215. compiler/crates/react_compiler_reactive_scopes/src/print_reactive_function.rs expertise=  1 score=0.156 conf=0.498
+ 216. compiler/docs/rust-port/rust-port-0003-testing-infrastructure.md expertise=  1 score=0.156 conf=0.498
+ 217. compiler/crates/react_compiler_optimization/src/outline_jsx.rs expertise=  1 score=0.156 conf=0.498
+ 218. compiler/docs/rust-port/rust-port-orchestrator-log.md expertise=  1 score=0.156 conf=0.498
+ 219. compiler/docs/rust-port/rust-port-0005-babel-plugin.md expertise=  1 score=0.156 conf=0.498
+ 220. compiler/crates/react_compiler/src/debug_print.rs expertise=  1 score=0.156 conf=0.498
+ 221. compiler/docs/rust-port/rust-port-0004-build-hir.md expertise=  1 score=0.156 conf=0.498
+ 222. compiler/crates/react_compiler_ast/src/statements.rs expertise=  1 score=0.156 conf=0.498
+ 223. compiler/crates/react_compiler_optimization/src/drop_manual_memoization.rs expertise=  1 score=0.156 conf=0.498
+ 224. compiler/crates/react_compiler_swc/tests/integration.rs expertise=  1 score=0.156 conf=0.498
+ 225. compiler/crates/react_compiler_validation/src/validate_preserved_manual_memoization.rs expertise=  1 score=0.156 conf=0.498
+ 226. compiler/crates/react_compiler_inference/src/infer_reactive_places.rs expertise=  1 score=0.156 conf=0.498
+ 227. compiler/crates/react_compiler_reactive_scopes/src/visitors.rs expertise=  1 score=0.156 conf=0.498
+ 228. compiler/crates/react_compiler_swc/src/convert_scope.rs expertise=  1 score=0.156 conf=0.498
+ 229. compiler/crates/react_compiler_optimization/src/constant_propagation.rs expertise=  1 score=0.156 conf=0.498
+ 230. compiler/crates/react_compiler_ast/tests/scope_resolution.rs expertise=  1 score=0.156 conf=0.498
+ 231. compiler/crates/react_compiler_hir/src/environment.rs expertise=  1 score=0.156 conf=0.498
+ 232. compiler/crates/react_compiler_inference/src/infer_mutation_aliasing_ranges.rs expertise=  1 score=0.156 conf=0.498
+ 233. compiler/crates/react_compiler_reactive_scopes/src/promote_used_temporaries.rs expertise=  1 score=0.156 conf=0.498
+ 234. compiler/crates/react_compiler_swc/src/lib.rs expertise=  1 score=0.156 conf=0.498
+ 235. compiler/crates/react_compiler_validation/src/validate_no_ref_access_in_render.rs expertise=  1 score=0.156 conf=0.498
+ 236. compiler/crates/react_compiler_reactive_scopes/src/prune_non_escaping_scopes.rs expertise=  1 score=0.156 conf=0.498
+ 237. compiler/crates/react_compiler/src/entrypoint/validate_source_locations.rs expertise=  1 score=0.156 conf=0.498
+ 238. compiler/packages/babel-plugin-react-compiler/src/HIR/DebugPrintHIR.ts expertise=  1 score=0.156 conf=0.498
+ 239. compiler/crates/react_compiler_validation/src/validate_no_derived_computations_in_effects.rs expertise=  1 score=0.156 conf=0.498
+ 240. compiler/crates/react_compiler_lowering/src/hir_builder.rs expertise=  1 score=0.156 conf=0.498
+ 241. compiler/docs/rust-port/rust-port-research.md expertise=  1 score=0.156 conf=0.498
+ 242. compiler/crates/react_compiler_ast/src/visitor.rs expertise=  1 score=0.156 conf=0.498
+ 243. compiler/crates/react_compiler_hir/src/print.rs expertise=  1 score=0.156 conf=0.498
+ 244. compiler/crates/react_compiler_typeinference/src/infer_types.rs expertise=  1 score=0.156 conf=0.498
+ 245. compiler/crates/react_compiler_hir/src/lib.rs expertise=  1 score=0.156 conf=0.498
+ 246. compiler/crates/react_compiler_reactive_scopes/src/build_reactive_function.rs expertise=  1 score=0.156 conf=0.498
+ 247. compiler/crates/react_compiler_validation/src/validate_exhaustive_dependencies.rs expertise=  1 score=0.156 conf=0.498
+ 248. compiler/crates/react_compiler_hir/src/visitors.rs expertise=  1 score=0.156 conf=0.498
+ 249. compiler/crates/react_compiler/src/entrypoint/pipeline.rs expertise=  1 score=0.156 conf=0.498
+ 250. compiler/crates/react_compiler_oxc/src/convert_ast_reverse.rs expertise=  1 score=0.156 conf=0.498
+ 251. compiler/Cargo.lock          expertise=  1 score=0.156 conf=0.498
+ 252. compiler/crates/react_compiler_inference/src/propagate_scope_dependencies_hir.rs expertise=  1 score=0.156 conf=0.498
+ 253. compiler/crates/react_compiler_swc/src/convert_ast.rs expertise=  1 score=0.156 conf=0.498
+ 254. compiler/crates/react_compiler_swc/src/convert_ast_reverse.rs expertise=  1 score=0.156 conf=0.498
+ 255. compiler/crates/react_compiler_oxc/src/convert_ast.rs expertise=  1 score=0.156 conf=0.498
+ 256. packages/react-devtools-cdt-mcp/fixtures/app/yarn.lock expertise=  1 score=0.156 conf=0.498
+ 257. compiler/crates/react_compiler_inference/src/infer_mutation_aliasing_effects.rs expertise=  1 score=0.156 conf=0.498
+ 258. compiler/crates/react_compiler/src/entrypoint/program.rs expertise=  1 score=0.156 conf=0.498
+ 259. compiler/crates/react_compiler_reactive_scopes/src/codegen_reactive_function.rs expertise=  1 score=0.156 conf=0.498
+ 260. compiler/crates/react_compiler_lowering/src/build_hir.rs expertise=  1 score=0.156 conf=0.498
+ 261. packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js expertise=  1 score=0.141 conf=0.474
+ 262. packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js expertise=  1 score=0.141 conf=0.473
+ 263. packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js expertise=  1 score=0.141 conf=0.473
+ 264. packages/react-devtools-shared/src/backend/shared/DevToolsReactDispatcher.js expertise=  1 score=0.127 conf=0.449
+ 265. packages/react-server/src/ReactFizzServer.js expertise=  1 score=0.127 conf=0.449
+ 266. packages/react-devtools-facade/src/DevToolsFacadeTools.js expertise=  1 score=0.127 conf=0.449
+ 267. packages/react-dom/src/__tests__/ReactDOMFizzStaticBrowser-test.js expertise=  1 score=0.127 conf=0.449
+ 268. packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js expertise=  1 score=0.127 conf=0.448
+ 269. packages/react-dom/src/__tests__/ReactDOMFizzStaticNode-test.js expertise=  1 score=0.127 conf=0.448
+ 270. packages/react-devtools-facade/src/DevToolsFacadeProfilerTools.js expertise=  1 score=0.127 conf=0.448
+ 271. packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js expertise=  1 score=0.127 conf=0.448
+ 272. compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts expertise=  1 score=0.113 conf=0.424
+ 273. packages/eslint-plugin-react-hooks/src/shared/ReactCompiler.ts expertise=  1 score=0.113 conf=0.424
+ 274. packages/react-reconciler/src/__tests__/ReactHooksWithNoopRenderer-test.js expertise=  1 score=0.113 conf=0.424
+ 275. packages/react-dom/src/__tests__/ReactDOMFizzShellHydration-test.js expertise=  1 score=0.113 conf=0.423
+ 276. packages/react-dom/src/__tests__/ReactDOMFloat-test.js expertise=  1 score=0.101 conf=0.399
+ 277. packages/react-client/src/__tests__/ReactFlight-test.js expertise=  1 score=0.100 conf=0.399
+ 278. packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js expertise=  1 score=0.100 conf=0.399
+ 279. packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMEdge-test.js expertise=  1 score=0.088 conf=0.374
+ 280. CHANGELOG.md                 expertise=  1 score=0.088 conf=0.374
+[92m[OK] Knowledge layer built from canonical expertise models[0m
+[92m[OK] Expertise to Knowledge completed in 0.039s[0m
+
+--------------------------------------------
+[96m[8/14] Knowledge Graph Construction[0m
+--------------------------------------------
+
+[1mKnowledge Graph Construction[0m
+
+[1mKnowledge Graph[0m
+Nodes                                  1400
+Edges                                  1120
+[92m[OK] Knowledge Graph constructed[0m
+[92m[OK] Knowledge Graph Construction completed in 0.067s[0m
+
+--------------------------------------------
+[96m[9/14] Organization Intelligence[0m
+--------------------------------------------
+
+[1mOrganization Intelligence[0m
+
+[1mOwnership[0m
+Total Ownership Entries                280
+Primary Owners                         0
+Secondary Owners                       0
+Contributors                           280
+
+[1mTop Ownership Entries[0m
+  1. compiler/crates/react_compiler/Cargo.toml [CONTRIBUTOR ] 0.4%  category=module
+  2. compiler/fixtures/fbt-scope-range-sync-with-jsx.js [CONTRIBUTOR ] 0.4%  category=module
+  3. compiler/packages/babel-plugin-react-compiler-rust/tsconfig.json [CONTRIBUTOR ] 0.4%  category=module
+  4. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/codegen-nan-infinity-as-identifiers.js [CONTRIBUTOR ] 0.4%  category=module
+  5. packages/react-devtools-shared/src/devtools/views/Settings/SettingsContext.js [CONTRIBUTOR ] 0.4%  category=module
+  6. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_structural_diff.js [CONTRIBUTOR ] 0.4%  category=module
+  7. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_identifier_diff.js [CONTRIBUTOR ] 0.4%  category=module
+  8. packages/react-dom-bindings/src/events/plugins/FormActionEventPlugin.js [CONTRIBUTOR ] 0.4%  category=module
+  9. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-break.expect.md [CONTRIBUTOR ] 0.4%  category=module
+ 10. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-continue.expect.md [CONTRIBUTOR ] 0.4%  category=module
+ 11. compiler/crates/react_compiler_oxc/Cargo.toml [CONTRIBUTOR ] 0.4%  category=module
+ 12. compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts [CONTRIBUTOR ] 0.4%  category=module
+
+[1mCoverage[0m
+Topics Assessed                        1
+Strong Coverage                        0
+Moderate Coverage                      0
+Weak Coverage                          1
+
+[1mCoverage Gaps (Weak)[0m
+  1. module                       score=0.154 experts=280
+
+[1mKnowledge Concentration[0m
+High Concentration Risk                0
+Medium Concentration Risk              0
+Low Concentration Risk                 1
+
+[1mBus Factor[0m
+Subjects Analyzed                      1
+
+[1mHigh Bus-Factor Risk (factor = 1)[0m
+  1. module                       bus_factor=1 coverage=0.0%
+
+[1mBus Factor by Subject[0m
+  1. module                       factor=1 [HIGH] coverage=0.0%
+
+[1mSuccessor Analysis[0m
+Successor Pairs Identified             0
+Successors                             None identified (single expert per category)
+
+[1mKnowledge Risk[0m
+High Risk Topics                       1
+Medium Risk Topics                     0
+Low Risk Topics                        0
+
+[1mHigh Knowledge Risks[0m
+  1. module                       bf=1 owners=280  Critical: only 280 owner(s) and bus factor = 1. Knowledge lo
+
+[1mOrganization Health[0m
+Average Health                         0.077
+Best Health                            0.077
+Worst Health                           0.077
+Healthy Topics                         0
+Warning Topics                         0
+Critical Topics                        1
+Total Topics                           1
+
+[1mForecast[0m
+Forecast                               UNAVAILABLE
+Reason                                 Forecast unavailable: the canonical pipeline produces a single-point expertise snapshot per run. Tre
+Action                                 Accumulate ≥2 pipeline runs to enable trend analysis.
+
+[1mRecommendations[0m
+Executive Recommendations              2
+Organizational Recommendations         1
+Engineering Recommendations            0
+
+[1mExecutive Actions[0m
+  1. [HIGH  ] Escalate knowledge concentration in 'module': bus factor 1, 280 owner(s). Initia
+  2. [HIGH  ] Address 1 critically unhealthy knowledge area(s). Overall health: 7.7%.
+
+[1mOrganizational Actions[0m
+  1. [HIGH  ] Assign a backup owner for 'module' within 30 days.
+
+[1mLineage — Canonical Traceability[0m
+
+  Tracing: Knowledge Risk = HIGH for 'module'
+
+  Bus Factor = 1
+      |
+      ↓
+  Ownership Analysis  (280 owner(s))
+      |
+      ↓
+  Expertise Models  (280 model(s) in category 'module')
+      · compiler/crates/react_compiler/Cargo.toml score=0.157 conf=0.500
+      · compiler/fixtures/fbt-scope-range-sync-with-jsx.js score=0.157 conf=0.500
+      · compiler/packages/babel-plugin-react-compiler-rust/tsconfig.json score=0.157 conf=0.500
+      |
+      ↓
+  Evidence  (3 sample evidence item(s))
+      · 5427aec8-aea2-5f84-b07c-9fd405254481
+      · 46cf4306-4868-5798-ab45-ac893886fd40
+      · b5c51b03-8055-5a09-9e67-7d53aa0d91c6
+      |
+      ↓
+  Measurements  →  Observations  →  GitHub Commits
+
+[1mLegacy vs Canonical Validation Matrix[0m
+Domain                       Legacy   Canonical  Match          Notes 
+----------------------------------------------------------------------------------------------------
+  Ownership                  ✔        ✔          EXACT          ExpertiseOwnershipPolicy algorithm reused. Inputs adapt
+  Coverage                   ✔        ✔          EXACT          ExpertiseCoveragePolicy algorithm reused. Coverage scor
+  Concentration              ✔        ✔          CLOSE          Concentration derived from ownership percentages (same 
+  Bus Factor                 ✔        ✔          EXACT          OwnershipBusFactorPolicy thresholds reused (1=HIGH, 2=M
+  Successor                  ✔        ✔          CLOSE          ExpertiseSuccessorPolicy logic reused. Readiness score 
+  Knowledge Risk             ✔        ✔          EXACT          KnowledgeRiskPolicy thresholds reused: bus_factor <= 1 
+  Health                     ✔        ✔          CLOSE          Legacy OrganizationalHealthPolicy used coverage + conce
+  Forecast                   ✔        ✗          UNAVAILABLE    Legacy forecasting required HealthProjection time-serie
+  Organization Dashboard     ✔        ✔          CLOSE          OrganizationDashboardService composed from health + ris
+  Recommendations            ✔        ✔          CLOSE          Legacy ExecutiveRecommendationService produced recommen
+
+[1mService Classification — Adapter vs Native Rewrite[0m
+  Ownership                    Adapter   — ExpertiseOwnershipPolicy reused via _ExpertiseProxy
+  Coverage                     Adapter   — ExpertiseCoveragePolicy algorithm inlined natively
+  Concentration                Native    — derived directly from canonical ownership entries
+  Bus Factor                   Adapter   — OwnershipBusFactorPolicy thresholds reused natively
+  Successor                    Adapter   — ExpertiseSuccessorPolicy logic reused natively
+  Knowledge Risk               Native    — composed from canonical bus_factor + ownership
+  Health                       Native    — composed from canonical coverage + concentration + bus_factor
+  Forecast                     Rewrite Required — requires time-series health history (not yet available)
+  Organization Dashboard       Native    — aggregated from all canonical org analytics above
+  Recommendations              Native    — derived from knowledge risk + successors + health
+[92m[OK] Organization Intelligence produced from canonical pipeline outputs[0m
+[92m[OK] Organization Intelligence completed in 0.017s[0m
+
+--------------------------------------------
+[96m[10/14] Knowledge and Org Intel to Reasoning[0m
+--------------------------------------------
+
+[1mKnowledge and Org Intel to Reasoning[0m
+
+[1mReasoning Results[0m
+Knowledge Topics Consumed              280
+Org Intelligence Available             YES
+Reasoning Results Produced             280
+Explainability Preserved               PASS
+Confidence Propagated                  PASS
+
+[1mReasoning Conclusions[0m
+  1. compiler/crates/react_compiler/Cargo.toml emerging organizational signal         (conf=0.500)
+  2. compiler/fixtures/fbt-scope-range-sync-with-jsx.js emerging organizational signal         (conf=0.500)
+  3. compiler/packages/babel-plugin-react-compiler-rust/tsconfig.json emerging organizational signal         (conf=0.500)
+  4. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/codegen-nan-infinity-as-identifiers.js emerging organizational signal         (conf=0.500)
+  5. packages/react-devtools-shared/src/devtools/views/Settings/SettingsContext.js emerging organizational signal         (conf=0.500)
+  6. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_structural_diff.js emerging organizational signal         (conf=0.500)
+  7. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_identifier_diff.js emerging organizational signal         (conf=0.500)
+  8. packages/react-dom-bindings/src/events/plugins/FormActionEventPlugin.js emerging organizational signal         (conf=0.500)
+  9. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-break.expect.md emerging organizational signal         (conf=0.500)
+ 10. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-continue.expect.md emerging organizational signal         (conf=0.500)
+ 11. compiler/crates/react_compiler_oxc/Cargo.toml emerging organizational signal         (conf=0.500)
+ 12. compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts emerging organizational signal         (conf=0.500)
+ 13. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-pattern2_type_to_object.js emerging organizational signal         (conf=0.500)
+ 14. packages/react-devtools-cdt-mcp/fixtures/app/package.json emerging organizational signal         (conf=0.500)
+ 15. compiler/.claude/rules/rust-port.md emerging organizational signal         (conf=0.500)
+ 16. compiler/fixtures/align-method-call-scope-range-sync.js emerging organizational signal         (conf=0.500)
+ 17. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_fn_type_component_to_other.expect.md emerging organizational signal         (conf=0.500)
+ 18. packages/scheduler/src/forks/Scheduler.js emerging organizational signal         (conf=0.500)
+ 19. compiler/crates/react_compiler_optimization/src/lib.rs emerging organizational signal         (conf=0.500)
+ 20. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/component-in-object-method-body.flow.js emerging organizational signal         (conf=0.500)
+ 21. packages/react-devtools-cdt-mcp/package.json emerging organizational signal         (conf=0.499)
+ 22. packages/react-client/src/ReactFlightClient.js emerging organizational signal         (conf=0.499)
+ 23. compiler/crates/react_compiler_e2e_cli/Cargo.toml emerging organizational signal         (conf=0.499)
+ 24. compiler/.claude/rules/commit-convention.md emerging organizational signal         (conf=0.499)
+ 25. packages/react-reconciler/src/ReactFiber.js emerging organizational signal         (conf=0.499)
+ 26. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_float_precision.expect.md emerging organizational signal         (conf=0.499)
+ 27. compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/InferReactiveScopeVariables.ts emerging organizational signal         (conf=0.499)
+ 28. compiler/crates/react_compiler_inference/src/lib.rs emerging organizational signal         (conf=0.499)
+ 29. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch.expect.md emerging organizational signal         (conf=0.499)
+ 30. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_id_numbering.expect.md emerging organizational signal         (conf=0.499)
+ 31. compiler/crates/react_compiler_validation/src/lib.rs emerging organizational signal         (conf=0.499)
+ 32. compiler/.claude/skills/compiler-review/SKILL.md emerging organizational signal         (conf=0.499)
+ 33. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-pattern3_type_to_poly.expect.md emerging organizational signal         (conf=0.499)
+ 34. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_severity_diff.expect.md emerging organizational signal         (conf=0.499)
+ 35. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.typescript-this-param-in-compiled-function.expect.md emerging organizational signal         (conf=0.499)
+ 36. compiler/packages/babel-plugin-react-compiler-rust/package.json emerging organizational signal         (conf=0.499)
+ 37. packages/react-reconciler/src/ReactFiberHydrationContext.js emerging organizational signal         (conf=0.499)
+ 38. packages/react-devtools-shared/src/backend/fiber/renderer.js emerging organizational signal         (conf=0.499)
+ 39. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-infer-mutation-aliasing-function-shadows-own-name.expect.md emerging organizational signal         (conf=0.499)
+ 40. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_jsxtext_nbsp.expect.md emerging organizational signal         (conf=0.499)
+ 41. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-rust-as-expression-assignment-target.expect.md emerging organizational signal         (conf=0.499)
+ 42. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-context-variable-catch-in-lambda.expect.md emerging organizational signal         (conf=0.499)
+ 43. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_identifier_diff.expect.md emerging organizational signal         (conf=0.499)
+ 44. packages/react-reconciler/src/ReactFiberCallUserSpace.js emerging organizational signal         (conf=0.499)
+ 45. packages/react-devtools-facade/README.md emerging organizational signal         (conf=0.499)
+ 46. compiler/crates/react_compiler_ast/tests/deep_nesting.rs emerging organizational signal         (conf=0.499)
+ 47. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-pattern2_type_to_object.expect.md emerging organizational signal         (conf=0.499)
+ 48. packages/react-reconciler/src/ReactFiberCommitWork.js emerging organizational signal         (conf=0.499)
+ 49. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/aliased_usememo.expect.md emerging organizational signal         (conf=0.499)
+ 50. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/constant-propagation-scientific-notation.expect.md emerging organizational signal         (conf=0.499)
+ 51. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.invalid-reassign-local-variable-in-multiple-async-callbacks.expect.md emerging organizational signal         (conf=0.499)
+ 52. packages/react-devtools-shared/src/__tests__/console-test.js emerging organizational signal         (conf=0.499)
+ 53. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-update-expression-context-variable-via-type-annotation.expect.md emerging organizational signal         (conf=0.499)
+ 54. packages/react-devtools-cdt-mcp/fixtures/app/index.html emerging organizational signal         (conf=0.499)
+ 55. yarn.lock                    emerging organizational signal         (conf=0.499)
+ 56. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fn-name-no-leak-to-nested-arrow.expect.md emerging organizational signal         (conf=0.499)
+ 57. packages/react-devtools-cdt-mcp/rollup.config.cjs emerging organizational signal         (conf=0.499)
+ 58. compiler/.claude/skills/compiler-verify/SKILL.md emerging organizational signal         (conf=0.499)
+ 59. compiler/apps/playground/lib/compilation.ts emerging organizational signal         (conf=0.499)
+ 60. compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Program.ts emerging organizational signal         (conf=0.499)
+ 61. packages/react-noop-renderer/src/createReactNoop.js emerging organizational signal         (conf=0.499)
+ 62. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-transitive-freeze-nested-function-captures.expect.md emerging organizational signal         (conf=0.499)
+ 63. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_loc_diff_1.js emerging organizational signal         (conf=0.499)
+ 64. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_unsupported_node_format.expect.md emerging organizational signal         (conf=0.499)
+ 65. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_structural_diff.expect.md emerging organizational signal         (conf=0.499)
+ 66. compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Pipeline.ts emerging organizational signal         (conf=0.499)
+ 67. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.invalid-numeric-literal-computed-property-assignment.expect.md emerging organizational signal         (conf=0.499)
+ 68. compiler/crates/react_compiler_reactive_scopes/src/lib.rs emerging organizational signal         (conf=0.499)
+ 69. compiler/crates/react_compiler_lowering/src/lib.rs emerging organizational signal         (conf=0.499)
+ 70. compiler/.claude/agents/analyze-pass-impact.md emerging organizational signal         (conf=0.499)
+ 71. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/drop-manual-memoization-react-module.expect.md emerging organizational signal         (conf=0.499)
+ 72. packages/react-dom-bindings/src/client/ReactFiberConfigDOM.js emerging organizational signal         (conf=0.499)
+ 73. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fbt/error.todo-fbt-plural-in-expression-container.expect.md emerging organizational signal         (conf=0.499)
+ 74. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/flow-reserved-word-as-identifier.flow.expect.md emerging organizational signal         (conf=0.499)
+ 75. packages/react-devtools-cdt-mcp/fixtures/app/README.md emerging organizational signal         (conf=0.499)
+ 76. compiler/crates/react_compiler_optimization/src/optimize_props_method_calls.rs emerging organizational signal         (conf=0.499)
+ 77. compiler/crates/react_compiler_reactive_scopes/src/assert_well_formed_break_targets.rs emerging organizational signal         (conf=0.499)
+ 78. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/compiled-function-nested-in-jsx.expect.md emerging organizational signal         (conf=0.499)
+ 79. packages/react-server/src/ReactFlightServer.js emerging organizational signal         (conf=0.499)
+ 80. compiler/.claude/skills/compiler-commit/SKILL.md emerging organizational signal         (conf=0.499)
+ 81. compiler/crates/react_compiler_ast/src/lib.rs emerging organizational signal         (conf=0.499)
+ 82. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_loc_diff_2.js emerging organizational signal         (conf=0.499)
+ 83. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_loc_diff_1.expect.md emerging organizational signal         (conf=0.499)
+ 84. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/function-decl-shadowed-by-inner-const.expect.md emerging organizational signal         (conf=0.499)
+ 85. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-loop-counter-memoization-assignment.expect.md emerging organizational signal         (conf=0.499)
+ 86. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-loop-counter-memoization.expect.md emerging organizational signal         (conf=0.499)
+ 87. compiler/crates/react_compiler_inference/src/flatten_reactive_loops_hir.rs emerging organizational signal         (conf=0.498)
+ 88. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/codegen-nan-infinity-as-identifiers.expect.md emerging organizational signal         (conf=0.498)
+ 89. compiler/crates/react_compiler_validation/src/validate_no_jsx_in_try_statement.rs emerging organizational signal         (conf=0.498)
+ 90. .github/workflows/compiler_rust.yml emerging organizational signal         (conf=0.498)
+ 91. packages/react-native-renderer/src/ReactNativeTypes.js emerging organizational signal         (conf=0.498)
+ 92. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fbt-scope-range-identifier-sync.js emerging organizational signal         (conf=0.498)
+ 93. packages/react-devtools-shared/src/backend/NativeStyleEditor/setupNativeStyleEditor.js emerging organizational signal         (conf=0.498)
+ 94. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_1.js emerging organizational signal         (conf=0.498)
+ 95. compiler/crates/react_compiler/src/timing.rs emerging organizational signal         (conf=0.498)
+ 96. compiler/.claude/agents/compiler-review.md emerging organizational signal         (conf=0.498)
+ 97. compiler/crates/react_compiler_validation/src/validate_no_capitalized_calls.rs emerging organizational signal         (conf=0.498)
+ 98. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/component-in-object-method-body.flow.expect.md emerging organizational signal         (conf=0.498)
+ 99. compiler/crates/react_compiler_ast/src/literals.rs emerging organizational signal         (conf=0.498)
+ 100. compiler/.claude/skills/plan-update/SKILL.md emerging organizational signal         (conf=0.498)
+ 101. compiler/crates/react_compiler_reactive_scopes/src/prune_unused_labels.rs emerging organizational signal         (conf=0.498)
+ 102. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_loc_diff_2.expect.md emerging organizational signal         (conf=0.498)
+ 103. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_1.expect.md emerging organizational signal         (conf=0.498)
+ 104. packages/react-devtools-cdt-mcp/fixtures/app/webpack.config.js emerging organizational signal         (conf=0.498)
+ 105. compiler/crates/react_compiler_lowering/tests/unknown_statement_lowering.rs emerging organizational signal         (conf=0.498)
+ 106. packages/react-dom-bindings/src/client/ReactDOMComponentTree.js emerging organizational signal         (conf=0.498)
+ 107. compiler/crates/react_compiler_oxc/src/diagnostics.rs emerging organizational signal         (conf=0.498)
+ 108. compiler/.claude/agents/port-pass.md emerging organizational signal         (conf=0.498)
+ 109. compiler/crates/react_compiler_reactive_scopes/src/prune_unused_scopes.rs emerging organizational signal         (conf=0.498)
+ 110. compiler/crates/react_compiler_hir/src/default_module_type_provider.rs emerging organizational signal         (conf=0.498)
+ 111. compiler/crates/react_compiler_optimization/src/prune_unused_labels_hir.rs emerging organizational signal         (conf=0.498)
+ 112. compiler/crates/react_compiler_validation/src/validate_static_components.rs emerging organizational signal         (conf=0.498)
+ 113. compiler/.claude/skills/compiler-port/SKILL.md emerging organizational signal         (conf=0.498)
+ 114. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_2.js emerging organizational signal         (conf=0.498)
+ 115. compiler/docs/rust-port/rust-port-notes.md emerging organizational signal         (conf=0.498)
+ 116. compiler/crates/react_compiler_ast/src/patterns.rs emerging organizational signal         (conf=0.498)
+ 117. compiler/crates/react_compiler_swc/src/diagnostics.rs emerging organizational signal         (conf=0.498)
+ 118. compiler/crates/react_compiler_ast/src/common.rs emerging organizational signal         (conf=0.498)
+ 119. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/deeply-nested-jsx-recursion-limit.js emerging organizational signal         (conf=0.498)
+ 120. compiler/crates/react_compiler_reactive_scopes/src/assert_scope_instructions_within_scopes.rs emerging organizational signal         (conf=0.498)
+ 121. packages/react-devtools-cdt-mcp/fixtures/app/App.js emerging organizational signal         (conf=0.498)
+ 122. compiler/crates/react_compiler/src/entrypoint/plugin_options.rs emerging organizational signal         (conf=0.498)
+ 123. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_2.expect.md emerging organizational signal         (conf=0.498)
+ 124. compiler/docs/rust-port/rust-port-gap-analysis.md emerging organizational signal         (conf=0.498)
+ 125. packages/react-devtools-cdt-mcp/README.md emerging organizational signal         (conf=0.498)
+ 126. packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js emerging organizational signal         (conf=0.498)
+ 127. compiler/crates/react_compiler_ast/src/operators.rs emerging organizational signal         (conf=0.498)
+ 128. compiler/crates/react_compiler_optimization/src/outline_functions.rs emerging organizational signal         (conf=0.498)
+ 129. compiler/crates/react_compiler_swc/src/apply_renames.rs emerging organizational signal         (conf=0.498)
+ 130. compiler/crates/react_compiler_optimization/src/prune_maybe_throws.rs emerging organizational signal         (conf=0.498)
+ 131. compiler/crates/react_compiler_reactive_scopes/src/stabilize_block_ids.rs emerging organizational signal         (conf=0.498)
+ 132. compiler/packages/babel-plugin-react-compiler-rust/native/src/lib.rs emerging organizational signal         (conf=0.498)
+ 133. compiler/crates/react_compiler_inference/src/align_method_call_scopes.rs emerging organizational signal         (conf=0.498)
+ 134. compiler/crates/react_compiler_reactive_scopes/src/prune_always_invalidating_scopes.rs emerging organizational signal         (conf=0.498)
+ 135. compiler/crates/react_compiler_inference/src/flatten_scopes_with_hooks_or_use_hir.rs emerging organizational signal         (conf=0.498)
+ 136. compiler/crates/react_compiler_utils/src/disjoint_set.rs emerging organizational signal         (conf=0.498)
+ 137. compiler/crates/react_compiler_oxc/src/prefilter.rs emerging organizational signal         (conf=0.498)
+ 138. compiler/crates/react_compiler_ast/tests/round_trip.rs emerging organizational signal         (conf=0.498)
+ 139. compiler/docs/rust-port/rust-port-architecture.md emerging organizational signal         (conf=0.498)
+ 140. compiler/packages/babel-plugin-react-compiler-rust/src/prefilter.ts emerging organizational signal         (conf=0.498)
+ 141. compiler/crates/react_compiler_ssa/src/eliminate_redundant_phi.rs emerging organizational signal         (conf=0.498)
+ 142. compiler/crates/react_compiler_inference/src/align_object_method_scopes.rs emerging organizational signal         (conf=0.498)
+ 143. compiler/packages/babel-plugin-react-compiler-rust/src/options.ts emerging organizational signal         (conf=0.498)
+ 144. compiler/crates/react_compiler_ast/src/jsx.rs emerging organizational signal         (conf=0.498)
+ 145. packages/react-devtools-facade/src/DevToolsFacade.js emerging organizational signal         (conf=0.498)
+ 146. compiler/crates/react_compiler_validation/src/validate_context_variable_lvalues.rs emerging organizational signal         (conf=0.498)
+ 147. compiler/crates/react_compiler_validation/src/validate_no_set_state_in_render.rs emerging organizational signal         (conf=0.498)
+ 148. compiler/crates/react_compiler_oxc/src/apply_renames.rs emerging organizational signal         (conf=0.498)
+ 149. compiler/scripts/test-e2e.ts emerging organizational signal         (conf=0.498)
+ 150. compiler/packages/babel-plugin-react-compiler-rust/src/bridge.ts emerging organizational signal         (conf=0.498)
+ 151. compiler/crates/TODO.md      emerging organizational signal         (conf=0.498)
+ 152. compiler/crates/react_compiler_reactive_scopes/src/prune_hoisted_contexts.rs emerging organizational signal         (conf=0.498)
+ 153. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fbt-scope-range-identifier-sync.expect.md emerging organizational signal         (conf=0.498)
+ 154. compiler/crates/react_compiler_swc/src/prefilter.rs emerging organizational signal         (conf=0.498)
+ 155. compiler/crates/react_compiler_hir/src/type_config.rs emerging organizational signal         (conf=0.498)
+ 156. compiler/crates/react_compiler_oxc/src/lib.rs emerging organizational signal         (conf=0.498)
+ 157. compiler/crates/react_compiler_inference/src/analyse_functions.rs emerging organizational signal         (conf=0.498)
+ 158. compiler/crates/react_compiler_reactive_scopes/src/extract_scope_declarations_from_destructuring.rs emerging organizational signal         (conf=0.498)
+ 159. compiler/crates/react_compiler_optimization/src/merge_consecutive_blocks.rs emerging organizational signal         (conf=0.498)
+ 160. compiler/crates/react_compiler_validation/src/validate_no_freezing_known_mutable_functions.rs emerging organizational signal         (conf=0.498)
+ 161. compiler/crates/react_compiler_hir/src/environment_config.rs emerging organizational signal         (conf=0.498)
+ 162. compiler/crates/react_compiler/src/fixture_utils.rs emerging organizational signal         (conf=0.498)
+ 163. compiler/crates/react_compiler_reactive_scopes/src/prune_unused_lvalues.rs emerging organizational signal         (conf=0.498)
+ 164. compiler/docs/rust-port/rust-port-0002-scope-types.md emerging organizational signal         (conf=0.498)
+ 165. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/deeply-nested-jsx-recursion-limit.expect.md emerging organizational signal         (conf=0.498)
+ 166. compiler/crates/react_compiler_hir/src/reactive.rs emerging organizational signal         (conf=0.498)
+ 167. compiler/crates/react_compiler_reactive_scopes/src/prune_non_reactive_dependencies.rs emerging organizational signal         (conf=0.498)
+ 168. compiler/docs/rust-port/rust-port-oxc.md emerging organizational signal         (conf=0.498)
+ 169. compiler/.claude/skills/compiler-orchestrator/SKILL.md emerging organizational signal         (conf=0.498)
+ 170. compiler/packages/babel-plugin-react-compiler-rust/src/BabelPlugin.ts emerging organizational signal         (conf=0.498)
+ 171. compiler/crates/react_compiler/src/entrypoint/compile_result.rs emerging organizational signal         (conf=0.498)
+ 172. compiler/crates/react_compiler_validation/src/validate_locals_not_reassigned_after_render.rs emerging organizational signal         (conf=0.498)
+ 173. compiler/crates/react_compiler/src/entrypoint/suppression.rs emerging organizational signal         (conf=0.498)
+ 174. compiler/crates/react_compiler_optimization/src/name_anonymous_functions.rs emerging organizational signal         (conf=0.498)
+ 175. compiler/crates/react_compiler_e2e_cli/src/main.rs emerging organizational signal         (conf=0.498)
+ 176. packages/react-devtools-cdt-mcp/src/DevToolsCdtMcp.js emerging organizational signal         (conf=0.498)
+ 177. compiler/crates/react_compiler_validation/src/validate_use_memo.rs emerging organizational signal         (conf=0.498)
+ 178. compiler/crates/react_compiler_lowering/src/identifier_loc_index.rs emerging organizational signal         (conf=0.498)
+ 179. compiler/crates/react_compiler_inference/src/align_reactive_scopes_to_block_scopes_hir.rs emerging organizational signal         (conf=0.498)
+ 180. compiler/crates/react_compiler_diagnostics/src/js_string.rs emerging organizational signal         (conf=0.498)
+ 181. compiler/crates/react_compiler_ast/src/scope.rs emerging organizational signal         (conf=0.498)
+ 182. compiler/crates/react_compiler_hir/src/dominator.rs emerging organizational signal         (conf=0.498)
+ 183. compiler/crates/react_compiler_optimization/src/optimize_for_ssr.rs emerging organizational signal         (conf=0.498)
+ 184. compiler/crates/react_compiler_reactive_scopes/src/propagate_early_returns.rs emerging organizational signal         (conf=0.498)
+ 185. compiler/docs/rust-port/rust-compiler-workflow-guide.md emerging organizational signal         (conf=0.498)
+ 186. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_silent_rust_fail.js emerging organizational signal         (conf=0.498)
+ 187. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_silent_rust_fail.expect.md emerging organizational signal         (conf=0.498)
+ 188. compiler/crates/react_compiler_inference/src/memoize_fbt_and_macro_operands_in_same_scope.rs emerging organizational signal         (conf=0.498)
+ 189. compiler/crates/react_compiler_swc/src/ts_namespace_export_fixup.rs emerging organizational signal         (conf=0.498)
+ 190. compiler/crates/react_compiler_ssa/src/rewrite_instruction_kinds_based_on_reassignment.rs emerging organizational signal         (conf=0.498)
+ 191. compiler/crates/react_compiler_inference/src/infer_reactive_scope_variables.rs emerging organizational signal         (conf=0.498)
+ 192. compiler/crates/react_compiler_inference/src/merge_overlapping_reactive_scopes_hir.rs emerging organizational signal         (conf=0.498)
+ 193. compiler/crates/react_compiler_optimization/src/inline_iifes.rs emerging organizational signal         (conf=0.498)
+ 194. compiler/docs/rust-port/rust-port-0001-babel-ast.md emerging organizational signal         (conf=0.498)
+ 195. compiler/crates/react_compiler_inference/src/build_reactive_scope_terminals_hir.rs emerging organizational signal         (conf=0.498)
+ 196. compiler/crates/react_compiler_optimization/src/dead_code_elimination.rs emerging organizational signal         (conf=0.498)
+ 197. compiler/crates/react_compiler_hir/src/object_shape.rs emerging organizational signal         (conf=0.498)
+ 198. compiler/crates/react_compiler_lowering/src/find_context_identifiers.rs emerging organizational signal         (conf=0.498)
+ 199. compiler/crates/react_compiler_reactive_scopes/src/rename_variables.rs emerging organizational signal         (conf=0.498)
+ 200. compiler/crates/react_compiler_diagnostics/src/code_frame.rs emerging organizational signal         (conf=0.498)
+ 201. compiler/crates/react_compiler_diagnostics/src/lib.rs emerging organizational signal         (conf=0.498)
+ 202. packages/react-devtools-cdt-mcp/src/__tests__/DevToolsCdtMcp-test.js emerging organizational signal         (conf=0.498)
+ 203. compiler/packages/babel-plugin-react-compiler-rust/src/scope.ts emerging organizational signal         (conf=0.498)
+ 204. compiler/crates/react_compiler_ast/src/declarations.rs emerging organizational signal         (conf=0.498)
+ 205. compiler/crates/react_compiler/src/entrypoint/imports.rs emerging organizational signal         (conf=0.498)
+ 206. compiler/packages/babel-plugin-react-compiler/src/HIR/DebugPrintReactiveFunction.ts emerging organizational signal         (conf=0.498)
+ 207. compiler/crates/react_compiler_validation/src/validate_hooks_usage.rs emerging organizational signal         (conf=0.498)
+ 208. compiler/crates/react_compiler_oxc/src/convert_scope.rs emerging organizational signal         (conf=0.498)
+ 209. compiler/crates/react_compiler_ssa/src/enter_ssa.rs emerging organizational signal         (conf=0.498)
+ 210. compiler/crates/react_compiler_ast/src/expressions.rs emerging organizational signal         (conf=0.498)
+ 211. compiler/crates/react_compiler_reactive_scopes/src/merge_reactive_scopes_that_invalidate_together.rs emerging organizational signal         (conf=0.498)
+ 212. compiler/docs/rust-port/rust-port-reactive-function.md emerging organizational signal         (conf=0.498)
+ 213. compiler/crates/react_compiler/src/entrypoint/gating.rs emerging organizational signal         (conf=0.498)
+ 214. compiler/crates/react_compiler_validation/src/validate_no_set_state_in_effects.rs emerging organizational signal         (conf=0.498)
+ 215. compiler/crates/react_compiler_reactive_scopes/src/print_reactive_function.rs emerging organizational signal         (conf=0.498)
+ 216. compiler/docs/rust-port/rust-port-0003-testing-infrastructure.md emerging organizational signal         (conf=0.498)
+ 217. compiler/crates/react_compiler_optimization/src/outline_jsx.rs emerging organizational signal         (conf=0.498)
+ 218. compiler/docs/rust-port/rust-port-orchestrator-log.md emerging organizational signal         (conf=0.498)
+ 219. compiler/docs/rust-port/rust-port-0005-babel-plugin.md emerging organizational signal         (conf=0.498)
+ 220. compiler/crates/react_compiler/src/debug_print.rs emerging organizational signal         (conf=0.498)
+ 221. compiler/docs/rust-port/rust-port-0004-build-hir.md emerging organizational signal         (conf=0.498)
+ 222. compiler/crates/react_compiler_ast/src/statements.rs emerging organizational signal         (conf=0.498)
+ 223. compiler/crates/react_compiler_optimization/src/drop_manual_memoization.rs emerging organizational signal         (conf=0.498)
+ 224. compiler/crates/react_compiler_swc/tests/integration.rs emerging organizational signal         (conf=0.498)
+ 225. compiler/crates/react_compiler_validation/src/validate_preserved_manual_memoization.rs emerging organizational signal         (conf=0.498)
+ 226. compiler/crates/react_compiler_inference/src/infer_reactive_places.rs emerging organizational signal         (conf=0.498)
+ 227. compiler/crates/react_compiler_reactive_scopes/src/visitors.rs emerging organizational signal         (conf=0.498)
+ 228. compiler/crates/react_compiler_swc/src/convert_scope.rs emerging organizational signal         (conf=0.498)
+ 229. compiler/crates/react_compiler_optimization/src/constant_propagation.rs emerging organizational signal         (conf=0.498)
+ 230. compiler/crates/react_compiler_ast/tests/scope_resolution.rs emerging organizational signal         (conf=0.498)
+ 231. compiler/crates/react_compiler_hir/src/environment.rs emerging organizational signal         (conf=0.498)
+ 232. compiler/crates/react_compiler_inference/src/infer_mutation_aliasing_ranges.rs emerging organizational signal         (conf=0.498)
+ 233. compiler/crates/react_compiler_reactive_scopes/src/promote_used_temporaries.rs emerging organizational signal         (conf=0.498)
+ 234. compiler/crates/react_compiler_swc/src/lib.rs emerging organizational signal         (conf=0.498)
+ 235. compiler/crates/react_compiler_validation/src/validate_no_ref_access_in_render.rs emerging organizational signal         (conf=0.498)
+ 236. compiler/crates/react_compiler_reactive_scopes/src/prune_non_escaping_scopes.rs emerging organizational signal         (conf=0.498)
+ 237. compiler/crates/react_compiler/src/entrypoint/validate_source_locations.rs emerging organizational signal         (conf=0.498)
+ 238. compiler/packages/babel-plugin-react-compiler/src/HIR/DebugPrintHIR.ts emerging organizational signal         (conf=0.498)
+ 239. compiler/crates/react_compiler_validation/src/validate_no_derived_computations_in_effects.rs emerging organizational signal         (conf=0.498)
+ 240. compiler/crates/react_compiler_lowering/src/hir_builder.rs emerging organizational signal         (conf=0.498)
+ 241. compiler/docs/rust-port/rust-port-research.md emerging organizational signal         (conf=0.498)
+ 242. compiler/crates/react_compiler_ast/src/visitor.rs emerging organizational signal         (conf=0.498)
+ 243. compiler/crates/react_compiler_hir/src/print.rs emerging organizational signal         (conf=0.498)
+ 244. compiler/crates/react_compiler_typeinference/src/infer_types.rs emerging organizational signal         (conf=0.498)
+ 245. compiler/crates/react_compiler_hir/src/lib.rs emerging organizational signal         (conf=0.498)
+ 246. compiler/crates/react_compiler_reactive_scopes/src/build_reactive_function.rs emerging organizational signal         (conf=0.498)
+ 247. compiler/crates/react_compiler_validation/src/validate_exhaustive_dependencies.rs emerging organizational signal         (conf=0.498)
+ 248. compiler/crates/react_compiler_hir/src/visitors.rs emerging organizational signal         (conf=0.498)
+ 249. compiler/crates/react_compiler/src/entrypoint/pipeline.rs emerging organizational signal         (conf=0.498)
+ 250. compiler/crates/react_compiler_oxc/src/convert_ast_reverse.rs emerging organizational signal         (conf=0.498)
+ 251. compiler/Cargo.lock          emerging organizational signal         (conf=0.498)
+ 252. compiler/crates/react_compiler_inference/src/propagate_scope_dependencies_hir.rs emerging organizational signal         (conf=0.498)
+ 253. compiler/crates/react_compiler_swc/src/convert_ast.rs emerging organizational signal         (conf=0.498)
+ 254. compiler/crates/react_compiler_swc/src/convert_ast_reverse.rs emerging organizational signal         (conf=0.498)
+ 255. compiler/crates/react_compiler_oxc/src/convert_ast.rs emerging organizational signal         (conf=0.498)
+ 256. packages/react-devtools-cdt-mcp/fixtures/app/yarn.lock emerging organizational signal         (conf=0.498)
+ 257. compiler/crates/react_compiler_inference/src/infer_mutation_aliasing_effects.rs emerging organizational signal         (conf=0.498)
+ 258. compiler/crates/react_compiler/src/entrypoint/program.rs emerging organizational signal         (conf=0.498)
+ 259. compiler/crates/react_compiler_reactive_scopes/src/codegen_reactive_function.rs emerging organizational signal         (conf=0.498)
+ 260. compiler/crates/react_compiler_lowering/src/build_hir.rs emerging organizational signal         (conf=0.498)
+ 261. packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js emerging organizational signal         (conf=0.473)
+ 262. packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js emerging organizational signal         (conf=0.473)
+ 263. packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js emerging organizational signal         (conf=0.473)
+ 264. packages/react-devtools-shared/src/backend/shared/DevToolsReactDispatcher.js emerging organizational signal         (conf=0.449)
+ 265. packages/react-server/src/ReactFizzServer.js emerging organizational signal         (conf=0.449)
+ 266. packages/react-devtools-facade/src/DevToolsFacadeTools.js emerging organizational signal         (conf=0.449)
+ 267. packages/react-dom/src/__tests__/ReactDOMFizzStaticBrowser-test.js emerging organizational signal         (conf=0.449)
+ 268. packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js emerging organizational signal         (conf=0.449)
+ 269. packages/react-dom/src/__tests__/ReactDOMFizzStaticNode-test.js emerging organizational signal         (conf=0.448)
+ 270. packages/react-devtools-facade/src/DevToolsFacadeProfilerTools.js emerging organizational signal         (conf=0.448)
+ 271. packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js emerging organizational signal         (conf=0.448)
+ 272. compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts emerging organizational signal         (conf=0.424)
+ 273. packages/eslint-plugin-react-hooks/src/shared/ReactCompiler.ts emerging organizational signal         (conf=0.424)
+ 274. packages/react-reconciler/src/__tests__/ReactHooksWithNoopRenderer-test.js emerging organizational signal         (conf=0.424)
+ 275. packages/react-dom/src/__tests__/ReactDOMFizzShellHydration-test.js emerging organizational signal         (conf=0.423)
+ 276. packages/react-dom/src/__tests__/ReactDOMFloat-test.js emerging organizational signal         (conf=0.400)
+ 277. packages/react-client/src/__tests__/ReactFlight-test.js emerging organizational signal         (conf=0.399)
+ 278. packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js emerging organizational signal         (conf=0.399)
+ 279. packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMEdge-test.js emerging organizational signal         (conf=0.374)
+ 280. CHANGELOG.md                 emerging organizational signal         (conf=0.374)
+[92m[OK] Reasoning layer built from knowledge + organizational intelligence[0m
+[92m[OK] Knowledge and Org Intel to Reasoning completed in 0.030s[0m
+
+--------------------------------------------
+[96m[11/14] Reasoning to Decision[0m
+--------------------------------------------
+
+[1mReasoning to Decision[0m
+
+[1mDecisions[0m
+Decisions Produced                     280
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+
+[1mDecision Queue[0m
+  1. low      Compiler/Crates/React_Compiler/Cargo.Toml Decision confidence=0.500
+  2. low      Compiler/Fixtures/Fbt-Scope-Range-Sync-With-Jsx.Js Decision confidence=0.500
+  3. low      Compiler/Packages/Babel-Plugin-React-Compiler-Rust/Tsconfig.Json Decision confidence=0.500
+  4. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Codegen-Nan-Infinity-As-Identifiers.Js Decision confidence=0.500
+  5. low      Packages/React-Devtools-Shared/Src/Devtools/Views/Settings/Settingscontext.Js Decision confidence=0.500
+  6. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Bug-Hir_Structural_Diff.Js Decision confidence=0.500
+  7. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Round2_Identifier_Diff.Js Decision confidence=0.500
+  8. low      Packages/React-Dom-Bindings/Src/Events/Plugins/Formactioneventplugin.Js Decision confidence=0.500
+  9. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/For-In-Statement-Break.Expect.Md Decision confidence=0.500
+ 10. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/For-In-Statement-Continue.Expect.Md Decision confidence=0.500
+ 11. low      Compiler/Crates/React_Compiler_Oxc/Cargo.Toml Decision confidence=0.500
+ 12. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/Entrypoint/Options.Ts Decision confidence=0.500
+ 13. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Pattern2_Type_To_Object.Js Decision confidence=0.500
+ 14. low      Packages/React-Devtools-Cdt-Mcp/Fixtures/App/Package.Json Decision confidence=0.500
+ 15. low      Compiler/.Claude/Rules/Rust-Port.Md Decision confidence=0.500
+ 16. low      Compiler/Fixtures/Align-Method-Call-Scope-Range-Sync.Js Decision confidence=0.500
+ 17. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Round2_Fn_Type_Component_To_Other.Expect.Md Decision confidence=0.500
+ 18. low      Packages/Scheduler/Src/Forks/Scheduler.Js Decision confidence=0.500
+ 19. low      Compiler/Crates/React_Compiler_Optimization/Src/Lib.Rs Decision confidence=0.500
+ 20. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Component-In-Object-Method-Body.Flow.Js Decision confidence=0.500
+ 21. low      Packages/React-Devtools-Cdt-Mcp/Package.Json Decision confidence=0.499
+ 22. low      Packages/React-Client/Src/Reactflightclient.Js Decision confidence=0.499
+ 23. low      Compiler/Crates/React_Compiler_E2E_Cli/Cargo.Toml Decision confidence=0.499
+ 24. low      Compiler/.Claude/Rules/Commit-Convention.Md Decision confidence=0.499
+ 25. low      Packages/React-Reconciler/Src/Reactfiber.Js Decision confidence=0.499
+ 26. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Round2_Float_Precision.Expect.Md Decision confidence=0.499
+ 27. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/Reactivescopes/Inferreactivescopevariables.Ts Decision confidence=0.499
+ 28. low      Compiler/Crates/React_Compiler_Inference/Src/Lib.Rs Decision confidence=0.499
+ 29. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Hir_Fn_Type_Mismatch.Expect.Md Decision confidence=0.499
+ 30. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Round2_Id_Numbering.Expect.Md Decision confidence=0.499
+ 31. low      Compiler/Crates/React_Compiler_Validation/Src/Lib.Rs Decision confidence=0.499
+ 32. low      Compiler/.Claude/Skills/Compiler-Review/Skill.Md Decision confidence=0.499
+ 33. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Pattern3_Type_To_Poly.Expect.Md Decision confidence=0.499
+ 34. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Round2_Severity_Diff.Expect.Md Decision confidence=0.499
+ 35. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Typescript-This-Param-In-Compiled-Function.Expect.Md Decision confidence=0.499
+ 36. low      Compiler/Packages/Babel-Plugin-React-Compiler-Rust/Package.Json Decision confidence=0.499
+ 37. low      Packages/React-Reconciler/Src/Reactfiberhydrationcontext.Js Decision confidence=0.499
+ 38. low      Packages/React-Devtools-Shared/Src/Backend/Fiber/Renderer.Js Decision confidence=0.499
+ 39. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Bug-Infer-Mutation-Aliasing-Function-Shadows-Own-Name.Expect.Md Decision confidence=0.499
+ 40. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Hir_Jsxtext_Nbsp.Expect.Md Decision confidence=0.499
+ 41. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Rust-As-Expression-Assignment-Target.Expect.Md Decision confidence=0.499
+ 42. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Bug-Context-Variable-Catch-In-Lambda.Expect.Md Decision confidence=0.499
+ 43. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Round2_Identifier_Diff.Expect.Md Decision confidence=0.499
+ 44. low      Packages/React-Reconciler/Src/Reactfibercalluserspace.Js Decision confidence=0.499
+ 45. low      Packages/React-Devtools-Facade/Readme.Md Decision confidence=0.499
+ 46. low      Compiler/Crates/React_Compiler_Ast/Tests/Deep_Nesting.Rs Decision confidence=0.499
+ 47. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Pattern2_Type_To_Object.Expect.Md Decision confidence=0.499
+ 48. low      Packages/React-Reconciler/Src/Reactfibercommitwork.Js Decision confidence=0.499
+ 49. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Aliased_Usememo.Expect.Md Decision confidence=0.499
+ 50. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Constant-Propagation-Scientific-Notation.Expect.Md Decision confidence=0.499
+ 51. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Invalid-Reassign-Local-Variable-In-Multiple-Async-Callbacks.Expect.Md Decision confidence=0.499
+ 52. low      Packages/React-Devtools-Shared/Src/__Tests__/Console-Test.Js Decision confidence=0.499
+ 53. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Update-Expression-Context-Variable-Via-Type-Annotation.Expect.Md Decision confidence=0.499
+ 54. low      Packages/React-Devtools-Cdt-Mcp/Fixtures/App/Index.Html Decision confidence=0.499
+ 55. low      Yarn.Lock Decision           confidence=0.499
+ 56. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Fn-Name-No-Leak-To-Nested-Arrow.Expect.Md Decision confidence=0.499
+ 57. low      Packages/React-Devtools-Cdt-Mcp/Rollup.Config.Cjs Decision confidence=0.499
+ 58. low      Compiler/.Claude/Skills/Compiler-Verify/Skill.Md Decision confidence=0.499
+ 59. low      Compiler/Apps/Playground/Lib/Compilation.Ts Decision confidence=0.499
+ 60. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/Entrypoint/Program.Ts Decision confidence=0.499
+ 61. low      Packages/React-Noop-Renderer/Src/Createreactnoop.Js Decision confidence=0.499
+ 62. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Bug-Transitive-Freeze-Nested-Function-Captures.Expect.Md Decision confidence=0.499
+ 63. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Hir_Loc_Diff_1.Js Decision confidence=0.499
+ 64. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Hir_Unsupported_Node_Format.Expect.Md Decision confidence=0.499
+ 65. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Bug-Hir_Structural_Diff.Expect.Md Decision confidence=0.499
+ 66. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/Entrypoint/Pipeline.Ts Decision confidence=0.499
+ 67. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Invalid-Numeric-Literal-Computed-Property-Assignment.Expect.Md Decision confidence=0.499
+ 68. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Lib.Rs Decision confidence=0.499
+ 69. low      Compiler/Crates/React_Compiler_Lowering/Src/Lib.Rs Decision confidence=0.499
+ 70. low      Compiler/.Claude/Agents/Analyze-Pass-Impact.Md Decision confidence=0.499
+ 71. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Drop-Manual-Memoization-React-Module.Expect.Md Decision confidence=0.499
+ 72. low      Packages/React-Dom-Bindings/Src/Client/Reactfiberconfigdom.Js Decision confidence=0.499
+ 73. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Fbt/Error.Todo-Fbt-Plural-In-Expression-Container.Expect.Md Decision confidence=0.499
+ 74. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Flow-Reserved-Word-As-Identifier.Flow.Expect.Md Decision confidence=0.499
+ 75. low      Packages/React-Devtools-Cdt-Mcp/Fixtures/App/Readme.Md Decision confidence=0.499
+ 76. low      Compiler/Crates/React_Compiler_Optimization/Src/Optimize_Props_Method_Calls.Rs Decision confidence=0.499
+ 77. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Assert_Well_Formed_Break_Targets.Rs Decision confidence=0.499
+ 78. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Compiled-Function-Nested-In-Jsx.Expect.Md Decision confidence=0.499
+ 79. low      Packages/React-Server/Src/Reactflightserver.Js Decision confidence=0.499
+ 80. low      Compiler/.Claude/Skills/Compiler-Commit/Skill.Md Decision confidence=0.499
+ 81. low      Compiler/Crates/React_Compiler_Ast/Src/Lib.Rs Decision confidence=0.499
+ 82. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Bug-Hir_Loc_Diff_2.Js Decision confidence=0.499
+ 83. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Hir_Loc_Diff_1.Expect.Md Decision confidence=0.499
+ 84. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Function-Decl-Shadowed-By-Inner-Const.Expect.Md Decision confidence=0.499
+ 85. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/For-Loop-Counter-Memoization-Assignment.Expect.Md Decision confidence=0.499
+ 86. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/For-Loop-Counter-Memoization.Expect.Md Decision confidence=0.499
+ 87. low      Compiler/Crates/React_Compiler_Inference/Src/Flatten_Reactive_Loops_Hir.Rs Decision confidence=0.498
+ 88. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Codegen-Nan-Infinity-As-Identifiers.Expect.Md Decision confidence=0.498
+ 89. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_No_Jsx_In_Try_Statement.Rs Decision confidence=0.498
+ 90. low      .Github/Workflows/Compiler_Rust.Yml Decision confidence=0.498
+ 91. low      Packages/React-Native-Renderer/Src/Reactnativetypes.Js Decision confidence=0.498
+ 92. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Fbt-Scope-Range-Identifier-Sync.Js Decision confidence=0.498
+ 93. low      Packages/React-Devtools-Shared/Src/Backend/Nativestyleeditor/Setupnativestyleeditor.Js Decision confidence=0.498
+ 94. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Hir_Fn_Type_Mismatch_1.Js Decision confidence=0.498
+ 95. low      Compiler/Crates/React_Compiler/Src/Timing.Rs Decision confidence=0.498
+ 96. low      Compiler/.Claude/Agents/Compiler-Review.Md Decision confidence=0.498
+ 97. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_No_Capitalized_Calls.Rs Decision confidence=0.498
+ 98. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Component-In-Object-Method-Body.Flow.Expect.Md Decision confidence=0.498
+ 99. low      Compiler/Crates/React_Compiler_Ast/Src/Literals.Rs Decision confidence=0.498
+ 100. low      Compiler/.Claude/Skills/Plan-Update/Skill.Md Decision confidence=0.498
+ 101. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Prune_Unused_Labels.Rs Decision confidence=0.498
+ 102. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Bug-Hir_Loc_Diff_2.Expect.Md Decision confidence=0.498
+ 103. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Hir_Fn_Type_Mismatch_1.Expect.Md Decision confidence=0.498
+ 104. low      Packages/React-Devtools-Cdt-Mcp/Fixtures/App/Webpack.Config.Js Decision confidence=0.498
+ 105. low      Compiler/Crates/React_Compiler_Lowering/Tests/Unknown_Statement_Lowering.Rs Decision confidence=0.498
+ 106. low      Packages/React-Dom-Bindings/Src/Client/Reactdomcomponenttree.Js Decision confidence=0.498
+ 107. low      Compiler/Crates/React_Compiler_Oxc/Src/Diagnostics.Rs Decision confidence=0.498
+ 108. low      Compiler/.Claude/Agents/Port-Pass.Md Decision confidence=0.498
+ 109. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Prune_Unused_Scopes.Rs Decision confidence=0.498
+ 110. low      Compiler/Crates/React_Compiler_Hir/Src/Default_Module_Type_Provider.Rs Decision confidence=0.498
+ 111. low      Compiler/Crates/React_Compiler_Optimization/Src/Prune_Unused_Labels_Hir.Rs Decision confidence=0.498
+ 112. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_Static_Components.Rs Decision confidence=0.498
+ 113. low      Compiler/.Claude/Skills/Compiler-Port/Skill.Md Decision confidence=0.498
+ 114. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Hir_Fn_Type_Mismatch_2.Js Decision confidence=0.498
+ 115. low      Compiler/Docs/Rust-Port/Rust-Port-Notes.Md Decision confidence=0.498
+ 116. low      Compiler/Crates/React_Compiler_Ast/Src/Patterns.Rs Decision confidence=0.498
+ 117. low      Compiler/Crates/React_Compiler_Swc/Src/Diagnostics.Rs Decision confidence=0.498
+ 118. low      Compiler/Crates/React_Compiler_Ast/Src/Common.Rs Decision confidence=0.498
+ 119. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Deeply-Nested-Jsx-Recursion-Limit.Js Decision confidence=0.498
+ 120. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Assert_Scope_Instructions_Within_Scopes.Rs Decision confidence=0.498
+ 121. low      Packages/React-Devtools-Cdt-Mcp/Fixtures/App/App.Js Decision confidence=0.498
+ 122. low      Compiler/Crates/React_Compiler/Src/Entrypoint/Plugin_Options.Rs Decision confidence=0.498
+ 123. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Hir_Fn_Type_Mismatch_2.Expect.Md Decision confidence=0.498
+ 124. low      Compiler/Docs/Rust-Port/Rust-Port-Gap-Analysis.Md Decision confidence=0.498
+ 125. low      Packages/React-Devtools-Cdt-Mcp/Readme.Md Decision confidence=0.498
+ 126. low      Packages/React-Devtools-Facade/Src/__Tests__/Devtoolsfacade-Test.Js Decision confidence=0.498
+ 127. low      Compiler/Crates/React_Compiler_Ast/Src/Operators.Rs Decision confidence=0.498
+ 128. low      Compiler/Crates/React_Compiler_Optimization/Src/Outline_Functions.Rs Decision confidence=0.498
+ 129. low      Compiler/Crates/React_Compiler_Swc/Src/Apply_Renames.Rs Decision confidence=0.498
+ 130. low      Compiler/Crates/React_Compiler_Optimization/Src/Prune_Maybe_Throws.Rs Decision confidence=0.498
+ 131. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Stabilize_Block_Ids.Rs Decision confidence=0.498
+ 132. low      Compiler/Packages/Babel-Plugin-React-Compiler-Rust/Native/Src/Lib.Rs Decision confidence=0.498
+ 133. low      Compiler/Crates/React_Compiler_Inference/Src/Align_Method_Call_Scopes.Rs Decision confidence=0.498
+ 134. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Prune_Always_Invalidating_Scopes.Rs Decision confidence=0.498
+ 135. low      Compiler/Crates/React_Compiler_Inference/Src/Flatten_Scopes_With_Hooks_Or_Use_Hir.Rs Decision confidence=0.498
+ 136. low      Compiler/Crates/React_Compiler_Utils/Src/Disjoint_Set.Rs Decision confidence=0.498
+ 137. low      Compiler/Crates/React_Compiler_Oxc/Src/Prefilter.Rs Decision confidence=0.498
+ 138. low      Compiler/Crates/React_Compiler_Ast/Tests/Round_Trip.Rs Decision confidence=0.498
+ 139. low      Compiler/Docs/Rust-Port/Rust-Port-Architecture.Md Decision confidence=0.498
+ 140. low      Compiler/Packages/Babel-Plugin-React-Compiler-Rust/Src/Prefilter.Ts Decision confidence=0.498
+ 141. low      Compiler/Crates/React_Compiler_Ssa/Src/Eliminate_Redundant_Phi.Rs Decision confidence=0.498
+ 142. low      Compiler/Crates/React_Compiler_Inference/Src/Align_Object_Method_Scopes.Rs Decision confidence=0.498
+ 143. low      Compiler/Packages/Babel-Plugin-React-Compiler-Rust/Src/Options.Ts Decision confidence=0.498
+ 144. low      Compiler/Crates/React_Compiler_Ast/Src/Jsx.Rs Decision confidence=0.498
+ 145. low      Packages/React-Devtools-Facade/Src/Devtoolsfacade.Js Decision confidence=0.498
+ 146. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_Context_Variable_Lvalues.Rs Decision confidence=0.498
+ 147. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_No_Set_State_In_Render.Rs Decision confidence=0.498
+ 148. low      Compiler/Crates/React_Compiler_Oxc/Src/Apply_Renames.Rs Decision confidence=0.498
+ 149. low      Compiler/Scripts/Test-E2E.Ts Decision confidence=0.498
+ 150. low      Compiler/Packages/Babel-Plugin-React-Compiler-Rust/Src/Bridge.Ts Decision confidence=0.498
+ 151. low      Compiler/Crates/Todo.Md Decision confidence=0.498
+ 152. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Prune_Hoisted_Contexts.Rs Decision confidence=0.498
+ 153. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Fbt-Scope-Range-Identifier-Sync.Expect.Md Decision confidence=0.498
+ 154. low      Compiler/Crates/React_Compiler_Swc/Src/Prefilter.Rs Decision confidence=0.498
+ 155. low      Compiler/Crates/React_Compiler_Hir/Src/Type_Config.Rs Decision confidence=0.498
+ 156. low      Compiler/Crates/React_Compiler_Oxc/Src/Lib.Rs Decision confidence=0.498
+ 157. low      Compiler/Crates/React_Compiler_Inference/Src/Analyse_Functions.Rs Decision confidence=0.498
+ 158. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Extract_Scope_Declarations_From_Destructuring.Rs Decision confidence=0.498
+ 159. low      Compiler/Crates/React_Compiler_Optimization/Src/Merge_Consecutive_Blocks.Rs Decision confidence=0.498
+ 160. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_No_Freezing_Known_Mutable_Functions.Rs Decision confidence=0.498
+ 161. low      Compiler/Crates/React_Compiler_Hir/Src/Environment_Config.Rs Decision confidence=0.498
+ 162. low      Compiler/Crates/React_Compiler/Src/Fixture_Utils.Rs Decision confidence=0.498
+ 163. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Prune_Unused_Lvalues.Rs Decision confidence=0.498
+ 164. low      Compiler/Docs/Rust-Port/Rust-Port-0002-Scope-Types.Md Decision confidence=0.498
+ 165. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Deeply-Nested-Jsx-Recursion-Limit.Expect.Md Decision confidence=0.498
+ 166. low      Compiler/Crates/React_Compiler_Hir/Src/Reactive.Rs Decision confidence=0.498
+ 167. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Prune_Non_Reactive_Dependencies.Rs Decision confidence=0.498
+ 168. low      Compiler/Docs/Rust-Port/Rust-Port-Oxc.Md Decision confidence=0.498
+ 169. low      Compiler/.Claude/Skills/Compiler-Orchestrator/Skill.Md Decision confidence=0.498
+ 170. low      Compiler/Packages/Babel-Plugin-React-Compiler-Rust/Src/Babelplugin.Ts Decision confidence=0.498
+ 171. low      Compiler/Crates/React_Compiler/Src/Entrypoint/Compile_Result.Rs Decision confidence=0.498
+ 172. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_Locals_Not_Reassigned_After_Render.Rs Decision confidence=0.498
+ 173. low      Compiler/Crates/React_Compiler/Src/Entrypoint/Suppression.Rs Decision confidence=0.498
+ 174. low      Compiler/Crates/React_Compiler_Optimization/Src/Name_Anonymous_Functions.Rs Decision confidence=0.498
+ 175. low      Compiler/Crates/React_Compiler_E2E_Cli/Src/Main.Rs Decision confidence=0.498
+ 176. low      Packages/React-Devtools-Cdt-Mcp/Src/Devtoolscdtmcp.Js Decision confidence=0.498
+ 177. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_Use_Memo.Rs Decision confidence=0.498
+ 178. low      Compiler/Crates/React_Compiler_Lowering/Src/Identifier_Loc_Index.Rs Decision confidence=0.498
+ 179. low      Compiler/Crates/React_Compiler_Inference/Src/Align_Reactive_Scopes_To_Block_Scopes_Hir.Rs Decision confidence=0.498
+ 180. low      Compiler/Crates/React_Compiler_Diagnostics/Src/Js_String.Rs Decision confidence=0.498
+ 181. low      Compiler/Crates/React_Compiler_Ast/Src/Scope.Rs Decision confidence=0.498
+ 182. low      Compiler/Crates/React_Compiler_Hir/Src/Dominator.Rs Decision confidence=0.498
+ 183. low      Compiler/Crates/React_Compiler_Optimization/Src/Optimize_For_Ssr.Rs Decision confidence=0.498
+ 184. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Propagate_Early_Returns.Rs Decision confidence=0.498
+ 185. low      Compiler/Docs/Rust-Port/Rust-Compiler-Workflow-Guide.Md Decision confidence=0.498
+ 186. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Hir_Silent_Rust_Fail.Js Decision confidence=0.498
+ 187. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/__Tests__/Fixtures/Compiler/Error.Todo-Hir_Silent_Rust_Fail.Expect.Md Decision confidence=0.498
+ 188. low      Compiler/Crates/React_Compiler_Inference/Src/Memoize_Fbt_And_Macro_Operands_In_Same_Scope.Rs Decision confidence=0.498
+ 189. low      Compiler/Crates/React_Compiler_Swc/Src/Ts_Namespace_Export_Fixup.Rs Decision confidence=0.498
+ 190. low      Compiler/Crates/React_Compiler_Ssa/Src/Rewrite_Instruction_Kinds_Based_On_Reassignment.Rs Decision confidence=0.498
+ 191. low      Compiler/Crates/React_Compiler_Inference/Src/Infer_Reactive_Scope_Variables.Rs Decision confidence=0.498
+ 192. low      Compiler/Crates/React_Compiler_Inference/Src/Merge_Overlapping_Reactive_Scopes_Hir.Rs Decision confidence=0.498
+ 193. low      Compiler/Crates/React_Compiler_Optimization/Src/Inline_Iifes.Rs Decision confidence=0.498
+ 194. low      Compiler/Docs/Rust-Port/Rust-Port-0001-Babel-Ast.Md Decision confidence=0.498
+ 195. low      Compiler/Crates/React_Compiler_Inference/Src/Build_Reactive_Scope_Terminals_Hir.Rs Decision confidence=0.498
+ 196. low      Compiler/Crates/React_Compiler_Optimization/Src/Dead_Code_Elimination.Rs Decision confidence=0.498
+ 197. low      Compiler/Crates/React_Compiler_Hir/Src/Object_Shape.Rs Decision confidence=0.498
+ 198. low      Compiler/Crates/React_Compiler_Lowering/Src/Find_Context_Identifiers.Rs Decision confidence=0.498
+ 199. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Rename_Variables.Rs Decision confidence=0.498
+ 200. low      Compiler/Crates/React_Compiler_Diagnostics/Src/Code_Frame.Rs Decision confidence=0.498
+ 201. low      Compiler/Crates/React_Compiler_Diagnostics/Src/Lib.Rs Decision confidence=0.498
+ 202. low      Packages/React-Devtools-Cdt-Mcp/Src/__Tests__/Devtoolscdtmcp-Test.Js Decision confidence=0.498
+ 203. low      Compiler/Packages/Babel-Plugin-React-Compiler-Rust/Src/Scope.Ts Decision confidence=0.498
+ 204. low      Compiler/Crates/React_Compiler_Ast/Src/Declarations.Rs Decision confidence=0.498
+ 205. low      Compiler/Crates/React_Compiler/Src/Entrypoint/Imports.Rs Decision confidence=0.498
+ 206. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/Hir/Debugprintreactivefunction.Ts Decision confidence=0.498
+ 207. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_Hooks_Usage.Rs Decision confidence=0.498
+ 208. low      Compiler/Crates/React_Compiler_Oxc/Src/Convert_Scope.Rs Decision confidence=0.498
+ 209. low      Compiler/Crates/React_Compiler_Ssa/Src/Enter_Ssa.Rs Decision confidence=0.498
+ 210. low      Compiler/Crates/React_Compiler_Ast/Src/Expressions.Rs Decision confidence=0.498
+ 211. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Merge_Reactive_Scopes_That_Invalidate_Together.Rs Decision confidence=0.498
+ 212. low      Compiler/Docs/Rust-Port/Rust-Port-Reactive-Function.Md Decision confidence=0.498
+ 213. low      Compiler/Crates/React_Compiler/Src/Entrypoint/Gating.Rs Decision confidence=0.498
+ 214. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_No_Set_State_In_Effects.Rs Decision confidence=0.498
+ 215. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Print_Reactive_Function.Rs Decision confidence=0.498
+ 216. low      Compiler/Docs/Rust-Port/Rust-Port-0003-Testing-Infrastructure.Md Decision confidence=0.498
+ 217. low      Compiler/Crates/React_Compiler_Optimization/Src/Outline_Jsx.Rs Decision confidence=0.498
+ 218. low      Compiler/Docs/Rust-Port/Rust-Port-Orchestrator-Log.Md Decision confidence=0.498
+ 219. low      Compiler/Docs/Rust-Port/Rust-Port-0005-Babel-Plugin.Md Decision confidence=0.498
+ 220. low      Compiler/Crates/React_Compiler/Src/Debug_Print.Rs Decision confidence=0.498
+ 221. low      Compiler/Docs/Rust-Port/Rust-Port-0004-Build-Hir.Md Decision confidence=0.498
+ 222. low      Compiler/Crates/React_Compiler_Ast/Src/Statements.Rs Decision confidence=0.498
+ 223. low      Compiler/Crates/React_Compiler_Optimization/Src/Drop_Manual_Memoization.Rs Decision confidence=0.498
+ 224. low      Compiler/Crates/React_Compiler_Swc/Tests/Integration.Rs Decision confidence=0.498
+ 225. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_Preserved_Manual_Memoization.Rs Decision confidence=0.498
+ 226. low      Compiler/Crates/React_Compiler_Inference/Src/Infer_Reactive_Places.Rs Decision confidence=0.498
+ 227. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Visitors.Rs Decision confidence=0.498
+ 228. low      Compiler/Crates/React_Compiler_Swc/Src/Convert_Scope.Rs Decision confidence=0.498
+ 229. low      Compiler/Crates/React_Compiler_Optimization/Src/Constant_Propagation.Rs Decision confidence=0.498
+ 230. low      Compiler/Crates/React_Compiler_Ast/Tests/Scope_Resolution.Rs Decision confidence=0.498
+ 231. low      Compiler/Crates/React_Compiler_Hir/Src/Environment.Rs Decision confidence=0.498
+ 232. low      Compiler/Crates/React_Compiler_Inference/Src/Infer_Mutation_Aliasing_Ranges.Rs Decision confidence=0.498
+ 233. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Promote_Used_Temporaries.Rs Decision confidence=0.498
+ 234. low      Compiler/Crates/React_Compiler_Swc/Src/Lib.Rs Decision confidence=0.498
+ 235. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_No_Ref_Access_In_Render.Rs Decision confidence=0.498
+ 236. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Prune_Non_Escaping_Scopes.Rs Decision confidence=0.498
+ 237. low      Compiler/Crates/React_Compiler/Src/Entrypoint/Validate_Source_Locations.Rs Decision confidence=0.498
+ 238. low      Compiler/Packages/Babel-Plugin-React-Compiler/Src/Hir/Debugprinthir.Ts Decision confidence=0.498
+ 239. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_No_Derived_Computations_In_Effects.Rs Decision confidence=0.498
+ 240. low      Compiler/Crates/React_Compiler_Lowering/Src/Hir_Builder.Rs Decision confidence=0.498
+ 241. low      Compiler/Docs/Rust-Port/Rust-Port-Research.Md Decision confidence=0.498
+ 242. low      Compiler/Crates/React_Compiler_Ast/Src/Visitor.Rs Decision confidence=0.498
+ 243. low      Compiler/Crates/React_Compiler_Hir/Src/Print.Rs Decision confidence=0.498
+ 244. low      Compiler/Crates/React_Compiler_Typeinference/Src/Infer_Types.Rs Decision confidence=0.498
+ 245. low      Compiler/Crates/React_Compiler_Hir/Src/Lib.Rs Decision confidence=0.498
+ 246. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Build_Reactive_Function.Rs Decision confidence=0.498
+ 247. low      Compiler/Crates/React_Compiler_Validation/Src/Validate_Exhaustive_Dependencies.Rs Decision confidence=0.498
+ 248. low      Compiler/Crates/React_Compiler_Hir/Src/Visitors.Rs Decision confidence=0.498
+ 249. low      Compiler/Crates/React_Compiler/Src/Entrypoint/Pipeline.Rs Decision confidence=0.498
+ 250. low      Compiler/Crates/React_Compiler_Oxc/Src/Convert_Ast_Reverse.Rs Decision confidence=0.498
+ 251. low      Compiler/Cargo.Lock Decision confidence=0.498
+ 252. low      Compiler/Crates/React_Compiler_Inference/Src/Propagate_Scope_Dependencies_Hir.Rs Decision confidence=0.498
+ 253. low      Compiler/Crates/React_Compiler_Swc/Src/Convert_Ast.Rs Decision confidence=0.498
+ 254. low      Compiler/Crates/React_Compiler_Swc/Src/Convert_Ast_Reverse.Rs Decision confidence=0.498
+ 255. low      Compiler/Crates/React_Compiler_Oxc/Src/Convert_Ast.Rs Decision confidence=0.498
+ 256. low      Packages/React-Devtools-Cdt-Mcp/Fixtures/App/Yarn.Lock Decision confidence=0.498
+ 257. low      Compiler/Crates/React_Compiler_Inference/Src/Infer_Mutation_Aliasing_Effects.Rs Decision confidence=0.498
+ 258. low      Compiler/Crates/React_Compiler/Src/Entrypoint/Program.Rs Decision confidence=0.498
+ 259. low      Compiler/Crates/React_Compiler_Reactive_Scopes/Src/Codegen_Reactive_Function.Rs Decision confidence=0.498
+ 260. low      Compiler/Crates/React_Compiler_Lowering/Src/Build_Hir.Rs Decision confidence=0.498
+ 261. low      Packages/React-Devtools-Shared/Src/Devtools/Views/Components/Stacktraceview.Js Decision confidence=0.473
+ 262. low      Packages/React-Devtools-Shared/Src/Devtools/Views/Components/Inspectedelementview.Js Decision confidence=0.473
+ 263. low      Packages/React-Devtools-Shared/Src/Devtools/Views/Components/Inspectedelementsuspendedby.Js Decision confidence=0.473
+ 264. low      Packages/React-Devtools-Shared/Src/Backend/Shared/Devtoolsreactdispatcher.Js Decision confidence=0.449
+ 265. low      Packages/React-Server/Src/Reactfizzserver.Js Decision confidence=0.449
+ 266. low      Packages/React-Devtools-Facade/Src/Devtoolsfacadetools.Js Decision confidence=0.449
+ 267. low      Packages/React-Dom/Src/__Tests__/Reactdomfizzstaticbrowser-Test.Js Decision confidence=0.449
+ 268. low      Packages/React-Server-Dom-Webpack/Src/__Tests__/Reactflightdom-Test.Js Decision confidence=0.449
+ 269. low      Packages/React-Dom/Src/__Tests__/Reactdomfizzstaticnode-Test.Js Decision confidence=0.448
+ 270. low      Packages/React-Devtools-Facade/Src/Devtoolsfacadeprofilertools.Js Decision confidence=0.448
+ 271. low      Packages/React-Devtools-Facade/Src/Devtoolsfacadetreetools.Js Decision confidence=0.448
+ 272. low      Compiler/Packages/Eslint-Plugin-React-Compiler/Src/Rules/Reactcompilerrule.Ts Decision confidence=0.424
+ 273. low      Packages/Eslint-Plugin-React-Hooks/Src/Shared/Reactcompiler.Ts Decision confidence=0.424
+ 274. low      Packages/React-Reconciler/Src/__Tests__/Reacthookswithnooprenderer-Test.Js Decision confidence=0.424
+ 275. low      Packages/React-Dom/Src/__Tests__/Reactdomfizzshellhydration-Test.Js Decision confidence=0.423
+ 276. low      Packages/React-Dom/Src/__Tests__/Reactdomfloat-Test.Js Decision confidence=0.400
+ 277. low      Packages/React-Client/Src/__Tests__/Reactflight-Test.Js Decision confidence=0.399
+ 278. low      Packages/React-Server-Dom-Webpack/Src/__Tests__/Reactflightdomnode-Test.Js Decision confidence=0.399
+ 279. low      Packages/React-Server-Dom-Webpack/Src/__Tests__/Reactflightdomedge-Test.Js Decision confidence=0.374
+ 280. low      Changelog.Md Decision        confidence=0.374
+[92m[OK] Decision layer produced canonical decisions[0m
+[92m[OK] Reasoning to Decision completed in 0.031s[0m
+
+--------------------------------------------
+[96m[12/14] Executive Dashboard[0m
+--------------------------------------------
+
+[1mExecutive Dashboard[0m
+
+[1mExecutive Dashboard[0m
+Observations                           50
+Measurements                           7475
+Evidence                               280
+Expertise Models                       280
+Knowledge Models                       280
+Reasoning Results                      280
+Decisions                              280
+High Priority Decisions                0
+Medium Priority Decisions              0
+Low Priority Decisions                 280
+Decision Confidence                    0.494
+Decision Uncertainty                   0.112
+
+[1mOrganization Intelligence Summary[0m
+Org Health (average)                   0.077
+Healthy Topics                         0
+Warning Topics                         0
+Critical Topics                        1
+High Knowledge Risks                   1
+Bus Factor = 1 Topics                  1
+Forecast                               UNAVAILABLE (single snapshot)
+
+[1mExecutive Recommendations[0m
+  1. [HIGH  ] Escalate knowledge concentration in 'module': bus factor 1, 280 owner(s). Initiate immedia
+  2. [HIGH  ] Address 1 critically unhealthy knowledge area(s). Overall health: 7.7%.
+
+[1mExecutive Actions (from Decisions)[0m
+  1. low      Monitor compiler/crates/react_compiler/Cargo.toml as more evidence arrives.
+  2. low      Monitor compiler/fixtures/fbt-scope-range-sync-with-jsx.js as more evidence arrives.
+  3. low      Monitor compiler/packages/babel-plugin-react-compiler-rust/tsconfig.json as more evidence arrives.
+  4. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/codegen-nan-infinity-as-identifiers.js as more evidence arrives.
+  5. low      Monitor packages/react-devtools-shared/src/devtools/views/Settings/SettingsContext.js as more evidence arrives.
+  6. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_structural_diff.js as more evidence arrives.
+  7. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_identifier_diff.js as more evidence arrives.
+  8. low      Monitor packages/react-dom-bindings/src/events/plugins/FormActionEventPlugin.js as more evidence arrives.
+  9. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-break.expect.md as more evidence arrives.
+ 10. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-continue.expect.md as more evidence arrives.
+
+
+[1mCanonical Lineage[0m
+
+ GitHub Commit
+      |
+      v
+ Observation
+      |
+      v
+ Measurement
+      |
+      v
+ Evidence
+      |
+      v
+ Expertise
+      |
+      v
+ Knowledge
+      |
+      v
+[95m Organization Intelligence[0m
+      |
+      v
+ Reasoning
+      |
+      v
+ Decision
+[92m[OK] Executive dashboard rendered from canonical outputs[0m
+[92m[OK] Executive Dashboard completed in 0.004s[0m
+
+--------------------------------------------
+[96m[13/14] Pipeline Validation[0m
+--------------------------------------------
+
+[1mPipeline Validation[0m
+
+[1mActual Execution Path[0m
+Step 1                                 GitHub Commit
+Step 2                                 Observation
+Step 3                                 Measurement
+Step 4                                 Evidence
+Step 5                                 Expertise
+Step 6                                 Knowledge
+Step 7                                 Organization Intelligence
+Step 8                                 Reasoning
+Step 9                                 Decision
+Step 10                                Executive Dashboard
+
+[1mLayer Health[0m
+Observation                            PASS
+Measurement                            PASS
+Evidence                               PASS
+Expertise                              PASS
+Knowledge                              PASS
+Organization Intelligence              PASS
+Reasoning                              PASS
+Decision                               PASS
+Executive                              PASS
+Lineage                                PASS
+Confidence                             PASS
+Uncertainty                            PASS
+Explainability                         PASS
+Immutability                           PASS
+Org No Legacy Deps                     PASS
+
+[1mOrg Intelligence Health[0m
+Ownership computed                     PASS
+Coverage computed                      PASS
+Bus factor computed                    PASS
+Knowledge risk computed                PASS
+Health summary computed                PASS
+Forecast honestly deferred             PASS
+Recommendations generated              PASS
+Validation matrix present              PASS
+[92m[OK] Canonical validation checks completed[0m
+[92m[OK] Pipeline Validation completed in 0.005s[0m
+
+--------------------------------------------
+[96m[14/14] Executive Intelligence Report[0m
+--------------------------------------------
+
+[1mExecutive Intelligence Report[0m
+
+[1mExecutive Intelligence Report[0m
+Repository                             facebook/react
+Branch                                 main
+Observations                           50
+Measurements                           7475
+Evidence                               280
+Evidence for Expertise                 280
+Expertise Models                       280
+Knowledge Models                       280
+Reasoning Results                      280
+Decisions                              280
+Canonical Health                       PASS
+
+[1mOrganization Intelligence Totals[0m
+Ownership Entries                      280
+Coverage Entries                       1
+Concentration Entries                  1
+Bus Factor Entries                     1
+Successor Pairs                        0
+Knowledge Risks                        1
+Health (average)                       0.077
+Healthy Topics                         0
+Warning Topics                         0
+Critical Topics                        1
+Forecast                               UNAVAILABLE (single snapshot)
+Recommendations                        3
+Validation Matrix — EXACT match        4
+Validation Matrix — CLOSE match        5
+Validation Matrix — UNAVAILABLE        1
+
+[1mRecommended Decisions[0m
+  1. low      Monitor compiler/crates/react_compiler/Cargo.toml as more evidence arrives. (confidence=0.500)
+  2. low      Monitor compiler/fixtures/fbt-scope-range-sync-with-jsx.js as more evidence arrives. (confidence=0.500)
+  3. low      Monitor compiler/packages/babel-plugin-react-compiler-rust/tsconfig.json as more evidence arrives. (confidence=0.500)
+  4. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/codegen-nan-infinity-as-identifiers.js as more evidence arrives. (confidence=0.500)
+  5. low      Monitor packages/react-devtools-shared/src/devtools/views/Settings/SettingsContext.js as more evidence arrives. (confidence=0.500)
+  6. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_structural_diff.js as more evidence arrives. (confidence=0.500)
+  7. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_identifier_diff.js as more evidence arrives. (confidence=0.500)
+  8. low      Monitor packages/react-dom-bindings/src/events/plugins/FormActionEventPlugin.js as more evidence arrives. (confidence=0.500)
+  9. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-break.expect.md as more evidence arrives. (confidence=0.500)
+ 10. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-in-statement-continue.expect.md as more evidence arrives. (confidence=0.500)
+ 11. low      Monitor compiler/crates/react_compiler_oxc/Cargo.toml as more evidence arrives. (confidence=0.500)
+ 12. low      Monitor compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Options.ts as more evidence arrives. (confidence=0.500)
+ 13. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-pattern2_type_to_object.js as more evidence arrives. (confidence=0.500)
+ 14. low      Monitor packages/react-devtools-cdt-mcp/fixtures/app/package.json as more evidence arrives. (confidence=0.500)
+ 15. low      Monitor compiler/.claude/rules/rust-port.md as more evidence arrives. (confidence=0.500)
+ 16. low      Monitor compiler/fixtures/align-method-call-scope-range-sync.js as more evidence arrives. (confidence=0.500)
+ 17. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_fn_type_component_to_other.expect.md as more evidence arrives. (confidence=0.500)
+ 18. low      Monitor packages/scheduler/src/forks/Scheduler.js as more evidence arrives. (confidence=0.500)
+ 19. low      Monitor compiler/crates/react_compiler_optimization/src/lib.rs as more evidence arrives. (confidence=0.500)
+ 20. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/component-in-object-method-body.flow.js as more evidence arrives. (confidence=0.500)
+ 21. low      Monitor packages/react-devtools-cdt-mcp/package.json as more evidence arrives. (confidence=0.499)
+ 22. low      Monitor packages/react-client/src/ReactFlightClient.js as more evidence arrives. (confidence=0.499)
+ 23. low      Monitor compiler/crates/react_compiler_e2e_cli/Cargo.toml as more evidence arrives. (confidence=0.499)
+ 24. low      Monitor compiler/.claude/rules/commit-convention.md as more evidence arrives. (confidence=0.499)
+ 25. low      Monitor packages/react-reconciler/src/ReactFiber.js as more evidence arrives. (confidence=0.499)
+ 26. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_float_precision.expect.md as more evidence arrives. (confidence=0.499)
+ 27. low      Monitor compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/InferReactiveScopeVariables.ts as more evidence arrives. (confidence=0.499)
+ 28. low      Monitor compiler/crates/react_compiler_inference/src/lib.rs as more evidence arrives. (confidence=0.499)
+ 29. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch.expect.md as more evidence arrives. (confidence=0.499)
+ 30. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_id_numbering.expect.md as more evidence arrives. (confidence=0.499)
+ 31. low      Monitor compiler/crates/react_compiler_validation/src/lib.rs as more evidence arrives. (confidence=0.499)
+ 32. low      Monitor compiler/.claude/skills/compiler-review/SKILL.md as more evidence arrives. (confidence=0.499)
+ 33. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-pattern3_type_to_poly.expect.md as more evidence arrives. (confidence=0.499)
+ 34. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_severity_diff.expect.md as more evidence arrives. (confidence=0.499)
+ 35. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.typescript-this-param-in-compiled-function.expect.md as more evidence arrives. (confidence=0.499)
+ 36. low      Monitor compiler/packages/babel-plugin-react-compiler-rust/package.json as more evidence arrives. (confidence=0.499)
+ 37. low      Monitor packages/react-reconciler/src/ReactFiberHydrationContext.js as more evidence arrives. (confidence=0.499)
+ 38. low      Monitor packages/react-devtools-shared/src/backend/fiber/renderer.js as more evidence arrives. (confidence=0.499)
+ 39. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-infer-mutation-aliasing-function-shadows-own-name.expect.md as more evidence arrives. (confidence=0.499)
+ 40. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_jsxtext_nbsp.expect.md as more evidence arrives. (confidence=0.499)
+ 41. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-rust-as-expression-assignment-target.expect.md as more evidence arrives. (confidence=0.499)
+ 42. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-context-variable-catch-in-lambda.expect.md as more evidence arrives. (confidence=0.499)
+ 43. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-round2_identifier_diff.expect.md as more evidence arrives. (confidence=0.499)
+ 44. low      Monitor packages/react-reconciler/src/ReactFiberCallUserSpace.js as more evidence arrives. (confidence=0.499)
+ 45. low      Monitor packages/react-devtools-facade/README.md as more evidence arrives. (confidence=0.499)
+ 46. low      Monitor compiler/crates/react_compiler_ast/tests/deep_nesting.rs as more evidence arrives. (confidence=0.499)
+ 47. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-pattern2_type_to_object.expect.md as more evidence arrives. (confidence=0.499)
+ 48. low      Monitor packages/react-reconciler/src/ReactFiberCommitWork.js as more evidence arrives. (confidence=0.499)
+ 49. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/aliased_usememo.expect.md as more evidence arrives. (confidence=0.499)
+ 50. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/constant-propagation-scientific-notation.expect.md as more evidence arrives. (confidence=0.499)
+ 51. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.invalid-reassign-local-variable-in-multiple-async-callbacks.expect.md as more evidence arrives. (confidence=0.499)
+ 52. low      Monitor packages/react-devtools-shared/src/__tests__/console-test.js as more evidence arrives. (confidence=0.499)
+ 53. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-update-expression-context-variable-via-type-annotation.expect.md as more evidence arrives. (confidence=0.499)
+ 54. low      Monitor packages/react-devtools-cdt-mcp/fixtures/app/index.html as more evidence arrives. (confidence=0.499)
+ 55. low      Monitor yarn.lock as more evidence arrives.                  (confidence=0.499)
+ 56. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fn-name-no-leak-to-nested-arrow.expect.md as more evidence arrives. (confidence=0.499)
+ 57. low      Monitor packages/react-devtools-cdt-mcp/rollup.config.cjs as more evidence arrives. (confidence=0.499)
+ 58. low      Monitor compiler/.claude/skills/compiler-verify/SKILL.md as more evidence arrives. (confidence=0.499)
+ 59. low      Monitor compiler/apps/playground/lib/compilation.ts as more evidence arrives. (confidence=0.499)
+ 60. low      Monitor compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Program.ts as more evidence arrives. (confidence=0.499)
+ 61. low      Monitor packages/react-noop-renderer/src/createReactNoop.js as more evidence arrives. (confidence=0.499)
+ 62. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-transitive-freeze-nested-function-captures.expect.md as more evidence arrives. (confidence=0.499)
+ 63. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_loc_diff_1.js as more evidence arrives. (confidence=0.499)
+ 64. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_unsupported_node_format.expect.md as more evidence arrives. (confidence=0.499)
+ 65. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_structural_diff.expect.md as more evidence arrives. (confidence=0.499)
+ 66. low      Monitor compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Pipeline.ts as more evidence arrives. (confidence=0.499)
+ 67. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.invalid-numeric-literal-computed-property-assignment.expect.md as more evidence arrives. (confidence=0.499)
+ 68. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/lib.rs as more evidence arrives. (confidence=0.499)
+ 69. low      Monitor compiler/crates/react_compiler_lowering/src/lib.rs as more evidence arrives. (confidence=0.499)
+ 70. low      Monitor compiler/.claude/agents/analyze-pass-impact.md as more evidence arrives. (confidence=0.499)
+ 71. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/drop-manual-memoization-react-module.expect.md as more evidence arrives. (confidence=0.499)
+ 72. low      Monitor packages/react-dom-bindings/src/client/ReactFiberConfigDOM.js as more evidence arrives. (confidence=0.499)
+ 73. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fbt/error.todo-fbt-plural-in-expression-container.expect.md as more evidence arrives. (confidence=0.499)
+ 74. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/flow-reserved-word-as-identifier.flow.expect.md as more evidence arrives. (confidence=0.499)
+ 75. low      Monitor packages/react-devtools-cdt-mcp/fixtures/app/README.md as more evidence arrives. (confidence=0.499)
+ 76. low      Monitor compiler/crates/react_compiler_optimization/src/optimize_props_method_calls.rs as more evidence arrives. (confidence=0.499)
+ 77. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/assert_well_formed_break_targets.rs as more evidence arrives. (confidence=0.499)
+ 78. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/compiled-function-nested-in-jsx.expect.md as more evidence arrives. (confidence=0.499)
+ 79. low      Monitor packages/react-server/src/ReactFlightServer.js as more evidence arrives. (confidence=0.499)
+ 80. low      Monitor compiler/.claude/skills/compiler-commit/SKILL.md as more evidence arrives. (confidence=0.499)
+ 81. low      Monitor compiler/crates/react_compiler_ast/src/lib.rs as more evidence arrives. (confidence=0.499)
+ 82. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_loc_diff_2.js as more evidence arrives. (confidence=0.499)
+ 83. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_loc_diff_1.expect.md as more evidence arrives. (confidence=0.499)
+ 84. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/function-decl-shadowed-by-inner-const.expect.md as more evidence arrives. (confidence=0.499)
+ 85. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-loop-counter-memoization-assignment.expect.md as more evidence arrives. (confidence=0.499)
+ 86. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/for-loop-counter-memoization.expect.md as more evidence arrives. (confidence=0.499)
+ 87. low      Monitor compiler/crates/react_compiler_inference/src/flatten_reactive_loops_hir.rs as more evidence arrives. (confidence=0.498)
+ 88. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/codegen-nan-infinity-as-identifiers.expect.md as more evidence arrives. (confidence=0.498)
+ 89. low      Monitor compiler/crates/react_compiler_validation/src/validate_no_jsx_in_try_statement.rs as more evidence arrives. (confidence=0.498)
+ 90. low      Monitor .github/workflows/compiler_rust.yml as more evidence arrives. (confidence=0.498)
+ 91. low      Monitor packages/react-native-renderer/src/ReactNativeTypes.js as more evidence arrives. (confidence=0.498)
+ 92. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fbt-scope-range-identifier-sync.js as more evidence arrives. (confidence=0.498)
+ 93. low      Monitor packages/react-devtools-shared/src/backend/NativeStyleEditor/setupNativeStyleEditor.js as more evidence arrives. (confidence=0.498)
+ 94. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_1.js as more evidence arrives. (confidence=0.498)
+ 95. low      Monitor compiler/crates/react_compiler/src/timing.rs as more evidence arrives. (confidence=0.498)
+ 96. low      Monitor compiler/.claude/agents/compiler-review.md as more evidence arrives. (confidence=0.498)
+ 97. low      Monitor compiler/crates/react_compiler_validation/src/validate_no_capitalized_calls.rs as more evidence arrives. (confidence=0.498)
+ 98. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/component-in-object-method-body.flow.expect.md as more evidence arrives. (confidence=0.498)
+ 99. low      Monitor compiler/crates/react_compiler_ast/src/literals.rs as more evidence arrives. (confidence=0.498)
+ 100. low      Monitor compiler/.claude/skills/plan-update/SKILL.md as more evidence arrives. (confidence=0.498)
+ 101. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/prune_unused_labels.rs as more evidence arrives. (confidence=0.498)
+ 102. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.bug-hir_loc_diff_2.expect.md as more evidence arrives. (confidence=0.498)
+ 103. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_1.expect.md as more evidence arrives. (confidence=0.498)
+ 104. low      Monitor packages/react-devtools-cdt-mcp/fixtures/app/webpack.config.js as more evidence arrives. (confidence=0.498)
+ 105. low      Monitor compiler/crates/react_compiler_lowering/tests/unknown_statement_lowering.rs as more evidence arrives. (confidence=0.498)
+ 106. low      Monitor packages/react-dom-bindings/src/client/ReactDOMComponentTree.js as more evidence arrives. (confidence=0.498)
+ 107. low      Monitor compiler/crates/react_compiler_oxc/src/diagnostics.rs as more evidence arrives. (confidence=0.498)
+ 108. low      Monitor compiler/.claude/agents/port-pass.md as more evidence arrives. (confidence=0.498)
+ 109. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/prune_unused_scopes.rs as more evidence arrives. (confidence=0.498)
+ 110. low      Monitor compiler/crates/react_compiler_hir/src/default_module_type_provider.rs as more evidence arrives. (confidence=0.498)
+ 111. low      Monitor compiler/crates/react_compiler_optimization/src/prune_unused_labels_hir.rs as more evidence arrives. (confidence=0.498)
+ 112. low      Monitor compiler/crates/react_compiler_validation/src/validate_static_components.rs as more evidence arrives. (confidence=0.498)
+ 113. low      Monitor compiler/.claude/skills/compiler-port/SKILL.md as more evidence arrives. (confidence=0.498)
+ 114. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_2.js as more evidence arrives. (confidence=0.498)
+ 115. low      Monitor compiler/docs/rust-port/rust-port-notes.md as more evidence arrives. (confidence=0.498)
+ 116. low      Monitor compiler/crates/react_compiler_ast/src/patterns.rs as more evidence arrives. (confidence=0.498)
+ 117. low      Monitor compiler/crates/react_compiler_swc/src/diagnostics.rs as more evidence arrives. (confidence=0.498)
+ 118. low      Monitor compiler/crates/react_compiler_ast/src/common.rs as more evidence arrives. (confidence=0.498)
+ 119. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/deeply-nested-jsx-recursion-limit.js as more evidence arrives. (confidence=0.498)
+ 120. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/assert_scope_instructions_within_scopes.rs as more evidence arrives. (confidence=0.498)
+ 121. low      Monitor packages/react-devtools-cdt-mcp/fixtures/app/App.js as more evidence arrives. (confidence=0.498)
+ 122. low      Monitor compiler/crates/react_compiler/src/entrypoint/plugin_options.rs as more evidence arrives. (confidence=0.498)
+ 123. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_fn_type_mismatch_2.expect.md as more evidence arrives. (confidence=0.498)
+ 124. low      Monitor compiler/docs/rust-port/rust-port-gap-analysis.md as more evidence arrives. (confidence=0.498)
+ 125. low      Monitor packages/react-devtools-cdt-mcp/README.md as more evidence arrives. (confidence=0.498)
+ 126. low      Monitor packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js as more evidence arrives. (confidence=0.498)
+ 127. low      Monitor compiler/crates/react_compiler_ast/src/operators.rs as more evidence arrives. (confidence=0.498)
+ 128. low      Monitor compiler/crates/react_compiler_optimization/src/outline_functions.rs as more evidence arrives. (confidence=0.498)
+ 129. low      Monitor compiler/crates/react_compiler_swc/src/apply_renames.rs as more evidence arrives. (confidence=0.498)
+ 130. low      Monitor compiler/crates/react_compiler_optimization/src/prune_maybe_throws.rs as more evidence arrives. (confidence=0.498)
+ 131. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/stabilize_block_ids.rs as more evidence arrives. (confidence=0.498)
+ 132. low      Monitor compiler/packages/babel-plugin-react-compiler-rust/native/src/lib.rs as more evidence arrives. (confidence=0.498)
+ 133. low      Monitor compiler/crates/react_compiler_inference/src/align_method_call_scopes.rs as more evidence arrives. (confidence=0.498)
+ 134. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/prune_always_invalidating_scopes.rs as more evidence arrives. (confidence=0.498)
+ 135. low      Monitor compiler/crates/react_compiler_inference/src/flatten_scopes_with_hooks_or_use_hir.rs as more evidence arrives. (confidence=0.498)
+ 136. low      Monitor compiler/crates/react_compiler_utils/src/disjoint_set.rs as more evidence arrives. (confidence=0.498)
+ 137. low      Monitor compiler/crates/react_compiler_oxc/src/prefilter.rs as more evidence arrives. (confidence=0.498)
+ 138. low      Monitor compiler/crates/react_compiler_ast/tests/round_trip.rs as more evidence arrives. (confidence=0.498)
+ 139. low      Monitor compiler/docs/rust-port/rust-port-architecture.md as more evidence arrives. (confidence=0.498)
+ 140. low      Monitor compiler/packages/babel-plugin-react-compiler-rust/src/prefilter.ts as more evidence arrives. (confidence=0.498)
+ 141. low      Monitor compiler/crates/react_compiler_ssa/src/eliminate_redundant_phi.rs as more evidence arrives. (confidence=0.498)
+ 142. low      Monitor compiler/crates/react_compiler_inference/src/align_object_method_scopes.rs as more evidence arrives. (confidence=0.498)
+ 143. low      Monitor compiler/packages/babel-plugin-react-compiler-rust/src/options.ts as more evidence arrives. (confidence=0.498)
+ 144. low      Monitor compiler/crates/react_compiler_ast/src/jsx.rs as more evidence arrives. (confidence=0.498)
+ 145. low      Monitor packages/react-devtools-facade/src/DevToolsFacade.js as more evidence arrives. (confidence=0.498)
+ 146. low      Monitor compiler/crates/react_compiler_validation/src/validate_context_variable_lvalues.rs as more evidence arrives. (confidence=0.498)
+ 147. low      Monitor compiler/crates/react_compiler_validation/src/validate_no_set_state_in_render.rs as more evidence arrives. (confidence=0.498)
+ 148. low      Monitor compiler/crates/react_compiler_oxc/src/apply_renames.rs as more evidence arrives. (confidence=0.498)
+ 149. low      Monitor compiler/scripts/test-e2e.ts as more evidence arrives. (confidence=0.498)
+ 150. low      Monitor compiler/packages/babel-plugin-react-compiler-rust/src/bridge.ts as more evidence arrives. (confidence=0.498)
+ 151. low      Monitor compiler/crates/TODO.md as more evidence arrives.    (confidence=0.498)
+ 152. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/prune_hoisted_contexts.rs as more evidence arrives. (confidence=0.498)
+ 153. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/fbt-scope-range-identifier-sync.expect.md as more evidence arrives. (confidence=0.498)
+ 154. low      Monitor compiler/crates/react_compiler_swc/src/prefilter.rs as more evidence arrives. (confidence=0.498)
+ 155. low      Monitor compiler/crates/react_compiler_hir/src/type_config.rs as more evidence arrives. (confidence=0.498)
+ 156. low      Monitor compiler/crates/react_compiler_oxc/src/lib.rs as more evidence arrives. (confidence=0.498)
+ 157. low      Monitor compiler/crates/react_compiler_inference/src/analyse_functions.rs as more evidence arrives. (confidence=0.498)
+ 158. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/extract_scope_declarations_from_destructuring.rs as more evidence arrives. (confidence=0.498)
+ 159. low      Monitor compiler/crates/react_compiler_optimization/src/merge_consecutive_blocks.rs as more evidence arrives. (confidence=0.498)
+ 160. low      Monitor compiler/crates/react_compiler_validation/src/validate_no_freezing_known_mutable_functions.rs as more evidence arrives. (confidence=0.498)
+ 161. low      Monitor compiler/crates/react_compiler_hir/src/environment_config.rs as more evidence arrives. (confidence=0.498)
+ 162. low      Monitor compiler/crates/react_compiler/src/fixture_utils.rs as more evidence arrives. (confidence=0.498)
+ 163. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/prune_unused_lvalues.rs as more evidence arrives. (confidence=0.498)
+ 164. low      Monitor compiler/docs/rust-port/rust-port-0002-scope-types.md as more evidence arrives. (confidence=0.498)
+ 165. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/deeply-nested-jsx-recursion-limit.expect.md as more evidence arrives. (confidence=0.498)
+ 166. low      Monitor compiler/crates/react_compiler_hir/src/reactive.rs as more evidence arrives. (confidence=0.498)
+ 167. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/prune_non_reactive_dependencies.rs as more evidence arrives. (confidence=0.498)
+ 168. low      Monitor compiler/docs/rust-port/rust-port-oxc.md as more evidence arrives. (confidence=0.498)
+ 169. low      Monitor compiler/.claude/skills/compiler-orchestrator/SKILL.md as more evidence arrives. (confidence=0.498)
+ 170. low      Monitor compiler/packages/babel-plugin-react-compiler-rust/src/BabelPlugin.ts as more evidence arrives. (confidence=0.498)
+ 171. low      Monitor compiler/crates/react_compiler/src/entrypoint/compile_result.rs as more evidence arrives. (confidence=0.498)
+ 172. low      Monitor compiler/crates/react_compiler_validation/src/validate_locals_not_reassigned_after_render.rs as more evidence arrives. (confidence=0.498)
+ 173. low      Monitor compiler/crates/react_compiler/src/entrypoint/suppression.rs as more evidence arrives. (confidence=0.498)
+ 174. low      Monitor compiler/crates/react_compiler_optimization/src/name_anonymous_functions.rs as more evidence arrives. (confidence=0.498)
+ 175. low      Monitor compiler/crates/react_compiler_e2e_cli/src/main.rs as more evidence arrives. (confidence=0.498)
+ 176. low      Monitor packages/react-devtools-cdt-mcp/src/DevToolsCdtMcp.js as more evidence arrives. (confidence=0.498)
+ 177. low      Monitor compiler/crates/react_compiler_validation/src/validate_use_memo.rs as more evidence arrives. (confidence=0.498)
+ 178. low      Monitor compiler/crates/react_compiler_lowering/src/identifier_loc_index.rs as more evidence arrives. (confidence=0.498)
+ 179. low      Monitor compiler/crates/react_compiler_inference/src/align_reactive_scopes_to_block_scopes_hir.rs as more evidence arrives. (confidence=0.498)
+ 180. low      Monitor compiler/crates/react_compiler_diagnostics/src/js_string.rs as more evidence arrives. (confidence=0.498)
+ 181. low      Monitor compiler/crates/react_compiler_ast/src/scope.rs as more evidence arrives. (confidence=0.498)
+ 182. low      Monitor compiler/crates/react_compiler_hir/src/dominator.rs as more evidence arrives. (confidence=0.498)
+ 183. low      Monitor compiler/crates/react_compiler_optimization/src/optimize_for_ssr.rs as more evidence arrives. (confidence=0.498)
+ 184. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/propagate_early_returns.rs as more evidence arrives. (confidence=0.498)
+ 185. low      Monitor compiler/docs/rust-port/rust-compiler-workflow-guide.md as more evidence arrives. (confidence=0.498)
+ 186. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_silent_rust_fail.js as more evidence arrives. (confidence=0.498)
+ 187. low      Monitor compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.todo-hir_silent_rust_fail.expect.md as more evidence arrives. (confidence=0.498)
+ 188. low      Monitor compiler/crates/react_compiler_inference/src/memoize_fbt_and_macro_operands_in_same_scope.rs as more evidence arrives. (confidence=0.498)
+ 189. low      Monitor compiler/crates/react_compiler_swc/src/ts_namespace_export_fixup.rs as more evidence arrives. (confidence=0.498)
+ 190. low      Monitor compiler/crates/react_compiler_ssa/src/rewrite_instruction_kinds_based_on_reassignment.rs as more evidence arrives. (confidence=0.498)
+ 191. low      Monitor compiler/crates/react_compiler_inference/src/infer_reactive_scope_variables.rs as more evidence arrives. (confidence=0.498)
+ 192. low      Monitor compiler/crates/react_compiler_inference/src/merge_overlapping_reactive_scopes_hir.rs as more evidence arrives. (confidence=0.498)
+ 193. low      Monitor compiler/crates/react_compiler_optimization/src/inline_iifes.rs as more evidence arrives. (confidence=0.498)
+ 194. low      Monitor compiler/docs/rust-port/rust-port-0001-babel-ast.md as more evidence arrives. (confidence=0.498)
+ 195. low      Monitor compiler/crates/react_compiler_inference/src/build_reactive_scope_terminals_hir.rs as more evidence arrives. (confidence=0.498)
+ 196. low      Monitor compiler/crates/react_compiler_optimization/src/dead_code_elimination.rs as more evidence arrives. (confidence=0.498)
+ 197. low      Monitor compiler/crates/react_compiler_hir/src/object_shape.rs as more evidence arrives. (confidence=0.498)
+ 198. low      Monitor compiler/crates/react_compiler_lowering/src/find_context_identifiers.rs as more evidence arrives. (confidence=0.498)
+ 199. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/rename_variables.rs as more evidence arrives. (confidence=0.498)
+ 200. low      Monitor compiler/crates/react_compiler_diagnostics/src/code_frame.rs as more evidence arrives. (confidence=0.498)
+ 201. low      Monitor compiler/crates/react_compiler_diagnostics/src/lib.rs as more evidence arrives. (confidence=0.498)
+ 202. low      Monitor packages/react-devtools-cdt-mcp/src/__tests__/DevToolsCdtMcp-test.js as more evidence arrives. (confidence=0.498)
+ 203. low      Monitor compiler/packages/babel-plugin-react-compiler-rust/src/scope.ts as more evidence arrives. (confidence=0.498)
+ 204. low      Monitor compiler/crates/react_compiler_ast/src/declarations.rs as more evidence arrives. (confidence=0.498)
+ 205. low      Monitor compiler/crates/react_compiler/src/entrypoint/imports.rs as more evidence arrives. (confidence=0.498)
+ 206. low      Monitor compiler/packages/babel-plugin-react-compiler/src/HIR/DebugPrintReactiveFunction.ts as more evidence arrives. (confidence=0.498)
+ 207. low      Monitor compiler/crates/react_compiler_validation/src/validate_hooks_usage.rs as more evidence arrives. (confidence=0.498)
+ 208. low      Monitor compiler/crates/react_compiler_oxc/src/convert_scope.rs as more evidence arrives. (confidence=0.498)
+ 209. low      Monitor compiler/crates/react_compiler_ssa/src/enter_ssa.rs as more evidence arrives. (confidence=0.498)
+ 210. low      Monitor compiler/crates/react_compiler_ast/src/expressions.rs as more evidence arrives. (confidence=0.498)
+ 211. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/merge_reactive_scopes_that_invalidate_together.rs as more evidence arrives. (confidence=0.498)
+ 212. low      Monitor compiler/docs/rust-port/rust-port-reactive-function.md as more evidence arrives. (confidence=0.498)
+ 213. low      Monitor compiler/crates/react_compiler/src/entrypoint/gating.rs as more evidence arrives. (confidence=0.498)
+ 214. low      Monitor compiler/crates/react_compiler_validation/src/validate_no_set_state_in_effects.rs as more evidence arrives. (confidence=0.498)
+ 215. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/print_reactive_function.rs as more evidence arrives. (confidence=0.498)
+ 216. low      Monitor compiler/docs/rust-port/rust-port-0003-testing-infrastructure.md as more evidence arrives. (confidence=0.498)
+ 217. low      Monitor compiler/crates/react_compiler_optimization/src/outline_jsx.rs as more evidence arrives. (confidence=0.498)
+ 218. low      Monitor compiler/docs/rust-port/rust-port-orchestrator-log.md as more evidence arrives. (confidence=0.498)
+ 219. low      Monitor compiler/docs/rust-port/rust-port-0005-babel-plugin.md as more evidence arrives. (confidence=0.498)
+ 220. low      Monitor compiler/crates/react_compiler/src/debug_print.rs as more evidence arrives. (confidence=0.498)
+ 221. low      Monitor compiler/docs/rust-port/rust-port-0004-build-hir.md as more evidence arrives. (confidence=0.498)
+ 222. low      Monitor compiler/crates/react_compiler_ast/src/statements.rs as more evidence arrives. (confidence=0.498)
+ 223. low      Monitor compiler/crates/react_compiler_optimization/src/drop_manual_memoization.rs as more evidence arrives. (confidence=0.498)
+ 224. low      Monitor compiler/crates/react_compiler_swc/tests/integration.rs as more evidence arrives. (confidence=0.498)
+ 225. low      Monitor compiler/crates/react_compiler_validation/src/validate_preserved_manual_memoization.rs as more evidence arrives. (confidence=0.498)
+ 226. low      Monitor compiler/crates/react_compiler_inference/src/infer_reactive_places.rs as more evidence arrives. (confidence=0.498)
+ 227. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/visitors.rs as more evidence arrives. (confidence=0.498)
+ 228. low      Monitor compiler/crates/react_compiler_swc/src/convert_scope.rs as more evidence arrives. (confidence=0.498)
+ 229. low      Monitor compiler/crates/react_compiler_optimization/src/constant_propagation.rs as more evidence arrives. (confidence=0.498)
+ 230. low      Monitor compiler/crates/react_compiler_ast/tests/scope_resolution.rs as more evidence arrives. (confidence=0.498)
+ 231. low      Monitor compiler/crates/react_compiler_hir/src/environment.rs as more evidence arrives. (confidence=0.498)
+ 232. low      Monitor compiler/crates/react_compiler_inference/src/infer_mutation_aliasing_ranges.rs as more evidence arrives. (confidence=0.498)
+ 233. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/promote_used_temporaries.rs as more evidence arrives. (confidence=0.498)
+ 234. low      Monitor compiler/crates/react_compiler_swc/src/lib.rs as more evidence arrives. (confidence=0.498)
+ 235. low      Monitor compiler/crates/react_compiler_validation/src/validate_no_ref_access_in_render.rs as more evidence arrives. (confidence=0.498)
+ 236. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/prune_non_escaping_scopes.rs as more evidence arrives. (confidence=0.498)
+ 237. low      Monitor compiler/crates/react_compiler/src/entrypoint/validate_source_locations.rs as more evidence arrives. (confidence=0.498)
+ 238. low      Monitor compiler/packages/babel-plugin-react-compiler/src/HIR/DebugPrintHIR.ts as more evidence arrives. (confidence=0.498)
+ 239. low      Monitor compiler/crates/react_compiler_validation/src/validate_no_derived_computations_in_effects.rs as more evidence arrives. (confidence=0.498)
+ 240. low      Monitor compiler/crates/react_compiler_lowering/src/hir_builder.rs as more evidence arrives. (confidence=0.498)
+ 241. low      Monitor compiler/docs/rust-port/rust-port-research.md as more evidence arrives. (confidence=0.498)
+ 242. low      Monitor compiler/crates/react_compiler_ast/src/visitor.rs as more evidence arrives. (confidence=0.498)
+ 243. low      Monitor compiler/crates/react_compiler_hir/src/print.rs as more evidence arrives. (confidence=0.498)
+ 244. low      Monitor compiler/crates/react_compiler_typeinference/src/infer_types.rs as more evidence arrives. (confidence=0.498)
+ 245. low      Monitor compiler/crates/react_compiler_hir/src/lib.rs as more evidence arrives. (confidence=0.498)
+ 246. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/build_reactive_function.rs as more evidence arrives. (confidence=0.498)
+ 247. low      Monitor compiler/crates/react_compiler_validation/src/validate_exhaustive_dependencies.rs as more evidence arrives. (confidence=0.498)
+ 248. low      Monitor compiler/crates/react_compiler_hir/src/visitors.rs as more evidence arrives. (confidence=0.498)
+ 249. low      Monitor compiler/crates/react_compiler/src/entrypoint/pipeline.rs as more evidence arrives. (confidence=0.498)
+ 250. low      Monitor compiler/crates/react_compiler_oxc/src/convert_ast_reverse.rs as more evidence arrives. (confidence=0.498)
+ 251. low      Monitor compiler/Cargo.lock as more evidence arrives.        (confidence=0.498)
+ 252. low      Monitor compiler/crates/react_compiler_inference/src/propagate_scope_dependencies_hir.rs as more evidence arrives. (confidence=0.498)
+ 253. low      Monitor compiler/crates/react_compiler_swc/src/convert_ast.rs as more evidence arrives. (confidence=0.498)
+ 254. low      Monitor compiler/crates/react_compiler_swc/src/convert_ast_reverse.rs as more evidence arrives. (confidence=0.498)
+ 255. low      Monitor compiler/crates/react_compiler_oxc/src/convert_ast.rs as more evidence arrives. (confidence=0.498)
+ 256. low      Monitor packages/react-devtools-cdt-mcp/fixtures/app/yarn.lock as more evidence arrives. (confidence=0.498)
+ 257. low      Monitor compiler/crates/react_compiler_inference/src/infer_mutation_aliasing_effects.rs as more evidence arrives. (confidence=0.498)
+ 258. low      Monitor compiler/crates/react_compiler/src/entrypoint/program.rs as more evidence arrives. (confidence=0.498)
+ 259. low      Monitor compiler/crates/react_compiler_reactive_scopes/src/codegen_reactive_function.rs as more evidence arrives. (confidence=0.498)
+ 260. low      Monitor compiler/crates/react_compiler_lowering/src/build_hir.rs as more evidence arrives. (confidence=0.498)
+ 261. low      Monitor packages/react-devtools-shared/src/devtools/views/Components/StackTraceView.js as more evidence arrives. (confidence=0.473)
+ 262. low      Monitor packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js as more evidence arrives. (confidence=0.473)
+ 263. low      Monitor packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspendedBy.js as more evidence arrives. (confidence=0.473)
+ 264. low      Monitor packages/react-devtools-shared/src/backend/shared/DevToolsReactDispatcher.js as more evidence arrives. (confidence=0.449)
+ 265. low      Monitor packages/react-server/src/ReactFizzServer.js as more evidence arrives. (confidence=0.449)
+ 266. low      Monitor packages/react-devtools-facade/src/DevToolsFacadeTools.js as more evidence arrives. (confidence=0.449)
+ 267. low      Monitor packages/react-dom/src/__tests__/ReactDOMFizzStaticBrowser-test.js as more evidence arrives. (confidence=0.449)
+ 268. low      Monitor packages/react-server-dom-webpack/src/__tests__/ReactFlightDOM-test.js as more evidence arrives. (confidence=0.449)
+ 269. low      Monitor packages/react-dom/src/__tests__/ReactDOMFizzStaticNode-test.js as more evidence arrives. (confidence=0.448)
+ 270. low      Monitor packages/react-devtools-facade/src/DevToolsFacadeProfilerTools.js as more evidence arrives. (confidence=0.448)
+ 271. low      Monitor packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js as more evidence arrives. (confidence=0.448)
+ 272. low      Monitor compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts as more evidence arrives. (confidence=0.424)
+ 273. low      Monitor packages/eslint-plugin-react-hooks/src/shared/ReactCompiler.ts as more evidence arrives. (confidence=0.424)
+ 274. low      Monitor packages/react-reconciler/src/__tests__/ReactHooksWithNoopRenderer-test.js as more evidence arrives. (confidence=0.424)
+ 275. low      Monitor packages/react-dom/src/__tests__/ReactDOMFizzShellHydration-test.js as more evidence arrives. (confidence=0.423)
+ 276. low      Monitor packages/react-dom/src/__tests__/ReactDOMFloat-test.js as more evidence arrives. (confidence=0.400)
+ 277. low      Monitor packages/react-client/src/__tests__/ReactFlight-test.js as more evidence arrives. (confidence=0.399)
+ 278. low      Monitor packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js as more evidence arrives. (confidence=0.399)
+ 279. low      Monitor packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMEdge-test.js as more evidence arrives. (confidence=0.374)
+ 280. low      Monitor CHANGELOG.md as more evidence arrives.               (confidence=0.374)
+
+[1mTop Organizational Recommendations[0m
+  1. [EXECUTIVE     ] [HIGH  ] Escalate knowledge concentration in 'module': bus factor 1, 280 owner(
+  2. [EXECUTIVE     ] [HIGH  ] Address 1 critically unhealthy knowledge area(s). Overall health: 7.7%
+  3. [ORGANIZATIONAL] [HIGH  ] Assign a backup owner for 'module' within 30 days.
+
+[1mExecution Timings[0m
+Platform Initialization                0.113s
+GitHub to Observation                  63.836s
+Observation Intelligence               0.003s
+Observation to Measurement             1.046s
+Measurement to Evidence                0.057s
+Evidence to Expertise                  0.008s
+Expertise to Knowledge                 0.039s
+Knowledge Graph Construction           0.067s
+Organization Intelligence              0.017s
+Knowledge and Org Intel to Reasoning   0.030s
+Reasoning to Decision                  0.031s
+Executive Dashboard                    0.004s
+Pipeline Validation                    0.006s
+[92m[OK] Canonical showcase completed[0m
+[92m[OK] Executive Intelligence Report completed in 0.026s[0m
+
+============================================
+[1m        CANONICAL PIPELINE COMPLETE         [0m
+============================================
+Repository                             facebook/react
+Branch                                 main
+Observations                           50
+Measurements                           7475
+Evidence                               280
+Expertise Models                       280
+Knowledge Models                       280
+Org Intel — Ownership                  280
+Org Intel — Bus Factors                1
+Org Intel — Knowledge Risks            1
+Org Intel — Health                     0.077
+Org Intel — Recommendations            3
+Reasoning Results                      280
+Decisions                              280
+Pipeline Time                          65.292s
+============================================

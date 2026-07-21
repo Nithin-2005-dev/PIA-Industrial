@@ -1,0 +1,769 @@
+============================================
+[1m             PIA LATENT ENGINE              [0m
+[96m         COMPLETE PLATFORM SHOWCASE         [0m
+============================================
+
+Canonical Architecture
+
+ GitHub
+    |
+    v
+ Observation Layer
+    |
+    v
+ Measurement Layer
+    |
+    v
+ Evidence Layer
+    |
+    v
+ Expertise Layer
+    |
+    v
+ Knowledge Layer
+    |
+    v
+[95m Organization Intelligence[0m
+[2m    |  (Ownership . Coverage . Concentration . Bus Factor[0m
+[2m    |   Successor . Knowledge Risk . Health . Recommendations)[0m
+    v
+ Reasoning Layer
+    |
+    v
+ Decision Layer
+    |
+    v
+ Executive Intelligence Report
+
+============================================
+
+--------------------------------------------
+[96m[1/13] Platform Initialization[0m
+--------------------------------------------
+
+[1mPlatform[0m
+Platform                               PIA Latent Engine
+Architecture                           Observation -> Measurement -> Evidence -> Expertise -> Knowledge -> Reasoning -> Decision
+Repository                             facebook/react
+Branch                                 main
+Commit Limit                           50
+Tenant                                 default
+Python                                 3.14.5
+OS                                     Windows
+Working Directory                      C:\Users\NITHIN\Agentic_AI\latent-engine\backend
+[92m[OK] Platform initialized[0m
+
+[1mEnvironment[0m
+[92m[OK] Python executable: C:\Users\NITHIN\AppData\Local\Python\pythoncore-3.14-64\python.exe[0m
+[92m[OK] Environment validation passed[0m
+
+[1mOutput[0m
+[92m[OK] Output directory ready[0m
+Directory                              outputs\showcase
+
+[1mGitHub[0m
+[92m[OK] GitHub token detected[0m
+Authentication                         Authenticated
+
+[1mPlatform Capabilities[0m
+[92m[OK] Vendor Collection[0m
+[92m[OK] Canonical Observation Layer[0m
+[92m[OK] Scientific Measurement Engine[0m
+[92m[OK] Canonical Evidence Synthesis[0m
+[92m[OK] Evidence-to-Expertise Handoff[0m
+[92m[OK] Knowledge Modeling[0m
+[92m[OK] Reasoning Results[0m
+[92m[OK] Decision Intelligence[0m
+[92m[OK] Confidence Propagation[0m
+[92m[OK] Uncertainty Propagation[0m
+[92m[OK] Lineage Tracking[0m
+[92m[OK] Traceability[0m
+[92m[OK] Explainability[0m
+[92m[OK] Scientific Validation[0m
+[92m[OK] Plugin Architecture[0m
+[92m[OK] Multi-Tenant Ready[0m
+[92m[OK] SaaS Ready[0m
+
+--------------------------------------------
+[96m[2/13] GitHub to Observation[0m
+--------------------------------------------
+
+[1mGitHub to Observation[0m
+
+[1mCollection Result[0m
+Repository                             facebook/react
+Branch                                 main
+Observations                           50
+Collection Time                        88.810s
+[92m[OK] GitHub commits translated into canonical observations[0m
+
+[1mRepository Overview[0m
+Commits                                50
+Unique Files                           815
+Lines Added                            143249
+Lines Deleted                          25156
+Total Line Changes                     168405
+
+[1mTop Contributors[0m
+  1. hoxyq                       11 commits
+  2. eps1lon                      6 commits
+  3. poteto                       6 commits
+  4. fallintoplace                5 commits
+  5. gnoff                        4 commits
+  6. javache                      3 commits
+  7. SamChou19815                 3 commits
+  8. UditDewan                    2 commits
+  9. Boshen                       2 commits
+ 10. devjiwonchoi                 1 commits
+
+[1mMost Changed Files[0m
+  1. packages/react-devtools-facade/src/__tests__/DevToolsFacade-test.js (8)
+  2. compiler/Cargo.lock (7)
+  3. compiler/crates/react_compiler/src/entrypoint/program.rs (7)
+  4. packages/react-devtools-facade/src/DevToolsFacadeTools.js (6)
+  5. packages/react-server/src/ReactFizzServer.js (6)
+  6. packages/react-devtools-facade/src/DevToolsFacadeTreeTools.js (5)
+  7. packages/react-dom/src/__tests__/ReactDOMFizzServer-test.js (5)
+  8. compiler/crates/react_compiler_ast/Cargo.toml (5)
+  9. compiler/crates/react_compiler_reactive_scopes/src/codegen_reactive_function.rs (5)
+ 10. packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMNode-test.js (4)
+
+[1mMost Active Directories[0m
+  1. compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler (82)
+  2. packages/react-reconciler/src (70)
+  3. compiler/crates/react_compiler_reactive_scopes/src (55)
+  4. packages/react-server/src (46)
+  5. compiler/crates/react_compiler_validation/src (42)
+  6. compiler/crates/react_compiler_inference/src (41)
+  7. compiler/crates/react_compiler_optimization/src (36)
+  8. compiler/crates/react_compiler_hir/src (32)
+  9. packages/react-server/src/forks (26)
+ 10. compiler/crates/react_compiler/src/entrypoint (24)
+
+[1mTop File Extensions[0m
+  1. .js (650)
+  2. .rs (344)
+  3. .md (94)
+  4. .json (51)
+  5. .toml (40)
+  6. .ts (23)
+  7. .yml (11)
+  8. .lock (10)
+  9. .gitignore (4)
+ 10. .sh (2)
+
+[1mFile Status Distribution[0m
+  1. modified     920
+  2. added        297
+  3. removed      20
+
+[1mMonthly Activity[0m
+  1. 2026-06 (50)
+
+[1mWeekday Activity[0m
+  1. Tuesday    13
+  2. Monday     11
+  3. Friday     5
+  4. Thursday   13
+  5. Wednesday  8
+
+[1mMost Active Hours[0m
+  1. 03:00 (2)
+  2. 06:00 (4)
+  3. 07:00 (2)
+  4. 08:00 (3)
+  5. 09:00 (2)
+  6. 10:00 (2)
+  7. 11:00 (1)
+  8. 12:00 (1)
+  9. 13:00 (1)
+ 10. 14:00 (4)
+ 11. 15:00 (4)
+ 12. 16:00 (3)
+ 13. 17:00 (4)
+ 14. 18:00 (1)
+ 15. 19:00 (7)
+ 16. 20:00 (1)
+ 17. 21:00 (2)
+ 18. 22:00 (4)
+ 19. 23:00 (2)
+[92m[OK] GitHub to Observation completed in 89.037s[0m
+
+--------------------------------------------
+[96m[3/13] Observation Intelligence[0m
+--------------------------------------------
+
+[1mObservation Intelligence[0m
+
+[1mObservation Contract[0m
+Observations                           50
+Immutable Dataclasses                  PASS
+Canonical Facts                        PASS
+Context                                PASS
+Provenance                             PASS
+Actors                                 50
+Targets                                1237
+
+[1mObservation Types[0m
+  1. commit                   50
+
+[1mObservation Categories[0m
+  1. source_control           50
+
+[1mLifecycle[0m
+  1. production               50
+
+[1mObservation Provenance[0m
+Source Platforms                       1
+Source Adapters                        1
+Adapter Versions                       1.0
+
+[1mSample Observation[0m
+Observation ID                         1163de37-a719-5e98-b866-05be05bd2b02
+Trace ID                               3696618a-e4b0-59c0-86e4-71dfb39bd711
+Correlation ID                         2c8b73515961f005904a52dce943160991a0df13
+Type                                   commit
+Category                               source_control
+Repository                             facebook/react
+Fact Type                              CommitFacts
+[92m[OK] Observation layer verified[0m
+[92m[OK] Observation Intelligence completed in 0.011s[0m
+
+--------------------------------------------
+[96m[4/13] Observation to Measurement[0m
+--------------------------------------------
+
+[1mObservation to Measurement[0m
+
+[1mMeasurement Registry[0m
+Definitions Observed                   6
+Measurements                           300
+Measurement Time                       0.494s
+
+[1mDefinitions[0m
+  1. code_churn                       loc          1.0
+  2. files_changed                    count        1.0
+  3. patch_complexity_delta           complexity   1.0
+  4. change_distribution_entropy      entropy      1.0
+  5. change_surface_area              score        1.0
+  6. review_attention_need            score        1.0
+
+[1mEvaluators[0m
+  1. change_complexity_evaluator        200
+  2. change_impact_evaluator            100
+
+[1mValidation[0m
+Passed                                 300
+Warnings                               0
+Failed                                 0
+
+[1mValidation Checks[0m
+  1. finite_value                       300
+  2. unit_matches_definition            300
+  3. range                              300
+
+[1mConfidence[0m
+Average                                0.845
+Minimum                                0.181
+Maximum                                0.850
+Average Coverage                       0.994
+Average Source Reliability             0.850
+
+[1mQuality[0m
+Average                                0.884
+Minimum                                0.386
+Maximum                                0.887
+
+[1mUncertainty[0m
+Average Variance                       1192396.930
+Minimum Variance                       0.023
+Maximum Variance                       343703790.563
+
+[1mNormalization Methods[0m
+  1. identity                           200
+  2. bounded_score_clamp                100
+
+[1mNormalization and Derivation Steps[0m
+  1. observation.facts                  300
+  2. change_complexity_evaluator        200
+  3. cleaning                           300
+  4. calibration                        300
+  5. scaling                            300
+  6. bias_correction                    300
+  7. change_impact_evaluator            100
+
+[1mCalibration[0m
+Average Factor                         1.000
+Minimum Factor                         1.000
+Maximum Factor                         1.000
+
+[1mBenchmarks and Standards[0m
+  1. 25010                              300
+  2. GUM                                300
+
+[1mScientific Statistics[0m
+Mean Value                             587.846
+Median Value                           15.560
+Standard Deviation                     7254.795
+
+[1mSample Measurements[0m
+  1. code_churn                       value=110.000 confidence=0.850 quality=0.887
+  2. files_changed                    value=3.000 confidence=0.850 quality=0.887
+  3. patch_complexity_delta           value=9.000 confidence=0.850 quality=0.887
+  4. change_distribution_entropy      value=1.292 confidence=0.850 quality=0.887
+  5. change_surface_area              value=56.514 confidence=0.850 quality=0.887
+  6. review_attention_need            value=36.734 confidence=0.850 quality=0.887
+  7. code_churn                       value=313.000 confidence=0.850 quality=0.887
+  8. files_changed                    value=3.000 confidence=0.850 quality=0.887
+[92m[OK] Measurement layer produced canonical measurements[0m
+[92m[OK] Observation to Measurement completed in 0.552s[0m
+
+--------------------------------------------
+[96m[5/13] Measurement to Evidence[0m
+--------------------------------------------
+
+[1mMeasurement to Evidence[0m
+
+[1mEvidence Package[0m
+Pipeline Version                       evidence.v1
+Generated Evidence                     2
+Usable for Expertise                   2
+Rejected Items                         0
+Input Measurements                     300
+Validated Measurements                 300
+Synthesis Time                         0.009s
+
+[1mEvidence Health[0m
+Evidence Present                       PASS
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+Explainability Preserved               PASS
+Lineage Preserved                      PASS
+
+[1mEvidence Categories[0m
+  1. maintainability          1
+  2. testing                  1
+
+[1mSeverity[0m
+  1. high                     1
+  2. medium                   1
+
+[1mPriority[0m
+  1. medium                   2
+
+[1mEvidence Lineage[0m
+Supporting Measurements                9
+Synthesis Rules                        5
+
+[1mSample Evidence[0m
+  1. High-Risk Maintenance Hotspot      confidence=0.485 uncertainty=0.135 quality=0.887
+  2. Insufficient Test Signal Risk      confidence=0.426 uncertainty=0.143 quality=0.887
+[92m[OK] Evidence layer synthesized canonical evidence package[0m
+[92m[OK] Measurement to Evidence completed in 0.032s[0m
+
+--------------------------------------------
+[96m[6/13] Evidence to Expertise[0m
+--------------------------------------------
+
+[1mEvidence to Expertise[0m
+
+[1mExpertise Models[0m
+Evidence Inputs                        2
+Models Built                           2
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+Explainability Preserved               PASS
+
+[1mTop Expertise Models[0m
+  1. High-Risk Maintenance Hotspot      score=0.149 confidence=0.485
+  2. Insufficient Test Signal Risk      score=0.086 confidence=0.426
+[92m[OK] Expertise layer built from canonical evidence package[0m
+[92m[OK] Evidence to Expertise completed in 0.006s[0m
+
+--------------------------------------------
+[96m[7/13] Expertise to Knowledge[0m
+--------------------------------------------
+
+[1mExpertise to Knowledge[0m
+
+[1mKnowledge Topics[0m
+Expertise Models Consumed              2
+Knowledge Topics Built                 2
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+
+[1mKnowledge Topics[0m
+  1. maintainability              expertise=  1 score=0.149 conf=0.485
+  2. testing                      expertise=  1 score=0.086 conf=0.426
+[92m[OK] Knowledge layer built from canonical expertise models[0m
+[92m[OK] Expertise to Knowledge completed in 0.004s[0m
+
+--------------------------------------------
+[96m[8/13] Organization Intelligence[0m
+--------------------------------------------
+
+[1mOrganization Intelligence[0m
+
+[1mOwnership[0m
+Total Ownership Entries                2
+Primary Owners                         2
+Secondary Owners                       0
+Contributors                           0
+
+[1mTop Ownership Entries[0m
+  1. High-Risk Maintenance Hotspot [PRIMARY     ] 100.0%  category=maintainability
+  2. Insufficient Test Signal Risk [PRIMARY     ] 100.0%  category=testing
+
+[1mCoverage[0m
+Topics Assessed                        2
+Strong Coverage                        0
+Moderate Coverage                      0
+Weak Coverage                          2
+
+[1mCoverage Gaps (Weak)[0m
+  1. maintainability              score=0.074 experts=1
+  2. testing                      score=0.043 experts=1
+
+[1mKnowledge Concentration[0m
+High Concentration Risk                2
+Medium Concentration Risk              0
+Low Concentration Risk                 0
+
+[1mHigh-Risk Concentration[0m
+  1. maintainability              concentration=1.000
+  2. testing                      concentration=1.000
+
+[1mBus Factor[0m
+Subjects Analyzed                      2
+
+[1mHigh Bus-Factor Risk (factor = 1)[0m
+  1. maintainability              bus_factor=1 coverage=100.0%
+  2. testing                      bus_factor=1 coverage=100.0%
+
+[1mBus Factor by Subject[0m
+  1. maintainability              factor=1 [HIGH] coverage=100.0%
+  2. testing                      factor=1 [HIGH] coverage=100.0%
+
+[1mSuccessor Analysis[0m
+Successor Pairs Identified             0
+Successors                             None identified (single expert per category)
+
+[1mKnowledge Risk[0m
+High Risk Topics                       2
+Medium Risk Topics                     0
+Low Risk Topics                        0
+
+[1mHigh Knowledge Risks[0m
+  1. maintainability              bf=1 owners=1  Critical: only 1 owner(s) and bus factor = 1. Knowledge loss
+  2. testing                      bf=1 owners=1  Critical: only 1 owner(s) and bus factor = 1. Knowledge loss
+
+[1mOrganization Health[0m
+Average Health                         0.021
+Best Health                            0.026
+Worst Health                           0.015
+Healthy Topics                         0
+Warning Topics                         0
+Critical Topics                        2
+Total Topics                           2
+
+[1mForecast[0m
+Forecast                               UNAVAILABLE
+Reason                                 Forecast unavailable: the canonical pipeline produces a single-point expertise snapshot per run. Tre
+Action                                 Accumulate ≥2 pipeline runs to enable trend analysis.
+
+[1mRecommendations[0m
+Executive Recommendations              3
+Organizational Recommendations         2
+Engineering Recommendations            0
+
+[1mExecutive Actions[0m
+  1. [HIGH  ] Escalate knowledge concentration in 'maintainability': bus factor 1, 1 owner(s).
+  2. [HIGH  ] Escalate knowledge concentration in 'testing': bus factor 1, 1 owner(s). Initiat
+  3. [HIGH  ] Address 2 critically unhealthy knowledge area(s). Overall health: 2.1%.
+
+[1mOrganizational Actions[0m
+  1. [HIGH  ] Assign a backup owner for 'maintainability' within 30 days.
+  2. [HIGH  ] Assign a backup owner for 'testing' within 30 days.
+
+[1mLineage — Canonical Traceability[0m
+
+  Tracing: Knowledge Risk = HIGH for 'maintainability'
+
+  Bus Factor = 1
+      |
+      ↓
+  Ownership Analysis  (1 owner(s))
+      |
+      ↓
+  Expertise Models  (1 model(s) in category 'maintainability')
+      · High-Risk Maintenance Hotspot  score=0.149 conf=0.485
+      |
+      ↓
+  Evidence  (1 sample evidence item(s))
+      · be514dad-13e7-5ef5-9cdd-d53bb10a17af
+      |
+      ↓
+  Measurements  →  Observations  →  GitHub Commits
+
+[1mLegacy vs Canonical Validation Matrix[0m
+Domain                       Legacy   Canonical  Match          Notes 
+----------------------------------------------------------------------------------------------------
+  Ownership                  ✔        ✔          EXACT          ExpertiseOwnershipPolicy algorithm reused. Inputs adapt
+  Coverage                   ✔        ✔          EXACT          ExpertiseCoveragePolicy algorithm reused. Coverage scor
+  Concentration              ✔        ✔          CLOSE          Concentration derived from ownership percentages (same 
+  Bus Factor                 ✔        ✔          EXACT          OwnershipBusFactorPolicy thresholds reused (1=HIGH, 2=M
+  Successor                  ✔        ✔          CLOSE          ExpertiseSuccessorPolicy logic reused. Readiness score 
+  Knowledge Risk             ✔        ✔          EXACT          KnowledgeRiskPolicy thresholds reused: bus_factor <= 1 
+  Health                     ✔        ✔          CLOSE          Legacy OrganizationalHealthPolicy used coverage + conce
+  Forecast                   ✔        ✗          UNAVAILABLE    Legacy forecasting required HealthProjection time-serie
+  Organization Dashboard     ✔        ✔          CLOSE          OrganizationDashboardService composed from health + ris
+  Recommendations            ✔        ✔          CLOSE          Legacy ExecutiveRecommendationService produced recommen
+
+[1mService Classification — Adapter vs Native Rewrite[0m
+  Ownership                    Adapter   — ExpertiseOwnershipPolicy reused via _ExpertiseProxy
+  Coverage                     Adapter   — ExpertiseCoveragePolicy algorithm inlined natively
+  Concentration                Native    — derived directly from canonical ownership entries
+  Bus Factor                   Adapter   — OwnershipBusFactorPolicy thresholds reused natively
+  Successor                    Adapter   — ExpertiseSuccessorPolicy logic reused natively
+  Knowledge Risk               Native    — composed from canonical bus_factor + ownership
+  Health                       Native    — composed from canonical coverage + concentration + bus_factor
+  Forecast                     Rewrite Required — requires time-series health history (not yet available)
+  Organization Dashboard       Native    — aggregated from all canonical org analytics above
+  Recommendations              Native    — derived from knowledge risk + successors + health
+[92m[OK] Organization Intelligence produced from canonical pipeline outputs[0m
+[92m[OK] Organization Intelligence completed in 0.038s[0m
+
+--------------------------------------------
+[96m[9/13] Knowledge and Org Intel to Reasoning[0m
+--------------------------------------------
+
+[1mKnowledge and Org Intel to Reasoning[0m
+
+[1mReasoning Results[0m
+Knowledge Topics Consumed              2
+Org Intelligence Available             YES
+Reasoning Results Produced             2
+Explainability Preserved               PASS
+Confidence Propagated                  PASS
+
+[1mReasoning Conclusions[0m
+  1. maintainability              emerging organizational signal; CRITICAL: bus factor=1, owner_count=1 — immediate action required (conf=0.535)
+  2. testing                      emerging organizational signal; CRITICAL: bus factor=1, owner_count=1 — immediate action required (conf=0.476)
+[92m[OK] Reasoning layer built from knowledge + organizational intelligence[0m
+[92m[OK] Knowledge and Org Intel to Reasoning completed in 0.003s[0m
+
+--------------------------------------------
+[96m[10/13] Reasoning to Decision[0m
+--------------------------------------------
+
+[1mReasoning to Decision[0m
+
+[1mDecisions[0m
+Decisions Produced                     2
+Confidence Propagated                  PASS
+Uncertainty Propagated                 PASS
+
+[1mDecision Queue[0m
+  1. high     Maintainability Decision     confidence=0.535
+  2. high     Testing Decision             confidence=0.476
+[92m[OK] Decision layer produced canonical decisions[0m
+[92m[OK] Reasoning to Decision completed in 0.006s[0m
+
+--------------------------------------------
+[96m[11/13] Executive Dashboard[0m
+--------------------------------------------
+
+[1mExecutive Dashboard[0m
+
+[1mExecutive Dashboard[0m
+Observations                           50
+Measurements                           300
+Evidence                               2
+Expertise Models                       2
+Knowledge Models                       2
+Reasoning Results                      2
+Decisions                              2
+High Priority Decisions                2
+Medium Priority Decisions              0
+Low Priority Decisions                 0
+Decision Confidence                    0.506
+Decision Uncertainty                   0.139
+
+[1mOrganization Intelligence Summary[0m
+Org Health (average)                   0.021
+Healthy Topics                         0
+Warning Topics                         0
+Critical Topics                        2
+High Knowledge Risks                   2
+Bus Factor = 1 Topics                  2
+Forecast                               UNAVAILABLE (single snapshot)
+
+[1mExecutive Recommendations[0m
+  1. [HIGH  ] Escalate knowledge concentration in 'maintainability': bus factor 1, 1 owner(s). Initiate 
+  2. [HIGH  ] Escalate knowledge concentration in 'testing': bus factor 1, 1 owner(s). Initiate immediat
+  3. [HIGH  ] Address 2 critically unhealthy knowledge area(s). Overall health: 2.1%.
+
+[1mExecutive Actions (from Decisions)[0m
+  1. high     Assign active mitigation owner for maintainability.
+  2. high     Assign active mitigation owner for testing.
+
+
+[1mCanonical Lineage[0m
+
+ GitHub Commit
+      |
+      v
+ Observation
+      |
+      v
+ Measurement
+      |
+      v
+ Evidence
+      |
+      v
+ Expertise
+      |
+      v
+ Knowledge
+      |
+      v
+[95m Organization Intelligence[0m
+      |
+      v
+ Reasoning
+      |
+      v
+ Decision
+[92m[OK] Executive dashboard rendered from canonical outputs[0m
+[92m[OK] Executive Dashboard completed in 0.015s[0m
+
+--------------------------------------------
+[96m[12/13] Pipeline Validation[0m
+--------------------------------------------
+
+[1mPipeline Validation[0m
+
+[1mActual Execution Path[0m
+Step 1                                 GitHub Commit
+Step 2                                 Observation
+Step 3                                 Measurement
+Step 4                                 Evidence
+Step 5                                 Expertise
+Step 6                                 Knowledge
+Step 7                                 Organization Intelligence
+Step 8                                 Reasoning
+Step 9                                 Decision
+Step 10                                Executive Dashboard
+
+[1mLayer Health[0m
+Observation                            PASS
+Measurement                            PASS
+Evidence                               PASS
+Expertise                              PASS
+Knowledge                              PASS
+Organization Intelligence              PASS
+Reasoning                              PASS
+Decision                               PASS
+Executive                              PASS
+Lineage                                PASS
+Confidence                             PASS
+Uncertainty                            PASS
+Explainability                         PASS
+Immutability                           PASS
+Org No Legacy Deps                     PASS
+
+[1mOrg Intelligence Health[0m
+Ownership computed                     PASS
+Coverage computed                      PASS
+Bus factor computed                    PASS
+Knowledge risk computed                PASS
+Health summary computed                PASS
+Forecast honestly deferred             PASS
+Recommendations generated              PASS
+Validation matrix present              PASS
+[92m[OK] Canonical validation checks completed[0m
+[92m[OK] Pipeline Validation completed in 0.009s[0m
+
+--------------------------------------------
+[96m[13/13] Executive Intelligence Report[0m
+--------------------------------------------
+
+[1mExecutive Intelligence Report[0m
+
+[1mExecutive Intelligence Report[0m
+Repository                             facebook/react
+Branch                                 main
+Observations                           50
+Measurements                           300
+Evidence                               2
+Evidence for Expertise                 2
+Expertise Models                       2
+Knowledge Models                       2
+Reasoning Results                      2
+Decisions                              2
+Canonical Health                       PASS
+
+[1mOrganization Intelligence Totals[0m
+Ownership Entries                      2
+Coverage Entries                       2
+Concentration Entries                  2
+Bus Factor Entries                     2
+Successor Pairs                        0
+Knowledge Risks                        2
+Health (average)                       0.021
+Healthy Topics                         0
+Warning Topics                         0
+Critical Topics                        2
+Forecast                               UNAVAILABLE (single snapshot)
+Recommendations                        5
+Validation Matrix — EXACT match        4
+Validation Matrix — CLOSE match        5
+Validation Matrix — UNAVAILABLE        1
+
+[1mRecommended Decisions[0m
+  1. high     Assign active mitigation owner for maintainability.          (confidence=0.535)
+  2. high     Assign active mitigation owner for testing.                  (confidence=0.476)
+
+[1mTop Organizational Recommendations[0m
+  1. [EXECUTIVE     ] [HIGH  ] Escalate knowledge concentration in 'maintainability': bus factor 1, 1
+  2. [EXECUTIVE     ] [HIGH  ] Escalate knowledge concentration in 'testing': bus factor 1, 1 owner(s
+  3. [EXECUTIVE     ] [HIGH  ] Address 2 critically unhealthy knowledge area(s). Overall health: 2.1%
+  4. [ORGANIZATIONAL] [HIGH  ] Assign a backup owner for 'maintainability' within 30 days.
+  5. [ORGANIZATIONAL] [HIGH  ] Assign a backup owner for 'testing' within 30 days.
+
+[1mExecution Timings[0m
+Platform Initialization                0.094s
+GitHub to Observation                  89.038s
+Observation Intelligence               0.011s
+Observation to Measurement             0.553s
+Measurement to Evidence                0.033s
+Evidence to Expertise                  0.006s
+Expertise to Knowledge                 0.005s
+Organization Intelligence              0.038s
+Knowledge and Org Intel to Reasoning   0.003s
+Reasoning to Decision                  0.006s
+Executive Dashboard                    0.016s
+Pipeline Validation                    0.010s
+[92m[OK] Canonical showcase completed[0m
+[92m[OK] Executive Intelligence Report completed in 0.020s[0m
+
+============================================
+[1m        CANONICAL PIPELINE COMPLETE         [0m
+============================================
+Repository                             facebook/react
+Branch                                 main
+Observations                           50
+Measurements                           300
+Evidence                               2
+Expertise Models                       2
+Knowledge Models                       2
+Org Intel — Ownership                  2
+Org Intel — Bus Factors                2
+Org Intel — Knowledge Risks            2
+Org Intel — Health                     0.021
+Org Intel — Recommendations            5
+Reasoning Results                      2
+Decisions                              2
+Pipeline Time                          89.845s
+============================================

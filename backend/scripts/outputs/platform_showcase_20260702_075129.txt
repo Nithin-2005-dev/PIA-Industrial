@@ -1,0 +1,128 @@
+========================================================================================================================
+[1m                                                   PIA LATENT ENGINE                                                    [0m
+[96m                                               COMPLETE PLATFORM SHOWCASE                                               [0m
+========================================================================================================================
+
+Canonical Architecture
+
+ GitHub
+    |
+    v
+ Observation Layer
+    |
+    v
+ Measurement Layer
+    |
+    v
+ Evidence Layer
+    |
+    v
+ Expertise Layer
+    |
+    v
+ Knowledge Layer
+    |
+    v
+ [96mKnowledge Graph Layer[0m
+    |
+    v
+ [93mTemporal Intelligence[0m
+    |
+    v
+ [93mForecasting Layer[0m
+    |
+    v
+ [93mCounterfactual Simulation Layer[0m
+    |
+    v
+ [95mOrganization Intelligence[0m
+[2m    |  (Ownership . Coverage . Concentration . Bus Factor[0m
+[2m    |   Successor . Knowledge Risk . Health . Recommendations)[0m
+    |
+    v
+ Causal Layer
+    |
+    v
+ Reasoning Layer
+    |
+    v
+ Decision Layer
+    |
+    v
+ Executive Intelligence Report
+
+========================================================================================================================
+
+------------------------------------------------------------------------------------------------------------------------
+[96m[1/17] Platform Initialization[0m
+------------------------------------------------------------------------------------------------------------------------
+
+[1mPlatform[0m
+Platform                               PIA Latent Engine
+Architecture                           Observation Layer -> Measurement Layer -> Evidence Layer -> Expertise Layer -> Knowledge Layer -> Knowledge Graph Layer -> Temporal Intelligence -> Forecasting Layer -> Counterfactual Simulation Layer -> Organization Intelligence -> Causal -> Reasoning Layer -> Decision Layer -> Executive Intelligence Report
+Repository                             facebook/react
+Branch                                 main
+Commit Limit                           100
+Tenant                                 default
+Python                                 3.14.5
+OS                                     Windows
+Working Directory                      C:\Users\NITHIN\Agentic_AI\latent-engine\backend
+[92m[OK] Platform initialized[0m
+
+[1mEnvironment[0m
+[92m[OK] Python executable: C:\Users\NITHIN\AppData\Local\Python\pythoncore-3.14-64\python.exe[0m
+[92m[OK] Environment validation passed[0m
+
+[1mOutput[0m
+[92m[OK] Output directory ready[0m
+Directory                              outputs\showcase
+
+[1mGitHub[0m
+[92m[OK] GitHub token detected[0m
+Authentication                         Authenticated
+
+[1mPlatform Capabilities[0m
+[92m[OK] Vendor Collection[0m
+[92m[OK] Canonical Observation Layer[0m
+[92m[OK] Scientific Measurement Engine[0m
+[92m[OK] Canonical Evidence Synthesis[0m
+[92m[OK] Evidence-to-Expertise Handoff[0m
+[92m[OK] Knowledge Modeling[0m
+[92m[OK] Knowledge Graph Construction[0m
+[92m[OK] Organization Intelligence[0m
+[92m[OK] Reasoning Results[0m
+[92m[OK] Decision Intelligence[0m
+[92m[OK] Confidence Propagation[0m
+[92m[OK] Uncertainty Propagation[0m
+[92m[OK] Lineage Tracking[0m
+[92m[OK] Traceability[0m
+[92m[OK] Explainability[0m
+[92m[OK] Scientific Validation[0m
+[92m[OK] Plugin Architecture[0m
+[92m[OK] Multi-Tenant Ready[0m
+[92m[OK] SaaS Ready[0m
+
+------------------------------------------------------------------------------------------------------------------------
+[96m[2/17] GitHub to Observation[0m
+------------------------------------------------------------------------------------------------------------------------
+
+[1mGitHub to Observation[0m
+
+========================================================================================================================
+[1m                                               CANONICAL RUNTIME COMPLETE                                               [0m
+========================================================================================================================
+Repository                             facebook/react
+Branch                                 main
+Observations                           0
+Measurements                           0
+Evidence                               0
+Expertise Models                       0
+Knowledge Models                       0
+Graph Nodes                            0
+Org Intel - Ownership                  N/A
+Org Intel - Health                     N/A
+Reasoning Results                      0
+Decisions                              0
+Runtime Stages                         2
+Runtime Errors                         1
+========================================================================================================================

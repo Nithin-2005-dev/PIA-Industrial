@@ -1,0 +1,8 @@
+# Synthetic Equipment Manual: HX-204 Heat Exchanger
+
+Asset ID: HX-204
+Equipment Type: Heat exchanger
+Service: Lean solvent cooler
+
+HX-204 uses removable tube bundles and requires inspection for tube fouling, gasket leakage, and shell-side corrosion. Normal differential pressure is below 1.2 bar. Cleaning procedures include isolation, drain-down, hydroblast cleaning, gasket replacement, and pressure testing before return to service.
+

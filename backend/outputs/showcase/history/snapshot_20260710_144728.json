@@ -1,0 +1,12 @@
+{
+  "timestamp": "20260710_144728",
+  "metrics": {
+    "repository": "2fcec618-ef9b-4239-af55-06c101af3e0e",
+    "measurements": 300,
+    "evidence": 0,
+    "expertise_models": 0,
+    "knowledge_models": 0,
+    "decisions": 0
+  },
+  "org_intelligence": {}
+}

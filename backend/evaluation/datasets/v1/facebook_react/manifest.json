@@ -1,0 +1,23 @@
+{
+  "dataset_version": "v1",
+  "repository": "facebook/react",
+  "default_branch": "main",
+  "snapshot_commit": "5123b063a7b3cd5c42ea2be2ccebe4e68d8b12e3",
+  "generator_version": "1.0",
+  "schema_version": "1.0",
+  "created_at": "2026-07-09T21:09:38.584847Z",
+  "checksums": {
+    "repository.json": "27d9b2a9f02e6c5ab18ab707aec350b596aecfde9c91c4b4edb5cc32e4d7155c",
+    "commits.json": "a6d77d75bc9d87391912e56ef5a248e42a4cd680bf8f118a5658b197fb2319a8",
+    "pull_requests.json": "b91ffcd5b2d5acab366f7a39c9ddb5ff0f7936152cccff66c4d49bfcd2eb2918",
+    "issues.json": "8e0d15a688112b3d23d2280dc4ef19291323ac84cfd1f0be6197510b4335ab29",
+    "contributors.json": "e91f0370ed469e6fecad320615641562a975ed85cc65aaba3f9dcded81d88c86",
+    "branches.json": "a45f67d4e9d64b9dffaca0af24f3525551247787050c193ed8fd683cb4357ad2"
+  },
+  "stats": {
+    "commits": 10,
+    "pull_requests": 50,
+    "issues": 50,
+    "contributors": 100
+  }
+}

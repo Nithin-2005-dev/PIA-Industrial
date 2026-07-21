@@ -1,0 +1,10 @@
+# Synthetic Inspection Report IR-204
+
+Inspection report IR-204 covers Heat Exchanger HX-204.
+
+Date: 2026-07-12
+Inspection Type: visual inspection and thickness measurement
+Findings: shell-side corrosion observed near the lower channel cover. Differential pressure measured 1.8 bar, above the normal range. Severity: MODERATE.
+
+Recommendation: schedule cleaning and inspect gasket surfaces during the next outage.
+

@@ -1,0 +1,12 @@
+{
+  "timestamp": "20260710_090859",
+  "metrics": {
+    "repository": "facebook/react",
+    "measurements": 436,
+    "evidence": 0,
+    "expertise_models": 0,
+    "knowledge_models": 0,
+    "decisions": 0
+  },
+  "org_intelligence": {}
+}

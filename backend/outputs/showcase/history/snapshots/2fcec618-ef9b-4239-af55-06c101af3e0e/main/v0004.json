@@ -1,0 +1,25 @@
+{
+  "branch": "main",
+  "evidence_count": 0,
+  "expertise_count": 0,
+  "expertise_subjects": [],
+  "graph_edge_count": 0,
+  "graph_node_count": 0,
+  "knowledge_count": 0,
+  "knowledge_topics": [],
+  "measurement_count": 900,
+  "metadata": {},
+  "observation_count": 150,
+  "org_health": null,
+  "repository": "2fcec618-ef9b-4239-af55-06c101af3e0e",
+  "snapshot_id": "35ddcf88-a754-44d4-a427-4b7b31a33892",
+  "timestamp": "2026-07-10T14:47:33.293494",
+  "version": 4,
+  "version_info": {
+    "evidence_algorithm_version": "1.0",
+    "graph_version": "1.0",
+    "measurement_algorithm_version": "1.0",
+    "pipeline_schema_version": "1.0",
+    "runtime_version": "1.0"
+  }
+}

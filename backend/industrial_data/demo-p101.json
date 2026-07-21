@@ -1,0 +1,474 @@
+{
+  "documents": [
+    {
+      "document_id": "DOC-E9CB0C5A",
+      "name": "84adc8f8d6db4cf281bd6ebb53332550_P-101_maintenance_manual.txt",
+      "type": "OEM_MANUAL",
+      "format": "TXT",
+      "file_hash": "800bcb3869868e2e4f793e4cc867bb1238d42b4a6369b0ecbea813dae71ccf04",
+      "file_path": "C:\\Users\\NITHIN\\Downloads\\PIA-GH-main (2)\\pia-industrial\\backend\\industrial_data\\uploads\\demo-p101\\84adc8f8d6db4cf281bd6ebb53332550_P-101_maintenance_manual.txt",
+      "size": 797,
+      "status": "COMPLETED",
+      "timestamp": "2026-07-21T13:22:26.599419",
+      "page_count": 1,
+      "word_count": 118,
+      "chunks": [
+        {
+          "chunk_id": "DOC-E9CB0C5A:p1:c0",
+          "document_id": "DOC-E9CB0C5A",
+          "content": "# Maintenance Manual for P-101 Centrifugal Pump\n1. Overview\nAsset ID: P-101\nType: Main Centrifugal Pump\nLocation: Unit 4",
+          "page_number": 1,
+          "chunk_index": 0
+        },
+        {
+          "chunk_id": "DOC-E9CB0C5A:p1:c1",
+          "document_id": "DOC-E9CB0C5A",
+          "content": "1. Overview\nAsset ID: P-101\nType: Main Centrifugal Pump\nLocation: Unit 4\n2. Maintenance Schedule\n- **Monthly:** Check vibration levels at the main bearing casing. Normal threshold < 2.5 mm/s.\n- **Quarterly:** Inspect mechanical seals for leakage. \n- **Annually:** Complete overhaul and alignment check.",
+          "page_number": 1,
+          "chunk_index": 1
+        },
+        {
+          "chunk_id": "DOC-E9CB0C5A:p1:c2",
+          "document_id": "DOC-E9CB0C5A",
+          "content": "onthly:** Check vibration levels at the main bearing casing. Normal threshold < 2.5 mm/s.\n- **Quarterly:** Inspect mechanical seals for leakage. \n- **Annually:** Complete overhaul and alignment check.\n3. Troubleshooting\n- **High Vibration:** Often caused by bearing wear or cavitation. If vibration exceeds 5.0 mm/s, immediately shut down the pump to prevent catastrophic bearing failure.\n- **Seal Leakage:** Can be caused by improper installation or fluid contamination. Replace seals immediately.",
+          "page_number": 1,
+          "chunk_index": 2
+        },
+        {
+          "chunk_id": "DOC-E9CB0C5A:p1:c3",
+          "document_id": "DOC-E9CB0C5A",
+          "content": " exceeds 5.0 mm/s, immediately shut down the pump to prevent catastrophic bearing failure.\n- **Seal Leakage:** Can be caused by improper installation or fluid contamination. Replace seals immediately.\n4. Compliance\nAll inspections must be logged in Maximo. Any failure to inspect quarterly results in a Level 2 Compliance Violation.",
+          "page_number": 1,
+          "chunk_index": 3
+        }
+      ],
+      "entities": [
+        {
+          "type": "equipment_tag",
+          "value": "P-101",
+          "raw_values": [
+            "P-101"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 3,
+          "metadata": {
+            "pattern": "equipment_tag"
+          }
+        },
+        {
+          "type": "parameter_reading",
+          "value": "2.5 mm/s",
+          "raw_values": [
+            "2.5 mm/s"
+          ],
+          "confidence": 0.96,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 2,
+          "metadata": {
+            "numeric_value": 2.5,
+            "unit": "mm/s"
+          }
+        },
+        {
+          "type": "parameter_reading",
+          "value": "5.0 mm/s",
+          "raw_values": [
+            "5.0 mm/s"
+          ],
+          "confidence": 0.96,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 2,
+          "metadata": {
+            "numeric_value": 5.0,
+            "unit": "mm/s"
+          }
+        },
+        {
+          "type": "equipment_type",
+          "value": "pump",
+          "raw_values": [
+            "Pump",
+            "pump"
+          ],
+          "confidence": 0.95,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 5,
+          "metadata": {
+            "matched_term": "pump"
+          }
+        },
+        {
+          "type": "component_type",
+          "value": "bearing",
+          "raw_values": [
+            "bearing"
+          ],
+          "confidence": 0.95,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 5,
+          "metadata": {
+            "matched_term": "bearing"
+          }
+        },
+        {
+          "type": "severity",
+          "value": "NORMAL",
+          "raw_values": [
+            "Normal"
+          ],
+          "confidence": 0.91,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 2,
+          "metadata": {}
+        },
+        {
+          "type": "equipment_type",
+          "value": "centrifugal_pump",
+          "raw_values": [
+            "Centrifugal Pump"
+          ],
+          "confidence": 0.89,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 3,
+          "metadata": {
+            "matched_term": "centrifugal pump"
+          }
+        },
+        {
+          "type": "maintenance_action",
+          "value": "inspect",
+          "raw_values": [
+            "Inspect",
+            "inspect"
+          ],
+          "confidence": 0.89,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 3,
+          "metadata": {
+            "matched_term": "inspect"
+          }
+        },
+        {
+          "type": "maintenance_action",
+          "value": "overhaul",
+          "raw_values": [
+            "overhaul"
+          ],
+          "confidence": 0.86,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 2,
+          "metadata": {
+            "matched_term": "overhaul"
+          }
+        },
+        {
+          "type": "maintenance_action",
+          "value": "align",
+          "raw_values": [
+            "alignment"
+          ],
+          "confidence": 0.86,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 2,
+          "metadata": {
+            "matched_term": "alignment"
+          }
+        },
+        {
+          "type": "failure_mode",
+          "value": "bearing_seizure",
+          "raw_values": [
+            "bearing failure"
+          ],
+          "confidence": 0.86,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 2,
+          "metadata": {
+            "matched_term": "bearing failure"
+          }
+        },
+        {
+          "type": "component_type",
+          "value": "seal",
+          "raw_values": [
+            "Seal"
+          ],
+          "confidence": 0.86,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 2,
+          "metadata": {
+            "matched_term": "seal"
+          }
+        },
+        {
+          "type": "maintenance_action",
+          "value": "replace",
+          "raw_values": [
+            "Replace"
+          ],
+          "confidence": 0.86,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 2,
+          "metadata": {
+            "matched_term": "replace"
+          }
+        },
+        {
+          "type": "failure_mode",
+          "value": "bearing_degradation",
+          "raw_values": [
+            "bearing wear"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "bearing wear"
+          }
+        },
+        {
+          "type": "failure_mode",
+          "value": "vibration",
+          "raw_values": [
+            "High Vibration"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "high vibration"
+          }
+        },
+        {
+          "type": "failure_mode",
+          "value": "cavitation",
+          "raw_values": [
+            "cavitation"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "cavitation"
+          }
+        }
+      ],
+      "entity_summary": {
+        "equipment_tag": 1,
+        "parameter_reading": 2,
+        "equipment_type": 2,
+        "component_type": 2,
+        "severity": 1,
+        "maintenance_action": 4,
+        "failure_mode": 4
+      },
+      "stages": [
+        "UPLOADED",
+        "PROCESSING",
+        "PARSED",
+        "CHUNKED",
+        "EXTRACTING_ENTITIES",
+        "RESOLVING",
+        "GRAPH_LINKING",
+        "INDEXING",
+        "COMPLETED"
+      ]
+    },
+    {
+      "document_id": "DOC-A44BC36E",
+      "name": "dd1685990ff4427b90db9850fcea92a7_P-101_shift_log_2026-06-15.txt",
+      "type": "GENERAL",
+      "format": "TXT",
+      "file_hash": "4e0248a47976c1a2cf2035465725d98e8919721134adbd6406d70b5f64208fad",
+      "file_path": "C:\\Users\\NITHIN\\Downloads\\PIA-GH-main (2)\\pia-industrial\\backend\\industrial_data\\uploads\\demo-p101\\dd1685990ff4427b90db9850fcea92a7_P-101_shift_log_2026-06-15.txt",
+      "size": 582,
+      "status": "COMPLETED",
+      "timestamp": "2026-07-21T13:22:26.686132",
+      "page_count": 1,
+      "word_count": 90,
+      "chunks": [
+        {
+          "chunk_id": "DOC-A44BC36E:p1:c0",
+          "document_id": "DOC-A44BC36E",
+          "content": "# Shift Log: June 15, 2026\nOperator: Bob\nUnit: 4\n\n08:00 - Started shift. All units running normally.\n09:15 - Noticed unusual noise coming from P-101. \n09:30 - Checked P-101. Casing temperature is elevated. Vibration reading is 4.2 mm/s, which is high but below the shutdown threshold.\n10:00 - Logged observation in Maximo (Ticket #8821). Monitoring closely.\n14:00 - P-101 vibration spiked to 5.8 mm/s. Immediate shutdown initiated.\n14:15 - Maintenance team called. Preliminary inspection shows main bearing failure.\n15:00 - Shift ended. Handed over to Alice. P-101 remains offline.",
+          "page_number": 1,
+          "chunk_index": 0
+        }
+      ],
+      "entities": [
+        {
+          "type": "equipment_tag",
+          "value": "P-101",
+          "raw_values": [
+            "P-101"
+          ],
+          "confidence": 1.0,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 4,
+          "metadata": {
+            "pattern": "equipment_tag"
+          }
+        },
+        {
+          "type": "parameter_reading",
+          "value": "4.2 mm/s",
+          "raw_values": [
+            "4.2 mm/s"
+          ],
+          "confidence": 0.93,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "numeric_value": 4.2,
+            "unit": "mm/s"
+          }
+        },
+        {
+          "type": "parameter_reading",
+          "value": "5.8 mm/s",
+          "raw_values": [
+            "5.8 mm/s"
+          ],
+          "confidence": 0.93,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "numeric_value": 5.8,
+            "unit": "mm/s"
+          }
+        },
+        {
+          "type": "severity",
+          "value": "ELEVATED",
+          "raw_values": [
+            "elevated"
+          ],
+          "confidence": 0.88,
+          "methods": [
+            "regex"
+          ],
+          "occurrence_count": 1,
+          "metadata": {}
+        },
+        {
+          "type": "failure_mode",
+          "value": "bearing_seizure",
+          "raw_values": [
+            "bearing failure"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "bearing failure"
+          }
+        },
+        {
+          "type": "component_type",
+          "value": "bearing",
+          "raw_values": [
+            "bearing"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "bearing"
+          }
+        },
+        {
+          "type": "maintenance_action",
+          "value": "inspect",
+          "raw_values": [
+            "inspection"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "inspection"
+          }
+        },
+        {
+          "type": "maintenance_action",
+          "value": "monitor",
+          "raw_values": [
+            "Monitoring"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "monitoring"
+          }
+        }
+      ],
+      "entity_summary": {
+        "equipment_tag": 1,
+        "parameter_reading": 2,
+        "severity": 1,
+        "failure_mode": 1,
+        "component_type": 1,
+        "maintenance_action": 2
+      },
+      "stages": [
+        "UPLOADED",
+        "PROCESSING",
+        "PARSED",
+        "CHUNKED",
+        "EXTRACTING_ENTITIES",
+        "RESOLVING",
+        "GRAPH_LINKING",
+        "INDEXING",
+        "COMPLETED"
+      ]
+    }
+  ]
+}

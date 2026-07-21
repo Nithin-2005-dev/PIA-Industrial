@@ -1,0 +1,10 @@
+# Synthetic Maintenance Work Order WO-204
+
+Work order WO-204 applies to Heat Exchanger HX-204.
+
+Priority: urgent
+Status: DEFERRED
+Action: clean tube bundle, replace channel gasket, inspect corroded shell-side area, and pressure test before startup.
+
+The outage window was postponed, so the recommendation remains open.
+
