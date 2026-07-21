@@ -221,13 +221,17 @@ async def trigger_rca(asset_id: str, state: dict[str, float] | None = None, work
         raise HTTPException(status_code=404, detail="Asset not found")
     if not profile.timeline and not state:
         return {"asset_id": asset_id, "root_causes": [], "recommendations": ["NO SUPPORTED CAUSAL HYPOTHESIS"]}
-    rca_state = state or {"equipment_failure": 1.0}
-    rca_context = services.rca_service.run_rca(rca_state)
+    
+    if state:
+        rca_context = services.rca_service.run_rca(state)
+    else:
+        rca_context = services.rca_service.analyze_asset(asset_id)
+
     causes = [
         {
             "hypothesis_id": root.id,
             "target": root.subject,
-            "score": root.confidence.value if hasattr(root.confidence, "value") else 0.0,
+            "score": getattr(root.confidence, "overall_confidence", getattr(root.confidence, "value", 0.0)),
             "is_supported": bool(root.evidence),
             "evidence_count": len(root.evidence),
             "evidence": [{"type": "SUPPORTING", "description": evidence.summary} for evidence in root.evidence],
