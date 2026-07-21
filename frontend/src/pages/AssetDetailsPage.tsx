@@ -162,16 +162,16 @@ export default function AssetDetailsPage({ assetId, onBack }: { assetId: string,
               ) : (
               <div style={{ display: 'flex', gap: '24px' }}>
                 <div className="industrial-metric-card" style={{ flex: 1 }}>
-                  <div className="industrial-metric-label">BASELINE RISK</div>
-                  <div className="industrial-metric-value">{(simData.baseline_risk * 100).toFixed(0)}%</div>
+                  <div className="industrial-metric-label">BASELINE RISK SCORE</div>
+                  <div className="industrial-metric-value">{(simData.baseline_risk * 100).toFixed(0)}</div>
                 </div>
                 <div className="industrial-metric-card danger" style={{ flex: 1 }}>
-                  <div className="industrial-metric-label">COUNTERFACTUAL RISK</div>
-                  <div className="industrial-metric-value danger">{(simData.counterfactual_risk * 100).toFixed(0)}%</div>
+                  <div className="industrial-metric-label">SIMULATED RISK SCORE</div>
+                  <div className="industrial-metric-value danger">{(simData.counterfactual_risk * 100).toFixed(0)}</div>
                 </div>
                 <div className="industrial-metric-card warning" style={{ flex: 1 }}>
-                  <div className="industrial-metric-label">RISK DELTA</div>
-                  <div className="industrial-metric-value warning">+{(simData.risk_delta * 100).toFixed(0)}%</div>
+                  <div className="industrial-metric-label">RISK SCORE DELTA</div>
+                  <div className="industrial-metric-value warning">+{(simData.risk_delta * 100).toFixed(0)}</div>
                 </div>
               </div>
               )

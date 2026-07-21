@@ -1,43 +1,43 @@
 {
   "documents": [
     {
-      "document_id": "DOC-E9CB0C5A",
-      "name": "84adc8f8d6db4cf281bd6ebb53332550_P-101_maintenance_manual.txt",
+      "document_id": "DOC-0BCE2319",
+      "name": "2746c8d5af0f43728e055b8a93d06d11_P-101_maintenance_manual.txt",
       "type": "OEM_MANUAL",
       "format": "TXT",
       "file_hash": "800bcb3869868e2e4f793e4cc867bb1238d42b4a6369b0ecbea813dae71ccf04",
-      "file_path": "C:\\Users\\NITHIN\\Downloads\\PIA-GH-main (2)\\pia-industrial\\backend\\industrial_data\\uploads\\demo-p101\\84adc8f8d6db4cf281bd6ebb53332550_P-101_maintenance_manual.txt",
+      "file_path": "C:\\Users\\NITHIN\\Downloads\\PIA-GH-main (2)\\pia-industrial\\backend\\industrial_data\\uploads\\demo-p101\\2746c8d5af0f43728e055b8a93d06d11_P-101_maintenance_manual.txt",
       "size": 797,
       "status": "COMPLETED",
-      "timestamp": "2026-07-21T13:22:26.599419",
+      "timestamp": "2026-07-21T18:54:01.008700",
       "page_count": 1,
       "word_count": 118,
       "chunks": [
         {
-          "chunk_id": "DOC-E9CB0C5A:p1:c0",
-          "document_id": "DOC-E9CB0C5A",
-          "content": "# Maintenance Manual for P-101 Centrifugal Pump\n1. Overview\nAsset ID: P-101\nType: Main Centrifugal Pump\nLocation: Unit 4",
+          "chunk_id": "DOC-0BCE2319:p1:c0",
+          "document_id": "DOC-0BCE2319",
+          "content": "1. Overview\nAsset ID: P-101\nType: Main Centrifugal Pump\nLocation: Unit 4",
           "page_number": 1,
           "chunk_index": 0
         },
         {
-          "chunk_id": "DOC-E9CB0C5A:p1:c1",
-          "document_id": "DOC-E9CB0C5A",
-          "content": "1. Overview\nAsset ID: P-101\nType: Main Centrifugal Pump\nLocation: Unit 4\n2. Maintenance Schedule\n- **Monthly:** Check vibration levels at the main bearing casing. Normal threshold < 2.5 mm/s.\n- **Quarterly:** Inspect mechanical seals for leakage. \n- **Annually:** Complete overhaul and alignment check.",
+          "chunk_id": "DOC-0BCE2319:p1:c1",
+          "document_id": "DOC-0BCE2319",
+          "content": "2. Maintenance Schedule\n- **Monthly:** Check vibration levels at the main bearing casing. Normal threshold < 2.5 mm/s.\n- **Quarterly:** Inspect mechanical seals for leakage. \n- **Annually:** Complete overhaul and alignment check.",
           "page_number": 1,
           "chunk_index": 1
         },
         {
-          "chunk_id": "DOC-E9CB0C5A:p1:c2",
-          "document_id": "DOC-E9CB0C5A",
-          "content": "onthly:** Check vibration levels at the main bearing casing. Normal threshold < 2.5 mm/s.\n- **Quarterly:** Inspect mechanical seals for leakage. \n- **Annually:** Complete overhaul and alignment check.\n3. Troubleshooting\n- **High Vibration:** Often caused by bearing wear or cavitation. If vibration exceeds 5.0 mm/s, immediately shut down the pump to prevent catastrophic bearing failure.\n- **Seal Leakage:** Can be caused by improper installation or fluid contamination. Replace seals immediately.",
+          "chunk_id": "DOC-0BCE2319:p1:c2",
+          "document_id": "DOC-0BCE2319",
+          "content": "3. Troubleshooting\n- **High Vibration:** Often caused by bearing wear or cavitation. If vibration exceeds 5.0 mm/s, immediately shut down the pump to prevent catastrophic bearing failure.\n- **Seal Leakage:** Can be caused by improper installation or fluid contamination. Replace seals immediately.",
           "page_number": 1,
           "chunk_index": 2
         },
         {
-          "chunk_id": "DOC-E9CB0C5A:p1:c3",
-          "document_id": "DOC-E9CB0C5A",
-          "content": " exceeds 5.0 mm/s, immediately shut down the pump to prevent catastrophic bearing failure.\n- **Seal Leakage:** Can be caused by improper installation or fluid contamination. Replace seals immediately.\n4. Compliance\nAll inspections must be logged in Maximo. Any failure to inspect quarterly results in a Level 2 Compliance Violation.",
+          "chunk_id": "DOC-0BCE2319:p1:c3",
+          "document_id": "DOC-0BCE2319",
+          "content": "4. Compliance\nAll inspections must be logged in Maximo. Any failure to inspect quarterly results in a Level 2 Compliance Violation.",
           "page_number": 1,
           "chunk_index": 3
         }
@@ -49,11 +49,11 @@
           "raw_values": [
             "P-101"
           ],
-          "confidence": 1.0,
+          "confidence": 0.98,
           "methods": [
             "regex"
           ],
-          "occurrence_count": 3,
+          "occurrence_count": 1,
           "metadata": {
             "pattern": "equipment_tag"
           }
@@ -64,11 +64,11 @@
           "raw_values": [
             "2.5 mm/s"
           ],
-          "confidence": 0.96,
+          "confidence": 0.93,
           "methods": [
             "regex"
           ],
-          "occurrence_count": 2,
+          "occurrence_count": 1,
           "metadata": {
             "numeric_value": 2.5,
             "unit": "mm/s"
@@ -80,30 +80,14 @@
           "raw_values": [
             "5.0 mm/s"
           ],
-          "confidence": 0.96,
+          "confidence": 0.93,
           "methods": [
             "regex"
           ],
-          "occurrence_count": 2,
+          "occurrence_count": 1,
           "metadata": {
             "numeric_value": 5.0,
             "unit": "mm/s"
-          }
-        },
-        {
-          "type": "equipment_type",
-          "value": "pump",
-          "raw_values": [
-            "Pump",
-            "pump"
-          ],
-          "confidence": 0.95,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 5,
-          "metadata": {
-            "matched_term": "pump"
           }
         },
         {
@@ -112,11 +96,11 @@
           "raw_values": [
             "bearing"
           ],
-          "confidence": 0.95,
+          "confidence": 0.89,
           "methods": [
             "dictionary"
           ],
-          "occurrence_count": 5,
+          "occurrence_count": 3,
           "metadata": {
             "matched_term": "bearing"
           }
@@ -127,26 +111,27 @@
           "raw_values": [
             "Normal"
           ],
-          "confidence": 0.91,
+          "confidence": 0.88,
           "methods": [
             "regex"
           ],
-          "occurrence_count": 2,
+          "occurrence_count": 1,
           "metadata": {}
         },
         {
           "type": "equipment_type",
-          "value": "centrifugal_pump",
+          "value": "pump",
           "raw_values": [
-            "Centrifugal Pump"
+            "Pump",
+            "pump"
           ],
-          "confidence": 0.89,
+          "confidence": 0.86,
           "methods": [
             "dictionary"
           ],
-          "occurrence_count": 3,
+          "occurrence_count": 2,
           "metadata": {
-            "matched_term": "centrifugal pump"
+            "matched_term": "pump"
           }
         },
         {
@@ -156,13 +141,28 @@
             "Inspect",
             "inspect"
           ],
-          "confidence": 0.89,
+          "confidence": 0.86,
           "methods": [
             "dictionary"
           ],
-          "occurrence_count": 3,
+          "occurrence_count": 2,
           "metadata": {
             "matched_term": "inspect"
+          }
+        },
+        {
+          "type": "equipment_type",
+          "value": "centrifugal_pump",
+          "raw_values": [
+            "Centrifugal Pump"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "centrifugal pump"
           }
         },
         {
@@ -171,11 +171,11 @@
           "raw_values": [
             "overhaul"
           ],
-          "confidence": 0.86,
+          "confidence": 0.83,
           "methods": [
             "dictionary"
           ],
-          "occurrence_count": 2,
+          "occurrence_count": 1,
           "metadata": {
             "matched_term": "overhaul"
           }
@@ -186,11 +186,11 @@
           "raw_values": [
             "alignment"
           ],
-          "confidence": 0.86,
+          "confidence": 0.83,
           "methods": [
             "dictionary"
           ],
-          "occurrence_count": 2,
+          "occurrence_count": 1,
           "metadata": {
             "matched_term": "alignment"
           }
@@ -201,43 +201,13 @@
           "raw_values": [
             "bearing failure"
           ],
-          "confidence": 0.86,
+          "confidence": 0.83,
           "methods": [
             "dictionary"
           ],
-          "occurrence_count": 2,
+          "occurrence_count": 1,
           "metadata": {
             "matched_term": "bearing failure"
-          }
-        },
-        {
-          "type": "component_type",
-          "value": "seal",
-          "raw_values": [
-            "Seal"
-          ],
-          "confidence": 0.86,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 2,
-          "metadata": {
-            "matched_term": "seal"
-          }
-        },
-        {
-          "type": "maintenance_action",
-          "value": "replace",
-          "raw_values": [
-            "Replace"
-          ],
-          "confidence": 0.86,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 2,
-          "metadata": {
-            "matched_term": "replace"
           }
         },
         {
@@ -284,14 +254,44 @@
           "metadata": {
             "matched_term": "cavitation"
           }
+        },
+        {
+          "type": "component_type",
+          "value": "seal",
+          "raw_values": [
+            "Seal"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "seal"
+          }
+        },
+        {
+          "type": "maintenance_action",
+          "value": "replace",
+          "raw_values": [
+            "Replace"
+          ],
+          "confidence": 0.83,
+          "methods": [
+            "dictionary"
+          ],
+          "occurrence_count": 1,
+          "metadata": {
+            "matched_term": "replace"
+          }
         }
       ],
       "entity_summary": {
         "equipment_tag": 1,
         "parameter_reading": 2,
-        "equipment_type": 2,
         "component_type": 2,
         "severity": 1,
+        "equipment_type": 2,
         "maintenance_action": 4,
         "failure_mode": 4
       },
@@ -308,1268 +308,21 @@
       ]
     },
     {
-      "document_id": "DOC-A44BC36E",
-      "name": "dd1685990ff4427b90db9850fcea92a7_P-101_shift_log_2026-06-15.txt",
+      "document_id": "DOC-2829221C",
+      "name": "bde7add3862c49c1bce5feec4366eb8d_P-101_shift_log_2026-06-15.txt",
       "type": "GENERAL",
       "format": "TXT",
       "file_hash": "4e0248a47976c1a2cf2035465725d98e8919721134adbd6406d70b5f64208fad",
-      "file_path": "C:\\Users\\NITHIN\\Downloads\\PIA-GH-main (2)\\pia-industrial\\backend\\industrial_data\\uploads\\demo-p101\\dd1685990ff4427b90db9850fcea92a7_P-101_shift_log_2026-06-15.txt",
+      "file_path": "C:\\Users\\NITHIN\\Downloads\\PIA-GH-main (2)\\pia-industrial\\backend\\industrial_data\\uploads\\demo-p101\\bde7add3862c49c1bce5feec4366eb8d_P-101_shift_log_2026-06-15.txt",
       "size": 582,
       "status": "COMPLETED",
-      "timestamp": "2026-07-21T13:22:26.686132",
+      "timestamp": "2026-07-21T18:54:01.025800",
       "page_count": 1,
       "word_count": 90,
       "chunks": [
         {
-          "chunk_id": "DOC-A44BC36E:p1:c0",
-          "document_id": "DOC-A44BC36E",
-          "content": "# Shift Log: June 15, 2026\nOperator: Bob\nUnit: 4\n\n08:00 - Started shift. All units running normally.\n09:15 - Noticed unusual noise coming from P-101. \n09:30 - Checked P-101. Casing temperature is elevated. Vibration reading is 4.2 mm/s, which is high but below the shutdown threshold.\n10:00 - Logged observation in Maximo (Ticket #8821). Monitoring closely.\n14:00 - P-101 vibration spiked to 5.8 mm/s. Immediate shutdown initiated.\n14:15 - Maintenance team called. Preliminary inspection shows main bearing failure.\n15:00 - Shift ended. Handed over to Alice. P-101 remains offline.",
-          "page_number": 1,
-          "chunk_index": 0
-        }
-      ],
-      "entities": [
-        {
-          "type": "equipment_tag",
-          "value": "P-101",
-          "raw_values": [
-            "P-101"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 4,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "4.2 mm/s",
-          "raw_values": [
-            "4.2 mm/s"
-          ],
-          "confidence": 0.93,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "numeric_value": 4.2,
-            "unit": "mm/s"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "5.8 mm/s",
-          "raw_values": [
-            "5.8 mm/s"
-          ],
-          "confidence": 0.93,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "numeric_value": 5.8,
-            "unit": "mm/s"
-          }
-        },
-        {
-          "type": "severity",
-          "value": "ELEVATED",
-          "raw_values": [
-            "elevated"
-          ],
-          "confidence": 0.88,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {}
-        },
-        {
-          "type": "failure_mode",
-          "value": "bearing_seizure",
-          "raw_values": [
-            "bearing failure"
-          ],
-          "confidence": 0.83,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "matched_term": "bearing failure"
-          }
-        },
-        {
-          "type": "component_type",
-          "value": "bearing",
-          "raw_values": [
-            "bearing"
-          ],
-          "confidence": 0.83,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "matched_term": "bearing"
-          }
-        },
-        {
-          "type": "maintenance_action",
-          "value": "inspect",
-          "raw_values": [
-            "inspection"
-          ],
-          "confidence": 0.83,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "matched_term": "inspection"
-          }
-        },
-        {
-          "type": "maintenance_action",
-          "value": "monitor",
-          "raw_values": [
-            "Monitoring"
-          ],
-          "confidence": 0.83,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "matched_term": "monitoring"
-          }
-        }
-      ],
-      "entity_summary": {
-        "equipment_tag": 1,
-        "parameter_reading": 2,
-        "severity": 1,
-        "failure_mode": 1,
-        "component_type": 1,
-        "maintenance_action": 2
-      },
-      "stages": [
-        "UPLOADED",
-        "PROCESSING",
-        "PARSED",
-        "CHUNKED",
-        "EXTRACTING_ENTITIES",
-        "RESOLVING",
-        "GRAPH_LINKING",
-        "INDEXING",
-        "COMPLETED"
-      ]
-    },
-    {
-      "document_id": "DOC-E1729D35",
-      "name": "1004dccab4884c7180ae6812b077c94e_86d5ce81879445098a319f6c2c5bfc59_PIA_Industrial_Synthetic_Reliability_Report_P204.pdf",
-      "type": "GENERAL",
-      "format": "PDF",
-      "file_hash": "fd28b9f22abe0ef93e76e2930c126b9c09cdecb220a815ca97413dbee346f6e9",
-      "file_path": "C:\\Users\\NITHIN\\Downloads\\PIA-GH-main (2)\\pia-industrial\\backend\\industrial_data\\uploads\\demo-p101\\1004dccab4884c7180ae6812b077c94e_86d5ce81879445098a319f6c2c5bfc59_PIA_Industrial_Synthetic_Reliability_Report_P204.pdf",
-      "size": 13240,
-      "status": "COMPLETED",
-      "timestamp": "2026-07-21T15:57:39.925635",
-      "page_count": 5,
-      "word_count": 2141,
-      "chunks": [
-        {
-          "chunk_id": "DOC-E1729D35:p1:c0",
-          "document_id": "DOC-E1729D35",
-          "content": "Industrial Asset Reliability & Maintenance Intelligence\n Report\nProcess Unit B \u2014 Rotating Equipment Reliability Review\nSynthetic Industrial Dataset for PIA Industrial Demonstration\nReporting Period: January\u2013July 2026 | Report Date: 20 July 2026\nDocument Control",
-          "page_number": 1,
-          "chunk_index": 0
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p1:c1",
-          "document_id": "DOC-E1729D35",
-          "content": "rt\nProcess Unit B \u2014 Rotating Equipment Reliability Review\nSynthetic Industrial Dataset for PIA Industrial Demonstration\nReporting Period: January\u2013July 2026 | Report Date: 20 July 2026\nDocument Control\nExecutive Summary\nThis report consolidates operational observations, maintenance history, inspection findings, failure events,\nmeasurements, and recommended actions for selected assets in Process Unit B. The primary investigation concerns\ncentrifugal process pump P-204, which transfers process fluid from storage tank T-204 through heat exchanger\nHX-204.\nBetween May and July 2026, P-204 exhibited a progressive increase in vibration. A scheduled lubrication inspection\nwas postponed on 30 June due to production requirements. On 16 July, operators detected abnormal mechanical\nnoise, elevated drive-end vibration of 7.4 mm/s, and a bearing temperature of 91\u00b0C. Inspection identified deterioration\nof the drive-end bearing, insufficient grease quantity, and degraded lubricant condition.\nThe drive-end bearing was replaced on 17 July and lubrication was restored. Following maintenance, vibration\ndecreased to 2.4 mm/s and bearing temperature stabilized at 66\u00b0C. The available evidence supports a re",
-          "page_number": 1,
-          "chunk_index": 1
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p1:c2",
-          "document_id": "DOC-E1729D35",
-          "content": "nd bearing was replaced on 17 July and lubrication was restored. Following maintenance, vibration\ndecreased to 2.4 mm/s and bearing temperature stabilized at 66\u00b0C. The available evidence supports a re\nnd bearing was replaced on 17 July and lubrication was restored. Following maintenance, vibration\ndecreased to 2.4 mm/s and bearing temperature stabilized at 66\u00b0C. The available evidence supports a relationship\nbetween degraded lubrication condition and bearing deterioration. The postponed inspection represents a relevant\nmaintenance-history event, but this report does not claim that postponement alone caused the failure.\nAdditional observations are included for standby pump P-205 and heat exchanger HX-204 to provide a broader\noperational context. Recommended actions focus on lubrication inspection, vibration monitoring, maintenance\ndeferral review, and evidence retention.",
-          "page_number": 1,
-          "chunk_index": 2
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p1:c3",
-          "document_id": "DOC-E1729D35",
-          "content": "-205 and heat exchanger HX-204 to provide a broader\noperational context. Recommended actions focus on lubrication inspection, vibration monitoring, maintenance\ndeferral review, and evidence retention.\nFacility and Process Context\nProcess Unit B contains storage, pumping, and heat-transfer equipment supporting continuous process operations.\nStorage tank T-204 provides process fluid to centrifugal pump P-204. P-204 supplies flow toward heat exchanger\nHX-204. Pump P-205 is designated as a standby unit for selected operating conditions.\nThe reliability review covers equipment relationships only to the extent documented here. Asset identifiers should be\ntreated as canonical references throughout this report.\nAsset T-204 \u2014 Storage Tank. Function: holds process fluid upstream of P-204.\nAsset P-204 \u2014 Centrifugal Process Pump. Function: transfers fluid from T-204 toward HX-204.\nAsset P-205 \u2014 Standby Centrifugal Pump. Function: backup pumping capability.\nAsset HX-204 \u2014 Shell-and-Tube Heat Exchanger. Function: process heat transfer downstream of the pumping stage.",
-          "page_number": 1,
-          "chunk_index": 3
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p1:c4",
-          "document_id": "DOC-E1729D35",
-          "content": "ward HX-204.\nAsset P-205 \u2014 Standby Centrifugal Pump. Function: backup pumping capability.\nAsset HX-204 \u2014 Shell-and-Tube Heat Exchanger. Function: process heat transfer downstream of the pumping stage.\nAsset Register\nP-204 is a centrifugal process pump driven by an electric motor. Its monitored indicators include drive-end vibration,\nnon-drive-end vibration, bearing temperature, discharge pressure, and observable mechanical noise.\nP-205 is maintained as a standby pump. During the reporting period, no confirmed failure event was recorded for\nP-205. A routine inspection on 10 July noted acceptable external condition and no visible leakage.\nHX-204 is a heat exchanger associated with the downstream process path. A 5 July inspection recorded minor\nexternal fouling around an accessible inspection area. No loss-of-containment event was documented.\nT-204 is the upstream storage tank. No critical anomaly was documented during the reporting period covered by this\nreport.",
-          "page_number": 1,
-          "chunk_index": 4
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p1:c5",
-          "document_id": "DOC-E1729D35",
-          "content": "d an accessible inspection area. No loss-of-containment event was documented.\nT-204 is the upstream storage tank. No critical anomaly was documented during the reporting period covered by this\nreport.\nP-204 Operational Timeline\n12 January 2026 \u2014 Routine visual inspection completed. No leakage or abnormal mechanical noise recorded.",
-          "page_number": 1,
-          "chunk_index": 5
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p2:c6",
-          "document_id": "DOC-E1729D35",
-          "content": "14 February 2026 \u2014 Vibration reading recorded at 2.3 mm/s. Bearing temperature recorded at 64\u00b0C. Condition\nassessed as normal.\n12 March 2026 \u2014 Routine inspection completed. No abnormal vibration detected. Lubrication condition recorded as\nacceptable.\n18 April 2026 \u2014 Vibration reading 2.6 mm/s. Bearing temperature 65\u00b0C. No corrective work initiated.\n28 May 2026 \u2014 Vibration reading increased to 3.9 mm/s. The observation was documented as a minor increase\nrelative to earlier readings. Continued monitoring was recommended.\n15 June 2026 \u2014 Vibration recorded at 4.6 mm/s. Bearing temperature recorded at 72\u00b0C. Maintenance review\nrequested.\n30 June 2026 \u2014 Planned lubrication inspection postponed due to production requirements. No replacement\ninspection date was recorded in the maintenance note.\n8 July 2026 \u2014 Operator shift log noted intermittent mechanical noise near P-204 during steady operation.\n14 July 2026 \u2014 Vibration measured at 6.2 mm/s. Bearing temperature measured at 82\u00b0C. Maintenance n",
-          "page_number": 2,
-          "chunk_index": 6
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p2:c7",
-          "document_id": "DOC-E1729D35",
-          "content": "uly 2026 \u2014 Operator shift log noted intermittent mechanical noise near P-204 during steady operation.\n14 July 2026 \u2014 Vibration measured at 6.2 mm/s. Bearing temperature measured at 82\u00b0C. Maintenance n\nuly 2026 \u2014 Operator shift log noted intermittent mechanical noise near P-204 during steady operation.\n14 July 2026 \u2014 Vibration measured at 6.2 mm/s. Bearing temperature measured at 82\u00b0C. Maintenance notification\nraised.\n16 July 2026, 14:35 \u2014 Abnormal mechanical noise reported. Drive-end vibration measured at 7.4 mm/s and bearing\ntemperature reached 91\u00b0C. Pump remained operating while maintenance personnel assessed the condition.\n16 July 2026, 16:10 \u2014 Inspection found insufficient grease quantity and evidence of lubricant degradation at the\ndrive-end bearing location. Bearing deterioration was suspected.\n17 July 2026 \u2014 Drive-end bearing replaced. Lubrication restored. Alignment and basic post-maintenance checks\ncompleted.\n18 July 2026 \u2014 Post-maintenance vibration measured at 2.4 mm/s. Bearing temperature stabilized at 66\u00b0C. No\nabnormal mechanical noise recorded during the observation period.",
-          "page_number": 2,
-          "chunk_index": 7
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p2:c8",
-          "document_id": "DOC-E1729D35",
-          "content": "intenance checks\ncompleted.\n18 July 2026 \u2014 Post-maintenance vibration measured at 2.4 mm/s. Bearing temperature stabilized at 66\u00b0C. No\nabnormal mechanical noise recorded during the observation period.\nng temperature stabilized at 66\u00b0C. No\nabnormal mechanical noise recorded during the observation period.",
-          "page_number": 2,
-          "chunk_index": 8
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p2:c9",
-          "document_id": "DOC-E1729D35",
-          "content": "ng temperature stabilized at 66\u00b0C. No\nabnormal mechanical noise recorded during the observation period.\nMeasurement Record\nThe following measurements are observations recorded for demonstration and analysis.\n14 February 2026: P-204 vibration 2.3 mm/s; bearing temperature 64\u00b0C.\n18 April 2026: P-204 vibration 2.6 mm/s; bearing temperature 65\u00b0C.\n28 May 2026: P-204 vibration 3.9 mm/s; bearing temperature 68\u00b0C.\n15 June 2026: P-204 vibration 4.6 mm/s; bearing temperature 72\u00b0C.\n14 July 2026: P-204 vibration 6.2 mm/s; bearing temperature 82\u00b0C.\n16 July 2026: P-204 vibration 7.4 mm/s; bearing temperature 91\u00b0C.\n18 July 2026: P-204 vibration 2.4 mm/s; bearing temperature 66\u00b0C.\nThe measurements show an increasing vibration and temperature trend before maintenance, followed by lower\nvalues after bearing replacement and lubrication restoration. These observations provide temporal evidence;\ninterpretation of causality should remain tied to documented inspection findings and validated analytical logic.",
-          "page_number": 2,
-          "chunk_index": 9
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p2:c10",
-          "document_id": "DOC-E1729D35",
-          "content": " replacement and lubrication restoration. These observations provide temporal evidence;\ninterpretation of causality should remain tied to documented inspection findings and validated analytical logic.\nFailure Investigation \u2014 P-204\nEvent classification: Bearing degradation / abnormal vibration.\nAffected asset: P-204.\nAffected component: Drive-end bearing.\nDetection method: Operator observation and condition measurements.\nObserved symptoms: Abnormal mechanical noise, elevated vibration, elevated bearing temperature.\nInspection findings: Insufficient grease quantity, degraded lubricant condition, deteriorated drive-end bearing.\nImmediate action: Bearing replacement and lubrication restoration.\nPost-action condition: Vibration and temperature returned near previously observed operating levels.\nThe evidence supports inadequate lubrication as a plausible contributor to bearing degradation. The maintenance\nhistory also records a postponed lubrication inspection. Because multiple factors can contribute to bearing\ndegradation, the postponement should be treated as contextual evidence rather than an independently proven root\ncause unless supported by additional analysis.",
-          "page_number": 2,
-          "chunk_index": 10
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p3:c11",
-          "document_id": "DOC-E1729D35",
-          "content": "7. Maintenance Work Order Summary\nWork Order WO-P204-0717\nAsset: P-204\nPriority: High\nOpened: 16 July 2026\nCompleted: 17 July 2026\nScope: Inspect drive-end bearing, lubrication condition, coupling area, and vibration condition.\nFinding: Drive-end bearing showed deterioration. Lubrication quantity was insufficient and lubricant condition was\ndegraded.\nAction: Replaced drive-end bearing. Restored lubrication. Performed operational check.\nVerification: Vibration 2.4 mm/s and bearing temperature 66\u00b0C on 18 July.\nStatus: Completed.\nDeferred Task MT-P204-0630\nAsset: P-204\nOriginal task: Lubrication inspection.\nScheduled date: 30 June 2026.\nDisposition: Postponed due to production requirements.\nFollow-up date in original note: Not recorded.\nStatus at time of failure event: Outstanding.",
-          "page_number": 3,
-          "chunk_index": 11
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p3:c12",
-          "document_id": "DOC-E1729D35",
-          "content": "ubrication inspection.\nScheduled date: 30 June 2026.\nDisposition: Postponed due to production requirements.\nFollow-up date in original note: Not recorded.\nStatus at time of failure event: Outstanding.\nStandby Pump P-205\nP-205 was inspected on 10 July 2026 as part of standby equipment readiness checks. External condition was\nacceptable. No visible leakage was reported. Manual rotation and accessible inspection checks did not identify a\nconfirmed defect.\nA readiness test is recommended following significant maintenance activity on the primary pump P-204 so that\nstandby capability is supported by current evidence. This recommendation is preventive and does not indicate a\nknown failure of P-205.",
-          "page_number": 3,
-          "chunk_index": 12
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p3:c13",
-          "document_id": "DOC-E1729D35",
-          "content": "ignificant maintenance activity on the primary pump P-204 so that\nstandby capability is supported by current evidence. This recommendation is preventive and does not indicate a\nknown failure of P-205.\nHeat Exchanger HX-204 Inspection\nOn 5 July 2026, maintenance personnel recorded minor external fouling around an accessible section of HX-204. No\nconfirmed process leak or loss of containment was documented. The observation was classified for routine follow-up.\nRecommended action: inspect the affected external area during the next planned maintenance window and document\nwhether fouling is stable, increasing, or associated with another observable condition.",
-          "page_number": 3,
-          "chunk_index": 13
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p3:c14",
-          "document_id": "DOC-E1729D35",
-          "content": ".\nRecommended action: inspect the affected external area during the next planned maintenance window and document\nwhether fouling is stable, increasing, or associated with another observable condition.\nMaintenance Pattern Review\nThe P-204 timeline contains several events relevant to reliability review: a minor vibration increase in May, a further\nincrease in June, postponement of a lubrication inspection, abnormal noise in July, high vibration and temperature on\n16 July, and recovery following bearing replacement and lubrication restoration.\nThis sequence is suitable for evidence-based pattern analysis because it contains timestamps, measurements,\nmaintenance actions, component findings, and post-maintenance verification. Any automated system analyzing the\nsequence should preserve source provenance and distinguish observations from inferred conclusions.",
-          "page_number": 3,
-          "chunk_index": 14
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p3:c15",
-          "document_id": "DOC-E1729D35",
-          "content": "ce actions, component findings, and post-maintenance verification. Any automated system analyzing the\nsequence should preserve source provenance and distinguish observations from inferred conclusions.\nRisk and Criticality Notes\nP-204 is operationally important because it supports process-fluid transfer between T-204 and HX-204. Loss of\npumping capability could interrupt the associated process path. The presence of standby pump P-205 may provide\noperational resilience, subject to confirmed readiness.\nFor this synthetic report, P-204 should be treated as a critical rotating asset for maintenance prioritization. This\ndesignation is provided as report context and should not be interpreted as a formal plant-wide quantitative criticality\nassessment.",
-          "page_number": 3,
-          "chunk_index": 15
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p3:c16",
-          "document_id": "DOC-E1729D35",
-          "content": "ed as a critical rotating asset for maintenance prioritization. This\ndesignation is provided as report context and should not be interpreted as a formal plant-wide quantitative criticality\nassessment.\nCompliance and Record-Retention Review",
-          "page_number": 3,
-          "chunk_index": 16
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p4:c17",
-          "document_id": "DOC-E1729D35",
-          "content": "Maintenance and inspection records for critical rotating equipment should retain the asset identifier, event timestamp,\nobserved condition, measurement values where available, maintenance action, responsible work order, and\npost-maintenance verification.\nThe 30 June deferred lubrication task did not contain a documented replacement inspection date in the source note.\nThe maintenance process should require deferred critical tasks to include a revised due date and accountable\nfollow-up.\nThis report does not assert compliance with a specific external regulation or standard. It provides internal\nmaintenance-control observations suitable for demonstration of evidence traceability and compliance-oriented review.",
-          "page_number": 4,
-          "chunk_index": 17
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p4:c18",
-          "document_id": "DOC-E1729D35",
-          "content": "rt compliance with a specific external regulation or standard. It provides internal\nmaintenance-control observations suitable for demonstration of evidence traceability and compliance-oriented review.\nRecommendations\nR1 \u2014 Establish a recurring lubrication-condition inspection for P-204 at an interval approved by the facility\nmaintenance program.\nR2 \u2014 Continue vibration and bearing-temperature trending for P-204. Investigate material deviation from the\nestablished normal operating range.\nR3 \u2014 Review the process for postponing maintenance on critical rotating equipment. Require a documented revised\ndue date and risk review for deferred tasks.\nR4 \u2014 Perform a follow-up inspection of the replacement drive-end bearing within 60 days or according to the\napproved maintenance strategy.\nR5 \u2014 Confirm standby readiness of P-205 after major corrective maintenance on P-204.\nR6 \u2014 Retain measurement and inspection provenance so that future conclusions can be traced to source events.\nR7 \u2014 Review HX-204 external fouling during the next planned maintenance opportunity and document the result.",
-          "page_number": 4,
-          "chunk_index": 18
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p4:c19",
-          "document_id": "DOC-E1729D35",
-          "content": "rement and inspection provenance so that future conclusions can be traced to source events.\nR7 \u2014 Review HX-204 external fouling during the next planned maintenance opportunity and document the result.\nEvidence Register\nEV-001: 28 May vibration observation \u2014 P-204 \u2014 3.9 mm/s \u2014 source type: condition reading.\nEV-002: 15 June vibration observation \u2014 P-204 \u2014 4.6 mm/s \u2014 source type: condition reading.\nEV-003: 30 June lubrication inspection deferral \u2014 P-204 \u2014 source type: maintenance record.\nEV-004: 8 July intermittent noise observation \u2014 P-204 \u2014 source type: shift log.\nEV-005: 14 July elevated vibration and temperature \u2014 P-204 \u2014 source type: condition reading.\nEV-006: 16 July abnormal noise and high vibration \u2014 P-204 \u2014 source type: operator event.\nEV-007: 16 July insufficient grease and degraded lubricant \u2014 P-204 drive-end bearing \u2014 source type: inspection\nfinding.\nEV-008: 17 July bearing replacement and lubrication restoration \u2014 P-204 \u2014 source type: work order.\nEV-009: 18 July vibration 2.4 mm/s and temperature 66\u00b0C \u2014 P-204 \u2014 source type: post-maintenance verification.\nEV-010: 10 July standby inspection \u2014 P-205 \u2014 source type: inspection record.\nEV-011: 5 July external fouling observatio",
-          "page_number": 4,
-          "chunk_index": 19
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p4:c20",
-          "document_id": "DOC-E1729D35",
-          "content": " mm/s and temperature 66\u00b0C \u2014 P-204 \u2014 source type: post-maintenance verification.\nEV-010: 10 July standby inspection \u2014 P-205 \u2014 source type: inspection record.\nEV-011: 5 July external fouling observatio\n mm/s and temperature 66\u00b0C \u2014 P-204 \u2014 source type: post-maintenance verification.\nEV-010: 10 July standby inspection \u2014 P-205 \u2014 source type: inspection record.\nEV-011: 5 July external fouling observation \u2014 HX-204 \u2014 source type: inspection record.",
-          "page_number": 4,
-          "chunk_index": 20
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p4:c21",
-          "document_id": "DOC-E1729D35",
-          "content": "type: post-maintenance verification.\nEV-010: 10 July standby inspection \u2014 P-205 \u2014 source type: inspection record.\nEV-011: 5 July external fouling observation \u2014 HX-204 \u2014 source type: inspection record.\nSuggested Questions for an Industrial Intelligence Platform\nWhat assets are identified in this report?\nWhat happened to pump P-204?\nShow the timeline of P-204 observations and maintenance.\nWhich measurements changed before the failure event?\nWhat evidence is associated with the drive-end bearing?\nWas a maintenance activity postponed before the event?\nWhat actions were performed after the high-vibration event?\nWhat changed after maintenance?\nWhat recommendations remain open?\nWhich evidence supports the lubrication-related finding?\nWhat is known about standby pump P-205?\nAre there compliance-oriented documentation gaps?\nWhat relationships exist among T-204, P-204, and HX-204?",
-          "page_number": 4,
-          "chunk_index": 21
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p5:c22",
-          "document_id": "DOC-E1729D35",
-          "content": "16. Data Quality and Interpretation Notes\nAll asset identifiers, dates, measurements, and events in this document are synthetic and created for software\ndemonstration. The report intentionally contains a mixture of direct observations, measurements, maintenance\nactions, recommendations, and cautious interpretations.\nSystems processing this report should avoid converting recommendations into completed actions, avoid treating\ncontextual events as proven causes, and preserve distinctions between observed facts and analytical conclusions.\nWhere evidence is insufficient, the correct result is an explicit insufficient-evidence state rather than a fabricated\nconclusion.",
-          "page_number": 5,
-          "chunk_index": 22
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p5:c23",
-          "document_id": "DOC-E1729D35",
-          "content": "serve distinctions between observed facts and analytical conclusions.\nWhere evidence is insufficient, the correct result is an explicit insufficient-evidence state rather than a fabricated\nconclusion.\nConclusion\nThe P-204 case demonstrates a realistic industrial reliability sequence: normal operation, progressive condition\nchange, a deferred maintenance activity, a significant abnormal event, component inspection, corrective\nmaintenance, and post-maintenance verification.\nThe dataset is designed to test whether an industrial intelligence platform can transform fragmented operational\ninformation into structured, traceable knowledge while maintaining evidence provenance. It also provides related\nassets and secondary observations to support graph construction and workspace-level analysis without relying on\nproprietary plant information.\nAppendix A \u2014 Synthetic Shift Log Extracts\nLOG-001: 08 July 2026, Day Shift: P-204 operating. Intermittent mechanical noise noted near drive-end area. No\nvisible leakage. Maintenance notification recommended.\nLOG-002: 14 July 2026, Evening Shift: Increased vibration reported on P-204. Reading recorded at 6.2 mm/s.\nBearing temperature 82\u00b0C. Maintenance te",
-          "page_number": 5,
-          "chunk_index": 23
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p5:c24",
-          "document_id": "DOC-E1729D35",
-          "content": "sible leakage. Maintenance notification recommended.\nLOG-002: 14 July 2026, Evening Shift: Increased vibration reported on P-204. Reading recorded at 6.2 mm/s.\nBearing temperature 82\u00b0C. Maintenance te\nsible leakage. Maintenance notification recommended.\nLOG-002: 14 July 2026, Evening Shift: Increased vibration reported on P-204. Reading recorded at 6.2 mm/s.\nBearing temperature 82\u00b0C. Maintenance team informed.\nLOG-003: 16 July 2026, Day Shift: Abnormal mechanical noise became persistent. Vibration measured at 7.4 mm/s.\nBearing temperature reached 91\u00b0C. Maintenance assessment initiated.\nLOG-004: 18 July 2026, Day Shift: P-204 returned to service following bearing replacement. Vibration 2.4 mm/s.\nBearing temperature 66\u00b0C. No abnormal noise observed.\nAppendix B \u2014 Demonstration Disclaimer\nThis document is entirely synthetic. It does not describe a real facility, company, incident, customer, or regulated\nasset. It is intended solely as a realistic test document for PIA Industrial ingestion, evidence extraction,\nknowledge-graph construction, traceability, maintenance intelligence, failure analysis, compliance-oriented review,\nand decision-support demonstrations.",
-          "page_number": 5,
-          "chunk_index": 24
-        },
-        {
-          "chunk_id": "DOC-E1729D35:p5:c25",
-          "document_id": "DOC-E1729D35",
-          "content": " PIA Industrial ingestion, evidence extraction,\nknowledge-graph construction, traceability, maintenance intelligence, failure analysis, compliance-oriented review,\nand decision-support demonstrations.\nevidence extraction,\nknowledge-graph construction, traceability, maintenance intelligence, failure analysis, compliance-oriented review,\nand decision-support demonstrations.",
-          "page_number": 5,
-          "chunk_index": 25
-        }
-      ],
-      "entities": [
-        {
-          "type": "equipment_tag",
-          "value": "P-204",
-          "raw_values": [
-            "P-204"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 50,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "T-204",
-          "raw_values": [
-            "T-204"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 8,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "HX-204",
-          "raw_values": [
-            "HX-204"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 17,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "7.4 mm/s",
-          "raw_values": [
-            "7.4 mm/s"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 4,
-          "metadata": {
-            "numeric_value": 7.4,
-            "unit": "mm/s"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "91.0 \u00b0C",
-          "raw_values": [
-            "91\u00b0C"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 4,
-          "metadata": {
-            "numeric_value": 91.0,
-            "unit": "\u00b0C"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "2.4 mm/s",
-          "raw_values": [
-            "2.4 mm/s"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 9,
-          "metadata": {
-            "numeric_value": 2.4,
-            "unit": "mm/s"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "66.0 \u00b0C",
-          "raw_values": [
-            "66\u00b0C"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 13,
-          "metadata": {
-            "numeric_value": 66.0,
-            "unit": "\u00b0C"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "P-205",
-          "raw_values": [
-            "P-205"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 17,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "severity",
-          "value": "CRITICAL",
-          "raw_values": [
-            "critical"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 7,
-          "metadata": {}
-        },
-        {
-          "type": "parameter_reading",
-          "value": "6.2 mm/s",
-          "raw_values": [
-            "6.2 mm/s"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 7,
-          "metadata": {
-            "numeric_value": 6.2,
-            "unit": "mm/s"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "82.0 \u00b0C",
-          "raw_values": [
-            "82\u00b0C"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 7,
-          "metadata": {
-            "numeric_value": 82.0,
-            "unit": "\u00b0C"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "EV-010",
-          "raw_values": [
-            "EV-010"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 4,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "EV-011",
-          "raw_values": [
-            "EV-011"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 4,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "LOG-002",
-          "raw_values": [
-            "LOG-002"
-          ],
-          "confidence": 1.0,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 3,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "3.9 mm/s",
-          "raw_values": [
-            "3.9 mm/s"
-          ],
-          "confidence": 0.99,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 3,
-          "metadata": {
-            "numeric_value": 3.9,
-            "unit": "mm/s"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "4.6 mm/s",
-          "raw_values": [
-            "4.6 mm/s"
-          ],
-          "confidence": 0.99,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 3,
-          "metadata": {
-            "numeric_value": 4.6,
-            "unit": "mm/s"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "EV-001",
-          "raw_values": [
-            "EV-001"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "EV-002",
-          "raw_values": [
-            "EV-002"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "EV-003",
-          "raw_values": [
-            "EV-003"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "EV-004",
-          "raw_values": [
-            "EV-004"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "EV-005",
-          "raw_values": [
-            "EV-005"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "EV-006",
-          "raw_values": [
-            "EV-006"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "EV-007",
-          "raw_values": [
-            "EV-007"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "EV-008",
-          "raw_values": [
-            "EV-008"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "EV-009",
-          "raw_values": [
-            "EV-009"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "LOG-001",
-          "raw_values": [
-            "LOG-001"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "LOG-003",
-          "raw_values": [
-            "LOG-003"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "equipment_tag",
-          "value": "LOG-004",
-          "raw_values": [
-            "LOG-004"
-          ],
-          "confidence": 0.98,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "pattern": "equipment_tag"
-          }
-        },
-        {
-          "type": "severity",
-          "value": "ELEVATED",
-          "raw_values": [
-            "elevated"
-          ],
-          "confidence": 0.97,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 4,
-          "metadata": {}
-        },
-        {
-          "type": "severity",
-          "value": "MINOR",
-          "raw_values": [
-            "minor"
-          ],
-          "confidence": 0.97,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 4,
-          "metadata": {}
-        },
-        {
-          "type": "parameter_reading",
-          "value": "2.3 mm/s",
-          "raw_values": [
-            "2.3 mm/s"
-          ],
-          "confidence": 0.96,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 2,
-          "metadata": {
-            "numeric_value": 2.3,
-            "unit": "mm/s"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "64.0 \u00b0C",
-          "raw_values": [
-            "64\u00b0C"
-          ],
-          "confidence": 0.96,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 2,
-          "metadata": {
-            "numeric_value": 64.0,
-            "unit": "\u00b0C"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "2.6 mm/s",
-          "raw_values": [
-            "2.6 mm/s"
-          ],
-          "confidence": 0.96,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 2,
-          "metadata": {
-            "numeric_value": 2.6,
-            "unit": "mm/s"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "65.0 \u00b0C",
-          "raw_values": [
-            "65\u00b0C"
-          ],
-          "confidence": 0.96,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 2,
-          "metadata": {
-            "numeric_value": 65.0,
-            "unit": "\u00b0C"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "72.0 \u00b0C",
-          "raw_values": [
-            "72\u00b0C"
-          ],
-          "confidence": 0.96,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 2,
-          "metadata": {
-            "numeric_value": 72.0,
-            "unit": "\u00b0C"
-          }
-        },
-        {
-          "type": "equipment_type",
-          "value": "pump",
-          "raw_values": [
-            "Pump",
-            "pump"
-          ],
-          "confidence": 0.95,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 16,
-          "metadata": {
-            "matched_term": "pump"
-          }
-        },
-        {
-          "type": "equipment_type",
-          "value": "heat_exchanger",
-          "raw_values": [
-            "Heat Exchanger",
-            "heat exchanger"
-          ],
-          "confidence": 0.95,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 8,
-          "metadata": {
-            "matched_term": "heat exchanger"
-          }
-        },
-        {
-          "type": "equipment_type",
-          "value": "vessel",
-          "raw_values": [
-            "Tank",
-            "tank"
-          ],
-          "confidence": 0.95,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 5,
-          "metadata": {
-            "matched_term": "tank"
-          }
-        },
-        {
-          "type": "component_type",
-          "value": "bearing",
-          "raw_values": [
-            "Bearing",
-            "Drive-end bearing",
-            "bearing",
-            "drive-end bearing"
-          ],
-          "confidence": 0.95,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 53,
-          "metadata": {
-            "matched_term": "bearing"
-          }
-        },
-        {
-          "type": "maintenance_action",
-          "value": "replace",
-          "raw_values": [
-            "Replaced",
-            "replaced",
-            "replacement"
-          ],
-          "confidence": 0.95,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 14,
-          "metadata": {
-            "matched_term": "replacement"
-          }
-        },
-        {
-          "type": "maintenance_action",
-          "value": "inspect",
-          "raw_values": [
-            "Inspect",
-            "Inspection",
-            "inspect",
-            "inspected",
-            "inspection"
-          ],
-          "confidence": 0.95,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 47,
-          "metadata": {
-            "matched_term": "inspection"
-          }
-        },
-        {
-          "type": "maintenance_action",
-          "value": "lubricate",
-          "raw_values": [
-            "Lubrication",
-            "lubrication"
-          ],
-          "confidence": 0.95,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 26,
-          "metadata": {
-            "matched_term": "lubrication"
-          }
-        },
-        {
-          "type": "severity",
-          "value": "NORMAL",
-          "raw_values": [
-            "normal"
-          ],
-          "confidence": 0.94,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 3,
-          "metadata": {}
-        },
-        {
-          "type": "parameter_reading",
-          "value": "68.0 \u00b0C",
-          "raw_values": [
-            "68\u00b0C"
-          ],
-          "confidence": 0.93,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "numeric_value": 68.0,
-            "unit": "\u00b0C"
-          }
-        },
-        {
-          "type": "parameter_reading",
-          "value": "60.0 days",
-          "raw_values": [
-            "60 days"
-          ],
-          "confidence": 0.93,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "numeric_value": 60.0,
-            "unit": "days"
-          }
-        },
-        {
-          "type": "failure_mode",
-          "value": "bearing_degradation",
-          "raw_values": [
-            "Bearing degradation",
-            "Bearing deterioration",
-            "bearing degradation",
-            "bearing deterioration"
-          ],
-          "confidence": 0.92,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 4,
-          "metadata": {
-            "matched_term": "bearing degradation"
-          }
-        },
-        {
-          "type": "maintenance_action",
-          "value": "monitor",
-          "raw_values": [
-            "monitored",
-            "monitoring"
-          ],
-          "confidence": 0.92,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 4,
-          "metadata": {
-            "matched_term": "monitoring"
-          }
-        },
-        {
-          "type": "failure_mode",
-          "value": "vibration",
-          "raw_values": [
-            "abnormal vibration",
-            "high vibration"
-          ],
-          "confidence": 0.92,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 4,
-          "metadata": {
-            "matched_term": "high vibration"
-          }
-        },
-        {
-          "type": "equipment_type",
-          "value": "centrifugal_pump",
-          "raw_values": [
-            "Centrifugal Pump",
-            "centrifugal pump"
-          ],
-          "confidence": 0.89,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 3,
-          "metadata": {
-            "matched_term": "centrifugal pump"
-          }
-        },
-        {
-          "type": "maintenance_action",
-          "value": "test",
-          "raw_values": [
-            "test"
-          ],
-          "confidence": 0.89,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 3,
-          "metadata": {
-            "matched_term": "test"
-          }
-        },
-        {
-          "type": "severity",
-          "value": "MAJOR",
-          "raw_values": [
-            "major"
-          ],
-          "confidence": 0.88,
-          "methods": [
-            "regex"
-          ],
-          "occurrence_count": 1,
-          "metadata": {}
-        },
-        {
-          "type": "inspection_type",
-          "value": "vibration",
-          "raw_values": [
-            "vibration monitoring"
-          ],
-          "confidence": 0.86,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 2,
-          "metadata": {
-            "matched_term": "vibration monitoring"
-          }
-        },
-        {
-          "type": "equipment_type",
-          "value": "motor",
-          "raw_values": [
-            "electric motor"
-          ],
-          "confidence": 0.83,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "matched_term": "electric motor"
-          }
-        },
-        {
-          "type": "inspection_type",
-          "value": "visual",
-          "raw_values": [
-            "visual inspection"
-          ],
-          "confidence": 0.83,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "matched_term": "visual inspection"
-          }
-        },
-        {
-          "type": "maintenance_action",
-          "value": "align",
-          "raw_values": [
-            "Alignment"
-          ],
-          "confidence": 0.83,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "matched_term": "alignment"
-          }
-        },
-        {
-          "type": "component_type",
-          "value": "coupling",
-          "raw_values": [
-            "coupling"
-          ],
-          "confidence": 0.83,
-          "methods": [
-            "dictionary"
-          ],
-          "occurrence_count": 1,
-          "metadata": {
-            "matched_term": "coupling"
-          }
-        }
-      ],
-      "entity_summary": {
-        "equipment_tag": 19,
-        "parameter_reading": 15,
-        "severity": 5,
-        "equipment_type": 5,
-        "component_type": 2,
-        "maintenance_action": 6,
-        "failure_mode": 2,
-        "inspection_type": 2
-      },
-      "stages": [
-        "UPLOADED",
-        "PROCESSING",
-        "PARSED",
-        "CHUNKED",
-        "EXTRACTING_ENTITIES",
-        "RESOLVING",
-        "GRAPH_LINKING",
-        "INDEXING",
-        "COMPLETED"
-      ]
-    },
-    {
-      "document_id": "DOC-225BA2A4",
-      "name": "5a4683c3ee3b4a71acf0aec3745c4f7b_P-101_shift_log.txt",
-      "type": "GENERAL",
-      "format": "TXT",
-      "file_hash": "4e0248a47976c1a2cf2035465725d98e8919721134adbd6406d70b5f64208fad",
-      "file_path": "C:\\Users\\NITHIN\\Downloads\\PIA-GH-main (2)\\pia-industrial\\backend\\industrial_data\\uploads\\demo-p101\\5a4683c3ee3b4a71acf0aec3745c4f7b_P-101_shift_log.txt",
-      "size": 582,
-      "status": "COMPLETED",
-      "timestamp": "2026-07-21T17:16:14.657692",
-      "page_count": 1,
-      "word_count": 90,
-      "chunks": [
-        {
-          "chunk_id": "DOC-225BA2A4:p1:c0",
-          "document_id": "DOC-225BA2A4",
+          "chunk_id": "DOC-2829221C:p1:c0",
+          "document_id": "DOC-2829221C",
           "content": "# Shift Log: June 15, 2026\nOperator: Bob\nUnit: 4\n\n08:00 - Started shift. All units running normally.\n09:15 - Noticed unusual noise coming from P-101. \n09:30 - Checked P-101. Casing temperature is elevated. Vibration reading is 4.2 mm/s, which is high but below the shutdown threshold.\n10:00 - Logged observation in Maximo (Ticket #8821). Monitoring closely.\n14:00 - P-101 vibration spiked to 5.8 mm/s. Immediate shutdown initiated.\n14:15 - Maintenance team called. Preliminary inspection shows main bearing failure.\n15:00 - Shift ended. Handed over to Alice. P-101 remains offline.",
           "page_number": 1,
           "chunk_index": 0

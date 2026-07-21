@@ -81,21 +81,8 @@ class DecisionIntelligenceService:
                     )
                 )
                 
-            # 3. Expertise
-            expertise = self._expertise_service.evaluate_expertise(asset_id)
-            if expertise.risk_level in ("HIGH", "CRITICAL"):
-                interventions.append(
-                    ProposedIntervention(
-                        intervention_id=str(uuid4()),
-                        asset_id=asset_id,
-                        action_type="TRAINING",
-                        title=f"Cross-train personnel on {asset_id}",
-                        description=expertise.recommendation,
-                        estimated_cost=2000.0,
-                        risk_reduction_score=0.1,
-                        compliance_impact=False,
-                    )
-                )
+            # 3. Expertise - Removed legacy software-engineering bus-factor logic
+            # Industrial expertise requires actual personnel/skill evidence.
 
         # Sort by compliance impact (True first), then risk reduction score (descending)
         interventions.sort(key=lambda i: (not i.compliance_impact, -i.risk_reduction_score))

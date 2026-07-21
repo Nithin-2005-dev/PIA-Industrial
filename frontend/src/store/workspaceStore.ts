@@ -4,11 +4,7 @@ export interface WorkspaceConfig {
   id: string;
   name: string;
   dataset: string;
-  repository: string;
-  branch: string;
-  commitWindow: number;
-  provider: string;
-  benchmarkProfile: string;
+  repository: string; // Internal alias for workspace id
 }
 
 interface WorkspaceState {
@@ -23,10 +19,6 @@ export const useWorkspaceStore = create<WorkspaceState>((set) => ({
     name: 'P-101 Demo Plant',
     dataset: 'P-101 Demo Dataset',
     repository: 'demo-p101',
-    branch: 'main',
-    commitWindow: 100,
-    provider: 'sqlite',
-    benchmarkProfile: 'default'
   },
   updateWorkspace: (updates) => set((state) => ({ 
     workspace: { ...state.workspace, ...updates } 
@@ -35,3 +27,4 @@ export const useWorkspaceStore = create<WorkspaceState>((set) => ({
     workspace: { ...state.workspace, id, name, repository: id, dataset: name },
   })),
 }));
+

@@ -45,6 +45,20 @@ def industrial_causal_ontology() -> CausalOntology:
                 parent_mechanism=None,
                 description="Failure of one component leads to the failure of the parent system.",
             ),
+            CausalMechanism(
+                id="lubrication_starvation",
+                name="Lubrication Starvation",
+                category="Maintenance",
+                parent_mechanism="mechanical_wear",
+                description="Insufficient lubrication causes accelerated mechanical wear.",
+            ),
+            CausalMechanism(
+                id="corrective_maintenance",
+                name="Corrective Maintenance Action",
+                category="Maintenance",
+                parent_mechanism=None,
+                description="Restoration of asset condition following maintenance.",
+            ),
         )
     )
 
@@ -63,34 +77,40 @@ class IndustrialCausalRCA:
         self._engine = CausalEngine(self._ontology, self._registry)
 
     def analyze_asset(self, asset_id: str) -> CausalContext:
-        """Run RCA on an asset based on its maintenance history."""
-        # 1. Gather facts
-        maint_intel = self._maintenance_service.analyze_asset(asset_id)
+        """Run RCA on an asset based on its causal signals."""
+        from app.ingestion.observation.domain import ObservationType
         
-        # 2. Map facts to observable causal nodes [0, 1]
+        # 1. Gather timeline
+        timeline = self._asset_service.get_asset_timeline(asset_id)
+        
+        # 2. Map CAUSAL_SIGNAL facts to observable causal nodes [0, 1]
         observed_nodes = {}
         
-        # If there are precursors found, we map them to observable nodes
-        for precursor in maint_intel.get("failure_precursors", []):
-            desc = " ".join(precursor.precursor_events).lower()
-            if "vibration" in desc:
-                observed_nodes["high_vibration"] = 0.9
-            if "temperature" in desc or "heat" in desc:
-                observed_nodes["high_temperature"] = 0.9
+        has_failure = False
+        
+        for event in timeline:
+            if event.event_type == ObservationType.CAUSAL_SIGNAL.value:
+                sig_type = event.description.split(":", 1)[0].strip() if ":" in event.description else event.description
+                # The description in the event timeline might be formatted by the store,
+                # let's map from the exact signal_type emitted in _append_observations.
                 
-        # If there are deferred recommendations
-        if maint_intel.get("deferred_recommendations"):
-            observed_nodes["deferred_maintenance"] = 0.8
-            
-        # If there are repeated failures
-        for pattern in maint_intel.get("repeated_failures", []):
-            if "bearing" in pattern.failure_mode:
-                observed_nodes["bearing_failure"] = 1.0
-            if "seal" in pattern.failure_mode:
-                observed_nodes["seal_failure"] = 1.0
+                # We need to map the canonical signals to the causal ontology nodes
+                if "HIGH_VIBRATION" in event.description:
+                    observed_nodes["high_vibration"] = 1.0
+                if "HIGH_TEMPERATURE" in event.description:
+                    observed_nodes["high_temperature"] = 1.0
+                if "BEARING_DEGRADATION" in event.description:
+                    observed_nodes["bearing_failure"] = 1.0
+                if "LUBRICATION_DEFICIENCY" in event.description:
+                    observed_nodes["lubrication_deficiency"] = 1.0
+                if "MAINTENANCE_DEFERRED" in event.description:
+                    observed_nodes["deferred_maintenance"] = 1.0
+                if "POST_MAINTENANCE_RECOVERY" in event.description:
+                    observed_nodes["post_maintenance_recovery"] = 1.0
+            elif event.event_type == ObservationType.FAILURE.value:
+                has_failure = True
                 
-        # Also map general failure
-        if maint_intel.get("repeated_failures") or maint_intel.get("failure_precursors"):
+        if has_failure or observed_nodes:
             observed_nodes["equipment_failure"] = 1.0
             
         # 3. Create a pseudo-context for the CausalSemanticModelBuilder
@@ -161,6 +181,10 @@ class IndustrialCausalRCA:
         root_causes, all_hypotheses, root_cause_groups = self._engine._hypothesis_engine.evaluate(
             semantic_model, mock_ctx
         )
+        
+        # Filter out symptoms from root causes
+        symptom_subjects = {"high_vibration", "high_temperature", "High Vibration", "High Temperature"}
+        root_causes = tuple(rc for rc in root_causes if rc.subject not in symptom_subjects)
         
         accepted_count = sum(1 for h in all_hypotheses if h.accepted)
         

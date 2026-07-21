@@ -61,14 +61,13 @@ class ExplanationEngine:
     def _build_summary(self, root_causes: tuple[RootCause, ...]) -> str:
         if not root_causes:
             return (
-                "Organization Health is declining. "
-                "Insufficient causal evidence is available to identify a specific root cause. "
-                "Review ownership concentration and documentation activity."
+                "Insufficient causal evidence to establish a definitive root cause. "
+                "Ensure sufficient timeline observations and causal signals are available."
             )
 
         primary = root_causes[0]
         lines = [
-            "Organization Health declined primarily because:\n",
+            "Asset degradation primarily driven by:\n",
         ]
         for rc in root_causes[:3]:
             conf = rc.confidence

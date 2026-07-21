@@ -69,19 +69,32 @@ class MaintenanceIntelligenceService:
                 days_between = [(events[i].date - events[i-1].date).days for i in range(1, len(events))]
                 avg_freq = sum(days_between) / len(days_between) if days_between else None
                 
+                # Deterministic confidence calculation:
+                #   base:      min(occurrences / 5, 1.0) * 0.7   — more events = higher confidence, caps at 5
+                #   diversity: min(unique_docs / 3, 1.0) * 0.2   — independent sources increase confidence
+                #   temporal:  0.1 if events span > 1 day         — spread over time = not a single-event anomaly
+                unique_docs = len(set(e.source_document_id for e in events if e.source_document_id))
+                time_span_days = (events[-1].date - events[0].date).days if len(events) > 1 else 0
+                
+                base_confidence = min(len(events) / 5, 1.0) * 0.7
+                diversity_bonus = min(unique_docs / 3, 1.0) * 0.2
+                temporal_bonus = 0.1 if time_span_days > 1 else 0.0
+                confidence = round(base_confidence + diversity_bonus + temporal_bonus, 2)
+                
                 pattern = FailurePattern(
                     pattern_id=str(uuid4()),
                     asset_id=asset_id,
                     failure_mode=mode,
                     frequency_days=avg_freq,
                     occurrences=len(events),
-                    confidence=0.85,
+                    confidence=confidence,
                     supporting_events=tuple(e.event_id for e in events),
                     source_documents=tuple(e.source_document_id for e in events if e.source_document_id),
                 )
                 patterns.append(pattern)
                 
         return tuple(patterns)
+
 
     def detect_deferred_recommendations(self, asset_id: str) -> tuple[DeferredRecommendation, ...]:
         """Detect recommendations from inspections that were not followed by maintenance."""
