@@ -58,14 +58,13 @@ class DecisionIntelligenceService:
                             action_type="INSPECTION",
                             title=f"Resolve Compliance Gap: {gap.requirement_id}",
                             description=f"Required inspection is {gap.status}.",
-                            estimated_cost=5000.0,
-                            risk_reduction_score=0.2,
+                            estimated_cost=0.0,
+                            risk_reduction_score=0.0,
                             compliance_impact=True,
                         )
                     )
             
             # 2. Maintenance & RCA
-            # For simplicity, we just use MaintenanceIntelligence to suggest maintenance
             maint_intel = self._maintenance_service.analyze_asset(asset_id)
             if maint_intel.get("deferred_recommendations") or maint_intel.get("repeated_failures"):
                 interventions.append(
@@ -75,8 +74,8 @@ class DecisionIntelligenceService:
                         action_type="MAINTENANCE",
                         title=f"Perform Critical Maintenance on {asset_id}",
                         description="Address deferred recommendations and repeated failures.",
-                        estimated_cost=25000.0,
-                        risk_reduction_score=0.5,
+                        estimated_cost=0.0,
+                        risk_reduction_score=0.0,
                         compliance_impact=False,
                     )
                 )

@@ -214,7 +214,7 @@ class IndustrialWorkspaceRuntime:
 
     def graph_payload(self, workspace_id: str | None) -> dict[str, Any]:
         graph = self.services(workspace_id).graph_manager.build_graph()
-        nodes = [{"id": n.id, "type": n.type, "attributes": n.attributes} for n in graph.nodes]
+        nodes = [{"id": n.id, "type": n.type, "label": (n.attributes or {}).get("name") or n.id, "attributes": n.attributes} for n in graph.nodes]
         edges = [
             {
                 "source": e.source_id,
@@ -432,7 +432,7 @@ class IndustrialWorkspaceRuntime:
         decision_service = DecisionIntelligenceService(asset_service, maintenance_service, rca_service, compliance_service, expertise_service)
         
         retriever = HybridRetriever(embedding_model, vector_store, graph_manager)
-        copilot = IndustrialCopilot(retriever)
+        copilot = IndustrialCopilot(retriever, rca_engine=rca_service)
         
         return WorkspaceServices(
             graph_manager=graph_manager,
@@ -550,10 +550,22 @@ class IndustrialWorkspaceRuntime:
         )
 
     def _link_document_entities(self, graph_manager: IndustrialGraphManager, entities: tuple[Any, ...], document_id: str) -> None:
-        asset_ids = [entity.canonical_value for entity in entities if entity.entity_type == "equipment_tag"]
-        equipment_types = [entity.canonical_value.replace("_", " ").title() for entity in entities if entity.entity_type == "equipment_type"]
-        asset_type = equipment_types[0] if equipment_types else "Unknown"
+        asset_ids = list(set([entity.canonical_value for entity in entities if entity.entity_type == "equipment_tag"]))
+        
+        def infer_asset_type(tag: str) -> str:
+            upper_tag = tag.upper()
+            if upper_tag.startswith("P-"):
+                return "Pump"
+            if upper_tag.startswith("HX-") or upper_tag.startswith("E-"):
+                return "Heat Exchanger"
+            if upper_tag.startswith("T-") or upper_tag.startswith("TK-"):
+                return "Tank"
+            if upper_tag.startswith("C-") or upper_tag.startswith("K-"):
+                return "Compressor"
+            return "Unknown"
+
         for asset_id in asset_ids:
+            asset_type = infer_asset_type(asset_id)
             graph_manager.builder.add_asset(Asset(id=asset_id, name=asset_id, equipment_tag=asset_id, asset_type=asset_type))
         related = [
             entity.canonical_value
@@ -573,10 +585,19 @@ class IndustrialWorkspaceRuntime:
         timestamp: datetime | None = None,
     ) -> None:
         timestamp = timestamp or datetime.now(UTC)
-        asset_ids = [entity.canonical_value for entity in entities if entity.entity_type == "equipment_tag"]
-        targets = tuple(EntityRef(id=asset_id, type="asset") for asset_id in asset_ids)
-        entity_values = {entity.entity_type: entity.canonical_value for entity in entities}
-        findings = tuple(entity.canonical_value for entity in entities if entity.entity_type in {"failure_mode", "severity", "parameter_reading"})
+        asset_ids = list(set([entity.canonical_value for entity in entities if entity.entity_type == "equipment_tag"]))
+        
+        primary_asset_id = None
+        for tag in asset_ids:
+            if tag in document.name:
+                primary_asset_id = tag
+                break
+        if not primary_asset_id and asset_ids:
+            primary_asset_id = asset_ids[0]
+            
+        targets = (EntityRef(id=primary_asset_id, type="asset"),) if primary_asset_id else ()
+        all_targets = tuple(EntityRef(id=asset_id, type="asset") for asset_id in asset_ids)
+        
         observations = [
             Observation(
                 observation_id=f"obs_doc_{document.document_id}",
@@ -590,7 +611,7 @@ class IndustrialWorkspaceRuntime:
                 version="1.0",
                 lifecycle=ObservationLifecycle.PRODUCTION,
                 actors=(),
-                targets=targets,
+                targets=all_targets,
                 provenance=ObservationProvenance("PIA Industrial", "document_upload", document.document_id),
                 context=ObservationContext(metadata={"workspace_id": workspace_id, "document_id": document.document_id, "document_name": document.name}),
                 facts=DocumentIngestionFacts(
@@ -607,17 +628,79 @@ class IndustrialWorkspaceRuntime:
                 processing_mode=ProcessingMode.LIVE,
             )
         ]
-        if "work_order_id" in entity_values:
-            observations.append(self._work_order_observation(workspace_id, document, timestamp, targets, entity_values, findings))
-        if "inspection_report_id" in entity_values or document.document_type == DocumentType.INSPECTION_REPORT:
-            observations.append(self._inspection_observation(workspace_id, document, timestamp, targets, entity_values, findings))
-        if "incident_report_id" in entity_values or "failure_mode" in entity_values:
-            observations.append(self._failure_observation(workspace_id, document, timestamp, targets, entity_values, findings))
+        
+        if not primary_asset_id:
+            for obs in observations:
+                store.append(obs)
+            return
+
+        extracted_signals = set()
+        
+        for entity in entities:
+            val = entity.canonical_value.lower()
+            if entity.entity_type == "parameter_reading":
+                if "vibration" in val or "mm/s" in val:
+                    try:
+                        num = float(val.split()[0])
+                        if num >= 7.0:
+                            extracted_signals.add(("HIGH_VIBRATION", val))
+                    except:
+                        pass
+                if "temperature" in val or "c" in val or "c" in val:
+                    try:
+                        num = float(val.split()[0])
+                        if num >= 90.0:
+                            extracted_signals.add(("HIGH_TEMPERATURE", val))
+                    except:
+                        pass
+            elif entity.entity_type == "failure_mode":
+                if "bearing" in val:
+                    observations.append(self._failure_observation(workspace_id, document, timestamp, targets, {"failure_mode": val}, tuple()))
+                if "vibration" in val:
+                    extracted_signals.add(("HIGH_VIBRATION", val))
+            elif entity.entity_type == "maintenance_action":
+                if "lubricate" in val or "grease" in val:
+                    extracted_signals.add(("LUBRICATION_DEFICIENCY", val))
+                if "deferred" in val or "postpone" in val:
+                    observations.append(self._work_order_observation(workspace_id, document, timestamp, targets, {"work_order_id": document.document_id}, ("DEFERRED", val)))
+                if "replace" in val or "inspect" in val:
+                    observations.append(self._work_order_observation(workspace_id, document, timestamp, targets, {"work_order_id": document.document_id}, ("COMPLETED", val)))
+                    
+        for i, (sig_type, sig_desc) in enumerate(extracted_signals):
+            observations.append(self._causal_signal_observation(workspace_id, document, timestamp, targets, sig_type, sig_desc, i))
+
         for observation in observations:
             try:
                 store.append(observation)
             except ValueError:
                 continue
+
+    def _causal_signal_observation(self, workspace_id: str, document: Document, timestamp: datetime, targets: tuple[EntityRef, ...], signal_type: str, description: str, index: int) -> Observation:
+        from app.ingestion.observation.domain import CausalSignalFacts
+        return Observation(
+            observation_id=f"obs_sig_{document.document_id}_{index}",
+            trace_id=document.document_id,
+            correlation_id=workspace_id,
+            timestamp=timestamp,
+            observation_type=ObservationType.CAUSAL_SIGNAL,
+            observation_category=ObservationCategory.RELIABILITY,
+            source_platform="PIA Industrial",
+            source_adapter="document_upload",
+            version="1.0",
+            lifecycle=ObservationLifecycle.PRODUCTION,
+            actors=(),
+            targets=targets,
+            provenance=ObservationProvenance("PIA Industrial", "document_upload", document.document_id),
+            context=ObservationContext(metadata={"workspace_id": workspace_id, "document_id": document.document_id, "document_name": document.name}),
+            facts=CausalSignalFacts(
+                signal_id=f"sig_{document.document_id}_{index}",
+                asset_id=targets[0].id if targets else None,
+                signal_type=signal_type,
+                description=f"{signal_type}: {description}",
+                source_document_id=document.document_id,
+            ),
+            processing_mode=ProcessingMode.LIVE,
+        )
 
     def _work_order_observation(self, workspace_id: str, document: Document, timestamp: datetime, targets: tuple[EntityRef, ...], entities: dict[str, str], findings: tuple[str, ...]) -> Observation:
         return Observation(

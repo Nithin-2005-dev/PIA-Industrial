@@ -39,6 +39,7 @@ class ObservationType(Enum):
     AUDIT = "audit"
     QUALITY_NCR = "quality_ncr"
     COMPLIANCE_EVENT = "compliance_event"
+    CAUSAL_SIGNAL = "causal_signal"
 
 
 class ObservationCategory(Enum):
@@ -392,6 +393,16 @@ class DocumentIngestionFacts:
     ingested_at: datetime | None = None
 
 
+@dataclass(frozen=True)
+class CausalSignalFacts:
+    """Facts representing a normalized causal signal."""
+    signal_id: str
+    asset_id: str | None = None
+    signal_type: str = ""
+    description: str = ""
+    source_document_id: str | None = None
+
+
 CanonicalFacts = (
     # Software Engineering
     CommitFacts
@@ -418,6 +429,7 @@ CanonicalFacts = (
     | RecommendationFacts
     | ParameterReadingFacts
     | DocumentIngestionFacts
+    | CausalSignalFacts
 )
 
 

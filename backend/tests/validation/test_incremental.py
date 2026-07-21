@@ -69,6 +69,11 @@ async def run_incremental():
     app.core.sync_engine.GitHubSourcePlugin = MockGitHubSourcePlugin
     
     # 1. Clear DB
+    import app.infrastructure.database.sqlite_provider
+    if app.infrastructure.database.sqlite_provider._provider:
+        app.infrastructure.database.sqlite_provider._provider.close()
+        app.infrastructure.database.sqlite_provider._provider = None
+
     db_files = ["pia_store.db", "pia_store.db-wal", "pia_store.db-shm", "pia_events.db", "pia_events.db-wal", "pia_events.db-shm"]
     for dbf in db_files:
         if os.path.exists(dbf):
@@ -77,6 +82,10 @@ async def run_incremental():
             except Exception:
                 pass
                 
+    # DEBUG
+    from app.infrastructure.database.models import CommitRecord
+    print("COUNT AFTER CLEAR:", get_provider().count(CommitRecord))
+
     sync = get_sync_engine()
     
     # 2. Run Full Sync up to commit_limit=5

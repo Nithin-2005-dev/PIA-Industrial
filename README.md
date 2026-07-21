@@ -38,7 +38,7 @@ We combine:
 
 ## Architecture
 
-![Architecture Diagram](docs/architecture/ARCHITECTURE.md)
+![Architecture Diagram](docs/architecture/architecture_diagram.png)
 
 **Sources** → **Document Intelligence** → **Observations** → **Knowledge Graph** → **Intelligence Engines** → **Copilot**
 

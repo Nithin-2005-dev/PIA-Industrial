@@ -145,3 +145,61 @@ class TestIndustrialCopilot:
         
         assert len(response.evidence) == 0
         assert "cannot find evidence" in response.answer
+
+    def test_rca_integration(self):
+        from app.copilot.copilot import IndustrialCopilot
+        from dataclasses import dataclass
+        
+
+        @dataclass
+        class MockExplanation:
+            summary: str
+        @dataclass
+        class MockCause:
+            subject: str
+        @dataclass
+        class MockContext:
+            root_causes: list
+            explanation: MockExplanation
+            overall_confidence: float
+            
+        class MockRCAEngine:
+            def analyze_asset(self, asset_id: str):
+                if asset_id == "P-204":
+                    return MockContext(
+                        root_causes=[MockCause("Bearing degradation")],
+                        explanation=MockExplanation("Lack of lubrication."),
+                        overall_confidence=0.85
+                    )
+                return MockContext(root_causes=[], explanation=MockExplanation(""), overall_confidence=0.0)
+                
+        model = TFIDFEmbeddingModel(dim=128)
+        store = InMemoryVectorStore()
+        graph_manager = IndustrialGraphManager()
+        
+        # Add minimal evidence so generation proceeds
+        chunk = DocumentChunk(
+            chunk_id="c1", document_id="d1", content="P-204 failure observed.",
+            provenance=DocumentProvenance(document_id="d1", document_type="GENERAL", document_name="doc.txt", chunk_id="c1", extraction_method="text")
+        )
+        store.add_chunks([chunk], model.embed_batch([chunk.content]))
+        
+        retriever = HybridRetriever(model, store, graph_manager)
+        copilot = IndustrialCopilot(retriever, rca_engine=MockRCAEngine())
+        
+        # Test basic RCA
+        response = copilot.ask("What is the root cause of P-204 failure?")
+        assert "--- Root Cause Analysis" in response.answer
+        assert "Bearing degradation" in response.answer
+        assert "Lack of lubrication." in response.answer
+        assert "85.0%" in response.answer
+        
+        # Test compound query
+        response2 = copilot.ask("What failures were reported for P-204? What is the most likely root cause? Show the supporting evidence and source citations.")
+        assert "--- Root Cause Analysis" in response2.answer
+        assert "Bearing degradation" in response2.answer
+        
+        # Test insufficient evidence (unknown asset)
+        response3 = copilot.ask("Why did P-999 fail?")
+        assert "Insufficient causal evidence to establish a definitive root cause for P-999." in response3.answer
+

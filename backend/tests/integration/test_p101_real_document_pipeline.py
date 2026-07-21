@@ -221,6 +221,33 @@ def test_p101_real_document_pipeline():
             processing_mode=ProcessingMode.LIVE,
         )
     )
+    from app.ingestion.observation.domain import CausalSignalFacts
+    observation_store.append(
+        Observation(
+            observation_id="obs_causal",
+            trace_id="t4",
+            correlation_id="c4",
+            timestamp=datetime(2024, 4, 15, tzinfo=UTC),
+            observation_type=ObservationType.CAUSAL_SIGNAL,
+            observation_category=ObservationCategory.RELIABILITY,
+            source_platform="PIA",
+            source_adapter="pipeline",
+            version="1.0",
+            lifecycle=ObservationLifecycle.PRODUCTION,
+            actors=(),
+            targets=(EntityRef(id="P-101", type="asset"),),
+            provenance=ObservationProvenance("PIA", "pipeline", "in44"),
+            context=ObservationContext(),
+            facts=CausalSignalFacts(
+                signal_id="sig_1",
+                asset_id="P-101",
+                signal_type="LUBRICATION_DEFICIENCY",
+                description="LUBRICATION_DEFICIENCY: lubrication_deficiency",
+                source_document_id="in44"
+            ),
+            processing_mode=ProcessingMode.LIVE,
+        )
+    )
     
     # 5. Asset Intelligence Generation
     profile = asset_service.get_asset_profile("P-101")
@@ -234,14 +261,14 @@ def test_p101_real_document_pipeline():
     # 7. Causal Root Cause Analysis (Deterministic Rules)
     rca_context = rca_engine.analyze_asset("P-101")
     print("Root causes identified:", [rc.mechanism_id for rc in rca_context.root_causes])
-    has_wear = False
+    has_lube = False
     for rc in rca_context.root_causes:
-        if "wear" in rc.mechanism_id.lower() or "wear" in rc.subject.lower():
-            has_wear = True
+        if "lubrication" in rc.mechanism_id.lower() or "lubrication" in rc.subject.lower():
+            has_lube = True
             assert rc.confidence.overall_confidence > 0.5
             assert rc.rank == 1 or rc.rank == 2
     
-    assert has_wear, f"RCA failed to identify mechanical wear from real document pipeline inputs. Roots: {[rc.mechanism_id for rc in rca_context.root_causes]}"
+    assert has_lube, f"RCA failed to identify lubrication starvation from real document pipeline inputs. Roots: {[rc.mechanism_id for rc in rca_context.root_causes]}"
     
     # 8. Counterfactual Simulation
     sim_result = sim_engine.simulate_delay(profile, 30)

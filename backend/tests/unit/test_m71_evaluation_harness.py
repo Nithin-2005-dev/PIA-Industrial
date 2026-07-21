@@ -120,7 +120,7 @@ class TestIndustrialEvaluationHarness:
         # Wait, the precursor requires an inspection right before the failure. We do have one.
         
         # M66: Causal RCA
-        rca_context = rca_service.run_rca({"high_vibration": 1.0, "bearing_failure": 1.0, "equipment_failure": 1.0})
+        rca_context = rca_service.run_rca({"lubrication_deficiency": 1.0, "bearing_failure": 1.0, "equipment_failure": 1.0})
         assert len(rca_context.root_causes) > 0
         
         # M68: Compliance Intelligence

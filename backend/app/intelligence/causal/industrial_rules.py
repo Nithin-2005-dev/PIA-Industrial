@@ -59,4 +59,22 @@ class IndustrialReliabilityRuleProvider(RuleProvider):
                     "if not immediately addressed."
                 ),
             ),
+            CausalRule(
+                id="lubrication_deficiency.bearing_failure",
+                cause_node="lubrication_deficiency",
+                effect_node="bearing_failure",
+                direction="increase",
+                mechanism_id="lubrication_starvation",
+                rule_confidence=0.90,
+                description="Lack of lubrication is a primary cause of bearing failure.",
+            ),
+            CausalRule(
+                id="post_maintenance_recovery.equipment_failure",
+                cause_node="post_maintenance_recovery",
+                effect_node="equipment_failure",
+                direction="decrease",
+                mechanism_id="corrective_maintenance",
+                rule_confidence=0.95,
+                description="Corrective maintenance restores equipment health, reducing failure probability.",
+            ),
         )

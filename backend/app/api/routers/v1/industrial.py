@@ -264,8 +264,10 @@ async def get_decisions(workspace_id: str | None = Query(default=None)) -> dict[
     workspace_id = _workspace_or_404(workspace_id)
     assets = [asset["asset_id"] for asset in get_industrial_runtime().list_assets(workspace_id)]
     if not assets:
-        return {"portfolio_id": "empty", "total_estimated_cost": 0, "overall_risk_reduction": 0, "interventions": []}
+        return {"portfolio_id": "empty", "total_estimated_cost": 0, "overall_risk_reduction": 0, "interventions": [], "message": "No evidence-backed intervention portfolio can currently be generated."}
     portfolio = get_industrial_runtime().services(workspace_id).decision_service.generate_portfolio(assets)
+    if not portfolio.interventions:
+        return {"portfolio_id": "empty", "total_estimated_cost": 0, "overall_risk_reduction": 0, "interventions": [], "message": "No evidence-backed intervention portfolio can currently be generated."}
     return {
         "portfolio_id": portfolio.portfolio_id,
         "total_estimated_cost": portfolio.total_estimated_cost,
@@ -373,6 +375,8 @@ async def get_compliance(workspace_id: str | None = Query(default=None)) -> dict
                     "severity": gap.severity,
                 }
             )
+    if not gaps:
+        return {"compliance_gaps": [], "message": "No applicable compliance requirements established from available evidence."}
     return {"compliance_gaps": gaps}
 
 

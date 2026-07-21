@@ -108,10 +108,22 @@ class MaintenanceIntelligenceService:
         last_inspection = None
         for event in timeline:
             if event.event_type == ObservationType.INSPECTION_EVENT.value:
-                # Mock logic: assume any inspection in the timeline raised an issue for demo purposes
                 last_inspection = event
-            elif event.event_type == ObservationType.WORK_ORDER.value and last_inspection:
-                # If a work order happens, we assume the previous inspection was addressed
+            elif event.event_type == ObservationType.WORK_ORDER.value:
+                if "DEFERRED" in event.description:
+                    deferred.append(
+                        DeferredRecommendation(
+                            finding_id=str(uuid4()),
+                            asset_id=asset_id,
+                            description=f"Deferred maintenance: {event.description}",
+                            recommended_date=event.date,
+                            days_overdue=0,
+                            severity="MEDIUM",
+                            confidence=0.8,
+                            source_document_id=event.source_document_id,
+                        )
+                    )
+                # Any work order clears the last inspection for the heuristic
                 last_inspection = None
                 
         if last_inspection:

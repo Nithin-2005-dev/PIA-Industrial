@@ -75,14 +75,10 @@ class ComplianceIntelligenceService:
             # In a full version, we'd check req.required_inspection_type against the inspection's type
             latest_inspection = inspections[0] if inspections else None
             
+            # Only apply requirement if there's explicit evidence of regulation or inspection
             if not latest_inspection:
-                gaps.append(ComplianceGap(
-                    gap_id=str(uuid4()),
-                    asset_id=asset_id,
-                    requirement_id=req.requirement_id,
-                    status="MISSING_EVIDENCE",
-                    severity="HIGH",
-                ))
+                # Do not invent a compliance gap without explicit regulatory evidence in the workspace
+                continue
             else:
                 days_since = (datetime.now(UTC) - latest_inspection.date).days
                 if latest_inspection.source_document_id:

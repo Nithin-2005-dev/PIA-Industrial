@@ -136,7 +136,36 @@ def init_demo_state() -> None:
         )
     )
     
-    # 6. Add inspection for V-204 that is overdue (e.g. 120 days ago)
+    # 6. Add causal signal for P-101
+    from app.ingestion.observation.domain import CausalSignalFacts
+    _obs_store.append(
+        Observation(
+            observation_id="obs_causal_1",
+            trace_id="t1",
+            correlation_id="c2",
+            timestamp=now - datetime.timedelta(days=10),
+            observation_type=ObservationType.CAUSAL_SIGNAL,
+            observation_category=ObservationCategory.RELIABILITY,
+            source_platform="Maximo",
+            source_adapter="industrial",
+            version="1.0",
+            lifecycle=ObservationLifecycle.PRODUCTION,
+            actors=(),
+            targets=(EntityRef(id="P-101", type="asset"),),
+            provenance=ObservationProvenance("Maximo", "industrial", "doc_fail_1"),
+            context=ObservationContext(),
+            facts=CausalSignalFacts(
+                signal_id="sig_demo_1",
+                asset_id="P-101",
+                signal_type="LUBRICATION_DEFICIENCY",
+                description="LUBRICATION_DEFICIENCY: lubrication_deficiency",
+                source_document_id="doc_fail_1"
+            ),
+            processing_mode=ProcessingMode.LIVE,
+        )
+    )
+
+    # 7. Add inspection for V-204 that is overdue (e.g. 120 days ago)
     _obs_store.append(
         Observation(
             observation_id="obs_v204",

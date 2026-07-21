@@ -39,11 +39,13 @@ class IndustrialCopilot:
         self,
         retriever: HybridRetriever,
         generator: LLMGenerator | None = None,
+        rca_engine: Any = None,
     ) -> None:
         self._router = QueryRouter()
         self._retriever = retriever
         self._ranker = EvidenceRanker(max_evidence_items=25)
         self._generator = generator or MockLLMGenerator()
+        self._rca_engine = rca_engine
 
     def ask(self, query: str) -> CopilotResponse:
         """Answer a user query using grounded evidence."""
@@ -84,6 +86,29 @@ class IndustrialCopilot:
                 system_prompt=system_prompt,
                 user_prompt=user_prompt,
             )
+
+        if intent == QueryIntent.TROUBLESHOOTING and self._rca_engine:
+            import re
+            match = re.search(r'\b([A-Z]+-\d+)\b', query, re.IGNORECASE)
+            if match:
+                asset_id = match.group(1).upper()
+                try:
+                    print(f"RCA Triggered for {asset_id}")
+                    rca_ctx = self._rca_engine.analyze_asset(asset_id)
+                    print(f"RCA Context returned: {rca_ctx}")
+                    if rca_ctx and getattr(rca_ctx, "root_causes", None):
+                        rca_text = [
+                            f"\n\n--- Root Cause Analysis (M66 Causal Engine) ---",
+                            f"Asset: {asset_id}",
+                            f"Root Cause: {rca_ctx.root_causes[0].subject}",
+                            f"Explanation: {rca_ctx.explanation.summary}",
+                            f"Confidence: {rca_ctx.overall_confidence * 100:.1f}%"
+                        ]
+                        answer += "\n".join(rca_text)
+                    else:
+                        answer += f"\n\n--- Root Cause Analysis ---\nInsufficient causal evidence to establish a definitive root cause for {asset_id}."
+                except Exception as e:
+                    logger.error(f"RCA Engine failed for {asset_id}: {e}")
 
         # 7. Verify Citations (Basic post-processing check)
         # Ensure the LLM didn't invent citation tags

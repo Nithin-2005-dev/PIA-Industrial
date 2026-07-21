@@ -44,7 +44,7 @@ export default function AssetDetailsPage({ assetId, onBack }: { assetId: string,
       </div>
 
       <div style={{ display: 'flex', borderBottom: '1px solid var(--panel-border)', marginBottom: '24px', gap: '24px' }}>
-        {['overview', 'timeline', 'rca', 'simulation', 'experts'].map(tab => (
+        {['overview', 'timeline', 'rca', 'simulation'].map(tab => (
           <div 
             key={tab} 
             onClick={() => setActiveTab(tab)}
@@ -57,7 +57,7 @@ export default function AssetDetailsPage({ assetId, onBack }: { assetId: string,
               fontWeight: activeTab === tab ? 600 : 400,
             }}
           >
-            {tab}
+            {tab === 'rca' ? 'RCA' : tab}
           </div>
         ))}
       </div>
@@ -76,10 +76,6 @@ export default function AssetDetailsPage({ assetId, onBack }: { assetId: string,
             <div className="industrial-metric-card danger">
               <div className="industrial-metric-label">Compliance Gaps</div>
               <div className="industrial-metric-value danger">{data?.compliance?.gaps?.length}</div>
-            </div>
-            <div className="industrial-metric-card warning">
-              <div className="industrial-metric-label">Expertise Risk</div>
-              <div className="industrial-metric-value warning">{data?.expertise?.risk_level}</div>
             </div>
           </div>
         )}

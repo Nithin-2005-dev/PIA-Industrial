@@ -182,9 +182,16 @@ class IndustrialCausalRCA:
             semantic_model, mock_ctx
         )
         
-        # Filter out symptoms from root causes
         symptom_subjects = {"high_vibration", "high_temperature", "High Vibration", "High Temperature"}
         root_causes = tuple(rc for rc in root_causes if rc.subject not in symptom_subjects)
+        
+        filtered_groups = []
+        for g in root_cause_groups:
+            filtered_causes = tuple(rc for rc in g.causes if rc.subject not in symptom_subjects)
+            if filtered_causes:
+                from dataclasses import replace as dc_replace
+                filtered_groups.append(dc_replace(g, causes=filtered_causes))
+        root_cause_groups = tuple(filtered_groups)
         
         accepted_count = sum(1 for h in all_hypotheses if h.accepted)
         

@@ -23,6 +23,8 @@ export default function InteractiveGraph() {
   const [graphStats, setGraphStats] = useState({ nodes: 0, edges: 0 });
 
   const getLabel = (n: any) => {
+    if (n.label) return n.label;
+    if (n.attributes?.name) return n.attributes.name;
     if (n.attributes?.metric_name) return n.attributes.metric_name;
     if (n.attributes?.evidence_type) return n.attributes.evidence_type;
     return n.type || n.id.substring(0, 6);
